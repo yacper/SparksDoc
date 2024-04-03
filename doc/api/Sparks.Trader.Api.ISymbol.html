@@ -1,0 +1,852 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>ISymbol 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="ISymbol 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_ISymbol.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.ISymbol%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.ISymbol">
+
+
+
+  <h1 id="Sparks_Trader_Api_ISymbol" data-uid="Sparks.Trader.Api.ISymbol" class="text-break">
+    ISymbol 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISymbol : INotifyPropertyChanged, ISymbolInfo, ITick, ITimeValue</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged">INotifyPropertyChanged.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_IsCustom">ISymbolInfo.IsCustom</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_SymbolType">ISymbolInfo.SymbolType</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_NatureType">ISymbolInfo.NatureType</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Code">ISymbolInfo.Code</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_TradingCode">ISymbolInfo.TradingCode</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Name">ISymbolInfo.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Desc">ISymbolInfo.Desc</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_IconPath">ISymbolInfo.IconPath</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_IconPath2">ISymbolInfo.IconPath2</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Exchange">ISymbolInfo.Exchange</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_ExchangeCode">ISymbolInfo.ExchangeCode</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Currency">ISymbolInfo.Currency</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_PointSize">ISymbolInfo.PointSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Digits">ISymbolInfo.Digits</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_LotSize">ISymbolInfo.LotSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_LimitRate">ISymbolInfo.LimitRate</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_ContractMultiplier">ISymbolInfo.ContractMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_ListDate">ISymbolInfo.ListDate</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_DelistDate">ISymbolInfo.DelistDate</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_TradingHours">ISymbolInfo.TradingHours</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Phone">ISymbolInfo.Phone</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_WebUrl">ISymbolInfo.WebUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_FullTimeEmployees">ISymbolInfo.FullTimeEmployees</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_FiscalYearEndMonth">ISymbolInfo.FiscalYearEndMonth</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Sector">ISymbolInfo.Sector</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_Industry">ISymbolInfo.Industry</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_GicSector">ISymbolInfo.GicSector</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_GicGroup">ISymbolInfo.GicGroup</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_GicIndustry">ISymbolInfo.GicIndustry</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_GicSubIndustry">ISymbolInfo.GicSubIndustry</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_FutureLastTradeDay">ISymbolInfo.FutureLastTradeDay</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_FutureSettlementMonths">ISymbolInfo.FutureSettlementMonths</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_UnderlyingSymbol">ISymbolInfo.UnderlyingSymbol</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_BuyInterest">ISymbolInfo.BuyInterest</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISymbolInfo.html#Sparks_Trader_Api_ISymbolInfo_SellInterest">ISymbolInfo.SellInterest</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_SymbolInfo">ITick.SymbolInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_Last">ITick.Last</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_LastVolume">ITick.LastVolume</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_LastTurnover">ITick.LastTurnover</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_Ask">ITick.Ask</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_AskVolume">ITick.AskVolume</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_AskOrders">ITick.AskOrders</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_Bid">ITick.Bid</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_BidVolume">ITick.BidVolume</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_BidOrders">ITick.BidOrders</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_Spread">ITick.Spread</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_BidLevels">ITick.BidLevels</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_AskLevels">ITick.AskLevels</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_BidDepth">ITick.BidDepth</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_AskDepth">ITick.AskDepth</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_PreClose">ITick.PreClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_Open">ITick.Open</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_High">ITick.High</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_Low">ITick.Low</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_Close">ITick.Close</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_FormatMoney_System_Double_">ITick.FormatMoney(double)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITick.html#Sparks_Trader_Api_ITick_DigitsFun">ITick.DigitsFun()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITimeValue.html#Sparks_Trader_Api_ITimeValue_Time">ITimeValue.Time</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">属性
+</h2>
+
+
+  <a id="Sparks_Trader_Api_ISymbol_Change_" data-uid="Sparks.Trader.Api.ISymbol.Change*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_Change" data-uid="Sparks.Trader.Api.ISymbol.Change">
+  Change
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>涨跌</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double Change { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_ChangeOutOfHours_" data-uid="Sparks.Trader.Api.ISymbol.ChangeOutOfHours*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_ChangeOutOfHours" data-uid="Sparks.Trader.Api.ISymbol.ChangeOutOfHours">
+  ChangeOutOfHours
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>盘外涨跌（盘前盘后最新涨跌）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double ChangeOutOfHours { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_ChangeRate_" data-uid="Sparks.Trader.Api.ISymbol.ChangeRate*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_ChangeRate" data-uid="Sparks.Trader.Api.ISymbol.ChangeRate">
+  ChangeRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>涨跌比例</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double ChangeRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_ChangeRateOutOfHours_" data-uid="Sparks.Trader.Api.ISymbol.ChangeRateOutOfHours*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_ChangeRateOutOfHours" data-uid="Sparks.Trader.Api.ISymbol.ChangeRateOutOfHours">
+  ChangeRateOutOfHours
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>盘外涨跌比例（盘前盘后最新涨跌）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double ChangeRateOutOfHours { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_Contract_" data-uid="Sparks.Trader.Api.ISymbol.Contract*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_Contract" data-uid="Sparks.Trader.Api.ISymbol.Contract">
+  Contract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SymbolContract Contract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.SymbolContract.html">SymbolContract</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_IsLive_" data-uid="Sparks.Trader.Api.ISymbol.IsLive*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_IsLive" data-uid="Sparks.Trader.Api.ISymbol.IsLive">
+  IsLive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否实时的, 也即 SubscriptionStatus == ESubscriptionStatus.Subscribed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsLive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_MarginRate_" data-uid="Sparks.Trader.Api.ISymbol.MarginRate*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_MarginRate" data-uid="Sparks.Trader.Api.ISymbol.MarginRate">
+  MarginRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>保证金率</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double MarginRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_OrderBook_" data-uid="Sparks.Trader.Api.ISymbol.OrderBook*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_OrderBook" data-uid="Sparks.Trader.Api.ISymbol.OrderBook">
+  OrderBook
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Orderbook</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IOrderBook OrderBook { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IOrderBook.html">IOrderBook</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_Provider_" data-uid="Sparks.Trader.Api.ISymbol.Provider*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_Provider" data-uid="Sparks.Trader.Api.ISymbol.Provider">
+  Provider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>对应的Provider</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IProvider Provider { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IProvider.html">IProvider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_SubscriptionStatus_" data-uid="Sparks.Trader.Api.ISymbol.SubscriptionStatus*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_SubscriptionStatus" data-uid="Sparks.Trader.Api.ISymbol.SubscriptionStatus">
+  SubscriptionStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>订阅状态
+当网络断开，原来subscribed的symbol，会自动成为unsubscribed状态，
+网络恢复后，如果需要symbol实时，会自动恢复订阅</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ESubscriptionStatus SubscriptionStatus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ESubscriptionStatus.html">ESubscriptionStatus</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_SupportTimeFrames_" data-uid="Sparks.Trader.Api.ISymbol.SupportTimeFrames*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_SupportTimeFrames" data-uid="Sparks.Trader.Api.ISymbol.SupportTimeFrames">
+  SupportTimeFrames
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>支持的时间周期</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ETimeFrame SupportTimeFrames { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ETimeFrame.html">ETimeFrame</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_TradingDay_" data-uid="Sparks.Trader.Api.ISymbol.TradingDay*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_TradingDay" data-uid="Sparks.Trader.Api.ISymbol.TradingDay">
+  TradingDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime TradingDay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_ISymbol_GetBarsAsync_" data-uid="Sparks.Trader.Api.ISymbol.GetBarsAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_GetBarsAsync_Sparks_Trader_Api_ETimeFrame_Sparks_Trader_Api_HistoryInfo_" data-uid="Sparks.Trader.Api.ISymbol.GetBarsAsync(Sparks.Trader.Api.ETimeFrame,Sparks.Trader.Api.HistoryInfo)">
+  GetBarsAsync(ETimeFrame, HistoryInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBars GetBarsAsync(ETimeFrame tf, HistoryInfo history = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>tf</code> <a class="xref" href="Sparks.Trader.Api.ETimeFrame.html">ETimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>history</code> <a class="xref" href="Sparks.Trader.Api.HistoryInfo.html">HistoryInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_GetTicksAsync_" data-uid="Sparks.Trader.Api.ISymbol.GetTicksAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_GetTicksAsync" data-uid="Sparks.Trader.Api.ISymbol.GetTicksAsync">
+  GetTicksAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IDayTicks&gt; GetTicksAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Sparks.Trader.Api.IDayTicks.html">IDayTicks</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbol_NormalizeLots_" data-uid="Sparks.Trader.Api.ISymbol.NormalizeLots*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbol_NormalizeLots_System_Double_" data-uid="Sparks.Trader.Api.ISymbol.NormalizeLots(System.Double)">
+  NormalizeLots(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得一个合适的lots</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double NormalizeLots(double lots)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">事件
+</h2>
+
+
+
+  <h3 id="Sparks_Trader_Api_ISymbol_OnTick" data-uid="Sparks.Trader.Api.ISymbol.OnTick">
+  OnTick
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>tick数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ITick&gt; OnTick</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">事件类型</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Sparks.Trader.Api.ITick.html">ITick</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbol.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

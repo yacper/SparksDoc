@@ -1,0 +1,1267 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>ISymbolInfo 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="ISymbolInfo 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_ISymbolInfo.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.ISymbolInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.ISymbolInfo">
+
+
+
+  <h1 id="Sparks_Trader_Api_ISymbolInfo" data-uid="Sparks.Trader.Api.ISymbolInfo" class="text-break">
+    ISymbolInfo 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISymbolInfo</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">属性
+</h2>
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_BuyInterest_" data-uid="Sparks.Trader.Api.ISymbolInfo.BuyInterest*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_BuyInterest" data-uid="Sparks.Trader.Api.ISymbolInfo.BuyInterest">
+  BuyInterest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>买利率
+CFD/商品等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double BuyInterest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Code_" data-uid="Sparks.Trader.Api.ISymbolInfo.Code*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Code" data-uid="Sparks.Trader.Api.ISymbolInfo.Code">
+  Code
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示代码</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Code { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_ContractMultiplier_" data-uid="Sparks.Trader.Api.ISymbolInfo.ContractMultiplier*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_ContractMultiplier" data-uid="Sparks.Trader.Api.ISymbolInfo.ContractMultiplier">
+  ContractMultiplier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>合约乘数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double ContractMultiplier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Currency_" data-uid="Sparks.Trader.Api.ISymbolInfo.Currency*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Currency" data-uid="Sparks.Trader.Api.ISymbolInfo.Currency">
+  Currency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>货币</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ECurrency Currency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ECurrency.html">ECurrency</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_DelistDate_" data-uid="Sparks.Trader.Api.ISymbolInfo.DelistDate*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_DelistDate" data-uid="Sparks.Trader.Api.ISymbolInfo.DelistDate">
+  DelistDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>下市日</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateOnly? DelistDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Desc_" data-uid="Sparks.Trader.Api.ISymbolInfo.Desc*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Desc" data-uid="Sparks.Trader.Api.ISymbolInfo.Desc">
+  Desc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>描述</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Desc { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Digits_" data-uid="Sparks.Trader.Api.ISymbolInfo.Digits*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Digits" data-uid="Sparks.Trader.Api.ISymbolInfo.Digits">
+  Digits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>精度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Digits { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Exchange_" data-uid="Sparks.Trader.Api.ISymbolInfo.Exchange*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Exchange" data-uid="Sparks.Trader.Api.ISymbolInfo.Exchange">
+  Exchange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>交易所</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IExchange Exchange { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IExchange.html">IExchange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_ExchangeCode_" data-uid="Sparks.Trader.Api.ISymbolInfo.ExchangeCode*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_ExchangeCode" data-uid="Sparks.Trader.Api.ISymbolInfo.ExchangeCode">
+  ExchangeCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>交易所Code</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string ExchangeCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_FiscalYearEndMonth_" data-uid="Sparks.Trader.Api.ISymbolInfo.FiscalYearEndMonth*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_FiscalYearEndMonth" data-uid="Sparks.Trader.Api.ISymbolInfo.FiscalYearEndMonth">
+  FiscalYearEndMonth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>财务年终结月</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double FiscalYearEndMonth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_FullTimeEmployees_" data-uid="Sparks.Trader.Api.ISymbolInfo.FullTimeEmployees*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_FullTimeEmployees" data-uid="Sparks.Trader.Api.ISymbolInfo.FullTimeEmployees">
+  FullTimeEmployees
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>FullTimeEmployees</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double FullTimeEmployees { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_FutureLastTradeDay_" data-uid="Sparks.Trader.Api.ISymbolInfo.FutureLastTradeDay*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_FutureLastTradeDay" data-uid="Sparks.Trader.Api.ISymbolInfo.FutureLastTradeDay">
+  FutureLastTradeDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>最后交易日</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int? FutureLastTradeDay { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_FutureSettlementMonths_" data-uid="Sparks.Trader.Api.ISymbolInfo.FutureSettlementMonths*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_FutureSettlementMonths" data-uid="Sparks.Trader.Api.ISymbolInfo.FutureSettlementMonths">
+  FutureSettlementMonths
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>交割月份</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int? FutureSettlementMonths { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_GicGroup_" data-uid="Sparks.Trader.Api.ISymbolInfo.GicGroup*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_GicGroup" data-uid="Sparks.Trader.Api.ISymbolInfo.GicGroup">
+  GicGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>GicGroup</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GicGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_GicIndustry_" data-uid="Sparks.Trader.Api.ISymbolInfo.GicIndustry*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_GicIndustry" data-uid="Sparks.Trader.Api.ISymbolInfo.GicIndustry">
+  GicIndustry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>GicIndustry</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GicIndustry { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_GicSector_" data-uid="Sparks.Trader.Api.ISymbolInfo.GicSector*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_GicSector" data-uid="Sparks.Trader.Api.ISymbolInfo.GicSector">
+  GicSector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>GicsSector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GicSector { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_GicSubIndustry_" data-uid="Sparks.Trader.Api.ISymbolInfo.GicSubIndustry*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_GicSubIndustry" data-uid="Sparks.Trader.Api.ISymbolInfo.GicSubIndustry">
+  GicSubIndustry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>GicSubIndustry</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GicSubIndustry { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_IconPath_" data-uid="Sparks.Trader.Api.ISymbolInfo.IconPath*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_IconPath" data-uid="Sparks.Trader.Api.ISymbolInfo.IconPath">
+  IconPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>图标</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string IconPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_IconPath2_" data-uid="Sparks.Trader.Api.ISymbolInfo.IconPath2*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_IconPath2" data-uid="Sparks.Trader.Api.ISymbolInfo.IconPath2">
+  IconPath2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>图标2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string IconPath2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Industry_" data-uid="Sparks.Trader.Api.ISymbolInfo.Industry*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Industry" data-uid="Sparks.Trader.Api.ISymbolInfo.Industry">
+  Industry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>产业</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Industry { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_IsCustom_" data-uid="Sparks.Trader.Api.ISymbolInfo.IsCustom*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_IsCustom" data-uid="Sparks.Trader.Api.ISymbolInfo.IsCustom">
+  IsCustom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否用户自定义的，可以更新删除</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsCustom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_LimitRate_" data-uid="Sparks.Trader.Api.ISymbolInfo.LimitRate*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_LimitRate" data-uid="Sparks.Trader.Api.ISymbolInfo.LimitRate">
+  LimitRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>涨跌幅限制</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double LimitRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_ListDate_" data-uid="Sparks.Trader.Api.ISymbolInfo.ListDate*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_ListDate" data-uid="Sparks.Trader.Api.ISymbolInfo.ListDate">
+  ListDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>上市日</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateOnly? ListDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_LotSize_" data-uid="Sparks.Trader.Api.ISymbolInfo.LotSize*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_LotSize" data-uid="Sparks.Trader.Api.ISymbolInfo.LotSize">
+  LotSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>每手大小</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double LotSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Name_" data-uid="Sparks.Trader.Api.ISymbolInfo.Name*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Name" data-uid="Sparks.Trader.Api.ISymbolInfo.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>名称</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_NatureType_" data-uid="Sparks.Trader.Api.ISymbolInfo.NatureType*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_NatureType" data-uid="Sparks.Trader.Api.ISymbolInfo.NatureType">
+  NatureType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>自然类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ENatureType NatureType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ENatureType.html">ENatureType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Phone_" data-uid="Sparks.Trader.Api.ISymbolInfo.Phone*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Phone" data-uid="Sparks.Trader.Api.ISymbolInfo.Phone">
+  Phone
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>phone</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Phone { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_PointSize_" data-uid="Sparks.Trader.Api.ISymbolInfo.PointSize*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_PointSize" data-uid="Sparks.Trader.Api.ISymbolInfo.PointSize">
+  PointSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>点差</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double PointSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_Sector_" data-uid="Sparks.Trader.Api.ISymbolInfo.Sector*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_Sector" data-uid="Sparks.Trader.Api.ISymbolInfo.Sector">
+  Sector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>sector板块</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Sector { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_SellInterest_" data-uid="Sparks.Trader.Api.ISymbolInfo.SellInterest*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_SellInterest" data-uid="Sparks.Trader.Api.ISymbolInfo.SellInterest">
+  SellInterest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>卖利率
+CFD/商品等</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double SellInterest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_SymbolType_" data-uid="Sparks.Trader.Api.ISymbolInfo.SymbolType*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_SymbolType" data-uid="Sparks.Trader.Api.ISymbolInfo.SymbolType">
+  SymbolType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Symbol类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ESymbolType SymbolType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ESymbolType.html">ESymbolType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_TradingCode_" data-uid="Sparks.Trader.Api.ISymbolInfo.TradingCode*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_TradingCode" data-uid="Sparks.Trader.Api.ISymbolInfo.TradingCode">
+  TradingCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>交易所交易代码
+比如大豆期货连续合约显示代码(Code)是A8888,对于这类主连合约来说，
+tradingCode指的是主力合约代码,比如a2305</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string TradingCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_TradingHours_" data-uid="Sparks.Trader.Api.ISymbolInfo.TradingHours*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_TradingHours" data-uid="Sparks.Trader.Api.ISymbolInfo.TradingHours">
+  TradingHours
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>交易时间</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITradingHours TradingHours { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ITradingHours.html">ITradingHours</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_UnderlyingSymbol_" data-uid="Sparks.Trader.Api.ISymbolInfo.UnderlyingSymbol*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_UnderlyingSymbol" data-uid="Sparks.Trader.Api.ISymbolInfo.UnderlyingSymbol">
+  UnderlyingSymbol
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>底层代码
+期货a2305, 底层代码为a</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string UnderlyingSymbol { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISymbolInfo_WebUrl_" data-uid="Sparks.Trader.Api.ISymbolInfo.WebUrl*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISymbolInfo_WebUrl" data-uid="Sparks.Trader.Api.ISymbolInfo.WebUrl">
+  WebUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>web url</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string WebUrl { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Symbols/ISymbolInfo.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

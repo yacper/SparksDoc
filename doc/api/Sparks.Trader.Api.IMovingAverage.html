@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>IMovingAverage 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="IMovingAverage 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_IMovingAverage.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.IMovingAverage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.IMovingAverage">
+
+
+
+  <h1 id="Sparks_Trader_Api_IMovingAverage" data-uid="Sparks.Trader.Api.IMovingAverage" class="text-break">
+    IMovingAverage 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L435"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>移动平均线接口</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMovingAverage : IIndicator, IScript, IChartObjectBase</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IIndicator.html#Sparks_Trader_Api_IIndicator_IsOverlay">IIndicator.IsOverlay</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_ScriptType">IScript.ScriptType</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_NetworkFailureAction">IScript.NetworkFailureAction</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_NetworkRestoreAction">IScript.NetworkRestoreAction</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_StopReason">IScript.StopReason</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Runtime">IScript.Runtime</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_IsLocked">IScript.IsLocked</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_UserDataPath">IScript.UserDataPath</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Name">IScript.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_LongName">IScript.LongName</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Desc">IScript.Desc</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Group">IScript.Group</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Symbol">IScript.Symbol</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Bars">IScript.Bars</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_State">IScript.State</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_IsHistoryOver">IScript.IsHistoryOver</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Info_System_Object_">IScript.Info(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Warn_System_Object_">IScript.Warn(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Error_System_Object_">IScript.Error(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Performance">IScript.Performance()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__">IScript.Alert(string, string, EAlertLevel, SymbolContract?)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_AlertAction_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__">IScript.Alert(string, string, AlertAction, EAlertLevel, SymbolContract?)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_System_Collections_Generic_IEnumerable_Sparks_Trader_Api_AlertAction__Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__">IScript.Alert(string, string, IEnumerable&lt;AlertAction&gt;, EAlertLevel, SymbolContract?)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateIndicator__1_System_Object___">IScript.CreateIndicator&lt;T&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateMA_Sparks_Trader_Api_EMaType_Sparks_Trader_Api_IDatas_System_Int32_">IScript.CreateMA(EMaType, IDatas, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Children">IScript.Children</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateIndicatorDatas_System_Nullable_System_Int32__">IScript.CreateIndicatorDatas(int?)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_OnStart">IScript.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_OnStop">IScript.OnStop()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_OnData_Sparks_Trader_Api_ISource_System_Int32_">IScript.OnData(ISource, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_SetBackground_System_Int32_Sparks_Trader_Api_Fill_">IScript.SetBackground(int, Fill)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_GetBackground_System_Int32_">IScript.GetBackground(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_ResetBackground_System_Int32_">IScript.ResetBackground(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_ResetBackgrounds">IScript.ResetBackgrounds()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Fill_Sparks_Trader_Api_IIndicatorDatas_Sparks_Trader_Api_IIndicatorDatas_Sparks_Trader_Api_Fill_Sparks_Trader_Api_Fill_">IScript.Fill(IIndicatorDatas, IIndicatorDatas, Fill, Fill)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_Chart">IChartObjectBase.Chart</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ChartArea">IChartObjectBase.ChartArea</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsVisible">IChartObjectBase.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsInteractive">IChartObjectBase.IsInteractive</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsSelected">IChartObjectBase.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsHovering">IChartObjectBase.IsHovering</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsHighlighted">IChartObjectBase.IsHighlighted</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ZOrder">IChartObjectBase.ZOrder</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ScrollTo">IChartObjectBase.ScrollTo()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">属性
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IMovingAverage_Periods_" data-uid="Sparks.Trader.Api.IMovingAverage.Periods*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMovingAverage_Periods" data-uid="Sparks.Trader.Api.IMovingAverage.Periods">
+  Periods
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>周期</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Periods { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMovingAverage_Result_" data-uid="Sparks.Trader.Api.IMovingAverage.Result*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMovingAverage_Result" data-uid="Sparks.Trader.Api.IMovingAverage.Result">
+  Result
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>输出</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IIndicatorDatas Result { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IIndicatorDatas.html">IIndicatorDatas</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMovingAverage_Source_" data-uid="Sparks.Trader.Api.IMovingAverage.Source*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMovingAverage_Source" data-uid="Sparks.Trader.Api.IMovingAverage.Source">
+  Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L440"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>源</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDatas Source { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L435" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

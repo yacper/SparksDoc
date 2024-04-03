@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>如何回测策略 | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="如何回测策略 | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../../MyIcon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h2 id="如何回测策略">如何回测策略</h2>
+
+<p>在本文及其相应视频中，我们将讨论如何回测 cBot。您将了解在哪里可以访问回溯测试、如何配置回溯测试设置以及如何解释回溯测试的结果。</p>
+<h3 id="trader-中的回测-">Trader 中的回测 ¶</h3>
+<p>cBot 是完全可定制的交易机器人，您可以将其配置为在遇到某些市场走势和事件（例如 MACD 交叉）时执行各种交易操作。</p>
+<p>然而，在编写 cBot 代码时，第一次尝试就一切顺利可能具有挑战性。在大多数情况下，您需要先完善 cBot，然后再让它代表您进行交易。</p>
+<p>这就是回溯测试的用武之地。将回溯测试视为一个游乐场，您可以在其中让 cBot 根据历史市场数据进行交易，而无需冒任何有形风险。因此，回溯测试对于评估 cBot 是否能够在不冒交易账户中任何真实资金风险的情况下实现预期结果非常有价值。</p>
+<p>我们强烈建议您对您自己创建或通过其他渠道获取的任何 cBot 进行彻底的回溯测试。</p>
+<h3 id="如何在-trader-中访问回测-">如何在 Trader 中访问回测 ¶</h3>
+<p>要进行回溯测试，首先，选择您想要评估的 cBot 的现有实例。在用户界面最顶部的栏（包含“后退”按钮的栏）下方，您应该会看到几个选项卡，其中第一个选项卡包含当前所选实例正在运行的交易图表。</p>
+<p>“回测”选项卡应该位于其右侧。点击它可以切换到回测区域。</p>
+<p>Image title</p>
+<p>打开此选项卡后，您应该看到以下界面。</p>
+<p>Image title</p>
+<h3 id="如何设置回测周期-">如何设置回测周期 ¶</h3>
+<p>如前所述，回溯测试允许您根据历史市场数据运行 cBot 实例。您有多种选择来定义回溯测试过程应涵盖的确切时间段。</p>
+<p>使用滑块 ¶
+日历滑块位于靠近“回溯测试”选项卡顶部的位置。</p>
+<p>Image title</p>
+<p>将两个灰色“点”拖动到滑块上以指定后续回测的数据范围。在上面的屏幕截图中，我们拖动了其中一个“点”来覆盖大约等于两年的时间段。</p>
+<p>使用菜单 ¶
+您还可以使用滑块左侧和右侧的日历下拉菜单来选择精确的日期范围。</p>
+<p>Image title</p>
+<p>为了确保我们的回测期正好是两年，我们可以打开左侧的菜单，选择2020年11月30日 th 作为新的开始日期。</p>
+<h3 id="如何配置回测设置-">如何配置回测设置 ¶</h3>
+<p>在执行回溯测试之前，单击最左侧日历菜单左侧的“齿轮”图标。您应该看到以下设置。</p>
+<p>Image title</p>
+<p>打开此部分后，执行以下操作。</p>
+<p>在“起始资金”字段中，指定您的 cBot 启动的初始资金。</p>
+<p>打开“佣金”菜单，然后选择（或输入）您的 cBot 在交易量达到 100 万单位后将支付的佣金。</p>
+<p>在“数据”菜单中，设置回测历史数据的来源。一般来说，从服务器接收 m1 数据是准确性和回测资源密集度之间的一个很好的折衷方案。请注意，您还可以从本地存储的 .CSV 文件上传自定义数据。</p>
+<p>在“点差”子部分中选择固定点差或随机点差。单击“实时”将固定点差（如果选择）与当前交易品种点差进行匹配。</p>
+<p>请参阅本教程，了解有关回溯测试设置以及它们如何影响回溯测试结果的更多信息。</p>
+<h3 id="如何选择回测模式-">如何选择回测模式 ¶</h3>
+<p>您可以选择查看回溯测试的结果（例如，您的 cBot 所建仓位）。此功能对于检测 cBot 未按预期运行的某些事件和条件特别有用。</p>
+<p>要访问它，请启用日历滑块左侧下方的“视觉模式”标志。在“速度”菜单中，选择播放所选交易图表的速度。请注意，在进行回溯测试时，您始终可以更改播放速度。</p>
+<p>Image title</p>
+<p>或者，禁用“视觉模式”标志。您将收到一份包含其结论的一次性报告，而不是实时观看回溯测试。</p>
+<p>目前，我们将禁用视觉模式功能。</p>
+<h3 id="如何启动回测-">如何启动回测 ¶</h3>
+<p>要使用给定设置和所选模式执行回测，请单击最右侧日历菜单右侧的“播放”按钮。</p>
+<p>Trader 将开始加载所需的历史数据。此过程可能需要几分钟，具体取决于您选择的时间段以及运行 Trader 的硬件。</p>
+<p>就我们而言，这个过程相对较快，因为我们只要求提供两年的信息。当进行回溯测试时，您将看到“视觉模式”标志右侧的条逐渐从左向右移动。</p>
+<p>当它完全向右移动时，回测过程将结束。</p>
+<h3 id="如何查看回测结果-">如何查看回测结果 ¶</h3>
+<p>您可以使用多种方法来判断回测的结果。回测结束后，交易图表中间顶部的数字将汇总您的 cBot 产生的净利润总额。</p>
+<p>Image title</p>
+<p>在我们的例子中，cBot 的净利润达到了惊人的 503%。</p>
+<p>评估 cBot 性能的另一种方法是切换到交易图表下方交易面板中的“权益”选项卡。您将看到一个图表，其中 X 轴显示您的 cBot 已进行的交易总数，Y 轴显示资金。</p>
+<p>黄线将跟踪您的 cBot 余额，而灰线将跟踪其净值。</p>
+<p>Image title</p>
+<p>我们可以看到我们的 cBot 在整个回溯测试中表现良好，但在某些情况下我们可能需要在让它获得真实资金之前进行纠正。</p>
+<p>最后但并非最不重要的一点是，“交易统计”选项卡将显示有关 cBot 执行的所有交易操作的累积统计数据。</p>
+<p>Image title</p>
+<p>我们可以看到我们的总回报是巨大的。该机器人总共进行了 271 笔获胜交易，其中一笔交易就产生了总回报的很大一部分（33,009.55）！ cBot 显然具有进行冒险游戏的潜力。</p>
+<h3 id="概括-">概括 ¶</h3>
+<p>回溯测试是确保您的 cBot 按预期运行的好方法。使用详细的统计数据和股票图表，您可以查明您正在测试的机器人做出正确（或错误）动作的价格时刻。回溯测试也是完全可定制的，允许您在截然不同的条件下训练您的机器人。</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

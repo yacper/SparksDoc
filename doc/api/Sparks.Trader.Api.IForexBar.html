@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>IForexBar 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="IForexBar 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_IForexBar.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.IForexBar%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.IForexBar">
+
+
+
+  <h1 id="Sparks_Trader_Api_IForexBar" data-uid="Sparks.Trader.Api.IForexBar" class="text-break">
+    IForexBar 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IForexBar : IBar, ITimeValue</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_SymbolInfo">IBar.SymbolInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_TimeFrame">IBar.TimeFrame</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Open">IBar.Open</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_High">IBar.High</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Low">IBar.Low</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Close">IBar.Close</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Volume">IBar.Volume</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Turnover">IBar.Turnover</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_PreClose">IBar.PreClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_LastTime">IBar.LastTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Direction">IBar.Direction</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Range">IBar.Range</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Solid">IBar.Solid</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_TopShadow">IBar.TopShadow</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_BottomShadow">IBar.BottomShadow</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_LongShadow">IBar.LongShadow</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_ShortShadow">IBar.ShortShadow</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Amplitude">IBar.Amplitude</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_Change">IBar.Change</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IBar.html#Sparks_Trader_Api_IBar_ChangeRate">IBar.ChangeRate</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITimeValue.html#Sparks_Trader_Api_ITimeValue_Time">ITimeValue.Time</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">属性
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IForexBar_AskClose_" data-uid="Sparks.Trader.Api.IForexBar.AskClose*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_AskClose" data-uid="Sparks.Trader.Api.IForexBar.AskClose">
+  AskClose
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double AskClose { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IForexBar_AskHigh_" data-uid="Sparks.Trader.Api.IForexBar.AskHigh*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_AskHigh" data-uid="Sparks.Trader.Api.IForexBar.AskHigh">
+  AskHigh
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double AskHigh { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IForexBar_AskLow_" data-uid="Sparks.Trader.Api.IForexBar.AskLow*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_AskLow" data-uid="Sparks.Trader.Api.IForexBar.AskLow">
+  AskLow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double AskLow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IForexBar_AskOpen_" data-uid="Sparks.Trader.Api.IForexBar.AskOpen*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_AskOpen" data-uid="Sparks.Trader.Api.IForexBar.AskOpen">
+  AskOpen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double AskOpen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IForexBar_BidClose_" data-uid="Sparks.Trader.Api.IForexBar.BidClose*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_BidClose" data-uid="Sparks.Trader.Api.IForexBar.BidClose">
+  BidClose
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double BidClose { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IForexBar_BidHigh_" data-uid="Sparks.Trader.Api.IForexBar.BidHigh*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_BidHigh" data-uid="Sparks.Trader.Api.IForexBar.BidHigh">
+  BidHigh
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double BidHigh { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IForexBar_BidLow_" data-uid="Sparks.Trader.Api.IForexBar.BidLow*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_BidLow" data-uid="Sparks.Trader.Api.IForexBar.BidLow">
+  BidLow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double BidLow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IForexBar_BidOpen_" data-uid="Sparks.Trader.Api.IForexBar.BidOpen*"></a>
+
+  <h3 id="Sparks_Trader_Api_IForexBar_BidOpen" data-uid="Sparks.Trader.Api.IForexBar.BidOpen">
+  BidOpen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double BidOpen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/MarketData/IBar.cs/#L111" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

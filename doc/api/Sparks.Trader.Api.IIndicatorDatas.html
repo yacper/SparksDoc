@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>IIndicatorDatas 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="IIndicatorDatas 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_IIndicatorDatas.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.IIndicatorDatas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.IIndicatorDatas">
+
+
+
+  <h1 id="Sparks_Trader_Api_IIndicatorDatas" data-uid="Sparks.Trader.Api.IIndicatorDatas" class="text-break">
+    IIndicatorDatas 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>指标数据序列，可以在chart上绘制出来</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IIndicatorDatas : IDatas, ISource&lt;double&gt;, ISource, IEnumerable&lt;double&gt;, IEnumerable, IChartObjectBase</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_FirstNotNanIndex">IDatas.FirstNotNanIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_LastNotNanIndex">IDatas.LastNotNanIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_LastValue">IDatas.LastValue</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Last_System_Int32_">IDatas.Last(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Min_System_Int32_System_Int32_">IDatas.Min(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Min_System_Int32_">IDatas.Min(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Max_System_Int32_System_Int32_">IDatas.Max(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Max_System_Int32_">IDatas.Max(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Sum_System_Int32_System_Int32_">IDatas.Sum(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Sum_System_Int32_">IDatas.Sum(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Avg_System_Int32_System_Int32_">IDatas.Avg(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_Avg_System_Int32_">IDatas.Avg(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_StDev_System_Int32_System_Int32_">IDatas.StDev(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_StDev_System_Int32_">IDatas.StDev(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_CrossOver_Sparks_Trader_Api_IDatas_System_Nullable_System_Int32__System_Nullable_System_Int32__">IDatas.CrossOver(IDatas, int?, int?)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_CrossDown_Sparks_Trader_Api_IDatas_System_Nullable_System_Int32__System_Nullable_System_Int32__">IDatas.CrossDown(IDatas, int?, int?)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_IsRising">IDatas.IsRising</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IDatas.html#Sparks_Trader_Api_IDatas_IsDeclining">IDatas.IsDeclining</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISource-1.html#Sparks_Trader_Api_ISource_1_GetRange_System_Int32_System_Int32_">ISource&lt;double&gt;.GetRange(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISource.html#Sparks_Trader_Api_ISource_Count">ISource.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISource.html#Sparks_Trader_Api_ISource_OnUpdate">ISource.OnUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ISource.html#Sparks_Trader_Api_ISource_IsLastOpen">ISource.IsLastOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator">IEnumerable&lt;double&gt;.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_Chart">IChartObjectBase.Chart</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ChartArea">IChartObjectBase.ChartArea</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsVisible">IChartObjectBase.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsInteractive">IChartObjectBase.IsInteractive</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsSelected">IChartObjectBase.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsHovering">IChartObjectBase.IsHovering</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsHighlighted">IChartObjectBase.IsHighlighted</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ZOrder">IChartObjectBase.ZOrder</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ScrollTo">IChartObjectBase.ScrollTo()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">属性
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_Digits_" data-uid="Sparks.Trader.Api.IIndicatorDatas.Digits*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_Digits" data-uid="Sparks.Trader.Api.IIndicatorDatas.Digits">
+  Digits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>精度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Digits { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_Fill_" data-uid="Sparks.Trader.Api.IIndicatorDatas.Fill*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_Fill" data-uid="Sparks.Trader.Api.IIndicatorDatas.Fill">
+  Fill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>填充 作Bar显示时，使用该项填充</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Fill Fill { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Fill.html">Fill</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_Item_" data-uid="Sparks.Trader.Api.IIndicatorDatas.Item*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_Item_System_Int32_" data-uid="Sparks.Trader.Api.IIndicatorDatas.Item(System.Int32)">
+  this[int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double this[int index] { get; set; }</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_OutputType_" data-uid="Sparks.Trader.Api.IIndicatorDatas.OutputType*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_OutputType" data-uid="Sparks.Trader.Api.IIndicatorDatas.OutputType">
+  OutputType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>表现形式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EOutputType OutputType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.EOutputType.html">EOutputType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_Script_" data-uid="Sparks.Trader.Api.IIndicatorDatas.Script*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_Script" data-uid="Sparks.Trader.Api.IIndicatorDatas.Script">
+  Script
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>owner script</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScript Script { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IScript.html">IScript</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_Stroke_" data-uid="Sparks.Trader.Api.IIndicatorDatas.Stroke*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_Stroke" data-uid="Sparks.Trader.Api.IIndicatorDatas.Stroke">
+  Stroke
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>笔刷</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Stroke Stroke { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Stroke.html">Stroke</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_GetColor_" data-uid="Sparks.Trader.Api.IIndicatorDatas.GetColor*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_GetColor_System_Int32_" data-uid="Sparks.Trader.Api.IIndicatorDatas.GetColor(System.Int32)">
+  GetColor(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取对应index的Color，如果有</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Color? GetColor(int index)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.color">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_ResetColor_" data-uid="Sparks.Trader.Api.IIndicatorDatas.ResetColor*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_ResetColor_System_Int32_" data-uid="Sparks.Trader.Api.IIndicatorDatas.ResetColor(System.Int32)">
+  ResetColor(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重置对应Index的Color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetColor(int index)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_ResetColors_" data-uid="Sparks.Trader.Api.IIndicatorDatas.ResetColors*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_ResetColors" data-uid="Sparks.Trader.Api.IIndicatorDatas.ResetColors">
+  ResetColors()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重置所有color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetColors()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicatorDatas_SetColor_" data-uid="Sparks.Trader.Api.IIndicatorDatas.SetColor*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicatorDatas_SetColor_System_Int32_Microsoft_Maui_Graphics_Color_" data-uid="Sparks.Trader.Api.IIndicatorDatas.SetColor(System.Int32,Microsoft.Maui.Graphics.Color)">
+  SetColor(int, Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置对应Index的Color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetColor(int index, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.color">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IIndicatorDatas.cs/#L59" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

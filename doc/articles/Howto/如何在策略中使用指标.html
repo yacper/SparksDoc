@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>如何在策略中使用指标 | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="如何在策略中使用指标 | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../../MyIcon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h2 id="如何在策略中使用指标">如何在策略中使用指标</h2>
+
+<p>在本文（以及上面的视频）中，我们解释了如何在 cBot 中使用内置指标。在 cBot 中使用指标通常有多种目的，最值得注意的是让 cBot 根据指标输出做出交易决策。为了证明这一点，我们将开发一个基于相对强弱指标 (RSI) 的简单自动交易策略。</p>
+<h3 id="创建一个新的-cbot-">创建一个新的 cBot ¶</h3>
+<p>要创建新的 cBot，请切换到“自动化”应用程序并单击“新建 cBot”。</p>
+<p>我们将 cBot 重命名为“RSI cBot”。以下是我们的自动交易策略的运作方式。</p>
+<p>当 RSI 指标低于预定义阈值时，机器人将进入买入头寸。</p>
+<p>当 RSI 指标高于预定义阈值时，机器人将进入卖出头寸。</p>
+<h3 id="定义和初始化指标-">定义和初始化指标 ¶</h3>
+<p>我们需要做的第一件事是在 cBot 类中定义 RSI 指标。为此，我们声明一个新字段。</p>
+<p>private RelativeStrengthIndicator rsi;
+Using Private Class Members</p>
+<p>我们可以安全地将 rsi 字段设为私有，因为它只会在我们的 cBot 中使用。</p>
+<p>所有 cTrader 指标都需要在我们使用之前进行初始化。最好在 OnStart() 方法主体中完成此操作，以便 cBot 在开始运行后可以访问指示器输出。 cTrader 提供了一个方便的类，允许您使用现成的构造函数轻松初始化内置指标。在了解这是如何完成之前，我们将添加初始化 RSI 指标所需的两个参数。</p>
+<p>[Parameter(&quot;Source&quot;, Group = &quot;RSI&quot;)]
+public DataSeries Source { get; set; }</p>
+<p>[Parameter(&quot;Periods&quot;, Group = &quot;RSI&quot;, DefaultValue = 14)]
+public int Periods { get; set; }
+Now that we have added our parameters, we are ready to initialise the indicator.
+现在我们已经添加了参数，我们准备初始化指标。</p>
+<p>protected override void OnStart()
+{
+rsi = Indicators.RelativeStrengthIndex(Source, Periods);
+}</p>
+<h3 id="实现交易逻辑-">实现交易逻辑 ¶</h3>
+<p>由于我们已经初始化了该指标，因此我们可以调用它并在我们的交易逻辑中使用它。对于 RSI 指标，我们可以使用 Results 集合读取输出。</p>
+<p>为此，我们将使用 OnBar() 方法并实现以下条件。</p>
+<p>如果当前 RSI 值低于 RSI 买入阈值，则进入新的买入头寸。</p>
+<p>如果当前 RSI 值高于 RSI 卖出阈值，则进入新的卖出头寸。</p>
+<p>因为我们依赖预定义的阈值来执行交易逻辑，所以我们将向 cBot 添加两个参数。</p>
+<p>[Parameter(&quot;Buy Level&quot;, Group = &quot;RSI&quot;, DefaultValue = 30)]
+public int BuyLevel { get; set; }</p>
+<p>[Parameter(&quot;Sell Level&quot;, Group = &quot;RSI&quot;, DefaultValue = 70)]
+public int SellLevel { get; set; }</p>
+<p>接下来，我们将在 cBot 代码中实现我们的条件。</p>
+<p>protected override void OnBarClosed()
+{
+if (rsi.Result.LastValue &lt; BuyLevel)
+{
+// Enter buy position
+}
+else if (rsi.Result.LastValue &gt; SellLevel)
+{
+// Enter sell position
+}
+}</p>
+<p>是时候实现执行交易订单的辅助方法了。这样做是为了在代码中创建额外的抽象级别，从而提高可读性和可重用性。</p>
+<p>我们首先添加一个 cBot 参数，该参数将允许用户确定交易量。</p>
+<p>[Parameter(&quot;Quantity (Lots)&quot;, Group = &quot;Volume&quot;, DefaultValue = 1, MinValue = 0.01, Step = 0.01)]
+public double Quantity { get; set; }</p>
+<p>之后，我们将添加 Open() 和 Close() 方法，用于进入新仓位并关闭 cBot 在给定方向上打开的所有仓位。</p>
+<p>private void Open(TradeType tradeType)
+{
+var position = Positions.Find(&quot;SampleRSI&quot;, SymbolName, tradeType);
+var volumeInUnits = Symbol.QuantityToVolumeInUnits(Quantity);</p>
+<pre><code>if (position == null)
+    ExecuteMarketOrder(tradeType, SymbolName, volumeInUnits, &quot;RSI cBot&quot;);
+</code></pre>
+<p>}</p>
+<p>private void Close(TradeType tradeType)
+{
+foreach (var position in Positions.FindAll(&quot;SampleRSI&quot;, SymbolName, tradeType))
+ClosePosition(position);
+}</p>
+<p>我们可以使用我们的辅助方法来完成自动化交易策略。</p>
+<p>protected override void OnTick()
+{
+if (rsi.Result.LastValue &lt; BuyLevel)
+{
+Close(TradeType.Sell);
+Open(TradeType.Buy);
+}
+else if (rsi.Result.LastValue &gt; SellLevel)
+{
+Close(TradeType.Buy);
+Open(TradeType.Sell);
+}
+}</p>
+<h3 id="回测-cbot-">回测 cBot ¶</h3>
+<p>完成 cBot 编码后，我们可以构建它并切换到“回测”选项卡以查看它在历史数据上的表现。要了解有关回溯测试的更多信息，请单击此处。</p>
+<p>我们还可以将相对强弱指标附加到当前图表，以查看机器人执行的交易是否与预期的入场点相匹配。</p>
+<p>要了解有关使用和开发 cBot 的更多信息，请随意浏览文档的其他部分并订阅我们的 YouTube 频道，以便在我们发布新视频时收到通知。</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,786 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>IMainArea 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="IMainArea 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_IMainArea.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.IMainArea%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.IMainArea">
+
+
+
+  <h1 id="Sparks_Trader_Api_IMainArea" data-uid="Sparks.Trader.Api.IMainArea" class="text-break">
+    IMainArea 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMainArea : IChartArea</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_Chart">IChartArea.Chart</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_Width">IChartArea.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_Height">IChartArea.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_SizeChanged">IChartArea.SizeChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_MainYAxis">IChartArea.MainYAxis</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_Axes">IChartArea.Axes</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_MouseEnter">IChartArea.MouseEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_MouseLeave">IChartArea.MouseLeave</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_MouseMove">IChartArea.MouseMove</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_MouseDown">IChartArea.MouseDown</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_MouseUp">IChartArea.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_MouseWheel">IChartArea.MouseWheel</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DragStart">IChartArea.DragStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DragEnd">IChartArea.DragEnd</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_Drag">IChartArea.Drag</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_ScrollChanged">IChartArea.ScrollChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_KeyDown">IChartArea.KeyDown</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_KeyUp">IChartArea.KeyUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawHorizontalLine_System_String_System_Double_Sparks_Trader_Api_Stroke_">IChartArea.DrawHorizontalLine(string, double, Stroke)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawVerticalLine_System_String_System_DateTime_Sparks_Trader_Api_Stroke_">IChartArea.DrawVerticalLine(string, DateTime, Stroke)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawTrendLine_System_String_System_DateTime_System_Double_System_DateTime_System_Double_Sparks_Trader_Api_Stroke_">IChartArea.DrawTrendLine(string, DateTime, double, DateTime, double, Stroke)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_CreateObject__1_System_Object___">IChartArea.CreateObject&lt;T&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_Objects">IChartArea.Objects</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_SelectedObjects">IChartArea.SelectedObjects</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_SelectedObjectsChanged">IChartArea.SelectedObjectsChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_HoveringObject">IChartArea.HoveringObject</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_HoveringObjectChanged">IChartArea.HoveringObjectChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_FindAllObjects__1">IChartArea.FindAllObjects&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_FindAllObjects_Sparks_Trader_Api_EChartObjectType_">IChartArea.FindAllObjects(EChartObjectType)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_FindObject_System_String_">IChartArea.FindObject(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_RemoveObject_System_String_">IChartArea.RemoveObject(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_RemoveObject_Sparks_Trader_Api_IChartObject_">IChartArea.RemoveObject(IChartObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_RemoveAllObjects">IChartArea.RemoveAllObjects()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">属性
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IMainArea_ChartTimeAxis_" data-uid="Sparks.Trader.Api.IMainArea.ChartTimeAxis*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_ChartTimeAxis" data-uid="Sparks.Trader.Api.IMainArea.ChartTimeAxis">
+  ChartTimeAxis
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IChartTimeAxis ChartTimeAxis { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IChartTimeAxis.html">IChartTimeAxis</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_FirstVisibleBarIndex_" data-uid="Sparks.Trader.Api.IMainArea.FirstVisibleBarIndex*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_FirstVisibleBarIndex" data-uid="Sparks.Trader.Api.IMainArea.FirstVisibleBarIndex">
+  FirstVisibleBarIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>第一个可视的Bar Index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int FirstVisibleBarIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_IsScrollingEnabled_" data-uid="Sparks.Trader.Api.IMainArea.IsScrollingEnabled*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_IsScrollingEnabled" data-uid="Sparks.Trader.Api.IMainArea.IsScrollingEnabled">
+  IsScrollingEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the value indicating whether the scrolling is enabled or disabled for the chart. If disabled, then the chart is not affected by scrolling, dragging, scaling, or pressing any keyboard keys, but is still affected by resizing, zooming, and API calls for changing X or Y-axis positions on the chart.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsScrollingEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_LastVisibleBarIndex_" data-uid="Sparks.Trader.Api.IMainArea.LastVisibleBarIndex*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_LastVisibleBarIndex" data-uid="Sparks.Trader.Api.IMainArea.LastVisibleBarIndex">
+  LastVisibleBarIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>最后一个可视的Bar Index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int LastVisibleBarIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_MaxVisibleBars_" data-uid="Sparks.Trader.Api.IMainArea.MaxVisibleBars*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_MaxVisibleBars" data-uid="Sparks.Trader.Api.IMainArea.MaxVisibleBars">
+  MaxVisibleBars
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>最大可视bar数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int MaxVisibleBars { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_UnitWidth_" data-uid="Sparks.Trader.Api.IMainArea.UnitWidth*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_UnitWidth" data-uid="Sparks.Trader.Api.IMainArea.UnitWidth">
+  UnitWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>单位宽度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double UnitWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_VisibleBarsCount_" data-uid="Sparks.Trader.Api.IMainArea.VisibleBarsCount*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_VisibleBarsCount" data-uid="Sparks.Trader.Api.IMainArea.VisibleBarsCount">
+  VisibleBarsCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前可视Bar数量</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int VisibleBarsCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IMainArea_GetBarIndexByPoint_" data-uid="Sparks.Trader.Api.IMainArea.GetBarIndexByPoint*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_GetBarIndexByPoint_Microsoft_Maui_Graphics_Point_" data-uid="Sparks.Trader.Api.IMainArea.GetBarIndexByPoint(Microsoft.Maui.Graphics.Point)">
+  GetBarIndexByPoint(Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the total number of the bars on the chart.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int? GetBarIndexByPoint(Point pt)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>pt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_GetBarIndexByTime_" data-uid="Sparks.Trader.Api.IMainArea.GetBarIndexByTime*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_GetBarIndexByTime_System_DateTime_" data-uid="Sparks.Trader.Api.IMainArea.GetBarIndexByTime(System.DateTime)">
+  GetBarIndexByTime(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int? GetBarIndexByTime(DateTime dt)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>dt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_GetTimeValueByBarIndex_" data-uid="Sparks.Trader.Api.IMainArea.GetTimeValueByBarIndex*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_GetTimeValueByBarIndex_System_Int32_" data-uid="Sparks.Trader.Api.IMainArea.GetTimeValueByBarIndex(System.Int32)">
+  GetTimeValueByBarIndex(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime? GetTimeValueByBarIndex(int index)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_GetTimeValueByPoint_" data-uid="Sparks.Trader.Api.IMainArea.GetTimeValueByPoint*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_GetTimeValueByPoint_Microsoft_Maui_Graphics_Point_" data-uid="Sparks.Trader.Api.IMainArea.GetTimeValueByPoint(Microsoft.Maui.Graphics.Point)">
+  GetTimeValueByPoint(Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime? GetTimeValueByPoint(Point pt)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>pt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_GetUnitIndexByPoint_" data-uid="Sparks.Trader.Api.IMainArea.GetUnitIndexByPoint*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_GetUnitIndexByPoint_Microsoft_Maui_Graphics_Point_" data-uid="Sparks.Trader.Api.IMainArea.GetUnitIndexByPoint(Microsoft.Maui.Graphics.Point)">
+  GetUnitIndexByPoint(Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int? GetUnitIndexByPoint(Point pt)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>pt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_GetXByDateTime_" data-uid="Sparks.Trader.Api.IMainArea.GetXByDateTime*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_GetXByDateTime_System_DateTime_" data-uid="Sparks.Trader.Api.IMainArea.GetXByDateTime(System.DateTime)">
+  GetXByDateTime(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double? GetXByDateTime(DateTime time)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_ScrollXBy_" data-uid="Sparks.Trader.Api.IMainArea.ScrollXBy*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_ScrollXBy_System_Int32_" data-uid="Sparks.Trader.Api.IMainArea.ScrollXBy(System.Int32)">
+  ScrollXBy(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Scrolls the chart by the X-axis for the specified number of bars.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ScrollXBy(int bars)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_ScrollXTo_" data-uid="Sparks.Trader.Api.IMainArea.ScrollXTo*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_ScrollXTo_System_DateTime_" data-uid="Sparks.Trader.Api.IMainArea.ScrollXTo(System.DateTime)">
+  ScrollXTo(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Scrolls the chart by the X-axis to the specified date time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ScrollXTo(DateTime time)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IMainArea_ScrollXTo_" data-uid="Sparks.Trader.Api.IMainArea.ScrollXTo*"></a>
+
+  <h3 id="Sparks_Trader_Api_IMainArea_ScrollXTo_System_Int32_" data-uid="Sparks.Trader.Api.IMainArea.ScrollXTo(System.Int32)">
+  ScrollXTo(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Scrolls the chart by the X-axis to the bar with the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ScrollXTo(int barIndex)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>barIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index of the bar.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Charts/IMainArea.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

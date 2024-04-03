@@ -1,0 +1,1346 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>IScript 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="IScript 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_IScript.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.IScript%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.IScript">
+
+
+
+  <h1 id="Sparks_Trader_Api_IScript" data-uid="Sparks.Trader.Api.IScript" class="text-break">
+    IScript 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IScript : IChartObjectBase</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_Chart">IChartObjectBase.Chart</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ChartArea">IChartObjectBase.ChartArea</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsVisible">IChartObjectBase.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsInteractive">IChartObjectBase.IsInteractive</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsSelected">IChartObjectBase.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsHovering">IChartObjectBase.IsHovering</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_IsHighlighted">IChartObjectBase.IsHighlighted</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ZOrder">IChartObjectBase.ZOrder</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.IChartObjectBase.html#Sparks_Trader_Api_IChartObjectBase_ScrollTo">IChartObjectBase.ScrollTo()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">属性
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IScript_Bars_" data-uid="Sparks.Trader.Api.IScript.Bars*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Bars" data-uid="Sparks.Trader.Api.IScript.Bars">
+  Bars
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前chart的Bars</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBars Bars { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Children_" data-uid="Sparks.Trader.Api.IScript.Children*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Children" data-uid="Sparks.Trader.Api.IScript.Children">
+  Children
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>由该Script创建的indicator</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyObservableCollection&lt;IIndicator&gt; Children { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlyobservablecollection-1">ReadOnlyObservableCollection</a>&lt;<a class="xref" href="Sparks.Trader.Api.IIndicator.html">IIndicator</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Desc_" data-uid="Sparks.Trader.Api.IScript.Desc*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Desc" data-uid="Sparks.Trader.Api.IScript.Desc">
+  Desc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本描述</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Desc { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Group_" data-uid="Sparks.Trader.Api.IScript.Group*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Group" data-uid="Sparks.Trader.Api.IScript.Group">
+  Group
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本分组</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Group { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_IsHistoryOver_" data-uid="Sparks.Trader.Api.IScript.IsHistoryOver*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_IsHistoryOver" data-uid="Sparks.Trader.Api.IScript.IsHistoryOver">
+  IsHistoryOver
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>历史数据阶段是否已经结束
+脚本在启动时，会先加载历史数据，历史数据结束后，才会进入实时阶段</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsHistoryOver { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_IsLocked_" data-uid="Sparks.Trader.Api.IScript.IsLocked*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_IsLocked" data-uid="Sparks.Trader.Api.IScript.IsLocked">
+  IsLocked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否被锁定，无法被删除</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsLocked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_LongName_" data-uid="Sparks.Trader.Api.IScript.LongName*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_LongName" data-uid="Sparks.Trader.Api.IScript.LongName">
+  LongName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本长名字</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string LongName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Name_" data-uid="Sparks.Trader.Api.IScript.Name*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Name" data-uid="Sparks.Trader.Api.IScript.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本名</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_NetworkFailureAction_" data-uid="Sparks.Trader.Api.IScript.NetworkFailureAction*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_NetworkFailureAction" data-uid="Sparks.Trader.Api.IScript.NetworkFailureAction">
+  NetworkFailureAction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>网络中断时行为</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ENetworkFailureAction NetworkFailureAction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ENetworkFailureAction.html">ENetworkFailureAction</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_NetworkRestoreAction_" data-uid="Sparks.Trader.Api.IScript.NetworkRestoreAction*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_NetworkRestoreAction" data-uid="Sparks.Trader.Api.IScript.NetworkRestoreAction">
+  NetworkRestoreAction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当因为网络中断停止后，网络重新恢复时的行为</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ENetworkRestoreAction NetworkRestoreAction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ENetworkRestoreAction.html">ENetworkRestoreAction</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Runtime_" data-uid="Sparks.Trader.Api.IScript.Runtime*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Runtime" data-uid="Sparks.Trader.Api.IScript.Runtime">
+  Runtime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>运行环境</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ERuntime Runtime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ERuntime.html">ERuntime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_ScriptType_" data-uid="Sparks.Trader.Api.IScript.ScriptType*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_ScriptType" data-uid="Sparks.Trader.Api.IScript.ScriptType">
+  ScriptType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EScriptType ScriptType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.EScriptType.html">EScriptType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_State_" data-uid="Sparks.Trader.Api.IScript.State*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_State" data-uid="Sparks.Trader.Api.IScript.State">
+  State
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本状态</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EScriptState State { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.EScriptState.html">EScriptState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_StopReason_" data-uid="Sparks.Trader.Api.IScript.StopReason*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_StopReason" data-uid="Sparks.Trader.Api.IScript.StopReason">
+  StopReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止原因</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EScriptStopReason StopReason { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.EScriptStopReason.html">EScriptStopReason</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Symbol_" data-uid="Sparks.Trader.Api.IScript.Symbol*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Symbol" data-uid="Sparks.Trader.Api.IScript.Symbol">
+  Symbol
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当前chart的Symbol</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISymbol Symbol { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ISymbol.html">ISymbol</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_UserDataPath_" data-uid="Sparks.Trader.Api.IScript.UserDataPath*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_UserDataPath" data-uid="Sparks.Trader.Api.IScript.UserDataPath">
+  UserDataPath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>用户数据目录</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string UserDataPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IScript_Alert_" data-uid="Sparks.Trader.Api.IScript.Alert*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_AlertAction_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__" data-uid="Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.AlertAction,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})">
+  Alert(string, string, AlertAction, EAlertLevel, SymbolContract?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发出一种警告</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Alert(string title, string msg, AlertAction action, EAlertLevel level = EAlertLevel.Warn, SymbolContract? contract = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>警告标题</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>警告消息</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="Sparks.Trader.Api.AlertAction.html">AlertAction</a></dt>
+    <dd><p>警告效果</p>
+</dd>
+    <dt><code>level</code> <a class="xref" href="Sparks.Trader.Api.EAlertLevel.html">EAlertLevel</a></dt>
+    <dd><p>警告等级</p>
+</dd>
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.SymbolContract.html">SymbolContract</a>?</dt>
+    <dd><p>contract</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_AlertAction_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract___examples">示例</h4>
+  <pre><code class="lang-csharp">var msg = "hello, world";
+// 发出一个弹窗警告
+Alert("Popup Alert", msg, new PopupAlertAction());
+// 发出一个Email警告
+Alert("Email Alert", Msg, new EmailAlertAction("xxxxxx@qq.com"));
+// 发出一个声音警告
+Alert("Sound Alert", Msg, new SoundAlertAction(new Uri("Resources/Sounds/alarm.mp3", UriKind.Relative), EAlertSoundDuration.S10));</code></pre>
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Alert_" data-uid="Sparks.Trader.Api.IScript.Alert*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__" data-uid="Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})">
+  Alert(string, string, EAlertLevel, SymbolContract?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发出一个基本弹窗警告</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Alert(string title, string msg, EAlertLevel level = EAlertLevel.Warn, SymbolContract? contract = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>警告标题</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>警告消息</p>
+</dd>
+    <dt><code>level</code> <a class="xref" href="Sparks.Trader.Api.EAlertLevel.html">EAlertLevel</a></dt>
+    <dd><p>警告等级</p>
+</dd>
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.SymbolContract.html">SymbolContract</a>?</dt>
+    <dd><p>contract</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Alert_" data-uid="Sparks.Trader.Api.IScript.Alert*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Alert_System_String_System_String_System_Collections_Generic_IEnumerable_Sparks_Trader_Api_AlertAction__Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__" data-uid="Sparks.Trader.Api.IScript.Alert(System.String,System.String,System.Collections.Generic.IEnumerable{Sparks.Trader.Api.AlertAction},Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})">
+  Alert(string, string, IEnumerable&lt;AlertAction&gt;, EAlertLevel, SymbolContract?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发出多种警告类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Alert(string title, string msg, IEnumerable&lt;AlertAction&gt; actions, EAlertLevel level = EAlertLevel.Warn, SymbolContract? contract = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>警告标题</p>
+</dd>
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>警告消息</p>
+</dd>
+    <dt><code>actions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Sparks.Trader.Api.AlertAction.html">AlertAction</a>&gt;</dt>
+    <dd><p>多种警告类型</p>
+</dd>
+    <dt><code>level</code> <a class="xref" href="Sparks.Trader.Api.EAlertLevel.html">EAlertLevel</a></dt>
+    <dd><p>警告等级</p>
+</dd>
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.SymbolContract.html">SymbolContract</a>?</dt>
+    <dd><p>contract</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Sparks_Trader_Api_IScript_Alert_System_String_System_String_System_Collections_Generic_IEnumerable_Sparks_Trader_Api_AlertAction__Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract___examples">示例</h4>
+  <pre><code class="lang-csharp">// 同时发出多种警告
+Alert("test popup", "hello", new AlertAction[]
+    {
+        new PopupAlertAction(),
+        new EmailAlertAction("xxxxxx@qq.com"),
+        new SoundAlertAction(new Uri("Resources/Sounds/alarm.mp3", UriKind.Relative), EAlertSoundDuration.S10)
+    });</code></pre>
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_CreateIndicatorDatas_" data-uid="Sparks.Trader.Api.IScript.CreateIndicatorDatas*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_CreateIndicatorDatas_System_Nullable_System_Int32__" data-uid="Sparks.Trader.Api.IScript.CreateIndicatorDatas(System.Nullable{System.Int32})">
+  CreateIndicatorDatas(int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个IndicatorDatas数据容器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IIndicatorDatas CreateIndicatorDatas(int? digits = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>digits</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>指定数据的精度，null表示使用对应Symbol的精度</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IIndicatorDatas.html">IIndicatorDatas</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="Sparks_Trader_Api_IScript_CreateIndicatorDatas_System_Nullable_System_Int32___examples">示例</h4>
+  <pre>
+  <code class="lang-csharp">protected override void OnStart()
+             {
+                 Datas_     = CreateIndicatorDatas();
+             }
+             protected IIndicatorDatas Datas_;</code>
+</pre>
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_CreateIndicator_" data-uid="Sparks.Trader.Api.IScript.CreateIndicator*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_CreateIndicator__1_System_Object___" data-uid="Sparks.Trader.Api.IScript.CreateIndicator``1(System.Object[])">
+  CreateIndicator&lt;T&gt;(params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T CreateIndicator&lt;T&gt;(params object[] parameterValues) where T : IIndicator</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>parameterValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_CreateMA_" data-uid="Sparks.Trader.Api.IScript.CreateMA*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_CreateMA_Sparks_Trader_Api_EMaType_Sparks_Trader_Api_IDatas_System_Int32_" data-uid="Sparks.Trader.Api.IScript.CreateMA(Sparks.Trader.Api.EMaType,Sparks.Trader.Api.IDatas,System.Int32)">
+  CreateMA(EMaType, IDatas, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建预制的MA</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMovingAverage CreateMA(EMaType mvaType, IDatas source, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>mvaType</code> <a class="xref" href="Sparks.Trader.Api.EMaType.html">EMaType</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IMovingAverage.html">IMovingAverage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Error_" data-uid="Sparks.Trader.Api.IScript.Error*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Error_System_Object_" data-uid="Sparks.Trader.Api.IScript.Error(System.Object)">
+  Error(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>输出Error信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Error(object msg)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Fill_" data-uid="Sparks.Trader.Api.IScript.Fill*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Fill_Sparks_Trader_Api_IIndicatorDatas_Sparks_Trader_Api_IIndicatorDatas_Sparks_Trader_Api_Fill_Sparks_Trader_Api_Fill_" data-uid="Sparks.Trader.Api.IScript.Fill(Sparks.Trader.Api.IIndicatorDatas,Sparks.Trader.Api.IIndicatorDatas,Sparks.Trader.Api.Fill,Sparks.Trader.Api.Fill)">
+  Fill(IIndicatorDatas, IIndicatorDatas, Fill, Fill)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Fill(IIndicatorDatas line1, IIndicatorDatas line2, Fill fill1, Fill fill2 = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>line1</code> <a class="xref" href="Sparks.Trader.Api.IIndicatorDatas.html">IIndicatorDatas</a></dt>
+    <dd></dd>
+    <dt><code>line2</code> <a class="xref" href="Sparks.Trader.Api.IIndicatorDatas.html">IIndicatorDatas</a></dt>
+    <dd></dd>
+    <dt><code>fill1</code> <a class="xref" href="Sparks.Trader.Api.Fill.html">Fill</a></dt>
+    <dd></dd>
+    <dt><code>fill2</code> <a class="xref" href="Sparks.Trader.Api.Fill.html">Fill</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_GetBackground_" data-uid="Sparks.Trader.Api.IScript.GetBackground*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_GetBackground_System_Int32_" data-uid="Sparks.Trader.Api.IScript.GetBackground(System.Int32)">
+  GetBackground(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获得背景色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Fill GetBackground(int index)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Fill.html">Fill</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Info_" data-uid="Sparks.Trader.Api.IScript.Info*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Info_System_Object_" data-uid="Sparks.Trader.Api.IScript.Info(System.Object)">
+  Info(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>输出Info信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Info(object msg)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_OnData_" data-uid="Sparks.Trader.Api.IScript.OnData*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_OnData_Sparks_Trader_Api_ISource_System_Int32_" data-uid="Sparks.Trader.Api.IScript.OnData(Sparks.Trader.Api.ISource,System.Int32)">
+  OnData(ISource, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnData(ISource source, int index)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.ISource.html">ISource</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_OnStart_" data-uid="Sparks.Trader.Api.IScript.OnStart*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_OnStart" data-uid="Sparks.Trader.Api.IScript.OnStart">
+  OnStart()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本启动时被调用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnStart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_OnStop_" data-uid="Sparks.Trader.Api.IScript.OnStop*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_OnStop" data-uid="Sparks.Trader.Api.IScript.OnStop">
+  OnStop()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>脚本停止时被调用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnStop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Performance_" data-uid="Sparks.Trader.Api.IScript.Performance*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Performance" data-uid="Sparks.Trader.Api.IScript.Performance">
+  Performance()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>output Performance information</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Performance()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_ResetBackground_" data-uid="Sparks.Trader.Api.IScript.ResetBackground*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_ResetBackground_System_Int32_" data-uid="Sparks.Trader.Api.IScript.ResetBackground(System.Int32)">
+  ResetBackground(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重置对应Index的background</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetBackground(int index)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_ResetBackgrounds_" data-uid="Sparks.Trader.Api.IScript.ResetBackgrounds*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_ResetBackgrounds" data-uid="Sparks.Trader.Api.IScript.ResetBackgrounds">
+  ResetBackgrounds()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>重置所有背景色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResetBackgrounds()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_SetBackground_" data-uid="Sparks.Trader.Api.IScript.SetBackground*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_SetBackground_System_Int32_Sparks_Trader_Api_Fill_" data-uid="Sparks.Trader.Api.IScript.SetBackground(System.Int32,Sparks.Trader.Api.Fill)">
+  SetBackground(int, Fill)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置背景色</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetBackground(int index, Fill fill)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>fill</code> <a class="xref" href="Sparks.Trader.Api.Fill.html">Fill</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IScript_Warn_" data-uid="Sparks.Trader.Api.IScript.Warn*"></a>
+
+  <h3 id="Sparks_Trader_Api_IScript_Warn_System_Object_" data-uid="Sparks.Trader.Api.IScript.Warn(System.Object)">
+  Warn(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>输出Warning信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Warn(object msg)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>msg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Scripts/IScript.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

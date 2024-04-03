@@ -1,0 +1,508 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>ExpandableObjectGetSetPropertyConverter 类
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="ExpandableObjectGetSetPropertyConverter 类
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter">
+
+
+
+  <h1 id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter" class="text-break">
+    ExpandableObjectGetSetPropertyConverter 类
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ExpandableObjectGetSetPropertyConverter : TypeConverter</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>继承</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter">TypeConverter</a></div>
+      <div><span class="xref">ExpandableObjectGetSetPropertyConverter</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.canconvertfrom#system-componentmodel-typeconverter-canconvertfrom(system-componentmodel-itypedescriptorcontext-system-type)">TypeConverter.CanConvertFrom(ITypeDescriptorContext, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.canconvertfrom#system-componentmodel-typeconverter-canconvertfrom(system-type)">TypeConverter.CanConvertFrom(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.canconvertto#system-componentmodel-typeconverter-canconvertto(system-componentmodel-itypedescriptorcontext-system-type)">TypeConverter.CanConvertTo(ITypeDescriptorContext, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.canconvertto#system-componentmodel-typeconverter-canconvertto(system-type)">TypeConverter.CanConvertTo(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertfrom#system-componentmodel-typeconverter-convertfrom(system-componentmodel-itypedescriptorcontext-system-globalization-cultureinfo-system-object)">TypeConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertfrom#system-componentmodel-typeconverter-convertfrom(system-object)">TypeConverter.ConvertFrom(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertfrominvariantstring#system-componentmodel-typeconverter-convertfrominvariantstring(system-componentmodel-itypedescriptorcontext-system-string)">TypeConverter.ConvertFromInvariantString(ITypeDescriptorContext, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertfrominvariantstring#system-componentmodel-typeconverter-convertfrominvariantstring(system-string)">TypeConverter.ConvertFromInvariantString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertfromstring#system-componentmodel-typeconverter-convertfromstring(system-componentmodel-itypedescriptorcontext-system-globalization-cultureinfo-system-string)">TypeConverter.ConvertFromString(ITypeDescriptorContext, CultureInfo, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertfromstring#system-componentmodel-typeconverter-convertfromstring(system-componentmodel-itypedescriptorcontext-system-string)">TypeConverter.ConvertFromString(ITypeDescriptorContext, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertfromstring#system-componentmodel-typeconverter-convertfromstring(system-string)">TypeConverter.ConvertFromString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertto#system-componentmodel-typeconverter-convertto(system-componentmodel-itypedescriptorcontext-system-globalization-cultureinfo-system-object-system-type)">TypeConverter.ConvertTo(ITypeDescriptorContext, CultureInfo, object, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.convertto#system-componentmodel-typeconverter-convertto(system-object-system-type)">TypeConverter.ConvertTo(object, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.converttoinvariantstring#system-componentmodel-typeconverter-converttoinvariantstring(system-componentmodel-itypedescriptorcontext-system-object)">TypeConverter.ConvertToInvariantString(ITypeDescriptorContext, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.converttoinvariantstring#system-componentmodel-typeconverter-converttoinvariantstring(system-object)">TypeConverter.ConvertToInvariantString(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.converttostring#system-componentmodel-typeconverter-converttostring(system-componentmodel-itypedescriptorcontext-system-globalization-cultureinfo-system-object)">TypeConverter.ConvertToString(ITypeDescriptorContext, CultureInfo, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.converttostring#system-componentmodel-typeconverter-converttostring(system-componentmodel-itypedescriptorcontext-system-object)">TypeConverter.ConvertToString(ITypeDescriptorContext, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.converttostring#system-componentmodel-typeconverter-converttostring(system-object)">TypeConverter.ConvertToString(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.createinstance#system-componentmodel-typeconverter-createinstance(system-collections-idictionary)">TypeConverter.CreateInstance(IDictionary)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getconvertfromexception">TypeConverter.GetConvertFromException(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getconverttoexception">TypeConverter.GetConvertToException(object, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getcreateinstancesupported#system-componentmodel-typeconverter-getcreateinstancesupported">TypeConverter.GetCreateInstanceSupported()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getproperties#system-componentmodel-typeconverter-getproperties(system-componentmodel-itypedescriptorcontext-system-object)">TypeConverter.GetProperties(ITypeDescriptorContext, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getproperties#system-componentmodel-typeconverter-getproperties(system-object)">TypeConverter.GetProperties(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getpropertiessupported#system-componentmodel-typeconverter-getpropertiessupported">TypeConverter.GetPropertiesSupported()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getstandardvalues#system-componentmodel-typeconverter-getstandardvalues">TypeConverter.GetStandardValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getstandardvaluesexclusive#system-componentmodel-typeconverter-getstandardvaluesexclusive">TypeConverter.GetStandardValuesExclusive()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getstandardvaluesexclusive#system-componentmodel-typeconverter-getstandardvaluesexclusive(system-componentmodel-itypedescriptorcontext)">TypeConverter.GetStandardValuesExclusive(ITypeDescriptorContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getstandardvaluessupported#system-componentmodel-typeconverter-getstandardvaluessupported">TypeConverter.GetStandardValuesSupported()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.getstandardvaluessupported#system-componentmodel-typeconverter-getstandardvaluessupported(system-componentmodel-itypedescriptorcontext)">TypeConverter.GetStandardValuesSupported(ITypeDescriptorContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.isvalid#system-componentmodel-typeconverter-isvalid(system-componentmodel-itypedescriptorcontext-system-object)">TypeConverter.IsValid(ITypeDescriptorContext, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.isvalid#system-componentmodel-typeconverter-isvalid(system-object)">TypeConverter.IsValid(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.sortproperties">TypeConverter.SortProperties(PropertyDescriptorCollection, string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">构造函数
+</h2>
+
+
+  <a id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter__ctor_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.#ctor*"></a>
+
+  <h3 id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter__ctor" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.#ctor">
+  ExpandableObjectGetSetPropertyConverter()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the System.ComponentModel.ExpandableObjectConverter class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExpandableObjectGetSetPropertyConverter()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_CreateInstance_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.CreateInstance*"></a>
+
+  <h3 id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_CreateInstance_System_ComponentModel_ITypeDescriptorContext_System_Collections_IDictionary_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary)">
+  CreateInstance(ITypeDescriptorContext, IDictionary)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates an instance of the type that this <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter">TypeConverter</a> is associated with, using the specified context, given a set of property values for the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object CreateInstance(ITypeDescriptorContext context, IDictionary propertyValues)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a> that provides a format context.</p>
+</dd>
+    <dt><code>propertyValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.idictionary">IDictionary</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.idictionary">IDictionary</a> of new property values.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a> representing the given <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.idictionary">IDictionary</a>, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the object cannot be created. This method always returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetCreateInstanceSupported_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetCreateInstanceSupported*"></a>
+
+  <h3 id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetCreateInstanceSupported_System_ComponentModel_ITypeDescriptorContext_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext)">
+  GetCreateInstanceSupported(ITypeDescriptorContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns whether changing a value on this object requires a call to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.createinstance#system-componentmodel-typeconverter-createinstance(system-collections-idictionary)">CreateInstance(IDictionary)</a> to create a new value, using the specified context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetCreateInstanceSupported(ITypeDescriptorContext context)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a> that provides a format context.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if changing a property on this object requires a call to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.createinstance#system-componentmodel-typeconverter-createinstance(system-collections-idictionary)">CreateInstance(IDictionary)</a> to create a new value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetProperties_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetProperties*"></a>
+
+  <h3 id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetProperties_System_ComponentModel_ITypeDescriptorContext_System_Object_System_Attribute___" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[])">
+  GetProperties(ITypeDescriptorContext, object, Attribute[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a collection of properties for the type of array specified by the value parameter, using the specified context and attributes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override PropertyDescriptorCollection GetProperties(ITypeDescriptorContext context, object value, Attribute[] attributes)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a> that provides a format context.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a> that specifies the type of array for which to get properties.</p>
+</dd>
+    <dt><code>attributes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a>[]</dt>
+    <dd><p>An array of type <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a> that is used as a filter.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptorcollection">PropertyDescriptorCollection</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptorcollection">PropertyDescriptorCollection</a> with the properties that are exposed for this data type, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if there are no properties.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetPropertiesSupported_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetPropertiesSupported*"></a>
+
+  <h3 id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetPropertiesSupported_System_ComponentModel_ITypeDescriptorContext_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext)">
+  GetPropertiesSupported(ITypeDescriptorContext?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object supports properties using the
+specified context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetPropertiesSupported(ITypeDescriptorContext? context)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetStandardValues_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetStandardValues*"></a>
+
+  <h3 id="Sparks_Trader_Api_ExpandableObjectGetSetPropertyConverter_GetStandardValues_System_ComponentModel_ITypeDescriptorContext_" data-uid="Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)">
+  GetStandardValues(ITypeDescriptorContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TypeConverter.StandardValuesCollection GetStandardValues(ITypeDescriptorContext context)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.itypedescriptorcontext">ITypeDescriptorContext</a> that provides a format context that can be used to extract additional information about the environment from which this converter is invoked. This parameter or properties of this parameter can be <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter">TypeConverter</a>.<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter.standardvaluescollection">StandardValuesCollection</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.typeconverter">TypeConverter.StandardValuesCollection</a> that holds a standard set of valid values, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the data type does not support a standard set of values.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Converter/ExpandableObjectGetSetPropertyConverter.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

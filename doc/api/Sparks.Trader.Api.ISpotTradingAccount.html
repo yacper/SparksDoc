@@ -1,0 +1,816 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>ISpotTradingAccount 接口
+ | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="ISpotTradingAccount 接口
+ | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../MyIcon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_ISpotTradingAccount.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.ISpotTradingAccount%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.ISpotTradingAccount">
+
+
+
+  <h1 id="Sparks_Trader_Api_ISpotTradingAccount" data-uid="Sparks.Trader.Api.ISpotTradingAccount" class="text-break">
+    ISpotTradingAccount 接口
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ISpotTradingAccount : ITradingAccount, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>继承成员</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Provider">ITradingAccount.Provider</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_IsLive">ITradingAccount.IsLive</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_AccountCode">ITradingAccount.AccountCode</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Currency">ITradingAccount.Currency</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Equity">ITradingAccount.Equity</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Balance">ITradingAccount.Balance</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_DayPL">ITradingAccount.DayPL</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_GrossPL">ITradingAccount.GrossPL</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_InitMargin">ITradingAccount.InitMargin</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_MaintainMargin">ITradingAccount.MaintainMargin</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PendingOrders">ITradingAccount.PendingOrders</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_HistoryOrders">ITradingAccount.HistoryOrders</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_AllOrders">ITradingAccount.AllOrders</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Positions">ITradingAccount.Positions</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Trades">ITradingAccount.Trades</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ClosedTrades">ITradingAccount.ClosedTrades</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceOrder_Sparks_Trader_Api_OrderReq_System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.PlaceOrder(OrderReq, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_CancelOrder_Sparks_Trader_Api_IOrder_System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.CancelOrder(IOrder, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ModifyOrder_Sparks_Trader_Api_IOrder_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.ModifyOrder(IOrder, double?, double?, double?, ETIF?, double?, double?, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_CloseTrade_Sparks_Trader_Api_ITrade_System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.CloseTrade(ITrade, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ClosePosition_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.ClosePosition(IPosition, double?, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceMarketOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.PlaceMarketOrder(SymbolContract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceLimitOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.PlaceLimitOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceStopOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__">ITradingAccount.PlaceStopOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged">INotifyPropertyChanged.PropertyChanged</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_CancelPendingOrder_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.CancelPendingOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_CancelPendingOrder_Sparks_Trader_Api_IOrder_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.CancelPendingOrder(Sparks.Trader.Api.IOrder)">
+  CancelPendingOrder(IOrder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeResult CancelPendingOrder(IOrder pendingOrder)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>pendingOrder</code> <a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_CancelPendingOrderAsync_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.CancelPendingOrderAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_CancelPendingOrderAsync_Sparks_Trader_Api_IOrder_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.CancelPendingOrderAsync(Sparks.Trader.Api.IOrder,System.Action{Sparks.Trader.Api.TradeResult})">
+  CancelPendingOrderAsync(IOrder, Action&lt;TradeResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CancelPendingOrderAsync(IOrder pendingOrder, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>pendingOrder</code> <a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ClosePosition_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ClosePosition*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ClosePosition_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ClosePosition(Sparks.Trader.Api.IPosition,System.Nullable{System.Double})">
+  ClosePosition(IPosition, double?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeResult ClosePosition(IPosition position, double? amount = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="Sparks.Trader.Api.IPosition.html">IPosition</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ClosePositionAsync_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ClosePositionAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ClosePositionAsync_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ClosePositionAsync(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})">
+  ClosePositionAsync(IPosition, double?, Action&lt;TradeResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ClosePositionAsync(IPosition position, double? amount = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="Sparks.Trader.Api.IPosition.html">IPosition</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ExecuteEntryOrderAsync_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ExecuteEntryOrderAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ExecuteEntryOrderAsync_Sparks_Trader_Api_ISymbol_System_Double_Sparks_Trader_Api_ETradeDirection_System_Double_System_Nullable_Sparks_Trader_Api_ETIF__System_String_System_Nullable_System_Double__System_Nullable_System_Double__System_Boolean_Sparks_Trader_Api_ETIF_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ExecuteEntryOrderAsync(Sparks.Trader.Api.ISymbol,System.Double,Sparks.Trader.Api.ETradeDirection,System.Double,System.Nullable{Sparks.Trader.Api.ETIF},System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean,Sparks.Trader.Api.ETIF)">
+  ExecuteEntryOrderAsync(ISymbol, double, ETradeDirection, double, ETIF?, string, double?, double?, bool, ETIF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TradeResult&gt; ExecuteEntryOrderAsync(ISymbol s, double amount, ETradeDirection tradeDirection, double price, ETIF? gtc = ETIF.GTC, string label = null, double? stop = null, double? limit = null, bool hasTrailingStop = false, ETIF tif = ETIF.GTC)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Sparks.Trader.Api.ISymbol.html">ISymbol</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>tradeDirection</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>gtc</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ExecuteMarketOrder_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ExecuteMarketOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ExecuteMarketOrder_Sparks_Trader_Api_ISymbol_System_Double_Sparks_Trader_Api_ETradeDirection_System_Nullable_Sparks_Trader_Api_ETIF__System_String_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Boolean_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ExecuteMarketOrder(Sparks.Trader.Api.ISymbol,System.Double,Sparks.Trader.Api.ETradeDirection,System.Nullable{Sparks.Trader.Api.ETIF},System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean)">
+  ExecuteMarketOrder(ISymbol, double, ETradeDirection, ETIF?, string, double?, double?, double?, double?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeResult ExecuteMarketOrder(ISymbol s, double amount, ETradeDirection tradeDirection, ETIF? gtc = ETIF.GTC, string label = null, double? stop = null, double? limit = null, double? marketRangePips = null, double? marketRangeBasePrice = null, bool hasTrailingStop = false)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Sparks.Trader.Api.ISymbol.html">ISymbol</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>tradeDirection</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>gtc</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>marketRangePips</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>marketRangeBasePrice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ExecuteMarketOrderAsync_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ExecuteMarketOrderAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ExecuteMarketOrderAsync_Sparks_Trader_Api_ISymbol_System_Double_Sparks_Trader_Api_ETradeDirection_System_Nullable_Sparks_Trader_Api_ETIF__System_String_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Boolean_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ExecuteMarketOrderAsync(Sparks.Trader.Api.ISymbol,System.Double,Sparks.Trader.Api.ETradeDirection,System.Nullable{Sparks.Trader.Api.ETIF},System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean,System.Action{Sparks.Trader.Api.TradeResult})">
+  ExecuteMarketOrderAsync(ISymbol, double, ETradeDirection, ETIF?, string, double?, double?, double?, double?, bool, Action&lt;TradeResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ExecuteMarketOrderAsync(ISymbol s, double amount, ETradeDirection tradeDirection, ETIF? gtc = ETIF.GTC, string label = null, double? stop = null, double? limit = null, double? marketRangePips = null, double? marketRangeBasePrice = null, bool hasTrailingStop = false, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Sparks.Trader.Api.ISymbol.html">ISymbol</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>tradeDirection</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>gtc</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>marketRangePips</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>marketRangeBasePrice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPendingOrder_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPendingOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPendingOrder_Sparks_Trader_Api_IOrder_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPendingOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean})">
+  ModifyPendingOrder(IOrder, double?, double?, ETIF?, double?, double?, double?, bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeResult ModifyPendingOrder(IOrder pendingOrder, double? amount = null, double? price = null, ETIF? gtc = null, double? stop = null, double? limit = null, double? stopLimitRangePips = null, bool? hasTrailingStop = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>pendingOrder</code> <a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>gtc</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLimitRangePips</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPendingOrderAsync_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPendingOrderAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPendingOrderAsync_Sparks_Trader_Api_IOrder_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPendingOrderAsync(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Action{Sparks.Trader.Api.TradeResult})">
+  ModifyPendingOrderAsync(IOrder, double?, double?, ETIF?, double?, double?, double?, bool?, Action&lt;TradeResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ModifyPendingOrderAsync(IOrder pendingOrder, double? amount = null, double? price = null, ETIF? gtc = null, double? stop = null, double? limit = null, double? stopLimitRangePips = null, bool? hasTrailingStop = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>pendingOrder</code> <a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>gtc</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLimitRangePips</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPosition_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPosition*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPosition_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__System_Nullable_System_Double__System_Boolean_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPosition(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean)">
+  ModifyPosition(IPosition, double?, double?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeResult ModifyPosition(IPosition position, double? stop, double? limit, bool hasTrailingStop = false)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="Sparks.Trader.Api.IPosition.html">IPosition</a></dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPositionAsync_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPositionAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_ModifyPositionAsync_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__System_Nullable_System_Double__System_Boolean_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.ModifyPositionAsync(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Nullable{System.Double},System.Boolean,System.Action{Sparks.Trader.Api.TradeResult})">
+  ModifyPositionAsync(IPosition, double?, double?, bool, Action&lt;TradeResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ModifyPositionAsync(IPosition position, double? stop, double? limit, bool hasTrailingStop = false, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="Sparks.Trader.Api.IPosition.html">IPosition</a></dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_PlaceLimitOrder_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.PlaceLimitOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_PlaceLimitOrder_Sparks_Trader_Api_ISymbol_System_Double_Sparks_Trader_Api_ETradeDirection_System_Double_System_Nullable_Sparks_Trader_Api_ETIF__System_String_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.PlaceLimitOrder(Sparks.Trader.Api.ISymbol,System.Double,Sparks.Trader.Api.ETradeDirection,System.Double,System.Nullable{Sparks.Trader.Api.ETIF},System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean})">
+  PlaceLimitOrder(ISymbol, double, ETradeDirection, double, ETIF?, string, double?, double?, bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeResult PlaceLimitOrder(ISymbol s, double amount, ETradeDirection tradeDirection, double price, ETIF? gtc = ETIF.GTC, string label = null, double? stop = null, double? limit = null, bool? hasTrailingStop = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Sparks.Trader.Api.ISymbol.html">ISymbol</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>tradeDirection</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>gtc</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ISpotTradingAccount_PlaceLimitOrderAsync_" data-uid="Sparks.Trader.Api.ISpotTradingAccount.PlaceLimitOrderAsync*"></a>
+
+  <h3 id="Sparks_Trader_Api_ISpotTradingAccount_PlaceLimitOrderAsync_Sparks_Trader_Api_ISymbol_System_Double_Sparks_Trader_Api_ETradeDirection_System_Double_System_Nullable_Sparks_Trader_Api_ETIF__System_String_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Boolean__System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.ISpotTradingAccount.PlaceLimitOrderAsync(Sparks.Trader.Api.ISymbol,System.Double,Sparks.Trader.Api.ETradeDirection,System.Double,System.Nullable{Sparks.Trader.Api.ETIF},System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Boolean},System.Action{Sparks.Trader.Api.TradeResult})">
+  PlaceLimitOrderAsync(ISymbol, double, ETradeDirection, double, ETIF?, string, double?, double?, bool?, Action&lt;TradeResult&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool PlaceLimitOrderAsync(ISymbol s, double amount, ETradeDirection tradeDirection, double price, ETIF? gtc = ETIF.GTC, string label = null, double? stop = null, double? limit = null, bool? hasTrailingStop = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Sparks.Trader.Api.ISymbol.html">ISymbol</a></dt>
+    <dd></dd>
+    <dt><code>amount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>tradeDirection</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>gtc</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>stop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>limit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>hasTrailingStop</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Trading/ISpotTradingAccount.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

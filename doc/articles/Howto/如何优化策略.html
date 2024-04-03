@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>如何优化策略 | SparksTrader文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="如何优化策略 | SparksTrader文档 ">
+      
+      <link rel="icon" href="../../../MyIcon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../MyIcon.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h2 id="如何优化策略">如何优化策略</h2>
+
+<p>在 cTrader 中，可以创建具有任意数量可影响其行为的可自定义参数的 cBot，例如订单保护级别或默认订单量。这就提出了一个问题：交易者如何准确地确定这些参数的最佳值。幸运的是，cTrader 提供了一个可以进行优化的内置工具，为交易者节省了宝贵的时间。</p>
+<p>在本用户指南中，我们重点关注用户如何优化其 cBot，并演示为什么 cBot 优化对于任何算法开发人员都至关重要。</p>
+<h3 id="cbot-优化如何工作-">cBot 优化如何工作 ¶</h3>
+<p>将优化视为一系列回测。每次回测“通过”都发生在相同的数据上，但对 cBot 中编码的任何参数使用不同的值。</p>
+<p>考虑一个 cBot，它可以对快/慢周期移动平均线穿过相反移动平均线（例如，快速移动平均线穿过慢速移动平均线）的情况做出反应。我们希望能够自定义 cBot 接收数据的快/慢周期数。</p>
+<p>因此，我们的 cBot 应具有以下两个参数。</p>
+<p>[Parameter(&quot;Slow Periods&quot;, Group = &quot;Moving Average&quot;, DefaultValue = 10)]
+public int SlowPeriods { get; set; }</p>
+<p>[Parameter(&quot;Fast Periods&quot;, Group = &quot;Moving Average&quot;, DefaultValue = 5)]
+public int FastPeriods { get; set; }</p>
+<p>为了定义“最佳”参数值，我们需要广泛测试 cBot 在各种市场条件下以及为上述两个参数指定不同值时的工作方式。如果我们手动执行这些测试，他们会花费大量时间而无法提供易于解释的结果集。</p>
+<p>幸运的是，我们可以让 cTrader 自动运行这些测试，并在得出结论时为我们提供某些参数值，使 cBot 能够实现最佳结果。此过程称为 cBot 优化。</p>
+<h3 id="如何访问-cbot-优化-">如何访问 cBot 优化 ¶</h3>
+<p>要访问 cBot 优化，请执行以下操作。</p>
+<p>首先，选择您想要优化的 cBot 实例。如有必要，可以通过单击“加号”图标并选择一个符号来创建新实例，或者在单击“三点”图标后打开的上下文菜单中选择“添加实例”。</p>
+<p>然后，切换到“回测”选项卡右侧的“优化”选项卡。此选项卡中的中央屏幕应如下所示。</p>
+<h3 id="如何配置优化设置和-cbot-参数-">如何配置优化设置和 cBot 参数 ¶</h3>
+<p>由于优化是一系列回测，因此您可以配置与常规回测相同的设置。为此，请单击“齿轮”图标并更改新打开的菜单中的值。</p>
+<p>要选择 cTrader 需要优化的确切参数，请单击“齿轮”图标右侧的“参数”按钮。</p>
+<p>在此小节中，启用或禁用每个参数名称左侧的标志，以在优化过程中包含/排除这些参数。请注意，无论配置如何，所有 cBot 都存在“时间范围”参数。</p>
+<p>我们希望通过优化来确定 cBot 在启动时考虑的慢速和快速周期的最佳值。然而，我们还不想尝试其他移动平均线类型。</p>
+<h3 id="如何定义优化标准和算法-">如何定义优化标准和算法 ¶</h3>
+<p>可以确定 cTrader 将使用哪些确切标准来在它将进行的回测过程中选择最佳参数值。</p>
+<p>为此，请单击“向上线”图标代表的“条件”按钮。您将看到以下部分。</p>
+<p>每个标准的设置包括两个菜单。在左侧菜单中，选择是否应最小化或最大化标准。在右侧的菜单中，从一组预定义选项中选择应最小化或最大化的标准。可以通过单击“添加标准”来添加新标准。</p>
+<p>在上面的屏幕截图中，我们希望 cTrader 最大化我们的净利润和 cBot 的获胜交易数量。同时，我们希望最大限度地减少最大股本提取百分比。</p>
+<p>为了简洁起见，本文不介绍自定义优化标准和 GetFitness() 方法。要了解有关它们的更多信息，请参阅我们的技术文档。</p>
+<p>要选择特定的优化算法，请单击“标准”按钮右侧的“算法”按钮。应打开以下小节。</p>
+<p>穷举搜索算法精度很高，但资源密集。当选择“网格”选项时，cTrader 创建所有可能参数值的网格，并运行测试它们所需的所有回测。虽然此过程很彻底，但可能需要一些时间。</p>
+<p>幸运的是，cTrader 包含“遗传算法”选项。该算法通过将每次传递视为个体、将 cBot 参数视为“基因”、将优化标准的拟合程度视为适应性来模拟自然选择。一旦检测到某些参数值的任何变化都会导致 cBot 有效性收益递减，遗传算法就会停止。</p>
+<p>由于遗传算法比穷举搜索占用的资源更少，同时仍能产生准确的结果，因此我们建议选择这种优化方法。</p>
+<h3 id="如何分配资源并执行-cbot-优化-">如何分配资源并执行 cBot 优化 ¶</h3>
+<p>要执行 cBot 优化，请选择 cTrader 将运行回溯测试的历史数据范围。为此，请使用“优化”选项卡顶部的日历滑块或其左侧和右侧的菜单。</p>
+<p>请注意，优化是一个资源密集型过程，可能需要一些时间才能完成。由于我们希望较快地收到结果，因此我们选择一年作为优化周期。</p>
+<p>cTrader 还允许确定分配给优化过程的 CPU 资源的准确百分比。要自定义此设置，请单击最左侧日历菜单左侧的“资源”按钮。</p>
+<p>在新出现的部分中，拖动滑块以增加或减少 CPU 消耗。</p>
+<p>完成资源分配后，您应该准备好继续优化。为此，请单击最右侧日历菜单右侧的“播放”按钮。 cTrader 加载历史数据后，您将看到实时添加到中央屏幕的优化过程。</p>
+<p>在网格顶部，您还将看到当前的通过次数、已用时间和剩余优化时间。</p>
+<p>任何已完成的通行证都将标有绿色复选标记。您的 cBot 到达停止位置的所有通道都将标有灰色复选标记。</p>
+<p>您可以保存和加载优化结果，这样您就可以在不同的设备上携带它们。要了解更多信息，请点击这里。</p>
+<h3 id="如何解释和应用优化结果-">如何解释和应用优化结果 ¶</h3>
+<p>在中央网格中，cTrader 将显示每次回测通过的多个指标，包括您的 cBot 已进行的获胜交易数量以及最大净值回撤百分比。</p>
+<p>特别值得注意的是“健身”列，显示每次通过的健身得分。将适应度分数视为评估传递最大化/最小化您选择的优化标准的程度的指标。健身得分越高，表明与这些标准的契合度越高。</p>
+<p>要快速选择健康得分最高的通行证，只需启用位于中央网格上方的“自动选择最佳通行证”标志即可。请注意，您可以在优化发生时启用“自动选择最佳通过”标志，cTrader 将动态搜索可能的最佳参数值。</p>
+<p>正如您在“健身”列中所看到的，与所有其他通道相比，第 33 号通道提供了最佳的健身得分。</p>
+<p>我们可以安全地单击第 33 步旁边的“应用”，此过程中使用的参数值将立即应用于我们的 cBot 实例。</p>
+<p>“慢周期”和“快周期”参数的默认值分别等于 10 和 5。</p>
+<p>与回溯测试的情况一样，“TradeWatch”显示将提供权益图表和详细的交易统计数据，总结我们的 cBot 在特定过程中所采取的操作。请注意，权益图表仅显示来自中央网格的 20 次最佳传球。</p>
+<p>稳步增加的“余额”和“净值”行只是强化了这样一个事实：第 33 遍为我们的 cBot 有效运行提供了必要的参数值。</p>
+<h3 id="概括-">概括 ¶</h3>
+<p>简而言之，cBot 优化是一个强大的工具，可确保您的自动交易顾问配置正确。我们强烈建议使用不同的标准进行多轮优化，以了解哪些参数值最适合您自己开发的或从其他开发人员处获得的 cBot。</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; sparkstrader.com
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

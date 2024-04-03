@@ -1,0 +1,2584 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Git/Sparks",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.AddressData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.AddressData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.AlertAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.AlertAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.AlertCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.AlertCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ChartDragEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ChartDragEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ChartKeyboardEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ChartKeyboardEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ChartMouseEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ChartMouseEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ChartMouseWheelEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ChartMouseWheelEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ChartPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ChartPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ChartScrollEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ChartScrollEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Constants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.DigitsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.DigitsAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.DirectoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.DirectoryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.DisallowInBacktesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.DisallowInBacktesting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAccessRights.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAccessRights.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertActionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertConditionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertFreq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertFreq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertSoundDuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertSoundDuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAlertTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EAxisLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EAxisLocation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EBarDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EBarDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EChartIconType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EChartIconType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EChartObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EChartObjectType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EChartType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EChartType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EConnectReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EConnectReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EConnectionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ECurrency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ECurrency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EDateTimeShowWay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EDateTimeShowWay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EDiffType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EDiffType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EDisconnectReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EDisconnectReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EDistrict.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EDistrict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EErrorCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EExchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EExchange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EExchangeSector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EExchangeSector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EExchangeStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EExchangeStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EExchangeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EExchangeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EHistoryInfoMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EHistoryInfoMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ELineStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ELineStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ELinkGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ELinkGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EMaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EMaType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EModifierKeys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EModifierKeys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EMouseButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EMouseButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EMouseButtonState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EMouseButtonState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ENatureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ENatureType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ENetworkFailureAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ENetworkFailureAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ENetworkRestoreAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ENetworkRestoreAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EOpenClose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EOpenClose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EOrderStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EOrderStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EOrderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EOrderType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EOutputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EOutputType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EPL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EPL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EPLPresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EPLPresentation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EPositionCloseReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EPositionCloseReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EPositionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EPositionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EPriceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EPriceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EProviderFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EProviderFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ERulerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ERulerType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ERuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ERuntime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EScriptRuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EScriptRuntime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EScriptState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EScriptState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EScriptStopReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EScriptStopReason.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EScriptType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EScriptType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ESource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ESource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ESubscriptionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ESubscriptionStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ESymbolType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ESymbolType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETIF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETIF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETextDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETextDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETextWrapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETextWrapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EThemeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EThemeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETickerDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETickerDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETimeAxisScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETimeAxisScale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETimeFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETimeFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETradeDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETradeDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ETradeErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ETradeErrorCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EWatchItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EWatchItemType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EmailAlertAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EmailAlertAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ExpandableObjectGetSetPropertyConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FiboLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FiboLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FileAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FileAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Fill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Fill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FillAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FillAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FillEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FillEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FontSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FontSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FontSpecAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FontSpecAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FontSpecEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FontSpecEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.FormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.FormatAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Gics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Gics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.GraphicsHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.GraphicsHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.HistoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.HistoryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.HistoryInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.HistoryInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IAlert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IAlert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IAlertEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IAlertEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IAlertEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IAlertEventManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IAlertManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IAlertManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IAnchoredText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IAnchoredText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IBars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IBars.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartCalenderAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartCalenderAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartEllipse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartEllipse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartIcon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartNote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartNote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartObjectBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartObjectBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartPriceAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartPriceAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartRectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartRectangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartShape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartTimeAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartTimeAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartTrades.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartTrades.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartTradingObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartTradingObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartTriangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartXAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartXAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartYAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IChartYAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IClosedPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IClosedPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IClosedTrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IClosedTrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ICompositePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ICompositePosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ICtpTick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ICtpTick.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IDatas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IDatas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IDaySession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IDaySession.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IDayTicks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IDayTicks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IEllipse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IEllipse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IExchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IExchange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IExchanges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IExchanges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IFibonacciRetracement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IFibonacciRetracement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IForexBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IForexBar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IForexBars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IForexBars.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IGroup-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IGroup-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IHorizontalLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IHorizontalLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IIndicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IIndicator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IIndicatorArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IIndicatorArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IIndicatorDatas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IIndicatorDatas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IIndicatorLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IIndicatorLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IMainArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IMainArea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IMarketDataManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IMarketDataManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IMarketDatas-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IMarketDatas-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IMarketDatas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IMarketDatas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IMovingAverage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IMovingAverage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IOrderBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IOrderBook.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IOrderLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IOrderLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IOrderLevels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IOrderLevels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IPendingOrders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IPendingOrders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IProviders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IRectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IRectangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IRuler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IRuler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ISource-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ISource-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ISource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ISource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ISpotTradingAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ISpotTradingAccount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ISymbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ISymbol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ISymbolInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ISymbolInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ISymbolInfos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ISymbolInfos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITick.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITimeAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITimeAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITimeValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITimeValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITimeValues-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITimeValues-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITimeValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITimeValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITimes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITimes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradeCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITradeCommon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradeLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITradeLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITraderApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITraderApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITrades.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITrades.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradingAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITradingAccount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradingAccountManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITradingAccountManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradingHours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITradingHours.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradingHoursManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITradingHoursManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradingSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITradingSession.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITrendLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITrendLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ITriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ITriangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IUserChartSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IUserChartSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IVerticalLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IVerticalLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IWatchItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IWatchItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IWatchlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IWatchlist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IWatchlists.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IWatchlists.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IndicatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IndicatorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.LimitOrderReq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.LimitOrderReq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.MarketLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.MarketLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.MarketOrderReq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.MarketOrderReq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.OrderBookEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.OrderBookEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.OrderReq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.OrderReq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.OutputAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.OutputAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.OutputTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.OutputTypeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ParameterAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.PopupAlertAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.PopupAlertAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.PropertyDefinitionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.PropertyDefinitionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Rtn-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Rtn-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Rtn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Rtn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ScriptAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ScriptAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Shadow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Shadow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ShadowEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ShadowEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.SoundAlertAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.SoundAlertAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.StatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.StatAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.StepAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.StepAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.StrategyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.StrategyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Stroke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Stroke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.StrokeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.StrokeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.StrokeEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.StrokeEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.SymbolAlertCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.SymbolAlertCondition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.SymbolContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.SymbolContract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.SymbolContractAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.SymbolContractAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.SymbolContractSearchAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.SymbolContractSearchAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.TextEditAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.TextEditAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.TimeFrameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.TimeFrameAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.TimeValuesEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.TimeValuesEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.TradeDirectionEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.TradeDirectionEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.TradeOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.TradeOperation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.TradeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.TradeResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.WarnAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.WarnAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Deploy/WindowsServer2019.assets/image-20240401153049429.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Deploy/WindowsServer2019.assets/image-20240401153049429.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Deploy/WindowsServer2019.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Deploy/WindowsServer2019.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Deploy/WindowsServer2019.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Deploy/WindowsServer2019.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Deploy/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Deploy/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何优化策略.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何优化策略.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何优化策略.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何优化策略.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何使用指标.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何使用指标.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何使用指标.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何使用指标.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何回测策略.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何在策略中使用指标.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何在策略中使用指标.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何在策略中使用指标.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何在策略中使用指标.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/IB.assets/image-20231207152633996.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/IB.assets/image-20231207152633996.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/IB.assets/image-20231207153137778.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/IB.assets/image-20231207153137778.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/IB.assets/image-20231207153310707.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/IB.assets/image-20231207153310707.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/IB.assets/image-20231207153627291.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/IB.assets/image-20231207153627291.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/IB.assets/image-20231207153839422.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/IB.assets/image-20231207153839422.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/IB.assets/image-20231207155908639.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/IB.assets/image-20231207155908639.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Provider/IB.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Provider/IB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/IB.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/IB.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Provider/Provider.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Provider/Provider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/Provider.md",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/Provider.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/toc.yml",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/toc.yml"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
