@@ -113,16 +113,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.Constants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.Constants.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.DigitsAttribute.yml",
       "output": {
         ".html": {
@@ -153,16 +143,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.EAccessRights.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.EAccessRights.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertActionType.yml",
       "output": {
         ".html": {
@@ -177,16 +157,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.EAlertConditionType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.EAlertFreq.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.EAlertFreq.html"
         }
       },
       "version": ""
@@ -563,16 +533,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.EOutputType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.EOutputType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.EPL.yml",
       "output": {
         ".html": {
@@ -587,6 +547,16 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.EPLPresentation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.EPlotType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.EPlotType.html"
         }
       },
       "version": ""
@@ -653,16 +623,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.EScriptRuntime.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.EScriptRuntime.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.EScriptState.yml",
       "output": {
         ".html": {
@@ -687,6 +647,16 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.EScriptType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ESoundType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ESoundType.html"
         }
       },
       "version": ""
@@ -767,16 +737,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.ETickerDirection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.ETimeAxisScale.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.ETimeAxisScale.html"
         }
       },
       "version": ""
@@ -877,16 +837,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.FillAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.FillEx.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.FillEx.html"
         }
       },
       "version": ""
@@ -1073,16 +1023,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartCalenderAxis.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.IChartCalenderAxis.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.IChartEllipse.yml",
       "output": {
         ".html": {
@@ -1137,26 +1077,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.IChartObjectBase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartPoint.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.IChartPoint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.IChartPriceAxis.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.IChartPriceAxis.html"
         }
       },
       "version": ""
@@ -1443,6 +1363,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.IIndicators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.IIndicators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.IMainArea.yml",
       "output": {
         ".html": {
@@ -1477,16 +1407,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.IMarketDatas.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.IMovingAverage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.IMovingAverage.html"
         }
       },
       "version": ""
@@ -1693,16 +1613,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.ITimeAxis.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.ITimeAxis.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.ITimeValue.yml",
       "output": {
         ".html": {
@@ -1823,16 +1733,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.ITradingHoursManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.ITradingHoursManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.ITradingSession.yml",
       "output": {
         ".html": {
@@ -1857,16 +1757,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.ITriangle.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.IUserChartSetting.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.IUserChartSetting.html"
         }
       },
       "version": ""
@@ -1923,10 +1813,240 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.LimitOrderReq.yml",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IATR.yml",
       "output": {
         ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.LimitOrderReq.html"
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IATR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IBB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IBB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IBIAS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IBIAS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.ICCI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.ICCI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.ICMI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.ICMI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IDC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IDC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IDMI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IDMI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IEMA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IEMA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IKDJ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IKDJ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IMACD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IMACD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IMAE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IMAE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IOBV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IOBV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IRSI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IRSI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.ISAR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.ISAR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IStDev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IStDev.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.ITriangularMA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.ITriangularMA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.ITypicalPrice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.ITypicalPrice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IVOL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IVOL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IWMA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IWMA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IWR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IWR.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IWilderMA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IWilderMA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.IZigZag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.IZigZag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Indicators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Indicators.html"
         }
       },
       "version": ""
@@ -1937,16 +2057,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.MarketLevel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.MarketOrderReq.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.MarketOrderReq.html"
         }
       },
       "version": ""
@@ -1983,20 +2093,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.OutputTypeAttribute.yml",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ParameterAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.OutputTypeAttribute.html"
+          "relative_path": "doc/api/Sparks.Trader.Api.ParameterAttribute.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.ParameterAttribute.yml",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.PlotTypeAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.ParameterAttribute.html"
+          "relative_path": "doc/api/Sparks.Trader.Api.PlotTypeAttribute.html"
         }
       },
       "version": ""
@@ -2272,16 +2382,6 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "doc/articles/Deploy/WindowsServer2019.md",
-      "output": {
-        "resource": {
-          "relative_path": "doc/articles/Deploy/WindowsServer2019.md"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "doc/articles/Deploy/WindowsServer2019.md",
       "output": {
@@ -2293,30 +2393,50 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Deploy/toc.yml",
+      "source_relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408163022258.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Deploy/toc.yml"
+          "relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408163022258.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Howto/toc.yml",
+      "source_relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408163210737.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Howto/toc.yml"
+          "relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408163210737.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Howto/如何优化策略.md",
+      "source_relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408185702476.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Howto/如何优化策略.md"
+          "relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408185702476.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408190124492.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何优化策略.assets/image-20240408190124492.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何优化策略.assets/屏幕截图 2024-04-08 190034.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何优化策略.assets/屏幕截图 2024-04-08 190034.png"
         }
       },
       "version": ""
@@ -2333,30 +2453,140 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Howto/如何使用指标.md",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161449486.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Howto/如何使用指标.md"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "doc/articles/Howto/如何使用指标.md",
-      "output": {
-        ".html": {
-          "relative_path": "doc/articles/Howto/如何使用指标.html"
+          "relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161449486.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Howto/如何创建一个策略.md",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161504185.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Howto/如何创建一个策略.md"
+          "relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161504185.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161532538.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161532538.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161634049.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161634049.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161737074.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407161737074.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407162228166.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407162228166.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407162331919.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何使用脚本.assets/image-20240407162331919.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何使用脚本.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何使用脚本.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240407190100671.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240407190100671.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152026096.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152026096.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152121601.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152121601.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152200163.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152200163.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152912705.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408152912705.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408153212023.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建一个策略.assets/image-20240408153212023.png"
         }
       },
       "version": ""
@@ -2373,10 +2603,130 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.md",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407163303426.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Howto/如何创建自定义指标.md"
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407163303426.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407163431877.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407163431877.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407164638152.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407164638152.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407173753330.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407173753330.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407173853978.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407173853978.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407174201465.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407174201465.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407174735497.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407174735497.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407175041612.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407175041612.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407175102076.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407175102076.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407180317210.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407180317210.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407180951755.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407180951755.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407181027659.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407181027659.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407181045426.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何创建自定义指标.assets/image-20240407181045426.png"
         }
       },
       "version": ""
@@ -2392,21 +2742,141 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "doc/articles/Howto/如何回测策略.md",
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163022258.png",
       "output": {
-        ".html": {
-          "relative_path": "doc/articles/Howto/如何回测策略.html"
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163022258.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Howto/如何回测策略.md",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163210737.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Howto/如何回测策略.md"
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163210737.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163517881.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163517881.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163620082.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163620082.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163936507.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408163936507.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408164104162.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408164104162.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408164147193.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408164147193.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408164611671.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408164611671.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408181730454.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408181730454.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408182752837.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408182752837.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408183018507.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408183018507.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408183027139.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408183027139.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408184122970.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Howto/如何回测策略.assets/image-20240408184122970.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Howto/如何回测策略.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Howto/如何回测策略.html"
         }
       },
       "version": ""
@@ -2423,10 +2893,80 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "doc/articles/Howto/如何在策略中使用指标.md",
+      "source_relative_path": "doc/articles/IDE/VisualStudio.assets/image-20240407182053328.png",
       "output": {
         "resource": {
-          "relative_path": "doc/articles/Howto/如何在策略中使用指标.md"
+          "relative_path": "doc/articles/IDE/VisualStudio.assets/image-20240407182053328.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/IDE/VisualStudio.assets/image-20240407182257863.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/IDE/VisualStudio.assets/image-20240407182257863.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/IDE/VisualStudio.assets/image-20240407184142189.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/IDE/VisualStudio.assets/image-20240407184142189.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/IDE/VisualStudio.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/IDE/VisualStudio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/IDE/VisualStudioCode.assets/image-20240407184501868.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/IDE/VisualStudioCode.assets/image-20240407184501868.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/IDE/VisualStudioCode.assets/image-20240407184529998.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/IDE/VisualStudioCode.assets/image-20240407184529998.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/IDE/VisualStudioCode.assets/image-20240407184746749.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/IDE/VisualStudioCode.assets/image-20240407184746749.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/IDE/VisualStudioCode.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/IDE/VisualStudioCode.html"
         }
       },
       "version": ""
@@ -2502,16 +3042,6 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "doc/articles/Provider/IB.md",
-      "output": {
-        "resource": {
-          "relative_path": "doc/articles/Provider/IB.md"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "doc/articles/Provider/Provider.md",
       "output": {
@@ -2522,41 +3052,21 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "doc/articles/Provider/Provider.md",
-      "output": {
-        "resource": {
-          "relative_path": "doc/articles/Provider/Provider.md"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "doc/articles/Provider/toc.yml",
-      "output": {
-        "resource": {
-          "relative_path": "doc/articles/Provider/toc.yml"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "doc/articles/toc.yml",
-      "output": {
-        "resource": {
-          "relative_path": "doc/articles/toc.yml"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "sparks.ico",
+      "output": {
+        "resource": {
+          "relative_path": "sparks.ico"
         }
       },
       "version": ""

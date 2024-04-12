@@ -93,15 +93,6 @@ references:
   fullName.vb: Sparks.Trader.Api.AlertAction.New()
   nameWithType: AlertAction.AlertAction()
   nameWithType.vb: AlertAction.New()
-- uid: Sparks.Trader.Api.AlertAction.#ctor(Sparks.Trader.Api.EAlertActionType)
-  name: AlertAction(EAlertActionType)
-  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction__ctor_Sparks_Trader_Api_EAlertActionType_
-  commentId: M:Sparks.Trader.Api.AlertAction.#ctor(Sparks.Trader.Api.EAlertActionType)
-  name.vb: New(EAlertActionType)
-  fullName: Sparks.Trader.Api.AlertAction.AlertAction(Sparks.Trader.Api.EAlertActionType)
-  fullName.vb: Sparks.Trader.Api.AlertAction.New(Sparks.Trader.Api.EAlertActionType)
-  nameWithType: AlertAction.AlertAction(EAlertActionType)
-  nameWithType.vb: AlertAction.New(EAlertActionType)
 - uid: Sparks.Trader.Api.AlertAction.#ctor*
   name: AlertAction
   href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction__ctor_
@@ -125,6 +116,96 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.AlertAction.ActionType
   nameWithType: AlertAction.ActionType
+- uid: Sparks.Trader.Api.AlertAction.AlertEvent
+  name: AlertEvent
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_AlertEvent
+  commentId: P:Sparks.Trader.Api.AlertAction.AlertEvent
+  fullName: Sparks.Trader.Api.AlertAction.AlertEvent
+  nameWithType: AlertAction.AlertEvent
+- uid: Sparks.Trader.Api.AlertAction.AlertEvent*
+  name: AlertEvent
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_AlertEvent_
+  commentId: Overload:Sparks.Trader.Api.AlertAction.AlertEvent
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.AlertAction.AlertEvent
+  nameWithType: AlertAction.AlertEvent
+- uid: Sparks.Trader.Api.AlertAction.Email(System.String,System.Collections.Generic.List{System.String})
+  name: Email(string, List<string>)
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Email_System_String_System_Collections_Generic_List_System_String__
+  commentId: M:Sparks.Trader.Api.AlertAction.Email(System.String,System.Collections.Generic.List{System.String})
+  name.vb: Email(String, List(Of String))
+  fullName: Sparks.Trader.Api.AlertAction.Email(string, System.Collections.Generic.List<string>)
+  fullName.vb: Sparks.Trader.Api.AlertAction.Email(String, System.Collections.Generic.List(Of String))
+  nameWithType: AlertAction.Email(string, List<string>)
+  nameWithType.vb: AlertAction.Email(String, List(Of String))
+- uid: Sparks.Trader.Api.AlertAction.Email*
+  name: Email
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Email_
+  commentId: Overload:Sparks.Trader.Api.AlertAction.Email
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.AlertAction.Email
+  nameWithType: AlertAction.Email
+- uid: Sparks.Trader.Api.AlertAction.Invoke
+  name: Invoke()
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Invoke
+  commentId: M:Sparks.Trader.Api.AlertAction.Invoke
+  fullName: Sparks.Trader.Api.AlertAction.Invoke()
+  nameWithType: AlertAction.Invoke()
+- uid: Sparks.Trader.Api.AlertAction.Invoke*
+  name: Invoke
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Invoke_
+  commentId: Overload:Sparks.Trader.Api.AlertAction.Invoke
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.AlertAction.Invoke
+  nameWithType: AlertAction.Invoke
+- uid: Sparks.Trader.Api.AlertAction.Popup
+  name: Popup()
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Popup
+  commentId: M:Sparks.Trader.Api.AlertAction.Popup
+  fullName: Sparks.Trader.Api.AlertAction.Popup()
+  nameWithType: AlertAction.Popup()
+- uid: Sparks.Trader.Api.AlertAction.Popup*
+  name: Popup
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Popup_
+  commentId: Overload:Sparks.Trader.Api.AlertAction.Popup
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.AlertAction.Popup
+  nameWithType: AlertAction.Popup
+- uid: Sparks.Trader.Api.AlertAction.Sound(Sparks.Trader.Api.ESoundType,Sparks.Trader.Api.EAlertSoundDuration)
+  name: Sound(ESoundType, EAlertSoundDuration)
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Sound_Sparks_Trader_Api_ESoundType_Sparks_Trader_Api_EAlertSoundDuration_
+  commentId: M:Sparks.Trader.Api.AlertAction.Sound(Sparks.Trader.Api.ESoundType,Sparks.Trader.Api.EAlertSoundDuration)
+  fullName: Sparks.Trader.Api.AlertAction.Sound(Sparks.Trader.Api.ESoundType, Sparks.Trader.Api.EAlertSoundDuration)
+  nameWithType: AlertAction.Sound(ESoundType, EAlertSoundDuration)
+- uid: Sparks.Trader.Api.AlertAction.Sound(System.String,Sparks.Trader.Api.EAlertSoundDuration)
+  name: Sound(string, EAlertSoundDuration)
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Sound_System_String_Sparks_Trader_Api_EAlertSoundDuration_
+  commentId: M:Sparks.Trader.Api.AlertAction.Sound(System.String,Sparks.Trader.Api.EAlertSoundDuration)
+  name.vb: Sound(String, EAlertSoundDuration)
+  fullName: Sparks.Trader.Api.AlertAction.Sound(string, Sparks.Trader.Api.EAlertSoundDuration)
+  fullName.vb: Sparks.Trader.Api.AlertAction.Sound(String, Sparks.Trader.Api.EAlertSoundDuration)
+  nameWithType: AlertAction.Sound(string, EAlertSoundDuration)
+  nameWithType.vb: AlertAction.Sound(String, EAlertSoundDuration)
+- uid: Sparks.Trader.Api.AlertAction.Sound*
+  name: Sound
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Sound_
+  commentId: Overload:Sparks.Trader.Api.AlertAction.Sound
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.AlertAction.Sound
+  nameWithType: AlertAction.Sound
+- uid: Sparks.Trader.Api.AlertAction.Stop
+  name: Stop()
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Stop
+  commentId: M:Sparks.Trader.Api.AlertAction.Stop
+  fullName: Sparks.Trader.Api.AlertAction.Stop()
+  nameWithType: AlertAction.Stop()
+- uid: Sparks.Trader.Api.AlertAction.Stop*
+  name: Stop
+  href: doc/api/Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Stop_
+  commentId: Overload:Sparks.Trader.Api.AlertAction.Stop
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.AlertAction.Stop
+  nameWithType: AlertAction.Stop
 - uid: Sparks.Trader.Api.AlertCondition
   name: AlertCondition
   href: doc/api/Sparks.Trader.Api.AlertCondition.html
@@ -728,24 +809,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ChartScrollEventArgs.TopYDelta
   nameWithType: ChartScrollEventArgs.TopYDelta
-- uid: Sparks.Trader.Api.Constants
-  name: Constants
-  href: doc/api/Sparks.Trader.Api.Constants.html
-  commentId: T:Sparks.Trader.Api.Constants
-  fullName: Sparks.Trader.Api.Constants
-  nameWithType: Constants
-- uid: Sparks.Trader.Api.Constants.DatetimeDefault
-  name: DatetimeDefault
-  href: doc/api/Sparks.Trader.Api.Constants.html#Sparks_Trader_Api_Constants_DatetimeDefault
-  commentId: F:Sparks.Trader.Api.Constants.DatetimeDefault
-  fullName: Sparks.Trader.Api.Constants.DatetimeDefault
-  nameWithType: Constants.DatetimeDefault
-- uid: Sparks.Trader.Api.Constants.DoubleDefault
-  name: DoubleDefault
-  href: doc/api/Sparks.Trader.Api.Constants.html#Sparks_Trader_Api_Constants_DoubleDefault
-  commentId: F:Sparks.Trader.Api.Constants.DoubleDefault
-  fullName: Sparks.Trader.Api.Constants.DoubleDefault
-  nameWithType: Constants.DoubleDefault
 - uid: Sparks.Trader.Api.DigitsAttribute
   name: DigitsAttribute
   href: doc/api/Sparks.Trader.Api.DigitsAttribute.html
@@ -796,42 +859,6 @@ references:
   commentId: T:Sparks.Trader.Api.DisallowInBacktesting
   fullName: Sparks.Trader.Api.DisallowInBacktesting
   nameWithType: DisallowInBacktesting
-- uid: Sparks.Trader.Api.EAccessRights
-  name: EAccessRights
-  href: doc/api/Sparks.Trader.Api.EAccessRights.html
-  commentId: T:Sparks.Trader.Api.EAccessRights
-  fullName: Sparks.Trader.Api.EAccessRights
-  nameWithType: EAccessRights
-- uid: Sparks.Trader.Api.EAccessRights.FileSystem
-  name: FileSystem
-  href: doc/api/Sparks.Trader.Api.EAccessRights.html#Sparks_Trader_Api_EAccessRights_FileSystem
-  commentId: F:Sparks.Trader.Api.EAccessRights.FileSystem
-  fullName: Sparks.Trader.Api.EAccessRights.FileSystem
-  nameWithType: EAccessRights.FileSystem
-- uid: Sparks.Trader.Api.EAccessRights.FullAccess
-  name: FullAccess
-  href: doc/api/Sparks.Trader.Api.EAccessRights.html#Sparks_Trader_Api_EAccessRights_FullAccess
-  commentId: F:Sparks.Trader.Api.EAccessRights.FullAccess
-  fullName: Sparks.Trader.Api.EAccessRights.FullAccess
-  nameWithType: EAccessRights.FullAccess
-- uid: Sparks.Trader.Api.EAccessRights.Internet
-  name: Internet
-  href: doc/api/Sparks.Trader.Api.EAccessRights.html#Sparks_Trader_Api_EAccessRights_Internet
-  commentId: F:Sparks.Trader.Api.EAccessRights.Internet
-  fullName: Sparks.Trader.Api.EAccessRights.Internet
-  nameWithType: EAccessRights.Internet
-- uid: Sparks.Trader.Api.EAccessRights.None
-  name: None
-  href: doc/api/Sparks.Trader.Api.EAccessRights.html#Sparks_Trader_Api_EAccessRights_None
-  commentId: F:Sparks.Trader.Api.EAccessRights.None
-  fullName: Sparks.Trader.Api.EAccessRights.None
-  nameWithType: EAccessRights.None
-- uid: Sparks.Trader.Api.EAccessRights.Registry
-  name: Registry
-  href: doc/api/Sparks.Trader.Api.EAccessRights.html#Sparks_Trader_Api_EAccessRights_Registry
-  commentId: F:Sparks.Trader.Api.EAccessRights.Registry
-  fullName: Sparks.Trader.Api.EAccessRights.Registry
-  nameWithType: EAccessRights.Registry
 - uid: Sparks.Trader.Api.EAlertActionType
   name: EAlertActionType
   href: doc/api/Sparks.Trader.Api.EAlertActionType.html
@@ -880,36 +907,6 @@ references:
   commentId: F:Sparks.Trader.Api.EAlertConditionType.CrossingUp
   fullName: Sparks.Trader.Api.EAlertConditionType.CrossingUp
   nameWithType: EAlertConditionType.CrossingUp
-- uid: Sparks.Trader.Api.EAlertFreq
-  name: EAlertFreq
-  href: doc/api/Sparks.Trader.Api.EAlertFreq.html
-  commentId: T:Sparks.Trader.Api.EAlertFreq
-  fullName: Sparks.Trader.Api.EAlertFreq
-  nameWithType: EAlertFreq
-- uid: Sparks.Trader.Api.EAlertFreq.OncePerBar
-  name: OncePerBar
-  href: doc/api/Sparks.Trader.Api.EAlertFreq.html#Sparks_Trader_Api_EAlertFreq_OncePerBar
-  commentId: F:Sparks.Trader.Api.EAlertFreq.OncePerBar
-  fullName: Sparks.Trader.Api.EAlertFreq.OncePerBar
-  nameWithType: EAlertFreq.OncePerBar
-- uid: Sparks.Trader.Api.EAlertFreq.OncePerBarClose
-  name: OncePerBarClose
-  href: doc/api/Sparks.Trader.Api.EAlertFreq.html#Sparks_Trader_Api_EAlertFreq_OncePerBarClose
-  commentId: F:Sparks.Trader.Api.EAlertFreq.OncePerBarClose
-  fullName: Sparks.Trader.Api.EAlertFreq.OncePerBarClose
-  nameWithType: EAlertFreq.OncePerBarClose
-- uid: Sparks.Trader.Api.EAlertFreq.OncePerMinute
-  name: OncePerMinute
-  href: doc/api/Sparks.Trader.Api.EAlertFreq.html#Sparks_Trader_Api_EAlertFreq_OncePerMinute
-  commentId: F:Sparks.Trader.Api.EAlertFreq.OncePerMinute
-  fullName: Sparks.Trader.Api.EAlertFreq.OncePerMinute
-  nameWithType: EAlertFreq.OncePerMinute
-- uid: Sparks.Trader.Api.EAlertFreq.OnlyOnce
-  name: OnlyOnce
-  href: doc/api/Sparks.Trader.Api.EAlertFreq.html#Sparks_Trader_Api_EAlertFreq_OnlyOnce
-  commentId: F:Sparks.Trader.Api.EAlertFreq.OnlyOnce
-  fullName: Sparks.Trader.Api.EAlertFreq.OnlyOnce
-  nameWithType: EAlertFreq.OnlyOnce
 - uid: Sparks.Trader.Api.EAlertLevel
   name: EAlertLevel
   href: doc/api/Sparks.Trader.Api.EAlertLevel.html
@@ -940,6 +937,12 @@ references:
   commentId: T:Sparks.Trader.Api.EAlertSoundDuration
   fullName: Sparks.Trader.Api.EAlertSoundDuration
   nameWithType: EAlertSoundDuration
+- uid: Sparks.Trader.Api.EAlertSoundDuration.Forever
+  name: Forever
+  href: doc/api/Sparks.Trader.Api.EAlertSoundDuration.html#Sparks_Trader_Api_EAlertSoundDuration_Forever
+  commentId: F:Sparks.Trader.Api.EAlertSoundDuration.Forever
+  fullName: Sparks.Trader.Api.EAlertSoundDuration.Forever
+  nameWithType: EAlertSoundDuration.Forever
 - uid: Sparks.Trader.Api.EAlertSoundDuration.M1
   name: M1
   href: doc/api/Sparks.Trader.Api.EAlertSoundDuration.html#Sparks_Trader_Api_EAlertSoundDuration_M1
@@ -3556,60 +3559,6 @@ references:
   commentId: F:Sparks.Trader.Api.EOrderType.Unknown
   fullName: Sparks.Trader.Api.EOrderType.Unknown
   nameWithType: EOrderType.Unknown
-- uid: Sparks.Trader.Api.EOutputType
-  name: EOutputType
-  href: doc/api/Sparks.Trader.Api.EOutputType.html
-  commentId: T:Sparks.Trader.Api.EOutputType
-  fullName: Sparks.Trader.Api.EOutputType
-  nameWithType: EOutputType
-- uid: Sparks.Trader.Api.EOutputType.Area
-  name: Area
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_Area
-  commentId: F:Sparks.Trader.Api.EOutputType.Area
-  fullName: Sparks.Trader.Api.EOutputType.Area
-  nameWithType: EOutputType.Area
-- uid: Sparks.Trader.Api.EOutputType.AreaWithBreaks
-  name: AreaWithBreaks
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_AreaWithBreaks
-  commentId: F:Sparks.Trader.Api.EOutputType.AreaWithBreaks
-  fullName: Sparks.Trader.Api.EOutputType.AreaWithBreaks
-  nameWithType: EOutputType.AreaWithBreaks
-- uid: Sparks.Trader.Api.EOutputType.Circles
-  name: Circles
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_Circles
-  commentId: F:Sparks.Trader.Api.EOutputType.Circles
-  fullName: Sparks.Trader.Api.EOutputType.Circles
-  nameWithType: EOutputType.Circles
-- uid: Sparks.Trader.Api.EOutputType.Columns
-  name: Columns
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_Columns
-  commentId: F:Sparks.Trader.Api.EOutputType.Columns
-  fullName: Sparks.Trader.Api.EOutputType.Columns
-  nameWithType: EOutputType.Columns
-- uid: Sparks.Trader.Api.EOutputType.Cross
-  name: Cross
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_Cross
-  commentId: F:Sparks.Trader.Api.EOutputType.Cross
-  fullName: Sparks.Trader.Api.EOutputType.Cross
-  nameWithType: EOutputType.Cross
-- uid: Sparks.Trader.Api.EOutputType.Histogram
-  name: Histogram
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_Histogram
-  commentId: F:Sparks.Trader.Api.EOutputType.Histogram
-  fullName: Sparks.Trader.Api.EOutputType.Histogram
-  nameWithType: EOutputType.Histogram
-- uid: Sparks.Trader.Api.EOutputType.Line
-  name: Line
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_Line
-  commentId: F:Sparks.Trader.Api.EOutputType.Line
-  fullName: Sparks.Trader.Api.EOutputType.Line
-  nameWithType: EOutputType.Line
-- uid: Sparks.Trader.Api.EOutputType.LineWithBreaks
-  name: LineWithBreaks
-  href: doc/api/Sparks.Trader.Api.EOutputType.html#Sparks_Trader_Api_EOutputType_LineWithBreaks
-  commentId: F:Sparks.Trader.Api.EOutputType.LineWithBreaks
-  fullName: Sparks.Trader.Api.EOutputType.LineWithBreaks
-  nameWithType: EOutputType.LineWithBreaks
 - uid: Sparks.Trader.Api.EPL
   name: EPL
   href: doc/api/Sparks.Trader.Api.EPL.html
@@ -3640,6 +3589,60 @@ references:
   commentId: F:Sparks.Trader.Api.EPL.Unknown
   fullName: Sparks.Trader.Api.EPL.Unknown
   nameWithType: EPL.Unknown
+- uid: Sparks.Trader.Api.EPlotType
+  name: EPlotType
+  href: doc/api/Sparks.Trader.Api.EPlotType.html
+  commentId: T:Sparks.Trader.Api.EPlotType
+  fullName: Sparks.Trader.Api.EPlotType
+  nameWithType: EPlotType
+- uid: Sparks.Trader.Api.EPlotType.Area
+  name: Area
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_Area
+  commentId: F:Sparks.Trader.Api.EPlotType.Area
+  fullName: Sparks.Trader.Api.EPlotType.Area
+  nameWithType: EPlotType.Area
+- uid: Sparks.Trader.Api.EPlotType.AreaWithBreaks
+  name: AreaWithBreaks
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_AreaWithBreaks
+  commentId: F:Sparks.Trader.Api.EPlotType.AreaWithBreaks
+  fullName: Sparks.Trader.Api.EPlotType.AreaWithBreaks
+  nameWithType: EPlotType.AreaWithBreaks
+- uid: Sparks.Trader.Api.EPlotType.Circles
+  name: Circles
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_Circles
+  commentId: F:Sparks.Trader.Api.EPlotType.Circles
+  fullName: Sparks.Trader.Api.EPlotType.Circles
+  nameWithType: EPlotType.Circles
+- uid: Sparks.Trader.Api.EPlotType.Columns
+  name: Columns
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_Columns
+  commentId: F:Sparks.Trader.Api.EPlotType.Columns
+  fullName: Sparks.Trader.Api.EPlotType.Columns
+  nameWithType: EPlotType.Columns
+- uid: Sparks.Trader.Api.EPlotType.Cross
+  name: Cross
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_Cross
+  commentId: F:Sparks.Trader.Api.EPlotType.Cross
+  fullName: Sparks.Trader.Api.EPlotType.Cross
+  nameWithType: EPlotType.Cross
+- uid: Sparks.Trader.Api.EPlotType.Histogram
+  name: Histogram
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_Histogram
+  commentId: F:Sparks.Trader.Api.EPlotType.Histogram
+  fullName: Sparks.Trader.Api.EPlotType.Histogram
+  nameWithType: EPlotType.Histogram
+- uid: Sparks.Trader.Api.EPlotType.Line
+  name: Line
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_Line
+  commentId: F:Sparks.Trader.Api.EPlotType.Line
+  fullName: Sparks.Trader.Api.EPlotType.Line
+  nameWithType: EPlotType.Line
+- uid: Sparks.Trader.Api.EPlotType.LineWithBreaks
+  name: LineWithBreaks
+  href: doc/api/Sparks.Trader.Api.EPlotType.html#Sparks_Trader_Api_EPlotType_LineWithBreaks
+  commentId: F:Sparks.Trader.Api.EPlotType.LineWithBreaks
+  fullName: Sparks.Trader.Api.EPlotType.LineWithBreaks
+  nameWithType: EPlotType.LineWithBreaks
 - uid: Sparks.Trader.Api.EPLPresentation
   name: EPLPresentation
   href: doc/api/Sparks.Trader.Api.EPLPresentation.html
@@ -3904,36 +3907,6 @@ references:
   commentId: F:Sparks.Trader.Api.ERuntime.VisualBackTesting
   fullName: Sparks.Trader.Api.ERuntime.VisualBackTesting
   nameWithType: ERuntime.VisualBackTesting
-- uid: Sparks.Trader.Api.EScriptRuntime
-  name: EScriptRuntime
-  href: doc/api/Sparks.Trader.Api.EScriptRuntime.html
-  commentId: T:Sparks.Trader.Api.EScriptRuntime
-  fullName: Sparks.Trader.Api.EScriptRuntime
-  nameWithType: EScriptRuntime
-- uid: Sparks.Trader.Api.EScriptRuntime.Live
-  name: Live
-  href: doc/api/Sparks.Trader.Api.EScriptRuntime.html#Sparks_Trader_Api_EScriptRuntime_Live
-  commentId: F:Sparks.Trader.Api.EScriptRuntime.Live
-  fullName: Sparks.Trader.Api.EScriptRuntime.Live
-  nameWithType: EScriptRuntime.Live
-- uid: Sparks.Trader.Api.EScriptRuntime.Optimization
-  name: Optimization
-  href: doc/api/Sparks.Trader.Api.EScriptRuntime.html#Sparks_Trader_Api_EScriptRuntime_Optimization
-  commentId: F:Sparks.Trader.Api.EScriptRuntime.Optimization
-  fullName: Sparks.Trader.Api.EScriptRuntime.Optimization
-  nameWithType: EScriptRuntime.Optimization
-- uid: Sparks.Trader.Api.EScriptRuntime.SilentBackTesting
-  name: SilentBackTesting
-  href: doc/api/Sparks.Trader.Api.EScriptRuntime.html#Sparks_Trader_Api_EScriptRuntime_SilentBackTesting
-  commentId: F:Sparks.Trader.Api.EScriptRuntime.SilentBackTesting
-  fullName: Sparks.Trader.Api.EScriptRuntime.SilentBackTesting
-  nameWithType: EScriptRuntime.SilentBackTesting
-- uid: Sparks.Trader.Api.EScriptRuntime.VisualBackTesting
-  name: VisualBackTesting
-  href: doc/api/Sparks.Trader.Api.EScriptRuntime.html#Sparks_Trader_Api_EScriptRuntime_VisualBackTesting
-  commentId: F:Sparks.Trader.Api.EScriptRuntime.VisualBackTesting
-  fullName: Sparks.Trader.Api.EScriptRuntime.VisualBackTesting
-  nameWithType: EScriptRuntime.VisualBackTesting
 - uid: Sparks.Trader.Api.EScriptState
   name: EScriptState
   href: doc/api/Sparks.Trader.Api.EScriptState.html
@@ -4000,6 +3973,36 @@ references:
   commentId: F:Sparks.Trader.Api.EScriptType.Strategy
   fullName: Sparks.Trader.Api.EScriptType.Strategy
   nameWithType: EScriptType.Strategy
+- uid: Sparks.Trader.Api.ESoundType
+  name: ESoundType
+  href: doc/api/Sparks.Trader.Api.ESoundType.html
+  commentId: T:Sparks.Trader.Api.ESoundType
+  fullName: Sparks.Trader.Api.ESoundType
+  nameWithType: ESoundType
+- uid: Sparks.Trader.Api.ESoundType.Alert
+  name: Alert
+  href: doc/api/Sparks.Trader.Api.ESoundType.html#Sparks_Trader_Api_ESoundType_Alert
+  commentId: F:Sparks.Trader.Api.ESoundType.Alert
+  fullName: Sparks.Trader.Api.ESoundType.Alert
+  nameWithType: ESoundType.Alert
+- uid: Sparks.Trader.Api.ESoundType.Custom
+  name: Custom
+  href: doc/api/Sparks.Trader.Api.ESoundType.html#Sparks_Trader_Api_ESoundType_Custom
+  commentId: F:Sparks.Trader.Api.ESoundType.Custom
+  fullName: Sparks.Trader.Api.ESoundType.Custom
+  nameWithType: ESoundType.Custom
+- uid: Sparks.Trader.Api.ESoundType.Error
+  name: Error
+  href: doc/api/Sparks.Trader.Api.ESoundType.html#Sparks_Trader_Api_ESoundType_Error
+  commentId: F:Sparks.Trader.Api.ESoundType.Error
+  fullName: Sparks.Trader.Api.ESoundType.Error
+  nameWithType: ESoundType.Error
+- uid: Sparks.Trader.Api.ESoundType.Notification
+  name: Notification
+  href: doc/api/Sparks.Trader.Api.ESoundType.html#Sparks_Trader_Api_ESoundType_Notification
+  commentId: F:Sparks.Trader.Api.ESoundType.Notification
+  fullName: Sparks.Trader.Api.ESoundType.Notification
+  nameWithType: ESoundType.Notification
 - uid: Sparks.Trader.Api.ESource
   name: ESource
   href: doc/api/Sparks.Trader.Api.ESource.html
@@ -4312,180 +4315,6 @@ references:
   commentId: F:Sparks.Trader.Api.ETIF.Unknown
   fullName: Sparks.Trader.Api.ETIF.Unknown
   nameWithType: ETIF.Unknown
-- uid: Sparks.Trader.Api.ETimeAxisScale
-  name: ETimeAxisScale
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html
-  commentId: T:Sparks.Trader.Api.ETimeAxisScale
-  fullName: Sparks.Trader.Api.ETimeAxisScale
-  nameWithType: ETimeAxisScale
-- uid: Sparks.Trader.Api.ETimeAxisScale.D1
-  name: D1
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_D1
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.D1
-  fullName: Sparks.Trader.Api.ETimeAxisScale.D1
-  nameWithType: ETimeAxisScale.D1
-- uid: Sparks.Trader.Api.ETimeAxisScale.D10
-  name: D10
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_D10
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.D10
-  fullName: Sparks.Trader.Api.ETimeAxisScale.D10
-  nameWithType: ETimeAxisScale.D10
-- uid: Sparks.Trader.Api.ETimeAxisScale.D15
-  name: D15
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_D15
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.D15
-  fullName: Sparks.Trader.Api.ETimeAxisScale.D15
-  nameWithType: ETimeAxisScale.D15
-- uid: Sparks.Trader.Api.ETimeAxisScale.D2
-  name: D2
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_D2
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.D2
-  fullName: Sparks.Trader.Api.ETimeAxisScale.D2
-  nameWithType: ETimeAxisScale.D2
-- uid: Sparks.Trader.Api.ETimeAxisScale.D5
-  name: D5
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_D5
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.D5
-  fullName: Sparks.Trader.Api.ETimeAxisScale.D5
-  nameWithType: ETimeAxisScale.D5
-- uid: Sparks.Trader.Api.ETimeAxisScale.H1
-  name: H1
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_H1
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.H1
-  fullName: Sparks.Trader.Api.ETimeAxisScale.H1
-  nameWithType: ETimeAxisScale.H1
-- uid: Sparks.Trader.Api.ETimeAxisScale.H12
-  name: H12
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_H12
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.H12
-  fullName: Sparks.Trader.Api.ETimeAxisScale.H12
-  nameWithType: ETimeAxisScale.H12
-- uid: Sparks.Trader.Api.ETimeAxisScale.H2
-  name: H2
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_H2
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.H2
-  fullName: Sparks.Trader.Api.ETimeAxisScale.H2
-  nameWithType: ETimeAxisScale.H2
-- uid: Sparks.Trader.Api.ETimeAxisScale.H4
-  name: H4
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_H4
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.H4
-  fullName: Sparks.Trader.Api.ETimeAxisScale.H4
-  nameWithType: ETimeAxisScale.H4
-- uid: Sparks.Trader.Api.ETimeAxisScale.H6
-  name: H6
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_H6
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.H6
-  fullName: Sparks.Trader.Api.ETimeAxisScale.H6
-  nameWithType: ETimeAxisScale.H6
-- uid: Sparks.Trader.Api.ETimeAxisScale.M1
-  name: M1
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_M1
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.M1
-  fullName: Sparks.Trader.Api.ETimeAxisScale.M1
-  nameWithType: ETimeAxisScale.M1
-- uid: Sparks.Trader.Api.ETimeAxisScale.M10
-  name: M10
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_M10
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.M10
-  fullName: Sparks.Trader.Api.ETimeAxisScale.M10
-  nameWithType: ETimeAxisScale.M10
-- uid: Sparks.Trader.Api.ETimeAxisScale.M15
-  name: M15
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_M15
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.M15
-  fullName: Sparks.Trader.Api.ETimeAxisScale.M15
-  nameWithType: ETimeAxisScale.M15
-- uid: Sparks.Trader.Api.ETimeAxisScale.M30
-  name: M30
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_M30
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.M30
-  fullName: Sparks.Trader.Api.ETimeAxisScale.M30
-  nameWithType: ETimeAxisScale.M30
-- uid: Sparks.Trader.Api.ETimeAxisScale.M5
-  name: M5
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_M5
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.M5
-  fullName: Sparks.Trader.Api.ETimeAxisScale.M5
-  nameWithType: ETimeAxisScale.M5
-- uid: Sparks.Trader.Api.ETimeAxisScale.Mn1
-  name: Mn1
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Mn1
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Mn1
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Mn1
-  nameWithType: ETimeAxisScale.Mn1
-- uid: Sparks.Trader.Api.ETimeAxisScale.Mn4
-  name: Mn4
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Mn4
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Mn4
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Mn4
-  nameWithType: ETimeAxisScale.Mn4
-- uid: Sparks.Trader.Api.ETimeAxisScale.Mn6
-  name: Mn6
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Mn6
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Mn6
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Mn6
-  nameWithType: ETimeAxisScale.Mn6
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y1
-  name: Y1
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y1
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y1
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y1
-  nameWithType: ETimeAxisScale.Y1
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y10
-  name: Y10
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y10
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y10
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y10
-  nameWithType: ETimeAxisScale.Y10
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y100
-  name: Y100
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y100
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y100
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y100
-  nameWithType: ETimeAxisScale.Y100
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y1000
-  name: Y1000
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y1000
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y1000
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y1000
-  nameWithType: ETimeAxisScale.Y1000
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y2
-  name: Y2
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y2
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y2
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y2
-  nameWithType: ETimeAxisScale.Y2
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y20
-  name: Y20
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y20
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y20
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y20
-  nameWithType: ETimeAxisScale.Y20
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y200
-  name: Y200
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y200
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y200
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y200
-  nameWithType: ETimeAxisScale.Y200
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y5
-  name: Y5
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y5
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y5
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y5
-  nameWithType: ETimeAxisScale.Y5
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y50
-  name: Y50
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y50
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y50
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y50
-  nameWithType: ETimeAxisScale.Y50
-- uid: Sparks.Trader.Api.ETimeAxisScale.Y500
-  name: Y500
-  href: doc/api/Sparks.Trader.Api.ETimeAxisScale.html#Sparks_Trader_Api_ETimeAxisScale_Y500
-  commentId: F:Sparks.Trader.Api.ETimeAxisScale.Y500
-  fullName: Sparks.Trader.Api.ETimeAxisScale.Y500
-  nameWithType: ETimeAxisScale.Y500
 - uid: Sparks.Trader.Api.ETimeFrame
   name: ETimeFrame
   href: doc/api/Sparks.Trader.Api.ETimeFrame.html
@@ -5191,31 +5020,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.FillAttribute.Value
   nameWithType: FillAttribute.Value
-- uid: Sparks.Trader.Api.FillEx
-  name: FillEx
-  href: doc/api/Sparks.Trader.Api.FillEx.html
-  commentId: T:Sparks.Trader.Api.FillEx
-  fullName: Sparks.Trader.Api.FillEx
-  nameWithType: FillEx
-- uid: Sparks.Trader.Api.FillEx.Apply(Microsoft.Maui.Graphics.ICanvas,Sparks.Trader.Api.Fill,System.Nullable{Microsoft.Maui.Graphics.Rect})
-  name: Apply(ICanvas, Fill, Rect?)
-  href: doc/api/Sparks.Trader.Api.FillEx.html#Sparks_Trader_Api_FillEx_Apply_Microsoft_Maui_Graphics_ICanvas_Sparks_Trader_Api_Fill_System_Nullable_Microsoft_Maui_Graphics_Rect__
-  commentId: M:Sparks.Trader.Api.FillEx.Apply(Microsoft.Maui.Graphics.ICanvas,Sparks.Trader.Api.Fill,System.Nullable{Microsoft.Maui.Graphics.Rect})
-  fullName: Sparks.Trader.Api.FillEx.Apply(Microsoft.Maui.Graphics.ICanvas, Sparks.Trader.Api.Fill, Microsoft.Maui.Graphics.Rect?)
-  nameWithType: FillEx.Apply(ICanvas, Fill, Rect?)
-- uid: Sparks.Trader.Api.FillEx.Apply(Sparks.Trader.Api.Fill,Sparks.Trader.Api.FillAttribute)
-  name: Apply(Fill, FillAttribute)
-  href: doc/api/Sparks.Trader.Api.FillEx.html#Sparks_Trader_Api_FillEx_Apply_Sparks_Trader_Api_Fill_Sparks_Trader_Api_FillAttribute_
-  commentId: M:Sparks.Trader.Api.FillEx.Apply(Sparks.Trader.Api.Fill,Sparks.Trader.Api.FillAttribute)
-  fullName: Sparks.Trader.Api.FillEx.Apply(Sparks.Trader.Api.Fill, Sparks.Trader.Api.FillAttribute)
-  nameWithType: FillEx.Apply(Fill, FillAttribute)
-- uid: Sparks.Trader.Api.FillEx.Apply*
-  name: Apply
-  href: doc/api/Sparks.Trader.Api.FillEx.html#Sparks_Trader_Api_FillEx_Apply_
-  commentId: Overload:Sparks.Trader.Api.FillEx.Apply
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.FillEx.Apply
-  nameWithType: FillEx.Apply
 - uid: Sparks.Trader.Api.FontSpec
   name: FontSpec
   href: doc/api/Sparks.Trader.Api.FontSpec.html
@@ -6627,6 +6431,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IAlertEvent.Contract
   nameWithType: IAlertEvent.Contract
+- uid: Sparks.Trader.Api.IAlertEvent.InvokeActions
+  name: InvokeActions()
+  href: doc/api/Sparks.Trader.Api.IAlertEvent.html#Sparks_Trader_Api_IAlertEvent_InvokeActions
+  commentId: M:Sparks.Trader.Api.IAlertEvent.InvokeActions
+  fullName: Sparks.Trader.Api.IAlertEvent.InvokeActions()
+  nameWithType: IAlertEvent.InvokeActions()
+- uid: Sparks.Trader.Api.IAlertEvent.InvokeActions*
+  name: InvokeActions
+  href: doc/api/Sparks.Trader.Api.IAlertEvent.html#Sparks_Trader_Api_IAlertEvent_InvokeActions_
+  commentId: Overload:Sparks.Trader.Api.IAlertEvent.InvokeActions
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IAlertEvent.InvokeActions
+  nameWithType: IAlertEvent.InvokeActions
 - uid: Sparks.Trader.Api.IAlertEvent.Level
   name: Level
   href: doc/api/Sparks.Trader.Api.IAlertEvent.html#Sparks_Trader_Api_IAlertEvent_Level
@@ -6679,6 +6496,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IAlertEvent.SourceType
   nameWithType: IAlertEvent.SourceType
+- uid: Sparks.Trader.Api.IAlertEvent.StopActions
+  name: StopActions()
+  href: doc/api/Sparks.Trader.Api.IAlertEvent.html#Sparks_Trader_Api_IAlertEvent_StopActions
+  commentId: M:Sparks.Trader.Api.IAlertEvent.StopActions
+  fullName: Sparks.Trader.Api.IAlertEvent.StopActions()
+  nameWithType: IAlertEvent.StopActions()
+- uid: Sparks.Trader.Api.IAlertEvent.StopActions*
+  name: StopActions
+  href: doc/api/Sparks.Trader.Api.IAlertEvent.html#Sparks_Trader_Api_IAlertEvent_StopActions_
+  commentId: Overload:Sparks.Trader.Api.IAlertEvent.StopActions
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IAlertEvent.StopActions
+  nameWithType: IAlertEvent.StopActions
 - uid: Sparks.Trader.Api.IAlertEvent.Time
   name: Time
   href: doc/api/Sparks.Trader.Api.IAlertEvent.html#Sparks_Trader_Api_IAlertEvent_Time
@@ -7890,12 +7720,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IChartAxis.Width
   nameWithType: IChartAxis.Width
-- uid: Sparks.Trader.Api.IChartCalenderAxis
-  name: IChartCalenderAxis
-  href: doc/api/Sparks.Trader.Api.IChartCalenderAxis.html
-  commentId: T:Sparks.Trader.Api.IChartCalenderAxis
-  fullName: Sparks.Trader.Api.IChartCalenderAxis
-  nameWithType: IChartCalenderAxis
 - uid: Sparks.Trader.Api.IChartEllipse
   name: IChartEllipse
   href: doc/api/Sparks.Trader.Api.IChartEllipse.html
@@ -8247,44 +8071,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IChartObjectBase.ZOrder
   nameWithType: IChartObjectBase.ZOrder
-- uid: Sparks.Trader.Api.IChartPoint
-  name: IChartPoint
-  href: doc/api/Sparks.Trader.Api.IChartPoint.html
-  commentId: T:Sparks.Trader.Api.IChartPoint
-  fullName: Sparks.Trader.Api.IChartPoint
-  nameWithType: IChartPoint
-- uid: Sparks.Trader.Api.IChartPoint.X
-  name: X
-  href: doc/api/Sparks.Trader.Api.IChartPoint.html#Sparks_Trader_Api_IChartPoint_X
-  commentId: P:Sparks.Trader.Api.IChartPoint.X
-  fullName: Sparks.Trader.Api.IChartPoint.X
-  nameWithType: IChartPoint.X
-- uid: Sparks.Trader.Api.IChartPoint.X*
-  name: X
-  href: doc/api/Sparks.Trader.Api.IChartPoint.html#Sparks_Trader_Api_IChartPoint_X_
-  commentId: Overload:Sparks.Trader.Api.IChartPoint.X
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IChartPoint.X
-  nameWithType: IChartPoint.X
-- uid: Sparks.Trader.Api.IChartPoint.Y
-  name: Y
-  href: doc/api/Sparks.Trader.Api.IChartPoint.html#Sparks_Trader_Api_IChartPoint_Y
-  commentId: P:Sparks.Trader.Api.IChartPoint.Y
-  fullName: Sparks.Trader.Api.IChartPoint.Y
-  nameWithType: IChartPoint.Y
-- uid: Sparks.Trader.Api.IChartPoint.Y*
-  name: Y
-  href: doc/api/Sparks.Trader.Api.IChartPoint.html#Sparks_Trader_Api_IChartPoint_Y_
-  commentId: Overload:Sparks.Trader.Api.IChartPoint.Y
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IChartPoint.Y
-  nameWithType: IChartPoint.Y
-- uid: Sparks.Trader.Api.IChartPriceAxis
-  name: IChartPriceAxis
-  href: doc/api/Sparks.Trader.Api.IChartPriceAxis.html
-  commentId: T:Sparks.Trader.Api.IChartPriceAxis
-  fullName: Sparks.Trader.Api.IChartPriceAxis
-  nameWithType: IChartPriceAxis
 - uid: Sparks.Trader.Api.IChartRectangle
   name: IChartRectangle
   href: doc/api/Sparks.Trader.Api.IChartRectangle.html
@@ -10951,19 +10737,19 @@ references:
   fullName.vb: Sparks.Trader.Api.IIndicatorDatas.this[]
   nameWithType: IIndicatorDatas.this
   nameWithType.vb: IIndicatorDatas.this[]
-- uid: Sparks.Trader.Api.IIndicatorDatas.OutputType
-  name: OutputType
-  href: doc/api/Sparks.Trader.Api.IIndicatorDatas.html#Sparks_Trader_Api_IIndicatorDatas_OutputType
-  commentId: P:Sparks.Trader.Api.IIndicatorDatas.OutputType
-  fullName: Sparks.Trader.Api.IIndicatorDatas.OutputType
-  nameWithType: IIndicatorDatas.OutputType
-- uid: Sparks.Trader.Api.IIndicatorDatas.OutputType*
-  name: OutputType
-  href: doc/api/Sparks.Trader.Api.IIndicatorDatas.html#Sparks_Trader_Api_IIndicatorDatas_OutputType_
-  commentId: Overload:Sparks.Trader.Api.IIndicatorDatas.OutputType
+- uid: Sparks.Trader.Api.IIndicatorDatas.PlotType
+  name: PlotType
+  href: doc/api/Sparks.Trader.Api.IIndicatorDatas.html#Sparks_Trader_Api_IIndicatorDatas_PlotType
+  commentId: P:Sparks.Trader.Api.IIndicatorDatas.PlotType
+  fullName: Sparks.Trader.Api.IIndicatorDatas.PlotType
+  nameWithType: IIndicatorDatas.PlotType
+- uid: Sparks.Trader.Api.IIndicatorDatas.PlotType*
+  name: PlotType
+  href: doc/api/Sparks.Trader.Api.IIndicatorDatas.html#Sparks_Trader_Api_IIndicatorDatas_PlotType_
+  commentId: Overload:Sparks.Trader.Api.IIndicatorDatas.PlotType
   isSpec: "True"
-  fullName: Sparks.Trader.Api.IIndicatorDatas.OutputType
-  nameWithType: IIndicatorDatas.OutputType
+  fullName: Sparks.Trader.Api.IIndicatorDatas.PlotType
+  nameWithType: IIndicatorDatas.PlotType
 - uid: Sparks.Trader.Api.IIndicatorDatas.ResetColor(System.Int32)
   name: ResetColor(int)
   href: doc/api/Sparks.Trader.Api.IIndicatorDatas.html#Sparks_Trader_Api_IIndicatorDatas_ResetColor_System_Int32_
@@ -11080,6 +10866,510 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IIndicatorLevel.Value
   nameWithType: IIndicatorLevel.Value
+- uid: Sparks.Trader.Api.IIndicators
+  name: IIndicators
+  href: doc/api/Sparks.Trader.Api.IIndicators.html
+  commentId: T:Sparks.Trader.Api.IIndicators
+  fullName: Sparks.Trader.Api.IIndicators
+  nameWithType: IIndicators
+- uid: Sparks.Trader.Api.IIndicators.ATR(Sparks.Trader.Api.IBars,System.Int32)
+  name: ATR(IBars, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_ATR_Sparks_Trader_Api_IBars_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.ATR(Sparks.Trader.Api.IBars,System.Int32)
+  name.vb: ATR(IBars, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.ATR(Sparks.Trader.Api.IBars, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.ATR(Sparks.Trader.Api.IBars, Integer)
+  nameWithType: IIndicators.ATR(IBars, int)
+  nameWithType.vb: IIndicators.ATR(IBars, Integer)
+- uid: Sparks.Trader.Api.IIndicators.ATR(System.Int32)
+  name: ATR(int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_ATR_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.ATR(System.Int32)
+  name.vb: ATR(Integer)
+  fullName: Sparks.Trader.Api.IIndicators.ATR(int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.ATR(Integer)
+  nameWithType: IIndicators.ATR(int)
+  nameWithType.vb: IIndicators.ATR(Integer)
+- uid: Sparks.Trader.Api.IIndicators.ATR*
+  name: ATR
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_ATR_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.ATR
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.ATR
+  nameWithType: IIndicators.ATR
+- uid: Sparks.Trader.Api.IIndicators.BB(Sparks.Trader.Api.IDatas,System.Int32,System.Double)
+  name: BB(IDatas, int, double)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_BB_Sparks_Trader_Api_IDatas_System_Int32_System_Double_
+  commentId: M:Sparks.Trader.Api.IIndicators.BB(Sparks.Trader.Api.IDatas,System.Int32,System.Double)
+  name.vb: BB(IDatas, Integer, Double)
+  fullName: Sparks.Trader.Api.IIndicators.BB(Sparks.Trader.Api.IDatas, int, double)
+  fullName.vb: Sparks.Trader.Api.IIndicators.BB(Sparks.Trader.Api.IDatas, Integer, Double)
+  nameWithType: IIndicators.BB(IDatas, int, double)
+  nameWithType.vb: IIndicators.BB(IDatas, Integer, Double)
+- uid: Sparks.Trader.Api.IIndicators.BB*
+  name: BB
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_BB_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.BB
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.BB
+  nameWithType: IIndicators.BB
+- uid: Sparks.Trader.Api.IIndicators.BIAS(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)
+  name: BIAS(IBars, int, int, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_BIAS_Sparks_Trader_Api_IBars_System_Int32_System_Int32_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.BIAS(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)
+  name.vb: BIAS(IBars, Integer, Integer, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.BIAS(Sparks.Trader.Api.IBars, int, int, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.BIAS(Sparks.Trader.Api.IBars, Integer, Integer, Integer)
+  nameWithType: IIndicators.BIAS(IBars, int, int, int)
+  nameWithType.vb: IIndicators.BIAS(IBars, Integer, Integer, Integer)
+- uid: Sparks.Trader.Api.IIndicators.BIAS(System.Int32,System.Int32,System.Int32)
+  name: BIAS(int, int, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_BIAS_System_Int32_System_Int32_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.BIAS(System.Int32,System.Int32,System.Int32)
+  name.vb: BIAS(Integer, Integer, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.BIAS(int, int, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.BIAS(Integer, Integer, Integer)
+  nameWithType: IIndicators.BIAS(int, int, int)
+  nameWithType.vb: IIndicators.BIAS(Integer, Integer, Integer)
+- uid: Sparks.Trader.Api.IIndicators.BIAS*
+  name: BIAS
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_BIAS_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.BIAS
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.BIAS
+  nameWithType: IIndicators.BIAS
+- uid: Sparks.Trader.Api.IIndicators.CCI(Sparks.Trader.Api.IBars,System.Int32)
+  name: CCI(IBars, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CCI_Sparks_Trader_Api_IBars_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.CCI(Sparks.Trader.Api.IBars,System.Int32)
+  name.vb: CCI(IBars, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.CCI(Sparks.Trader.Api.IBars, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.CCI(Sparks.Trader.Api.IBars, Integer)
+  nameWithType: IIndicators.CCI(IBars, int)
+  nameWithType.vb: IIndicators.CCI(IBars, Integer)
+- uid: Sparks.Trader.Api.IIndicators.CCI(System.Int32)
+  name: CCI(int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CCI_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.CCI(System.Int32)
+  name.vb: CCI(Integer)
+  fullName: Sparks.Trader.Api.IIndicators.CCI(int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.CCI(Integer)
+  nameWithType: IIndicators.CCI(int)
+  nameWithType.vb: IIndicators.CCI(Integer)
+- uid: Sparks.Trader.Api.IIndicators.CCI*
+  name: CCI
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CCI_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.CCI
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.CCI
+  nameWithType: IIndicators.CCI
+- uid: Sparks.Trader.Api.IIndicators.CMI(Sparks.Trader.Api.IBars,System.Int32)
+  name: CMI(IBars, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CMI_Sparks_Trader_Api_IBars_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.CMI(Sparks.Trader.Api.IBars,System.Int32)
+  name.vb: CMI(IBars, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.CMI(Sparks.Trader.Api.IBars, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.CMI(Sparks.Trader.Api.IBars, Integer)
+  nameWithType: IIndicators.CMI(IBars, int)
+  nameWithType.vb: IIndicators.CMI(IBars, Integer)
+- uid: Sparks.Trader.Api.IIndicators.CMI(System.Int32)
+  name: CMI(int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CMI_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.CMI(System.Int32)
+  name.vb: CMI(Integer)
+  fullName: Sparks.Trader.Api.IIndicators.CMI(int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.CMI(Integer)
+  nameWithType: IIndicators.CMI(int)
+  nameWithType.vb: IIndicators.CMI(Integer)
+- uid: Sparks.Trader.Api.IIndicators.CMI*
+  name: CMI
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CMI_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.CMI
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.CMI
+  nameWithType: IIndicators.CMI
+- uid: Sparks.Trader.Api.IIndicators.CreateIndicator*
+  name: CreateIndicator
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CreateIndicator_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.CreateIndicator
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.CreateIndicator
+  nameWithType: IIndicators.CreateIndicator
+- uid: Sparks.Trader.Api.IIndicators.CreateIndicator``1(Sparks.Trader.Api.IBars,System.Object[])
+  name: CreateIndicator<T>(IBars, params object[])
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CreateIndicator__1_Sparks_Trader_Api_IBars_System_Object___
+  commentId: M:Sparks.Trader.Api.IIndicators.CreateIndicator``1(Sparks.Trader.Api.IBars,System.Object[])
+  name.vb: CreateIndicator(Of T)(IBars, ParamArray Object())
+  fullName: Sparks.Trader.Api.IIndicators.CreateIndicator<T>(Sparks.Trader.Api.IBars, params object[])
+  fullName.vb: Sparks.Trader.Api.IIndicators.CreateIndicator(Of T)(Sparks.Trader.Api.IBars, ParamArray Object())
+  nameWithType: IIndicators.CreateIndicator<T>(IBars, params object[])
+  nameWithType.vb: IIndicators.CreateIndicator(Of T)(IBars, ParamArray Object())
+- uid: Sparks.Trader.Api.IIndicators.CreateIndicator``1(System.Object[])
+  name: CreateIndicator<T>(params object[])
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_CreateIndicator__1_System_Object___
+  commentId: M:Sparks.Trader.Api.IIndicators.CreateIndicator``1(System.Object[])
+  name.vb: CreateIndicator(Of T)(ParamArray Object())
+  fullName: Sparks.Trader.Api.IIndicators.CreateIndicator<T>(params object[])
+  fullName.vb: Sparks.Trader.Api.IIndicators.CreateIndicator(Of T)(ParamArray Object())
+  nameWithType: IIndicators.CreateIndicator<T>(params object[])
+  nameWithType.vb: IIndicators.CreateIndicator(Of T)(ParamArray Object())
+- uid: Sparks.Trader.Api.IIndicators.DC(Sparks.Trader.Api.IBars,System.Int32)
+  name: DC(IBars, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_DC_Sparks_Trader_Api_IBars_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.DC(Sparks.Trader.Api.IBars,System.Int32)
+  name.vb: DC(IBars, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.DC(Sparks.Trader.Api.IBars, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.DC(Sparks.Trader.Api.IBars, Integer)
+  nameWithType: IIndicators.DC(IBars, int)
+  nameWithType.vb: IIndicators.DC(IBars, Integer)
+- uid: Sparks.Trader.Api.IIndicators.DC(System.Int32)
+  name: DC(int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_DC_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.DC(System.Int32)
+  name.vb: DC(Integer)
+  fullName: Sparks.Trader.Api.IIndicators.DC(int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.DC(Integer)
+  nameWithType: IIndicators.DC(int)
+  nameWithType.vb: IIndicators.DC(Integer)
+- uid: Sparks.Trader.Api.IIndicators.DC*
+  name: DC
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_DC_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.DC
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.DC
+  nameWithType: IIndicators.DC
+- uid: Sparks.Trader.Api.IIndicators.DMI(Sparks.Trader.Api.IBar,System.Int32)
+  name: DMI(IBar, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_DMI_Sparks_Trader_Api_IBar_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.DMI(Sparks.Trader.Api.IBar,System.Int32)
+  name.vb: DMI(IBar, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.DMI(Sparks.Trader.Api.IBar, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.DMI(Sparks.Trader.Api.IBar, Integer)
+  nameWithType: IIndicators.DMI(IBar, int)
+  nameWithType.vb: IIndicators.DMI(IBar, Integer)
+- uid: Sparks.Trader.Api.IIndicators.DMI(System.Int32)
+  name: DMI(int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_DMI_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.DMI(System.Int32)
+  name.vb: DMI(Integer)
+  fullName: Sparks.Trader.Api.IIndicators.DMI(int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.DMI(Integer)
+  nameWithType: IIndicators.DMI(int)
+  nameWithType.vb: IIndicators.DMI(Integer)
+- uid: Sparks.Trader.Api.IIndicators.DMI*
+  name: DMI
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_DMI_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.DMI
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.DMI
+  nameWithType: IIndicators.DMI
+- uid: Sparks.Trader.Api.IIndicators.EMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name: EMA(IDatas, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_EMA_Sparks_Trader_Api_IDatas_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.EMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name.vb: EMA(IDatas, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.EMA(Sparks.Trader.Api.IDatas, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.EMA(Sparks.Trader.Api.IDatas, Integer)
+  nameWithType: IIndicators.EMA(IDatas, int)
+  nameWithType.vb: IIndicators.EMA(IDatas, Integer)
+- uid: Sparks.Trader.Api.IIndicators.EMA*
+  name: EMA
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_EMA_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.EMA
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.EMA
+  nameWithType: IIndicators.EMA
+- uid: Sparks.Trader.Api.IIndicators.KDJ(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)
+  name: KDJ(IBars, int, int, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_KDJ_Sparks_Trader_Api_IBars_System_Int32_System_Int32_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.KDJ(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)
+  name.vb: KDJ(IBars, Integer, Integer, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.KDJ(Sparks.Trader.Api.IBars, int, int, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.KDJ(Sparks.Trader.Api.IBars, Integer, Integer, Integer)
+  nameWithType: IIndicators.KDJ(IBars, int, int, int)
+  nameWithType.vb: IIndicators.KDJ(IBars, Integer, Integer, Integer)
+- uid: Sparks.Trader.Api.IIndicators.KDJ(System.Int32,System.Int32,System.Int32)
+  name: KDJ(int, int, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_KDJ_System_Int32_System_Int32_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.KDJ(System.Int32,System.Int32,System.Int32)
+  name.vb: KDJ(Integer, Integer, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.KDJ(int, int, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.KDJ(Integer, Integer, Integer)
+  nameWithType: IIndicators.KDJ(int, int, int)
+  nameWithType.vb: IIndicators.KDJ(Integer, Integer, Integer)
+- uid: Sparks.Trader.Api.IIndicators.KDJ*
+  name: KDJ
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_KDJ_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.KDJ
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.KDJ
+  nameWithType: IIndicators.KDJ
+- uid: Sparks.Trader.Api.IIndicators.MACD(Sparks.Trader.Api.IDatas,System.Int32,System.Int32,System.Int32)
+  name: MACD(IDatas, int, int, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_MACD_Sparks_Trader_Api_IDatas_System_Int32_System_Int32_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.MACD(Sparks.Trader.Api.IDatas,System.Int32,System.Int32,System.Int32)
+  name.vb: MACD(IDatas, Integer, Integer, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.MACD(Sparks.Trader.Api.IDatas, int, int, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.MACD(Sparks.Trader.Api.IDatas, Integer, Integer, Integer)
+  nameWithType: IIndicators.MACD(IDatas, int, int, int)
+  nameWithType.vb: IIndicators.MACD(IDatas, Integer, Integer, Integer)
+- uid: Sparks.Trader.Api.IIndicators.MACD*
+  name: MACD
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_MACD_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.MACD
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.MACD
+  nameWithType: IIndicators.MACD
+- uid: Sparks.Trader.Api.IIndicators.MAE(Sparks.Trader.Api.IDatas,Sparks.Trader.Api.EMaType,System.Int32,System.Double,System.Double)
+  name: MAE(IDatas, EMaType, int, double, double)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_MAE_Sparks_Trader_Api_IDatas_Sparks_Trader_Api_EMaType_System_Int32_System_Double_System_Double_
+  commentId: M:Sparks.Trader.Api.IIndicators.MAE(Sparks.Trader.Api.IDatas,Sparks.Trader.Api.EMaType,System.Int32,System.Double,System.Double)
+  name.vb: MAE(IDatas, EMaType, Integer, Double, Double)
+  fullName: Sparks.Trader.Api.IIndicators.MAE(Sparks.Trader.Api.IDatas, Sparks.Trader.Api.EMaType, int, double, double)
+  fullName.vb: Sparks.Trader.Api.IIndicators.MAE(Sparks.Trader.Api.IDatas, Sparks.Trader.Api.EMaType, Integer, Double, Double)
+  nameWithType: IIndicators.MAE(IDatas, EMaType, int, double, double)
+  nameWithType.vb: IIndicators.MAE(IDatas, EMaType, Integer, Double, Double)
+- uid: Sparks.Trader.Api.IIndicators.MAE*
+  name: MAE
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_MAE_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.MAE
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.MAE
+  nameWithType: IIndicators.MAE
+- uid: Sparks.Trader.Api.IIndicators.MovingAverage(Sparks.Trader.Api.EMaType,Sparks.Trader.Api.IDatas,System.Int32)
+  name: MovingAverage(EMaType, IDatas, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_MovingAverage_Sparks_Trader_Api_EMaType_Sparks_Trader_Api_IDatas_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.MovingAverage(Sparks.Trader.Api.EMaType,Sparks.Trader.Api.IDatas,System.Int32)
+  name.vb: MovingAverage(EMaType, IDatas, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.MovingAverage(Sparks.Trader.Api.EMaType, Sparks.Trader.Api.IDatas, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.MovingAverage(Sparks.Trader.Api.EMaType, Sparks.Trader.Api.IDatas, Integer)
+  nameWithType: IIndicators.MovingAverage(EMaType, IDatas, int)
+  nameWithType.vb: IIndicators.MovingAverage(EMaType, IDatas, Integer)
+- uid: Sparks.Trader.Api.IIndicators.MovingAverage*
+  name: MovingAverage
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_MovingAverage_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.MovingAverage
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.MovingAverage
+  nameWithType: IIndicators.MovingAverage
+- uid: Sparks.Trader.Api.IIndicators.OBV
+  name: OBV()
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_OBV
+  commentId: M:Sparks.Trader.Api.IIndicators.OBV
+  fullName: Sparks.Trader.Api.IIndicators.OBV()
+  nameWithType: IIndicators.OBV()
+- uid: Sparks.Trader.Api.IIndicators.OBV(Sparks.Trader.Api.IBars)
+  name: OBV(IBars)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_OBV_Sparks_Trader_Api_IBars_
+  commentId: M:Sparks.Trader.Api.IIndicators.OBV(Sparks.Trader.Api.IBars)
+  fullName: Sparks.Trader.Api.IIndicators.OBV(Sparks.Trader.Api.IBars)
+  nameWithType: IIndicators.OBV(IBars)
+- uid: Sparks.Trader.Api.IIndicators.OBV*
+  name: OBV
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_OBV_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.OBV
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.OBV
+  nameWithType: IIndicators.OBV
+- uid: Sparks.Trader.Api.IIndicators.RSI(Sparks.Trader.Api.IDatas,System.Int32)
+  name: RSI(IDatas, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_RSI_Sparks_Trader_Api_IDatas_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.RSI(Sparks.Trader.Api.IDatas,System.Int32)
+  name.vb: RSI(IDatas, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.RSI(Sparks.Trader.Api.IDatas, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.RSI(Sparks.Trader.Api.IDatas, Integer)
+  nameWithType: IIndicators.RSI(IDatas, int)
+  nameWithType.vb: IIndicators.RSI(IDatas, Integer)
+- uid: Sparks.Trader.Api.IIndicators.RSI*
+  name: RSI
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_RSI_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.RSI
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.RSI
+  nameWithType: IIndicators.RSI
+- uid: Sparks.Trader.Api.IIndicators.SAR(Sparks.Trader.Api.IBars,System.Double,System.Double,System.Double)
+  name: SAR(IBars, double, double, double)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_SAR_Sparks_Trader_Api_IBars_System_Double_System_Double_System_Double_
+  commentId: M:Sparks.Trader.Api.IIndicators.SAR(Sparks.Trader.Api.IBars,System.Double,System.Double,System.Double)
+  name.vb: SAR(IBars, Double, Double, Double)
+  fullName: Sparks.Trader.Api.IIndicators.SAR(Sparks.Trader.Api.IBars, double, double, double)
+  fullName.vb: Sparks.Trader.Api.IIndicators.SAR(Sparks.Trader.Api.IBars, Double, Double, Double)
+  nameWithType: IIndicators.SAR(IBars, double, double, double)
+  nameWithType.vb: IIndicators.SAR(IBars, Double, Double, Double)
+- uid: Sparks.Trader.Api.IIndicators.SAR(System.Double,System.Double,System.Double)
+  name: SAR(double, double, double)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_SAR_System_Double_System_Double_System_Double_
+  commentId: M:Sparks.Trader.Api.IIndicators.SAR(System.Double,System.Double,System.Double)
+  name.vb: SAR(Double, Double, Double)
+  fullName: Sparks.Trader.Api.IIndicators.SAR(double, double, double)
+  fullName.vb: Sparks.Trader.Api.IIndicators.SAR(Double, Double, Double)
+  nameWithType: IIndicators.SAR(double, double, double)
+  nameWithType.vb: IIndicators.SAR(Double, Double, Double)
+- uid: Sparks.Trader.Api.IIndicators.SAR*
+  name: SAR
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_SAR_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.SAR
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.SAR
+  nameWithType: IIndicators.SAR
+- uid: Sparks.Trader.Api.IIndicators.StDev(Sparks.Trader.Api.IDatas,Sparks.Trader.Api.EMaType,System.Int32)
+  name: StDev(IDatas, EMaType, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_StDev_Sparks_Trader_Api_IDatas_Sparks_Trader_Api_EMaType_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.StDev(Sparks.Trader.Api.IDatas,Sparks.Trader.Api.EMaType,System.Int32)
+  name.vb: StDev(IDatas, EMaType, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.StDev(Sparks.Trader.Api.IDatas, Sparks.Trader.Api.EMaType, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.StDev(Sparks.Trader.Api.IDatas, Sparks.Trader.Api.EMaType, Integer)
+  nameWithType: IIndicators.StDev(IDatas, EMaType, int)
+  nameWithType.vb: IIndicators.StDev(IDatas, EMaType, Integer)
+- uid: Sparks.Trader.Api.IIndicators.StDev*
+  name: StDev
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_StDev_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.StDev
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.StDev
+  nameWithType: IIndicators.StDev
+- uid: Sparks.Trader.Api.IIndicators.TriangularMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name: TriangularMA(IDatas, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_TriangularMA_Sparks_Trader_Api_IDatas_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.TriangularMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name.vb: TriangularMA(IDatas, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.TriangularMA(Sparks.Trader.Api.IDatas, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.TriangularMA(Sparks.Trader.Api.IDatas, Integer)
+  nameWithType: IIndicators.TriangularMA(IDatas, int)
+  nameWithType.vb: IIndicators.TriangularMA(IDatas, Integer)
+- uid: Sparks.Trader.Api.IIndicators.TriangularMA*
+  name: TriangularMA
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_TriangularMA_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.TriangularMA
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.TriangularMA
+  nameWithType: IIndicators.TriangularMA
+- uid: Sparks.Trader.Api.IIndicators.TypicalPrice
+  name: TypicalPrice()
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_TypicalPrice
+  commentId: M:Sparks.Trader.Api.IIndicators.TypicalPrice
+  fullName: Sparks.Trader.Api.IIndicators.TypicalPrice()
+  nameWithType: IIndicators.TypicalPrice()
+- uid: Sparks.Trader.Api.IIndicators.TypicalPrice(Sparks.Trader.Api.IBars)
+  name: TypicalPrice(IBars)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_TypicalPrice_Sparks_Trader_Api_IBars_
+  commentId: M:Sparks.Trader.Api.IIndicators.TypicalPrice(Sparks.Trader.Api.IBars)
+  fullName: Sparks.Trader.Api.IIndicators.TypicalPrice(Sparks.Trader.Api.IBars)
+  nameWithType: IIndicators.TypicalPrice(IBars)
+- uid: Sparks.Trader.Api.IIndicators.TypicalPrice*
+  name: TypicalPrice
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_TypicalPrice_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.TypicalPrice
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.TypicalPrice
+  nameWithType: IIndicators.TypicalPrice
+- uid: Sparks.Trader.Api.IIndicators.VOL(Sparks.Trader.Api.IBars,System.Int32)
+  name: VOL(IBars, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_VOL_Sparks_Trader_Api_IBars_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.VOL(Sparks.Trader.Api.IBars,System.Int32)
+  name.vb: VOL(IBars, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.VOL(Sparks.Trader.Api.IBars, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.VOL(Sparks.Trader.Api.IBars, Integer)
+  nameWithType: IIndicators.VOL(IBars, int)
+  nameWithType.vb: IIndicators.VOL(IBars, Integer)
+- uid: Sparks.Trader.Api.IIndicators.VOL(System.Int32)
+  name: VOL(int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_VOL_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.VOL(System.Int32)
+  name.vb: VOL(Integer)
+  fullName: Sparks.Trader.Api.IIndicators.VOL(int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.VOL(Integer)
+  nameWithType: IIndicators.VOL(int)
+  nameWithType.vb: IIndicators.VOL(Integer)
+- uid: Sparks.Trader.Api.IIndicators.VOL*
+  name: VOL
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_VOL_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.VOL
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.VOL
+  nameWithType: IIndicators.VOL
+- uid: Sparks.Trader.Api.IIndicators.WilderMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name: WilderMA(IDatas, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_WilderMA_Sparks_Trader_Api_IDatas_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.WilderMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name.vb: WilderMA(IDatas, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.WilderMA(Sparks.Trader.Api.IDatas, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.WilderMA(Sparks.Trader.Api.IDatas, Integer)
+  nameWithType: IIndicators.WilderMA(IDatas, int)
+  nameWithType.vb: IIndicators.WilderMA(IDatas, Integer)
+- uid: Sparks.Trader.Api.IIndicators.WilderMA*
+  name: WilderMA
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_WilderMA_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.WilderMA
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.WilderMA
+  nameWithType: IIndicators.WilderMA
+- uid: Sparks.Trader.Api.IIndicators.WMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name: WMA(IDatas, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_WMA_Sparks_Trader_Api_IDatas_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.WMA(Sparks.Trader.Api.IDatas,System.Int32)
+  name.vb: WMA(IDatas, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.WMA(Sparks.Trader.Api.IDatas, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.WMA(Sparks.Trader.Api.IDatas, Integer)
+  nameWithType: IIndicators.WMA(IDatas, int)
+  nameWithType.vb: IIndicators.WMA(IDatas, Integer)
+- uid: Sparks.Trader.Api.IIndicators.WMA*
+  name: WMA
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_WMA_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.WMA
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.WMA
+  nameWithType: IIndicators.WMA
+- uid: Sparks.Trader.Api.IIndicators.WR(Sparks.Trader.Api.IBars,System.Int32)
+  name: WR(IBars, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_WR_Sparks_Trader_Api_IBars_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.WR(Sparks.Trader.Api.IBars,System.Int32)
+  name.vb: WR(IBars, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.WR(Sparks.Trader.Api.IBars, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.WR(Sparks.Trader.Api.IBars, Integer)
+  nameWithType: IIndicators.WR(IBars, int)
+  nameWithType.vb: IIndicators.WR(IBars, Integer)
+- uid: Sparks.Trader.Api.IIndicators.WR(System.Int32)
+  name: WR(int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_WR_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.WR(System.Int32)
+  name.vb: WR(Integer)
+  fullName: Sparks.Trader.Api.IIndicators.WR(int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.WR(Integer)
+  nameWithType: IIndicators.WR(int)
+  nameWithType.vb: IIndicators.WR(Integer)
+- uid: Sparks.Trader.Api.IIndicators.WR*
+  name: WR
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_WR_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.WR
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.WR
+  nameWithType: IIndicators.WR
+- uid: Sparks.Trader.Api.IIndicators.ZigZag(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)
+  name: ZigZag(IBars, int, int, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_ZigZag_Sparks_Trader_Api_IBars_System_Int32_System_Int32_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.ZigZag(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)
+  name.vb: ZigZag(IBars, Integer, Integer, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.ZigZag(Sparks.Trader.Api.IBars, int, int, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.ZigZag(Sparks.Trader.Api.IBars, Integer, Integer, Integer)
+  nameWithType: IIndicators.ZigZag(IBars, int, int, int)
+  nameWithType.vb: IIndicators.ZigZag(IBars, Integer, Integer, Integer)
+- uid: Sparks.Trader.Api.IIndicators.ZigZag(System.Int32,System.Int32,System.Int32)
+  name: ZigZag(int, int, int)
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_ZigZag_System_Int32_System_Int32_System_Int32_
+  commentId: M:Sparks.Trader.Api.IIndicators.ZigZag(System.Int32,System.Int32,System.Int32)
+  name.vb: ZigZag(Integer, Integer, Integer)
+  fullName: Sparks.Trader.Api.IIndicators.ZigZag(int, int, int)
+  fullName.vb: Sparks.Trader.Api.IIndicators.ZigZag(Integer, Integer, Integer)
+  nameWithType: IIndicators.ZigZag(int, int, int)
+  nameWithType.vb: IIndicators.ZigZag(Integer, Integer, Integer)
+- uid: Sparks.Trader.Api.IIndicators.ZigZag*
+  name: ZigZag
+  href: doc/api/Sparks.Trader.Api.IIndicators.html#Sparks_Trader_Api_IIndicators_ZigZag_
+  commentId: Overload:Sparks.Trader.Api.IIndicators.ZigZag
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IIndicators.ZigZag
+  nameWithType: IIndicators.ZigZag
 - uid: Sparks.Trader.Api.IMainArea
   name: IMainArea
   href: doc/api/Sparks.Trader.Api.IMainArea.html
@@ -11670,51 +11960,6 @@ references:
   fullName.vb: Sparks.Trader.Api.IMarketDatas(Of T).Times
   nameWithType: IMarketDatas<T>.Times
   nameWithType.vb: IMarketDatas(Of T).Times
-- uid: Sparks.Trader.Api.IMovingAverage
-  name: IMovingAverage
-  href: doc/api/Sparks.Trader.Api.IMovingAverage.html
-  commentId: T:Sparks.Trader.Api.IMovingAverage
-  fullName: Sparks.Trader.Api.IMovingAverage
-  nameWithType: IMovingAverage
-- uid: Sparks.Trader.Api.IMovingAverage.Periods
-  name: Periods
-  href: doc/api/Sparks.Trader.Api.IMovingAverage.html#Sparks_Trader_Api_IMovingAverage_Periods
-  commentId: P:Sparks.Trader.Api.IMovingAverage.Periods
-  fullName: Sparks.Trader.Api.IMovingAverage.Periods
-  nameWithType: IMovingAverage.Periods
-- uid: Sparks.Trader.Api.IMovingAverage.Periods*
-  name: Periods
-  href: doc/api/Sparks.Trader.Api.IMovingAverage.html#Sparks_Trader_Api_IMovingAverage_Periods_
-  commentId: Overload:Sparks.Trader.Api.IMovingAverage.Periods
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IMovingAverage.Periods
-  nameWithType: IMovingAverage.Periods
-- uid: Sparks.Trader.Api.IMovingAverage.Result
-  name: Result
-  href: doc/api/Sparks.Trader.Api.IMovingAverage.html#Sparks_Trader_Api_IMovingAverage_Result
-  commentId: P:Sparks.Trader.Api.IMovingAverage.Result
-  fullName: Sparks.Trader.Api.IMovingAverage.Result
-  nameWithType: IMovingAverage.Result
-- uid: Sparks.Trader.Api.IMovingAverage.Result*
-  name: Result
-  href: doc/api/Sparks.Trader.Api.IMovingAverage.html#Sparks_Trader_Api_IMovingAverage_Result_
-  commentId: Overload:Sparks.Trader.Api.IMovingAverage.Result
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IMovingAverage.Result
-  nameWithType: IMovingAverage.Result
-- uid: Sparks.Trader.Api.IMovingAverage.Source
-  name: Source
-  href: doc/api/Sparks.Trader.Api.IMovingAverage.html#Sparks_Trader_Api_IMovingAverage_Source
-  commentId: P:Sparks.Trader.Api.IMovingAverage.Source
-  fullName: Sparks.Trader.Api.IMovingAverage.Source
-  nameWithType: IMovingAverage.Source
-- uid: Sparks.Trader.Api.IMovingAverage.Source*
-  name: Source
-  href: doc/api/Sparks.Trader.Api.IMovingAverage.html#Sparks_Trader_Api_IMovingAverage_Source_
-  commentId: Overload:Sparks.Trader.Api.IMovingAverage.Source
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IMovingAverage.Source
-  nameWithType: IMovingAverage.Source
 - uid: Sparks.Trader.Api.IndicatorAttribute
   name: IndicatorAttribute
   href: doc/api/Sparks.Trader.Api.IndicatorAttribute.html
@@ -11762,6 +12007,1125 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IndicatorAttribute.IsOverlay
   nameWithType: IndicatorAttribute.IsOverlay
+- uid: Sparks.Trader.Api.Indicators
+  name: Sparks.Trader.Api.Indicators
+  href: doc/api/Sparks.Trader.Api.Indicators.html
+  commentId: N:Sparks.Trader.Api.Indicators
+  fullName: Sparks.Trader.Api.Indicators
+  nameWithType: Sparks.Trader.Api.Indicators
+- uid: Sparks.Trader.Api.Indicators.IATR
+  name: IATR
+  href: doc/api/Sparks.Trader.Api.Indicators.IATR.html
+  commentId: T:Sparks.Trader.Api.Indicators.IATR
+  fullName: Sparks.Trader.Api.Indicators.IATR
+  nameWithType: IATR
+- uid: Sparks.Trader.Api.Indicators.IATR.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IATR.html#Sparks_Trader_Api_Indicators_IATR_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IATR.Periods
+  fullName: Sparks.Trader.Api.Indicators.IATR.Periods
+  nameWithType: IATR.Periods
+- uid: Sparks.Trader.Api.Indicators.IATR.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IATR.html#Sparks_Trader_Api_Indicators_IATR_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IATR.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IATR.Periods
+  nameWithType: IATR.Periods
+- uid: Sparks.Trader.Api.Indicators.IATR.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IATR.html#Sparks_Trader_Api_Indicators_IATR_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IATR.Result
+  fullName: Sparks.Trader.Api.Indicators.IATR.Result
+  nameWithType: IATR.Result
+- uid: Sparks.Trader.Api.Indicators.IATR.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IATR.html#Sparks_Trader_Api_Indicators_IATR_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IATR.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IATR.Result
+  nameWithType: IATR.Result
+- uid: Sparks.Trader.Api.Indicators.IATR.TR
+  name: TR
+  href: doc/api/Sparks.Trader.Api.Indicators.IATR.html#Sparks_Trader_Api_Indicators_IATR_TR
+  commentId: P:Sparks.Trader.Api.Indicators.IATR.TR
+  fullName: Sparks.Trader.Api.Indicators.IATR.TR
+  nameWithType: IATR.TR
+- uid: Sparks.Trader.Api.Indicators.IATR.TR*
+  name: TR
+  href: doc/api/Sparks.Trader.Api.Indicators.IATR.html#Sparks_Trader_Api_Indicators_IATR_TR_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IATR.TR
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IATR.TR
+  nameWithType: IATR.TR
+- uid: Sparks.Trader.Api.Indicators.IBB
+  name: IBB
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html
+  commentId: T:Sparks.Trader.Api.Indicators.IBB
+  fullName: Sparks.Trader.Api.Indicators.IBB
+  nameWithType: IBB
+- uid: Sparks.Trader.Api.Indicators.IBB.D
+  name: D
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_D
+  commentId: P:Sparks.Trader.Api.Indicators.IBB.D
+  fullName: Sparks.Trader.Api.Indicators.IBB.D
+  nameWithType: IBB.D
+- uid: Sparks.Trader.Api.Indicators.IBB.D*
+  name: D
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_D_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBB.D
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBB.D
+  nameWithType: IBB.D
+- uid: Sparks.Trader.Api.Indicators.IBB.DLine
+  name: DLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_DLine
+  commentId: P:Sparks.Trader.Api.Indicators.IBB.DLine
+  fullName: Sparks.Trader.Api.Indicators.IBB.DLine
+  nameWithType: IBB.DLine
+- uid: Sparks.Trader.Api.Indicators.IBB.DLine*
+  name: DLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_DLine_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBB.DLine
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBB.DLine
+  nameWithType: IBB.DLine
+- uid: Sparks.Trader.Api.Indicators.IBB.MLine
+  name: MLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_MLine
+  commentId: P:Sparks.Trader.Api.Indicators.IBB.MLine
+  fullName: Sparks.Trader.Api.Indicators.IBB.MLine
+  nameWithType: IBB.MLine
+- uid: Sparks.Trader.Api.Indicators.IBB.MLine*
+  name: MLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_MLine_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBB.MLine
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBB.MLine
+  nameWithType: IBB.MLine
+- uid: Sparks.Trader.Api.Indicators.IBB.N
+  name: N
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_N
+  commentId: P:Sparks.Trader.Api.Indicators.IBB.N
+  fullName: Sparks.Trader.Api.Indicators.IBB.N
+  nameWithType: IBB.N
+- uid: Sparks.Trader.Api.Indicators.IBB.N*
+  name: N
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_N_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBB.N
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBB.N
+  nameWithType: IBB.N
+- uid: Sparks.Trader.Api.Indicators.IBB.Source
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_Source
+  commentId: P:Sparks.Trader.Api.Indicators.IBB.Source
+  fullName: Sparks.Trader.Api.Indicators.IBB.Source
+  nameWithType: IBB.Source
+- uid: Sparks.Trader.Api.Indicators.IBB.Source*
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_Source_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBB.Source
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBB.Source
+  nameWithType: IBB.Source
+- uid: Sparks.Trader.Api.Indicators.IBB.ULine
+  name: ULine
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_ULine
+  commentId: P:Sparks.Trader.Api.Indicators.IBB.ULine
+  fullName: Sparks.Trader.Api.Indicators.IBB.ULine
+  nameWithType: IBB.ULine
+- uid: Sparks.Trader.Api.Indicators.IBB.ULine*
+  name: ULine
+  href: doc/api/Sparks.Trader.Api.Indicators.IBB.html#Sparks_Trader_Api_Indicators_IBB_ULine_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBB.ULine
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBB.ULine
+  nameWithType: IBB.ULine
+- uid: Sparks.Trader.Api.Indicators.IBIAS
+  name: IBIAS
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html
+  commentId: T:Sparks.Trader.Api.Indicators.IBIAS
+  fullName: Sparks.Trader.Api.Indicators.IBIAS
+  nameWithType: IBIAS
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Bias1
+  name: Bias1
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Bias1
+  commentId: P:Sparks.Trader.Api.Indicators.IBIAS.Bias1
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Bias1
+  nameWithType: IBIAS.Bias1
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Bias1*
+  name: Bias1
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Bias1_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBIAS.Bias1
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Bias1
+  nameWithType: IBIAS.Bias1
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Bias2
+  name: Bias2
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Bias2
+  commentId: P:Sparks.Trader.Api.Indicators.IBIAS.Bias2
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Bias2
+  nameWithType: IBIAS.Bias2
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Bias2*
+  name: Bias2
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Bias2_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBIAS.Bias2
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Bias2
+  nameWithType: IBIAS.Bias2
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Bias3
+  name: Bias3
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Bias3
+  commentId: P:Sparks.Trader.Api.Indicators.IBIAS.Bias3
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Bias3
+  nameWithType: IBIAS.Bias3
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Bias3*
+  name: Bias3
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Bias3_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBIAS.Bias3
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Bias3
+  nameWithType: IBIAS.Bias3
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Periods1
+  name: Periods1
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Periods1
+  commentId: P:Sparks.Trader.Api.Indicators.IBIAS.Periods1
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Periods1
+  nameWithType: IBIAS.Periods1
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Periods1*
+  name: Periods1
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Periods1_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBIAS.Periods1
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Periods1
+  nameWithType: IBIAS.Periods1
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Periods2
+  name: Periods2
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Periods2
+  commentId: P:Sparks.Trader.Api.Indicators.IBIAS.Periods2
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Periods2
+  nameWithType: IBIAS.Periods2
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Periods2*
+  name: Periods2
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Periods2_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBIAS.Periods2
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Periods2
+  nameWithType: IBIAS.Periods2
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Periods3
+  name: Periods3
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Periods3
+  commentId: P:Sparks.Trader.Api.Indicators.IBIAS.Periods3
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Periods3
+  nameWithType: IBIAS.Periods3
+- uid: Sparks.Trader.Api.Indicators.IBIAS.Periods3*
+  name: Periods3
+  href: doc/api/Sparks.Trader.Api.Indicators.IBIAS.html#Sparks_Trader_Api_Indicators_IBIAS_Periods3_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IBIAS.Periods3
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IBIAS.Periods3
+  nameWithType: IBIAS.Periods3
+- uid: Sparks.Trader.Api.Indicators.ICCI
+  name: ICCI
+  href: doc/api/Sparks.Trader.Api.Indicators.ICCI.html
+  commentId: T:Sparks.Trader.Api.Indicators.ICCI
+  fullName: Sparks.Trader.Api.Indicators.ICCI
+  nameWithType: ICCI
+- uid: Sparks.Trader.Api.Indicators.ICCI.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.ICCI.html#Sparks_Trader_Api_Indicators_ICCI_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.ICCI.Periods
+  fullName: Sparks.Trader.Api.Indicators.ICCI.Periods
+  nameWithType: ICCI.Periods
+- uid: Sparks.Trader.Api.Indicators.ICCI.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.ICCI.html#Sparks_Trader_Api_Indicators_ICCI_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ICCI.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ICCI.Periods
+  nameWithType: ICCI.Periods
+- uid: Sparks.Trader.Api.Indicators.ICCI.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ICCI.html#Sparks_Trader_Api_Indicators_ICCI_Result
+  commentId: P:Sparks.Trader.Api.Indicators.ICCI.Result
+  fullName: Sparks.Trader.Api.Indicators.ICCI.Result
+  nameWithType: ICCI.Result
+- uid: Sparks.Trader.Api.Indicators.ICCI.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ICCI.html#Sparks_Trader_Api_Indicators_ICCI_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ICCI.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ICCI.Result
+  nameWithType: ICCI.Result
+- uid: Sparks.Trader.Api.Indicators.ICMI
+  name: ICMI
+  href: doc/api/Sparks.Trader.Api.Indicators.ICMI.html
+  commentId: T:Sparks.Trader.Api.Indicators.ICMI
+  fullName: Sparks.Trader.Api.Indicators.ICMI
+  nameWithType: ICMI
+- uid: Sparks.Trader.Api.Indicators.ICMI.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.ICMI.html#Sparks_Trader_Api_Indicators_ICMI_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.ICMI.Periods
+  fullName: Sparks.Trader.Api.Indicators.ICMI.Periods
+  nameWithType: ICMI.Periods
+- uid: Sparks.Trader.Api.Indicators.ICMI.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.ICMI.html#Sparks_Trader_Api_Indicators_ICMI_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ICMI.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ICMI.Periods
+  nameWithType: ICMI.Periods
+- uid: Sparks.Trader.Api.Indicators.ICMI.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ICMI.html#Sparks_Trader_Api_Indicators_ICMI_Result
+  commentId: P:Sparks.Trader.Api.Indicators.ICMI.Result
+  fullName: Sparks.Trader.Api.Indicators.ICMI.Result
+  nameWithType: ICMI.Result
+- uid: Sparks.Trader.Api.Indicators.ICMI.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ICMI.html#Sparks_Trader_Api_Indicators_ICMI_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ICMI.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ICMI.Result
+  nameWithType: ICMI.Result
+- uid: Sparks.Trader.Api.Indicators.IDC
+  name: IDC
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html
+  commentId: T:Sparks.Trader.Api.Indicators.IDC
+  fullName: Sparks.Trader.Api.Indicators.IDC
+  nameWithType: IDC
+- uid: Sparks.Trader.Api.Indicators.IDC.FillBackground
+  name: FillBackground
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_FillBackground
+  commentId: P:Sparks.Trader.Api.Indicators.IDC.FillBackground
+  fullName: Sparks.Trader.Api.Indicators.IDC.FillBackground
+  nameWithType: IDC.FillBackground
+- uid: Sparks.Trader.Api.Indicators.IDC.FillBackground*
+  name: FillBackground
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_FillBackground_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDC.FillBackground
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDC.FillBackground
+  nameWithType: IDC.FillBackground
+- uid: Sparks.Trader.Api.Indicators.IDC.LLine
+  name: LLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_LLine
+  commentId: P:Sparks.Trader.Api.Indicators.IDC.LLine
+  fullName: Sparks.Trader.Api.Indicators.IDC.LLine
+  nameWithType: IDC.LLine
+- uid: Sparks.Trader.Api.Indicators.IDC.LLine*
+  name: LLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_LLine_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDC.LLine
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDC.LLine
+  nameWithType: IDC.LLine
+- uid: Sparks.Trader.Api.Indicators.IDC.MLine
+  name: MLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_MLine
+  commentId: P:Sparks.Trader.Api.Indicators.IDC.MLine
+  fullName: Sparks.Trader.Api.Indicators.IDC.MLine
+  nameWithType: IDC.MLine
+- uid: Sparks.Trader.Api.Indicators.IDC.MLine*
+  name: MLine
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_MLine_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDC.MLine
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDC.MLine
+  nameWithType: IDC.MLine
+- uid: Sparks.Trader.Api.Indicators.IDC.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IDC.Periods
+  fullName: Sparks.Trader.Api.Indicators.IDC.Periods
+  nameWithType: IDC.Periods
+- uid: Sparks.Trader.Api.Indicators.IDC.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDC.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDC.Periods
+  nameWithType: IDC.Periods
+- uid: Sparks.Trader.Api.Indicators.IDC.ULine
+  name: ULine
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_ULine
+  commentId: P:Sparks.Trader.Api.Indicators.IDC.ULine
+  fullName: Sparks.Trader.Api.Indicators.IDC.ULine
+  nameWithType: IDC.ULine
+- uid: Sparks.Trader.Api.Indicators.IDC.ULine*
+  name: ULine
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_ULine_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDC.ULine
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDC.ULine
+  nameWithType: IDC.ULine
+- uid: Sparks.Trader.Api.Indicators.IDMI
+  name: IDMI
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html
+  commentId: T:Sparks.Trader.Api.Indicators.IDMI
+  fullName: Sparks.Trader.Api.Indicators.IDMI
+  nameWithType: IDMI
+- uid: Sparks.Trader.Api.Indicators.IDMI.ADX
+  name: ADX
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_ADX
+  commentId: P:Sparks.Trader.Api.Indicators.IDMI.ADX
+  fullName: Sparks.Trader.Api.Indicators.IDMI.ADX
+  nameWithType: IDMI.ADX
+- uid: Sparks.Trader.Api.Indicators.IDMI.ADX*
+  name: ADX
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_ADX_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDMI.ADX
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDMI.ADX
+  nameWithType: IDMI.ADX
+- uid: Sparks.Trader.Api.Indicators.IDMI.DIMinus
+  name: DIMinus
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_DIMinus
+  commentId: P:Sparks.Trader.Api.Indicators.IDMI.DIMinus
+  fullName: Sparks.Trader.Api.Indicators.IDMI.DIMinus
+  nameWithType: IDMI.DIMinus
+- uid: Sparks.Trader.Api.Indicators.IDMI.DIMinus*
+  name: DIMinus
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_DIMinus_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDMI.DIMinus
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDMI.DIMinus
+  nameWithType: IDMI.DIMinus
+- uid: Sparks.Trader.Api.Indicators.IDMI.DIPlus
+  name: DIPlus
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_DIPlus
+  commentId: P:Sparks.Trader.Api.Indicators.IDMI.DIPlus
+  fullName: Sparks.Trader.Api.Indicators.IDMI.DIPlus
+  nameWithType: IDMI.DIPlus
+- uid: Sparks.Trader.Api.Indicators.IDMI.DIPlus*
+  name: DIPlus
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_DIPlus_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDMI.DIPlus
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDMI.DIPlus
+  nameWithType: IDMI.DIPlus
+- uid: Sparks.Trader.Api.Indicators.IDMI.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IDMI.Periods
+  fullName: Sparks.Trader.Api.Indicators.IDMI.Periods
+  nameWithType: IDMI.Periods
+- uid: Sparks.Trader.Api.Indicators.IDMI.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IDMI.html#Sparks_Trader_Api_Indicators_IDMI_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDMI.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IDMI.Periods
+  nameWithType: IDMI.Periods
+- uid: Sparks.Trader.Api.Indicators.IEMA
+  name: IEMA
+  href: doc/api/Sparks.Trader.Api.Indicators.IEMA.html
+  commentId: T:Sparks.Trader.Api.Indicators.IEMA
+  fullName: Sparks.Trader.Api.Indicators.IEMA
+  nameWithType: IEMA
+- uid: Sparks.Trader.Api.Indicators.IKDJ
+  name: IKDJ
+  href: doc/api/Sparks.Trader.Api.Indicators.IKDJ.html
+  commentId: T:Sparks.Trader.Api.Indicators.IKDJ
+  fullName: Sparks.Trader.Api.Indicators.IKDJ
+  nameWithType: IKDJ
+- uid: Sparks.Trader.Api.Indicators.IKDJ.DMaPeriods
+  name: DMaPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IKDJ.html#Sparks_Trader_Api_Indicators_IKDJ_DMaPeriods
+  commentId: P:Sparks.Trader.Api.Indicators.IKDJ.DMaPeriods
+  fullName: Sparks.Trader.Api.Indicators.IKDJ.DMaPeriods
+  nameWithType: IKDJ.DMaPeriods
+- uid: Sparks.Trader.Api.Indicators.IKDJ.DMaPeriods*
+  name: DMaPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IKDJ.html#Sparks_Trader_Api_Indicators_IKDJ_DMaPeriods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IKDJ.DMaPeriods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IKDJ.DMaPeriods
+  nameWithType: IKDJ.DMaPeriods
+- uid: Sparks.Trader.Api.Indicators.IKDJ.KMaPeriods
+  name: KMaPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IKDJ.html#Sparks_Trader_Api_Indicators_IKDJ_KMaPeriods
+  commentId: P:Sparks.Trader.Api.Indicators.IKDJ.KMaPeriods
+  fullName: Sparks.Trader.Api.Indicators.IKDJ.KMaPeriods
+  nameWithType: IKDJ.KMaPeriods
+- uid: Sparks.Trader.Api.Indicators.IKDJ.KMaPeriods*
+  name: KMaPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IKDJ.html#Sparks_Trader_Api_Indicators_IKDJ_KMaPeriods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IKDJ.KMaPeriods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IKDJ.KMaPeriods
+  nameWithType: IKDJ.KMaPeriods
+- uid: Sparks.Trader.Api.Indicators.IKDJ.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IKDJ.html#Sparks_Trader_Api_Indicators_IKDJ_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IKDJ.Periods
+  fullName: Sparks.Trader.Api.Indicators.IKDJ.Periods
+  nameWithType: IKDJ.Periods
+- uid: Sparks.Trader.Api.Indicators.IKDJ.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IKDJ.html#Sparks_Trader_Api_Indicators_IKDJ_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IKDJ.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IKDJ.Periods
+  nameWithType: IKDJ.Periods
+- uid: Sparks.Trader.Api.Indicators.IMACD
+  name: IMACD
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html
+  commentId: T:Sparks.Trader.Api.Indicators.IMACD
+  fullName: Sparks.Trader.Api.Indicators.IMACD
+  nameWithType: IMACD
+- uid: Sparks.Trader.Api.Indicators.IMACD.Histogram
+  name: Histogram
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Histogram
+  commentId: P:Sparks.Trader.Api.Indicators.IMACD.Histogram
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Histogram
+  nameWithType: IMACD.Histogram
+- uid: Sparks.Trader.Api.Indicators.IMACD.Histogram*
+  name: Histogram
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Histogram_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMACD.Histogram
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Histogram
+  nameWithType: IMACD.Histogram
+- uid: Sparks.Trader.Api.Indicators.IMACD.LongPeriods
+  name: LongPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_LongPeriods
+  commentId: P:Sparks.Trader.Api.Indicators.IMACD.LongPeriods
+  fullName: Sparks.Trader.Api.Indicators.IMACD.LongPeriods
+  nameWithType: IMACD.LongPeriods
+- uid: Sparks.Trader.Api.Indicators.IMACD.LongPeriods*
+  name: LongPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_LongPeriods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMACD.LongPeriods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMACD.LongPeriods
+  nameWithType: IMACD.LongPeriods
+- uid: Sparks.Trader.Api.Indicators.IMACD.Macd
+  name: Macd
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Macd
+  commentId: P:Sparks.Trader.Api.Indicators.IMACD.Macd
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Macd
+  nameWithType: IMACD.Macd
+- uid: Sparks.Trader.Api.Indicators.IMACD.Macd*
+  name: Macd
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Macd_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMACD.Macd
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Macd
+  nameWithType: IMACD.Macd
+- uid: Sparks.Trader.Api.Indicators.IMACD.ShortPeriods
+  name: ShortPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_ShortPeriods
+  commentId: P:Sparks.Trader.Api.Indicators.IMACD.ShortPeriods
+  fullName: Sparks.Trader.Api.Indicators.IMACD.ShortPeriods
+  nameWithType: IMACD.ShortPeriods
+- uid: Sparks.Trader.Api.Indicators.IMACD.ShortPeriods*
+  name: ShortPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_ShortPeriods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMACD.ShortPeriods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMACD.ShortPeriods
+  nameWithType: IMACD.ShortPeriods
+- uid: Sparks.Trader.Api.Indicators.IMACD.Signal
+  name: Signal
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Signal
+  commentId: P:Sparks.Trader.Api.Indicators.IMACD.Signal
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Signal
+  nameWithType: IMACD.Signal
+- uid: Sparks.Trader.Api.Indicators.IMACD.Signal*
+  name: Signal
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Signal_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMACD.Signal
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Signal
+  nameWithType: IMACD.Signal
+- uid: Sparks.Trader.Api.Indicators.IMACD.SignalPeriods
+  name: SignalPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_SignalPeriods
+  commentId: P:Sparks.Trader.Api.Indicators.IMACD.SignalPeriods
+  fullName: Sparks.Trader.Api.Indicators.IMACD.SignalPeriods
+  nameWithType: IMACD.SignalPeriods
+- uid: Sparks.Trader.Api.Indicators.IMACD.SignalPeriods*
+  name: SignalPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_SignalPeriods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMACD.SignalPeriods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMACD.SignalPeriods
+  nameWithType: IMACD.SignalPeriods
+- uid: Sparks.Trader.Api.Indicators.IMACD.Source
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Source
+  commentId: P:Sparks.Trader.Api.Indicators.IMACD.Source
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Source
+  nameWithType: IMACD.Source
+- uid: Sparks.Trader.Api.Indicators.IMACD.Source*
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IMACD.html#Sparks_Trader_Api_Indicators_IMACD_Source_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMACD.Source
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMACD.Source
+  nameWithType: IMACD.Source
+- uid: Sparks.Trader.Api.Indicators.IMAE
+  name: IMAE
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html
+  commentId: T:Sparks.Trader.Api.Indicators.IMAE
+  fullName: Sparks.Trader.Api.Indicators.IMAE
+  nameWithType: IMAE
+- uid: Sparks.Trader.Api.Indicators.IMAE.AbsShift
+  name: AbsShift
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_AbsShift
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.AbsShift
+  fullName: Sparks.Trader.Api.Indicators.IMAE.AbsShift
+  nameWithType: IMAE.AbsShift
+- uid: Sparks.Trader.Api.Indicators.IMAE.AbsShift*
+  name: AbsShift
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_AbsShift_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.AbsShift
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.AbsShift
+  nameWithType: IMAE.AbsShift
+- uid: Sparks.Trader.Api.Indicators.IMAE.HighBand
+  name: HighBand
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_HighBand
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.HighBand
+  fullName: Sparks.Trader.Api.Indicators.IMAE.HighBand
+  nameWithType: IMAE.HighBand
+- uid: Sparks.Trader.Api.Indicators.IMAE.HighBand*
+  name: HighBand
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_HighBand_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.HighBand
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.HighBand
+  nameWithType: IMAE.HighBand
+- uid: Sparks.Trader.Api.Indicators.IMAE.LowBand
+  name: LowBand
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_LowBand
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.LowBand
+  fullName: Sparks.Trader.Api.Indicators.IMAE.LowBand
+  nameWithType: IMAE.LowBand
+- uid: Sparks.Trader.Api.Indicators.IMAE.LowBand*
+  name: LowBand
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_LowBand_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.LowBand
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.LowBand
+  nameWithType: IMAE.LowBand
+- uid: Sparks.Trader.Api.Indicators.IMAE.MaResult
+  name: MaResult
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_MaResult
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.MaResult
+  fullName: Sparks.Trader.Api.Indicators.IMAE.MaResult
+  nameWithType: IMAE.MaResult
+- uid: Sparks.Trader.Api.Indicators.IMAE.MaResult*
+  name: MaResult
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_MaResult_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.MaResult
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.MaResult
+  nameWithType: IMAE.MaResult
+- uid: Sparks.Trader.Api.Indicators.IMAE.MaType
+  name: MaType
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_MaType
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.MaType
+  fullName: Sparks.Trader.Api.Indicators.IMAE.MaType
+  nameWithType: IMAE.MaType
+- uid: Sparks.Trader.Api.Indicators.IMAE.MaType*
+  name: MaType
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_MaType_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.MaType
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.MaType
+  nameWithType: IMAE.MaType
+- uid: Sparks.Trader.Api.Indicators.IMAE.PercentShift
+  name: PercentShift
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_PercentShift
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.PercentShift
+  fullName: Sparks.Trader.Api.Indicators.IMAE.PercentShift
+  nameWithType: IMAE.PercentShift
+- uid: Sparks.Trader.Api.Indicators.IMAE.PercentShift*
+  name: PercentShift
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_PercentShift_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.PercentShift
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.PercentShift
+  nameWithType: IMAE.PercentShift
+- uid: Sparks.Trader.Api.Indicators.IMAE.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.Periods
+  fullName: Sparks.Trader.Api.Indicators.IMAE.Periods
+  nameWithType: IMAE.Periods
+- uid: Sparks.Trader.Api.Indicators.IMAE.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.Periods
+  nameWithType: IMAE.Periods
+- uid: Sparks.Trader.Api.Indicators.IMAE.Source
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_Source
+  commentId: P:Sparks.Trader.Api.Indicators.IMAE.Source
+  fullName: Sparks.Trader.Api.Indicators.IMAE.Source
+  nameWithType: IMAE.Source
+- uid: Sparks.Trader.Api.Indicators.IMAE.Source*
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IMAE.html#Sparks_Trader_Api_Indicators_IMAE_Source_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMAE.Source
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMAE.Source
+  nameWithType: IMAE.Source
+- uid: Sparks.Trader.Api.Indicators.IMovingAverage
+  name: IMovingAverage
+  href: doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html
+  commentId: T:Sparks.Trader.Api.Indicators.IMovingAverage
+  fullName: Sparks.Trader.Api.Indicators.IMovingAverage
+  nameWithType: IMovingAverage
+- uid: Sparks.Trader.Api.Indicators.IMovingAverage.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html#Sparks_Trader_Api_Indicators_IMovingAverage_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IMovingAverage.Periods
+  fullName: Sparks.Trader.Api.Indicators.IMovingAverage.Periods
+  nameWithType: IMovingAverage.Periods
+- uid: Sparks.Trader.Api.Indicators.IMovingAverage.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html#Sparks_Trader_Api_Indicators_IMovingAverage_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMovingAverage.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMovingAverage.Periods
+  nameWithType: IMovingAverage.Periods
+- uid: Sparks.Trader.Api.Indicators.IMovingAverage.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html#Sparks_Trader_Api_Indicators_IMovingAverage_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IMovingAverage.Result
+  fullName: Sparks.Trader.Api.Indicators.IMovingAverage.Result
+  nameWithType: IMovingAverage.Result
+- uid: Sparks.Trader.Api.Indicators.IMovingAverage.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html#Sparks_Trader_Api_Indicators_IMovingAverage_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMovingAverage.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMovingAverage.Result
+  nameWithType: IMovingAverage.Result
+- uid: Sparks.Trader.Api.Indicators.IMovingAverage.Source
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html#Sparks_Trader_Api_Indicators_IMovingAverage_Source
+  commentId: P:Sparks.Trader.Api.Indicators.IMovingAverage.Source
+  fullName: Sparks.Trader.Api.Indicators.IMovingAverage.Source
+  nameWithType: IMovingAverage.Source
+- uid: Sparks.Trader.Api.Indicators.IMovingAverage.Source*
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IMovingAverage.html#Sparks_Trader_Api_Indicators_IMovingAverage_Source_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IMovingAverage.Source
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IMovingAverage.Source
+  nameWithType: IMovingAverage.Source
+- uid: Sparks.Trader.Api.Indicators.IOBV
+  name: IOBV
+  href: doc/api/Sparks.Trader.Api.Indicators.IOBV.html
+  commentId: T:Sparks.Trader.Api.Indicators.IOBV
+  fullName: Sparks.Trader.Api.Indicators.IOBV
+  nameWithType: IOBV
+- uid: Sparks.Trader.Api.Indicators.IOBV.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IOBV.html#Sparks_Trader_Api_Indicators_IOBV_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IOBV.Result
+  fullName: Sparks.Trader.Api.Indicators.IOBV.Result
+  nameWithType: IOBV.Result
+- uid: Sparks.Trader.Api.Indicators.IOBV.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IOBV.html#Sparks_Trader_Api_Indicators_IOBV_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IOBV.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IOBV.Result
+  nameWithType: IOBV.Result
+- uid: Sparks.Trader.Api.Indicators.IRSI
+  name: IRSI
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html
+  commentId: T:Sparks.Trader.Api.Indicators.IRSI
+  fullName: Sparks.Trader.Api.Indicators.IRSI
+  nameWithType: IRSI
+- uid: Sparks.Trader.Api.Indicators.IRSI.LevelH
+  name: LevelH
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_LevelH
+  commentId: P:Sparks.Trader.Api.Indicators.IRSI.LevelH
+  fullName: Sparks.Trader.Api.Indicators.IRSI.LevelH
+  nameWithType: IRSI.LevelH
+- uid: Sparks.Trader.Api.Indicators.IRSI.LevelH*
+  name: LevelH
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_LevelH_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IRSI.LevelH
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IRSI.LevelH
+  nameWithType: IRSI.LevelH
+- uid: Sparks.Trader.Api.Indicators.IRSI.LevelL
+  name: LevelL
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_LevelL
+  commentId: P:Sparks.Trader.Api.Indicators.IRSI.LevelL
+  fullName: Sparks.Trader.Api.Indicators.IRSI.LevelL
+  nameWithType: IRSI.LevelL
+- uid: Sparks.Trader.Api.Indicators.IRSI.LevelL*
+  name: LevelL
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_LevelL_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IRSI.LevelL
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IRSI.LevelL
+  nameWithType: IRSI.LevelL
+- uid: Sparks.Trader.Api.Indicators.IRSI.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IRSI.Periods
+  fullName: Sparks.Trader.Api.Indicators.IRSI.Periods
+  nameWithType: IRSI.Periods
+- uid: Sparks.Trader.Api.Indicators.IRSI.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IRSI.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IRSI.Periods
+  nameWithType: IRSI.Periods
+- uid: Sparks.Trader.Api.Indicators.IRSI.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IRSI.Result
+  fullName: Sparks.Trader.Api.Indicators.IRSI.Result
+  nameWithType: IRSI.Result
+- uid: Sparks.Trader.Api.Indicators.IRSI.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IRSI.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IRSI.Result
+  nameWithType: IRSI.Result
+- uid: Sparks.Trader.Api.Indicators.IRSI.Source
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_Source
+  commentId: P:Sparks.Trader.Api.Indicators.IRSI.Source
+  fullName: Sparks.Trader.Api.Indicators.IRSI.Source
+  nameWithType: IRSI.Source
+- uid: Sparks.Trader.Api.Indicators.IRSI.Source*
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IRSI.html#Sparks_Trader_Api_Indicators_IRSI_Source_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IRSI.Source
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IRSI.Source
+  nameWithType: IRSI.Source
+- uid: Sparks.Trader.Api.Indicators.ISAR
+  name: ISAR
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html
+  commentId: T:Sparks.Trader.Api.Indicators.ISAR
+  fullName: Sparks.Trader.Api.Indicators.ISAR
+  nameWithType: ISAR
+- uid: Sparks.Trader.Api.Indicators.ISAR.Begin
+  name: Begin
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Begin
+  commentId: P:Sparks.Trader.Api.Indicators.ISAR.Begin
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Begin
+  nameWithType: ISAR.Begin
+- uid: Sparks.Trader.Api.Indicators.ISAR.Begin*
+  name: Begin
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Begin_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ISAR.Begin
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Begin
+  nameWithType: ISAR.Begin
+- uid: Sparks.Trader.Api.Indicators.ISAR.Max
+  name: Max
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Max
+  commentId: P:Sparks.Trader.Api.Indicators.ISAR.Max
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Max
+  nameWithType: ISAR.Max
+- uid: Sparks.Trader.Api.Indicators.ISAR.Max*
+  name: Max
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Max_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ISAR.Max
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Max
+  nameWithType: ISAR.Max
+- uid: Sparks.Trader.Api.Indicators.ISAR.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Result
+  commentId: P:Sparks.Trader.Api.Indicators.ISAR.Result
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Result
+  nameWithType: ISAR.Result
+- uid: Sparks.Trader.Api.Indicators.ISAR.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ISAR.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Result
+  nameWithType: ISAR.Result
+- uid: Sparks.Trader.Api.Indicators.ISAR.Step
+  name: Step
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Step
+  commentId: P:Sparks.Trader.Api.Indicators.ISAR.Step
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Step
+  nameWithType: ISAR.Step
+- uid: Sparks.Trader.Api.Indicators.ISAR.Step*
+  name: Step
+  href: doc/api/Sparks.Trader.Api.Indicators.ISAR.html#Sparks_Trader_Api_Indicators_ISAR_Step_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ISAR.Step
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ISAR.Step
+  nameWithType: ISAR.Step
+- uid: Sparks.Trader.Api.Indicators.IStDev
+  name: IStDev
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html
+  commentId: T:Sparks.Trader.Api.Indicators.IStDev
+  fullName: Sparks.Trader.Api.Indicators.IStDev
+  nameWithType: IStDev
+- uid: Sparks.Trader.Api.Indicators.IStDev.MaType
+  name: MaType
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_MaType
+  commentId: P:Sparks.Trader.Api.Indicators.IStDev.MaType
+  fullName: Sparks.Trader.Api.Indicators.IStDev.MaType
+  nameWithType: IStDev.MaType
+- uid: Sparks.Trader.Api.Indicators.IStDev.MaType*
+  name: MaType
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_MaType_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IStDev.MaType
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IStDev.MaType
+  nameWithType: IStDev.MaType
+- uid: Sparks.Trader.Api.Indicators.IStDev.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IStDev.Periods
+  fullName: Sparks.Trader.Api.Indicators.IStDev.Periods
+  nameWithType: IStDev.Periods
+- uid: Sparks.Trader.Api.Indicators.IStDev.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IStDev.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IStDev.Periods
+  nameWithType: IStDev.Periods
+- uid: Sparks.Trader.Api.Indicators.IStDev.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IStDev.Result
+  fullName: Sparks.Trader.Api.Indicators.IStDev.Result
+  nameWithType: IStDev.Result
+- uid: Sparks.Trader.Api.Indicators.IStDev.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IStDev.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IStDev.Result
+  nameWithType: IStDev.Result
+- uid: Sparks.Trader.Api.Indicators.IStDev.Source
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_Source
+  commentId: P:Sparks.Trader.Api.Indicators.IStDev.Source
+  fullName: Sparks.Trader.Api.Indicators.IStDev.Source
+  nameWithType: IStDev.Source
+- uid: Sparks.Trader.Api.Indicators.IStDev.Source*
+  name: Source
+  href: doc/api/Sparks.Trader.Api.Indicators.IStDev.html#Sparks_Trader_Api_Indicators_IStDev_Source_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IStDev.Source
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IStDev.Source
+  nameWithType: IStDev.Source
+- uid: Sparks.Trader.Api.Indicators.ITriangularMA
+  name: ITriangularMA
+  href: doc/api/Sparks.Trader.Api.Indicators.ITriangularMA.html
+  commentId: T:Sparks.Trader.Api.Indicators.ITriangularMA
+  fullName: Sparks.Trader.Api.Indicators.ITriangularMA
+  nameWithType: ITriangularMA
+- uid: Sparks.Trader.Api.Indicators.ITypicalPrice
+  name: ITypicalPrice
+  href: doc/api/Sparks.Trader.Api.Indicators.ITypicalPrice.html
+  commentId: T:Sparks.Trader.Api.Indicators.ITypicalPrice
+  fullName: Sparks.Trader.Api.Indicators.ITypicalPrice
+  nameWithType: ITypicalPrice
+- uid: Sparks.Trader.Api.Indicators.ITypicalPrice.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ITypicalPrice.html#Sparks_Trader_Api_Indicators_ITypicalPrice_Result
+  commentId: P:Sparks.Trader.Api.Indicators.ITypicalPrice.Result
+  fullName: Sparks.Trader.Api.Indicators.ITypicalPrice.Result
+  nameWithType: ITypicalPrice.Result
+- uid: Sparks.Trader.Api.Indicators.ITypicalPrice.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.ITypicalPrice.html#Sparks_Trader_Api_Indicators_ITypicalPrice_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.ITypicalPrice.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.ITypicalPrice.Result
+  nameWithType: ITypicalPrice.Result
+- uid: Sparks.Trader.Api.Indicators.IVOL
+  name: IVOL
+  href: doc/api/Sparks.Trader.Api.Indicators.IVOL.html
+  commentId: T:Sparks.Trader.Api.Indicators.IVOL
+  fullName: Sparks.Trader.Api.Indicators.IVOL
+  nameWithType: IVOL
+- uid: Sparks.Trader.Api.Indicators.IVOL.MaPeriods
+  name: MaPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IVOL.html#Sparks_Trader_Api_Indicators_IVOL_MaPeriods
+  commentId: P:Sparks.Trader.Api.Indicators.IVOL.MaPeriods
+  fullName: Sparks.Trader.Api.Indicators.IVOL.MaPeriods
+  nameWithType: IVOL.MaPeriods
+- uid: Sparks.Trader.Api.Indicators.IVOL.MaPeriods*
+  name: MaPeriods
+  href: doc/api/Sparks.Trader.Api.Indicators.IVOL.html#Sparks_Trader_Api_Indicators_IVOL_MaPeriods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IVOL.MaPeriods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IVOL.MaPeriods
+  nameWithType: IVOL.MaPeriods
+- uid: Sparks.Trader.Api.Indicators.IVOL.MaResult
+  name: MaResult
+  href: doc/api/Sparks.Trader.Api.Indicators.IVOL.html#Sparks_Trader_Api_Indicators_IVOL_MaResult
+  commentId: P:Sparks.Trader.Api.Indicators.IVOL.MaResult
+  fullName: Sparks.Trader.Api.Indicators.IVOL.MaResult
+  nameWithType: IVOL.MaResult
+- uid: Sparks.Trader.Api.Indicators.IVOL.MaResult*
+  name: MaResult
+  href: doc/api/Sparks.Trader.Api.Indicators.IVOL.html#Sparks_Trader_Api_Indicators_IVOL_MaResult_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IVOL.MaResult
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IVOL.MaResult
+  nameWithType: IVOL.MaResult
+- uid: Sparks.Trader.Api.Indicators.IVOL.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IVOL.html#Sparks_Trader_Api_Indicators_IVOL_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IVOL.Result
+  fullName: Sparks.Trader.Api.Indicators.IVOL.Result
+  nameWithType: IVOL.Result
+- uid: Sparks.Trader.Api.Indicators.IVOL.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IVOL.html#Sparks_Trader_Api_Indicators_IVOL_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IVOL.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IVOL.Result
+  nameWithType: IVOL.Result
+- uid: Sparks.Trader.Api.Indicators.IWilderMA
+  name: IWilderMA
+  href: doc/api/Sparks.Trader.Api.Indicators.IWilderMA.html
+  commentId: T:Sparks.Trader.Api.Indicators.IWilderMA
+  fullName: Sparks.Trader.Api.Indicators.IWilderMA
+  nameWithType: IWilderMA
+- uid: Sparks.Trader.Api.Indicators.IWMA
+  name: IWMA
+  href: doc/api/Sparks.Trader.Api.Indicators.IWMA.html
+  commentId: T:Sparks.Trader.Api.Indicators.IWMA
+  fullName: Sparks.Trader.Api.Indicators.IWMA
+  nameWithType: IWMA
+- uid: Sparks.Trader.Api.Indicators.IWR
+  name: IWR
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html
+  commentId: T:Sparks.Trader.Api.Indicators.IWR
+  fullName: Sparks.Trader.Api.Indicators.IWR
+  nameWithType: IWR
+- uid: Sparks.Trader.Api.Indicators.IWR.HighLevel
+  name: HighLevel
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_HighLevel
+  commentId: P:Sparks.Trader.Api.Indicators.IWR.HighLevel
+  fullName: Sparks.Trader.Api.Indicators.IWR.HighLevel
+  nameWithType: IWR.HighLevel
+- uid: Sparks.Trader.Api.Indicators.IWR.HighLevel*
+  name: HighLevel
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_HighLevel_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IWR.HighLevel
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IWR.HighLevel
+  nameWithType: IWR.HighLevel
+- uid: Sparks.Trader.Api.Indicators.IWR.LowLevel
+  name: LowLevel
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_LowLevel
+  commentId: P:Sparks.Trader.Api.Indicators.IWR.LowLevel
+  fullName: Sparks.Trader.Api.Indicators.IWR.LowLevel
+  nameWithType: IWR.LowLevel
+- uid: Sparks.Trader.Api.Indicators.IWR.LowLevel*
+  name: LowLevel
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_LowLevel_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IWR.LowLevel
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IWR.LowLevel
+  nameWithType: IWR.LowLevel
+- uid: Sparks.Trader.Api.Indicators.IWR.Periods
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_Periods
+  commentId: P:Sparks.Trader.Api.Indicators.IWR.Periods
+  fullName: Sparks.Trader.Api.Indicators.IWR.Periods
+  nameWithType: IWR.Periods
+- uid: Sparks.Trader.Api.Indicators.IWR.Periods*
+  name: Periods
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_Periods_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IWR.Periods
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IWR.Periods
+  nameWithType: IWR.Periods
+- uid: Sparks.Trader.Api.Indicators.IWR.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IWR.Result
+  fullName: Sparks.Trader.Api.Indicators.IWR.Result
+  nameWithType: IWR.Result
+- uid: Sparks.Trader.Api.Indicators.IWR.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IWR.html#Sparks_Trader_Api_Indicators_IWR_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IWR.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IWR.Result
+  nameWithType: IWR.Result
+- uid: Sparks.Trader.Api.Indicators.IZigZag
+  name: IZigZag
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html
+  commentId: T:Sparks.Trader.Api.Indicators.IZigZag
+  fullName: Sparks.Trader.Api.Indicators.IZigZag
+  nameWithType: IZigZag
+- uid: Sparks.Trader.Api.Indicators.IZigZag.BackStep
+  name: BackStep
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_BackStep
+  commentId: P:Sparks.Trader.Api.Indicators.IZigZag.BackStep
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.BackStep
+  nameWithType: IZigZag.BackStep
+- uid: Sparks.Trader.Api.Indicators.IZigZag.BackStep*
+  name: BackStep
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_BackStep_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IZigZag.BackStep
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.BackStep
+  nameWithType: IZigZag.BackStep
+- uid: Sparks.Trader.Api.Indicators.IZigZag.Depth
+  name: Depth
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_Depth
+  commentId: P:Sparks.Trader.Api.Indicators.IZigZag.Depth
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.Depth
+  nameWithType: IZigZag.Depth
+- uid: Sparks.Trader.Api.Indicators.IZigZag.Depth*
+  name: Depth
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_Depth_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IZigZag.Depth
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.Depth
+  nameWithType: IZigZag.Depth
+- uid: Sparks.Trader.Api.Indicators.IZigZag.Deviation
+  name: Deviation
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_Deviation
+  commentId: P:Sparks.Trader.Api.Indicators.IZigZag.Deviation
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.Deviation
+  nameWithType: IZigZag.Deviation
+- uid: Sparks.Trader.Api.Indicators.IZigZag.Deviation*
+  name: Deviation
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_Deviation_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IZigZag.Deviation
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.Deviation
+  nameWithType: IZigZag.Deviation
+- uid: Sparks.Trader.Api.Indicators.IZigZag.Result
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_Result
+  commentId: P:Sparks.Trader.Api.Indicators.IZigZag.Result
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.Result
+  nameWithType: IZigZag.Result
+- uid: Sparks.Trader.Api.Indicators.IZigZag.Result*
+  name: Result
+  href: doc/api/Sparks.Trader.Api.Indicators.IZigZag.html#Sparks_Trader_Api_Indicators_IZigZag_Result_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IZigZag.Result
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Indicators.IZigZag.Result
+  nameWithType: IZigZag.Result
 - uid: Sparks.Trader.Api.IOrder
   name: IOrder
   href: doc/api/Sparks.Trader.Api.IOrder.html
@@ -12216,6 +13580,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IOrder.RemainingQuantity
   nameWithType: IOrder.RemainingQuantity
+- uid: Sparks.Trader.Api.IOrder.SiblingOrder
+  name: SiblingOrder
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_SiblingOrder
+  commentId: P:Sparks.Trader.Api.IOrder.SiblingOrder
+  fullName: Sparks.Trader.Api.IOrder.SiblingOrder
+  nameWithType: IOrder.SiblingOrder
+- uid: Sparks.Trader.Api.IOrder.SiblingOrder*
+  name: SiblingOrder
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_SiblingOrder_
+  commentId: Overload:Sparks.Trader.Api.IOrder.SiblingOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IOrder.SiblingOrder
+  nameWithType: IOrder.SiblingOrder
 - uid: Sparks.Trader.Api.IOrder.Status
   name: Status
   href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Status
@@ -12708,6 +14085,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IPosition.Commission
   nameWithType: IPosition.Commission
+- uid: Sparks.Trader.Api.IPosition.Contract
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.IPosition.html#Sparks_Trader_Api_IPosition_Contract
+  commentId: P:Sparks.Trader.Api.IPosition.Contract
+  fullName: Sparks.Trader.Api.IPosition.Contract
+  nameWithType: IPosition.Contract
+- uid: Sparks.Trader.Api.IPosition.Contract*
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.IPosition.html#Sparks_Trader_Api_IPosition_Contract_
+  commentId: Overload:Sparks.Trader.Api.IPosition.Contract
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IPosition.Contract
+  nameWithType: IPosition.Contract
 - uid: Sparks.Trader.Api.IPosition.Currency
   name: Currency
   href: doc/api/Sparks.Trader.Api.IPosition.html#Sparks_Trader_Api_IPosition_Currency
@@ -13431,22 +14821,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IScript.Children
   nameWithType: IScript.Children
-- uid: Sparks.Trader.Api.IScript.CreateIndicator*
-  name: CreateIndicator
-  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateIndicator_
-  commentId: Overload:Sparks.Trader.Api.IScript.CreateIndicator
+- uid: Sparks.Trader.Api.IScript.Contract
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Contract
+  commentId: P:Sparks.Trader.Api.IScript.Contract
+  fullName: Sparks.Trader.Api.IScript.Contract
+  nameWithType: IScript.Contract
+- uid: Sparks.Trader.Api.IScript.Contract*
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Contract_
+  commentId: Overload:Sparks.Trader.Api.IScript.Contract
   isSpec: "True"
-  fullName: Sparks.Trader.Api.IScript.CreateIndicator
-  nameWithType: IScript.CreateIndicator
-- uid: Sparks.Trader.Api.IScript.CreateIndicator``1(System.Object[])
-  name: CreateIndicator<T>(params object[])
-  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateIndicator__1_System_Object___
-  commentId: M:Sparks.Trader.Api.IScript.CreateIndicator``1(System.Object[])
-  name.vb: CreateIndicator(Of T)(ParamArray Object())
-  fullName: Sparks.Trader.Api.IScript.CreateIndicator<T>(params object[])
-  fullName.vb: Sparks.Trader.Api.IScript.CreateIndicator(Of T)(ParamArray Object())
-  nameWithType: IScript.CreateIndicator<T>(params object[])
-  nameWithType.vb: IScript.CreateIndicator(Of T)(ParamArray Object())
+  fullName: Sparks.Trader.Api.IScript.Contract
+  nameWithType: IScript.Contract
 - uid: Sparks.Trader.Api.IScript.CreateIndicatorDatas(System.Nullable{System.Int32})
   name: CreateIndicatorDatas(int?)
   href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateIndicatorDatas_System_Nullable_System_Int32__
@@ -13463,22 +14850,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IScript.CreateIndicatorDatas
   nameWithType: IScript.CreateIndicatorDatas
-- uid: Sparks.Trader.Api.IScript.CreateMA(Sparks.Trader.Api.EMaType,Sparks.Trader.Api.IDatas,System.Int32)
-  name: CreateMA(EMaType, IDatas, int)
-  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateMA_Sparks_Trader_Api_EMaType_Sparks_Trader_Api_IDatas_System_Int32_
-  commentId: M:Sparks.Trader.Api.IScript.CreateMA(Sparks.Trader.Api.EMaType,Sparks.Trader.Api.IDatas,System.Int32)
-  name.vb: CreateMA(EMaType, IDatas, Integer)
-  fullName: Sparks.Trader.Api.IScript.CreateMA(Sparks.Trader.Api.EMaType, Sparks.Trader.Api.IDatas, int)
-  fullName.vb: Sparks.Trader.Api.IScript.CreateMA(Sparks.Trader.Api.EMaType, Sparks.Trader.Api.IDatas, Integer)
-  nameWithType: IScript.CreateMA(EMaType, IDatas, int)
-  nameWithType.vb: IScript.CreateMA(EMaType, IDatas, Integer)
-- uid: Sparks.Trader.Api.IScript.CreateMA*
-  name: CreateMA
-  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_CreateMA_
-  commentId: Overload:Sparks.Trader.Api.IScript.CreateMA
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IScript.CreateMA
-  nameWithType: IScript.CreateMA
 - uid: Sparks.Trader.Api.IScript.Desc
   name: Desc
   href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Desc
@@ -13550,6 +14921,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IScript.Group
   nameWithType: IScript.Group
+- uid: Sparks.Trader.Api.IScript.Indicators
+  name: Indicators
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Indicators
+  commentId: P:Sparks.Trader.Api.IScript.Indicators
+  fullName: Sparks.Trader.Api.IScript.Indicators
+  nameWithType: IScript.Indicators
+- uid: Sparks.Trader.Api.IScript.Indicators*
+  name: Indicators
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Indicators_
+  commentId: Overload:Sparks.Trader.Api.IScript.Indicators
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IScript.Indicators
+  nameWithType: IScript.Indicators
 - uid: Sparks.Trader.Api.IScript.Info(System.Object)
   name: Info(object)
   href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Info_System_Object_
@@ -15266,125 +16650,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITick.SymbolInfo
   nameWithType: ITick.SymbolInfo
-- uid: Sparks.Trader.Api.ITimeAxis
-  name: ITimeAxis
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html
-  commentId: T:Sparks.Trader.Api.ITimeAxis
-  fullName: Sparks.Trader.Api.ITimeAxis
-  nameWithType: ITimeAxis
-- uid: Sparks.Trader.Api.ITimeAxis.AxisScaleType
-  name: AxisScaleType
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_AxisScaleType
-  commentId: P:Sparks.Trader.Api.ITimeAxis.AxisScaleType
-  fullName: Sparks.Trader.Api.ITimeAxis.AxisScaleType
-  nameWithType: ITimeAxis.AxisScaleType
-- uid: Sparks.Trader.Api.ITimeAxis.AxisScaleType*
-  name: AxisScaleType
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_AxisScaleType_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.AxisScaleType
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.AxisScaleType
-  nameWithType: ITimeAxis.AxisScaleType
-- uid: Sparks.Trader.Api.ITimeAxis.GetDateTimeByUnitIndex(System.Int32)
-  name: GetDateTimeByUnitIndex(int)
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_GetDateTimeByUnitIndex_System_Int32_
-  commentId: M:Sparks.Trader.Api.ITimeAxis.GetDateTimeByUnitIndex(System.Int32)
-  name.vb: GetDateTimeByUnitIndex(Integer)
-  fullName: Sparks.Trader.Api.ITimeAxis.GetDateTimeByUnitIndex(int)
-  fullName.vb: Sparks.Trader.Api.ITimeAxis.GetDateTimeByUnitIndex(Integer)
-  nameWithType: ITimeAxis.GetDateTimeByUnitIndex(int)
-  nameWithType.vb: ITimeAxis.GetDateTimeByUnitIndex(Integer)
-- uid: Sparks.Trader.Api.ITimeAxis.GetDateTimeByUnitIndex*
-  name: GetDateTimeByUnitIndex
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_GetDateTimeByUnitIndex_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.GetDateTimeByUnitIndex
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.GetDateTimeByUnitIndex
-  nameWithType: ITimeAxis.GetDateTimeByUnitIndex
-- uid: Sparks.Trader.Api.ITimeAxis.GetDateTimeByX(System.Double)
-  name: GetDateTimeByX(double)
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_GetDateTimeByX_System_Double_
-  commentId: M:Sparks.Trader.Api.ITimeAxis.GetDateTimeByX(System.Double)
-  name.vb: GetDateTimeByX(Double)
-  fullName: Sparks.Trader.Api.ITimeAxis.GetDateTimeByX(double)
-  fullName.vb: Sparks.Trader.Api.ITimeAxis.GetDateTimeByX(Double)
-  nameWithType: ITimeAxis.GetDateTimeByX(double)
-  nameWithType.vb: ITimeAxis.GetDateTimeByX(Double)
-- uid: Sparks.Trader.Api.ITimeAxis.GetDateTimeByX*
-  name: GetDateTimeByX
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_GetDateTimeByX_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.GetDateTimeByX
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.GetDateTimeByX
-  nameWithType: ITimeAxis.GetDateTimeByX
-- uid: Sparks.Trader.Api.ITimeAxis.GetXByDataTime(System.DateTime)
-  name: GetXByDataTime(DateTime)
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_GetXByDataTime_System_DateTime_
-  commentId: M:Sparks.Trader.Api.ITimeAxis.GetXByDataTime(System.DateTime)
-  name.vb: GetXByDataTime(Date)
-  fullName: Sparks.Trader.Api.ITimeAxis.GetXByDataTime(System.DateTime)
-  fullName.vb: Sparks.Trader.Api.ITimeAxis.GetXByDataTime(Date)
-  nameWithType: ITimeAxis.GetXByDataTime(DateTime)
-  nameWithType.vb: ITimeAxis.GetXByDataTime(Date)
-- uid: Sparks.Trader.Api.ITimeAxis.GetXByDataTime*
-  name: GetXByDataTime
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_GetXByDataTime_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.GetXByDataTime
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.GetXByDataTime
-  nameWithType: ITimeAxis.GetXByDataTime
-- uid: Sparks.Trader.Api.ITimeAxis.LeftAsOpen
-  name: LeftAsOpen
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_LeftAsOpen
-  commentId: P:Sparks.Trader.Api.ITimeAxis.LeftAsOpen
-  fullName: Sparks.Trader.Api.ITimeAxis.LeftAsOpen
-  nameWithType: ITimeAxis.LeftAsOpen
-- uid: Sparks.Trader.Api.ITimeAxis.LeftAsOpen*
-  name: LeftAsOpen
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_LeftAsOpen_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.LeftAsOpen
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.LeftAsOpen
-  nameWithType: ITimeAxis.LeftAsOpen
-- uid: Sparks.Trader.Api.ITimeAxis.LeftDate
-  name: LeftDate
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_LeftDate
-  commentId: P:Sparks.Trader.Api.ITimeAxis.LeftDate
-  fullName: Sparks.Trader.Api.ITimeAxis.LeftDate
-  nameWithType: ITimeAxis.LeftDate
-- uid: Sparks.Trader.Api.ITimeAxis.LeftDate*
-  name: LeftDate
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_LeftDate_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.LeftDate
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.LeftDate
-  nameWithType: ITimeAxis.LeftDate
-- uid: Sparks.Trader.Api.ITimeAxis.RightDate
-  name: RightDate
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_RightDate
-  commentId: P:Sparks.Trader.Api.ITimeAxis.RightDate
-  fullName: Sparks.Trader.Api.ITimeAxis.RightDate
-  nameWithType: ITimeAxis.RightDate
-- uid: Sparks.Trader.Api.ITimeAxis.RightDate*
-  name: RightDate
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_RightDate_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.RightDate
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.RightDate
-  nameWithType: ITimeAxis.RightDate
-- uid: Sparks.Trader.Api.ITimeAxis.Scales
-  name: Scales
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_Scales
-  commentId: P:Sparks.Trader.Api.ITimeAxis.Scales
-  fullName: Sparks.Trader.Api.ITimeAxis.Scales
-  nameWithType: ITimeAxis.Scales
-- uid: Sparks.Trader.Api.ITimeAxis.Scales*
-  name: Scales
-  href: doc/api/Sparks.Trader.Api.ITimeAxis.html#Sparks_Trader_Api_ITimeAxis_Scales_
-  commentId: Overload:Sparks.Trader.Api.ITimeAxis.Scales
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITimeAxis.Scales
-  nameWithType: ITimeAxis.Scales
 - uid: Sparks.Trader.Api.ITimes
   name: ITimes
   href: doc/api/Sparks.Trader.Api.ITimes.html
@@ -16433,25 +17698,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradingHours.TimeZoneInfo
   nameWithType: ITradingHours.TimeZoneInfo
-- uid: Sparks.Trader.Api.ITradingHoursManager
-  name: ITradingHoursManager
-  href: doc/api/Sparks.Trader.Api.ITradingHoursManager.html
-  commentId: T:Sparks.Trader.Api.ITradingHoursManager
-  fullName: Sparks.Trader.Api.ITradingHoursManager
-  nameWithType: ITradingHoursManager
-- uid: Sparks.Trader.Api.ITradingHoursManager.TradingHours
-  name: TradingHours
-  href: doc/api/Sparks.Trader.Api.ITradingHoursManager.html#Sparks_Trader_Api_ITradingHoursManager_TradingHours
-  commentId: P:Sparks.Trader.Api.ITradingHoursManager.TradingHours
-  fullName: Sparks.Trader.Api.ITradingHoursManager.TradingHours
-  nameWithType: ITradingHoursManager.TradingHours
-- uid: Sparks.Trader.Api.ITradingHoursManager.TradingHours*
-  name: TradingHours
-  href: doc/api/Sparks.Trader.Api.ITradingHoursManager.html#Sparks_Trader_Api_ITradingHoursManager_TradingHours_
-  commentId: Overload:Sparks.Trader.Api.ITradingHoursManager.TradingHours
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingHoursManager.TradingHours
-  nameWithType: ITradingHoursManager.TradingHours
 - uid: Sparks.Trader.Api.ITradingSession
   name: ITradingSession
   href: doc/api/Sparks.Trader.Api.ITradingSession.html
@@ -16796,369 +18042,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITriangle.Stroke
   nameWithType: ITriangle.Stroke
-- uid: Sparks.Trader.Api.IUserChartSetting
-  name: IUserChartSetting
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html
-  commentId: T:Sparks.Trader.Api.IUserChartSetting
-  fullName: Sparks.Trader.Api.IUserChartSetting
-  nameWithType: IUserChartSetting
-- uid: Sparks.Trader.Api.IUserChartSetting.AskStroke
-  name: AskStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AskStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.AskStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.AskStroke
-  nameWithType: IUserChartSetting.AskStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.AskStroke*
-  name: AskStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AskStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.AskStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.AskStroke
-  nameWithType: IUserChartSetting.AskStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.AxisBackground
-  name: AxisBackground
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AxisBackground
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.AxisBackground
-  fullName: Sparks.Trader.Api.IUserChartSetting.AxisBackground
-  nameWithType: IUserChartSetting.AxisBackground
-- uid: Sparks.Trader.Api.IUserChartSetting.AxisBackground*
-  name: AxisBackground
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AxisBackground_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.AxisBackground
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.AxisBackground
-  nameWithType: IUserChartSetting.AxisBackground
-- uid: Sparks.Trader.Api.IUserChartSetting.AxisFont
-  name: AxisFont
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AxisFont
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.AxisFont
-  fullName: Sparks.Trader.Api.IUserChartSetting.AxisFont
-  nameWithType: IUserChartSetting.AxisFont
-- uid: Sparks.Trader.Api.IUserChartSetting.AxisFont*
-  name: AxisFont
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AxisFont_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.AxisFont
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.AxisFont
-  nameWithType: IUserChartSetting.AxisFont
-- uid: Sparks.Trader.Api.IUserChartSetting.AxisStroke
-  name: AxisStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AxisStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.AxisStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.AxisStroke
-  nameWithType: IUserChartSetting.AxisStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.AxisStroke*
-  name: AxisStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_AxisStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.AxisStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.AxisStroke
-  nameWithType: IUserChartSetting.AxisStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.BackgroundColor
-  name: BackgroundColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BackgroundColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BackgroundColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.BackgroundColor
-  nameWithType: IUserChartSetting.BackgroundColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BackgroundColor*
-  name: BackgroundColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BackgroundColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BackgroundColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BackgroundColor
-  nameWithType: IUserChartSetting.BackgroundColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BearColor
-  name: BearColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BearColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BearColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.BearColor
-  nameWithType: IUserChartSetting.BearColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BearColor*
-  name: BearColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BearColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BearColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BearColor
-  nameWithType: IUserChartSetting.BearColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BearFillColor
-  name: BearFillColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BearFillColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BearFillColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.BearFillColor
-  nameWithType: IUserChartSetting.BearFillColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BearFillColor*
-  name: BearFillColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BearFillColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BearFillColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BearFillColor
-  nameWithType: IUserChartSetting.BearFillColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BearOutlineColor
-  name: BearOutlineColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BearOutlineColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BearOutlineColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.BearOutlineColor
-  nameWithType: IUserChartSetting.BearOutlineColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BearOutlineColor*
-  name: BearOutlineColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BearOutlineColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BearOutlineColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BearOutlineColor
-  nameWithType: IUserChartSetting.BearOutlineColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BidStroke
-  name: BidStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BidStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BidStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.BidStroke
-  nameWithType: IUserChartSetting.BidStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.BidStroke*
-  name: BidStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BidStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BidStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BidStroke
-  nameWithType: IUserChartSetting.BidStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.BullColor
-  name: BullColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BullColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BullColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.BullColor
-  nameWithType: IUserChartSetting.BullColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BullColor*
-  name: BullColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BullColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BullColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BullColor
-  nameWithType: IUserChartSetting.BullColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BullFillColor
-  name: BullFillColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BullFillColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BullFillColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.BullFillColor
-  nameWithType: IUserChartSetting.BullFillColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BullFillColor*
-  name: BullFillColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BullFillColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BullFillColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BullFillColor
-  nameWithType: IUserChartSetting.BullFillColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BullOutlineColor
-  name: BullOutlineColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BullOutlineColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.BullOutlineColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.BullOutlineColor
-  nameWithType: IUserChartSetting.BullOutlineColor
-- uid: Sparks.Trader.Api.IUserChartSetting.BullOutlineColor*
-  name: BullOutlineColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_BullOutlineColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.BullOutlineColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.BullOutlineColor
-  nameWithType: IUserChartSetting.BullOutlineColor
-- uid: Sparks.Trader.Api.IUserChartSetting.ForegroundColor
-  name: ForegroundColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ForegroundColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.ForegroundColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.ForegroundColor
-  nameWithType: IUserChartSetting.ForegroundColor
-- uid: Sparks.Trader.Api.IUserChartSetting.ForegroundColor*
-  name: ForegroundColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ForegroundColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.ForegroundColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.ForegroundColor
-  nameWithType: IUserChartSetting.ForegroundColor
-- uid: Sparks.Trader.Api.IUserChartSetting.GetColor(Sparks.Trader.Api.EPL)
-  name: GetColor(EPL)
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_GetColor_Sparks_Trader_Api_EPL_
-  commentId: M:Sparks.Trader.Api.IUserChartSetting.GetColor(Sparks.Trader.Api.EPL)
-  fullName: Sparks.Trader.Api.IUserChartSetting.GetColor(Sparks.Trader.Api.EPL)
-  nameWithType: IUserChartSetting.GetColor(EPL)
-- uid: Sparks.Trader.Api.IUserChartSetting.GetColor(Sparks.Trader.Api.ETradeDirection)
-  name: GetColor(ETradeDirection)
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_GetColor_Sparks_Trader_Api_ETradeDirection_
-  commentId: M:Sparks.Trader.Api.IUserChartSetting.GetColor(Sparks.Trader.Api.ETradeDirection)
-  fullName: Sparks.Trader.Api.IUserChartSetting.GetColor(Sparks.Trader.Api.ETradeDirection)
-  nameWithType: IUserChartSetting.GetColor(ETradeDirection)
-- uid: Sparks.Trader.Api.IUserChartSetting.GetColor*
-  name: GetColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_GetColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.GetColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.GetColor
-  nameWithType: IUserChartSetting.GetColor
-- uid: Sparks.Trader.Api.IUserChartSetting.GetPriceColor(Sparks.Trader.Api.EBarDirection)
-  name: GetPriceColor(EBarDirection)
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_GetPriceColor_Sparks_Trader_Api_EBarDirection_
-  commentId: M:Sparks.Trader.Api.IUserChartSetting.GetPriceColor(Sparks.Trader.Api.EBarDirection)
-  fullName: Sparks.Trader.Api.IUserChartSetting.GetPriceColor(Sparks.Trader.Api.EBarDirection)
-  nameWithType: IUserChartSetting.GetPriceColor(EBarDirection)
-- uid: Sparks.Trader.Api.IUserChartSetting.GetPriceColor*
-  name: GetPriceColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_GetPriceColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.GetPriceColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.GetPriceColor
-  nameWithType: IUserChartSetting.GetPriceColor
-- uid: Sparks.Trader.Api.IUserChartSetting.GetPriceStroke(Sparks.Trader.Api.EBarDirection)
-  name: GetPriceStroke(EBarDirection)
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_GetPriceStroke_Sparks_Trader_Api_EBarDirection_
-  commentId: M:Sparks.Trader.Api.IUserChartSetting.GetPriceStroke(Sparks.Trader.Api.EBarDirection)
-  fullName: Sparks.Trader.Api.IUserChartSetting.GetPriceStroke(Sparks.Trader.Api.EBarDirection)
-  nameWithType: IUserChartSetting.GetPriceStroke(EBarDirection)
-- uid: Sparks.Trader.Api.IUserChartSetting.GetPriceStroke*
-  name: GetPriceStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_GetPriceStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.GetPriceStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.GetPriceStroke
-  nameWithType: IUserChartSetting.GetPriceStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.HighlightColor
-  name: HighlightColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_HighlightColor
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.HighlightColor
-  fullName: Sparks.Trader.Api.IUserChartSetting.HighlightColor
-  nameWithType: IUserChartSetting.HighlightColor
-- uid: Sparks.Trader.Api.IUserChartSetting.HighlightColor*
-  name: HighlightColor
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_HighlightColor_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.HighlightColor
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.HighlightColor
-  nameWithType: IUserChartSetting.HighlightColor
-- uid: Sparks.Trader.Api.IUserChartSetting.HorizontalGridStroke
-  name: HorizontalGridStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_HorizontalGridStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.HorizontalGridStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.HorizontalGridStroke
-  nameWithType: IUserChartSetting.HorizontalGridStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.HorizontalGridStroke*
-  name: HorizontalGridStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_HorizontalGridStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.HorizontalGridStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.HorizontalGridStroke
-  nameWithType: IUserChartSetting.HorizontalGridStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.LastDeclineStroke
-  name: LastDeclineStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_LastDeclineStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.LastDeclineStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.LastDeclineStroke
-  nameWithType: IUserChartSetting.LastDeclineStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.LastDeclineStroke*
-  name: LastDeclineStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_LastDeclineStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.LastDeclineStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.LastDeclineStroke
-  nameWithType: IUserChartSetting.LastDeclineStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.LastEvenStroke
-  name: LastEvenStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_LastEvenStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.LastEvenStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.LastEvenStroke
-  nameWithType: IUserChartSetting.LastEvenStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.LastEvenStroke*
-  name: LastEvenStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_LastEvenStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.LastEvenStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.LastEvenStroke
-  nameWithType: IUserChartSetting.LastEvenStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.LastRiseStroke
-  name: LastRiseStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_LastRiseStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.LastRiseStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.LastRiseStroke
-  nameWithType: IUserChartSetting.LastRiseStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.LastRiseStroke*
-  name: LastRiseStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_LastRiseStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.LastRiseStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.LastRiseStroke
-  nameWithType: IUserChartSetting.LastRiseStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.MouseCrossStroke
-  name: MouseCrossStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_MouseCrossStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.MouseCrossStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.MouseCrossStroke
-  nameWithType: IUserChartSetting.MouseCrossStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.MouseCrossStroke*
-  name: MouseCrossStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_MouseCrossStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.MouseCrossStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.MouseCrossStroke
-  nameWithType: IUserChartSetting.MouseCrossStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.Name
-  name: Name
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_Name
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.Name
-  fullName: Sparks.Trader.Api.IUserChartSetting.Name
-  nameWithType: IUserChartSetting.Name
-- uid: Sparks.Trader.Api.IUserChartSetting.Name*
-  name: Name
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_Name_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.Name
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.Name
-  nameWithType: IUserChartSetting.Name
-- uid: Sparks.Trader.Api.IUserChartSetting.ShowGrid
-  name: ShowGrid
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ShowGrid
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.ShowGrid
-  fullName: Sparks.Trader.Api.IUserChartSetting.ShowGrid
-  nameWithType: IUserChartSetting.ShowGrid
-- uid: Sparks.Trader.Api.IUserChartSetting.ShowGrid*
-  name: ShowGrid
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ShowGrid_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.ShowGrid
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.ShowGrid
-  nameWithType: IUserChartSetting.ShowGrid
-- uid: Sparks.Trader.Api.IUserChartSetting.ShowOrders
-  name: ShowOrders
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ShowOrders
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.ShowOrders
-  fullName: Sparks.Trader.Api.IUserChartSetting.ShowOrders
-  nameWithType: IUserChartSetting.ShowOrders
-- uid: Sparks.Trader.Api.IUserChartSetting.ShowOrders*
-  name: ShowOrders
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ShowOrders_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.ShowOrders
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.ShowOrders
-  nameWithType: IUserChartSetting.ShowOrders
-- uid: Sparks.Trader.Api.IUserChartSetting.ShowPositions
-  name: ShowPositions
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ShowPositions
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.ShowPositions
-  fullName: Sparks.Trader.Api.IUserChartSetting.ShowPositions
-  nameWithType: IUserChartSetting.ShowPositions
-- uid: Sparks.Trader.Api.IUserChartSetting.ShowPositions*
-  name: ShowPositions
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_ShowPositions_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.ShowPositions
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.ShowPositions
-  nameWithType: IUserChartSetting.ShowPositions
-- uid: Sparks.Trader.Api.IUserChartSetting.VerticalGridStroke
-  name: VerticalGridStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_VerticalGridStroke
-  commentId: P:Sparks.Trader.Api.IUserChartSetting.VerticalGridStroke
-  fullName: Sparks.Trader.Api.IUserChartSetting.VerticalGridStroke
-  nameWithType: IUserChartSetting.VerticalGridStroke
-- uid: Sparks.Trader.Api.IUserChartSetting.VerticalGridStroke*
-  name: VerticalGridStroke
-  href: doc/api/Sparks.Trader.Api.IUserChartSetting.html#Sparks_Trader_Api_IUserChartSetting_VerticalGridStroke_
-  commentId: Overload:Sparks.Trader.Api.IUserChartSetting.VerticalGridStroke
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IUserChartSetting.VerticalGridStroke
-  nameWithType: IUserChartSetting.VerticalGridStroke
 - uid: Sparks.Trader.Api.IVerticalLine
   name: IVerticalLine
   href: doc/api/Sparks.Trader.Api.IVerticalLine.html
@@ -17416,44 +18299,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IWatchlists.Default
   nameWithType: IWatchlists.Default
-- uid: Sparks.Trader.Api.LimitOrderReq
-  name: LimitOrderReq
-  href: doc/api/Sparks.Trader.Api.LimitOrderReq.html
-  commentId: T:Sparks.Trader.Api.LimitOrderReq
-  fullName: Sparks.Trader.Api.LimitOrderReq
-  nameWithType: LimitOrderReq
-- uid: Sparks.Trader.Api.LimitOrderReq.#ctor(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.ETIF)
-  name: LimitOrderReq(SymbolContract, ETradeDirection, double, double, ETIF)
-  href: doc/api/Sparks.Trader.Api.LimitOrderReq.html#Sparks_Trader_Api_LimitOrderReq__ctor_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_ETIF_
-  commentId: M:Sparks.Trader.Api.LimitOrderReq.#ctor(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.ETIF)
-  name.vb: New(SymbolContract, ETradeDirection, Double, Double, ETIF)
-  fullName: Sparks.Trader.Api.LimitOrderReq.LimitOrderReq(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.ETIF)
-  fullName.vb: Sparks.Trader.Api.LimitOrderReq.New(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.ETIF)
-  nameWithType: LimitOrderReq.LimitOrderReq(SymbolContract, ETradeDirection, double, double, ETIF)
-  nameWithType.vb: LimitOrderReq.New(SymbolContract, ETradeDirection, Double, Double, ETIF)
-- uid: Sparks.Trader.Api.LimitOrderReq.#ctor*
-  name: LimitOrderReq
-  href: doc/api/Sparks.Trader.Api.LimitOrderReq.html#Sparks_Trader_Api_LimitOrderReq__ctor_
-  commentId: Overload:Sparks.Trader.Api.LimitOrderReq.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Sparks.Trader.Api.LimitOrderReq.LimitOrderReq
-  fullName.vb: Sparks.Trader.Api.LimitOrderReq.New
-  nameWithType: LimitOrderReq.LimitOrderReq
-  nameWithType.vb: LimitOrderReq.New
-- uid: Sparks.Trader.Api.LimitOrderReq.Price
-  name: Price
-  href: doc/api/Sparks.Trader.Api.LimitOrderReq.html#Sparks_Trader_Api_LimitOrderReq_Price
-  commentId: P:Sparks.Trader.Api.LimitOrderReq.Price
-  fullName: Sparks.Trader.Api.LimitOrderReq.Price
-  nameWithType: LimitOrderReq.Price
-- uid: Sparks.Trader.Api.LimitOrderReq.Price*
-  name: Price
-  href: doc/api/Sparks.Trader.Api.LimitOrderReq.html#Sparks_Trader_Api_LimitOrderReq_Price_
-  commentId: Overload:Sparks.Trader.Api.LimitOrderReq.Price
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.LimitOrderReq.Price
-  nameWithType: LimitOrderReq.Price
 - uid: Sparks.Trader.Api.MarketLevel
   name: MarketLevel
   href: doc/api/Sparks.Trader.Api.MarketLevel.html
@@ -17518,31 +18363,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.MarketLevel.Volume
   nameWithType: MarketLevel.Volume
-- uid: Sparks.Trader.Api.MarketOrderReq
-  name: MarketOrderReq
-  href: doc/api/Sparks.Trader.Api.MarketOrderReq.html
-  commentId: T:Sparks.Trader.Api.MarketOrderReq
-  fullName: Sparks.Trader.Api.MarketOrderReq
-  nameWithType: MarketOrderReq
-- uid: Sparks.Trader.Api.MarketOrderReq.#ctor(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.ETIF)
-  name: MarketOrderReq(SymbolContract, ETradeDirection, double, ETIF)
-  href: doc/api/Sparks.Trader.Api.MarketOrderReq.html#Sparks_Trader_Api_MarketOrderReq__ctor_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_ETIF_
-  commentId: M:Sparks.Trader.Api.MarketOrderReq.#ctor(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.ETIF)
-  name.vb: New(SymbolContract, ETradeDirection, Double, ETIF)
-  fullName: Sparks.Trader.Api.MarketOrderReq.MarketOrderReq(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, Sparks.Trader.Api.ETIF)
-  fullName.vb: Sparks.Trader.Api.MarketOrderReq.New(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Sparks.Trader.Api.ETIF)
-  nameWithType: MarketOrderReq.MarketOrderReq(SymbolContract, ETradeDirection, double, ETIF)
-  nameWithType.vb: MarketOrderReq.New(SymbolContract, ETradeDirection, Double, ETIF)
-- uid: Sparks.Trader.Api.MarketOrderReq.#ctor*
-  name: MarketOrderReq
-  href: doc/api/Sparks.Trader.Api.MarketOrderReq.html#Sparks_Trader_Api_MarketOrderReq__ctor_
-  commentId: Overload:Sparks.Trader.Api.MarketOrderReq.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Sparks.Trader.Api.MarketOrderReq.MarketOrderReq
-  fullName.vb: Sparks.Trader.Api.MarketOrderReq.New
-  nameWithType: MarketOrderReq.MarketOrderReq
-  nameWithType.vb: MarketOrderReq.New
 - uid: Sparks.Trader.Api.OrderBookEx
   name: OrderBookEx
   href: doc/api/Sparks.Trader.Api.OrderBookEx.html
@@ -17978,50 +18798,50 @@ references:
   fullName.vb: Sparks.Trader.Api.OutputAttribute.New
   nameWithType: OutputAttribute.OutputAttribute
   nameWithType.vb: OutputAttribute.New
-- uid: Sparks.Trader.Api.OutputTypeAttribute
-  name: OutputTypeAttribute
-  href: doc/api/Sparks.Trader.Api.OutputTypeAttribute.html
-  commentId: T:Sparks.Trader.Api.OutputTypeAttribute
-  fullName: Sparks.Trader.Api.OutputTypeAttribute
-  nameWithType: OutputTypeAttribute
-- uid: Sparks.Trader.Api.OutputTypeAttribute.#ctor(Sparks.Trader.Api.EOutputType)
-  name: OutputTypeAttribute(EOutputType)
-  href: doc/api/Sparks.Trader.Api.OutputTypeAttribute.html#Sparks_Trader_Api_OutputTypeAttribute__ctor_Sparks_Trader_Api_EOutputType_
-  commentId: M:Sparks.Trader.Api.OutputTypeAttribute.#ctor(Sparks.Trader.Api.EOutputType)
-  name.vb: New(EOutputType)
-  fullName: Sparks.Trader.Api.OutputTypeAttribute.OutputTypeAttribute(Sparks.Trader.Api.EOutputType)
-  fullName.vb: Sparks.Trader.Api.OutputTypeAttribute.New(Sparks.Trader.Api.EOutputType)
-  nameWithType: OutputTypeAttribute.OutputTypeAttribute(EOutputType)
-  nameWithType.vb: OutputTypeAttribute.New(EOutputType)
-- uid: Sparks.Trader.Api.OutputTypeAttribute.#ctor*
-  name: OutputTypeAttribute
-  href: doc/api/Sparks.Trader.Api.OutputTypeAttribute.html#Sparks_Trader_Api_OutputTypeAttribute__ctor_
-  commentId: Overload:Sparks.Trader.Api.OutputTypeAttribute.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Sparks.Trader.Api.OutputTypeAttribute.OutputTypeAttribute
-  fullName.vb: Sparks.Trader.Api.OutputTypeAttribute.New
-  nameWithType: OutputTypeAttribute.OutputTypeAttribute
-  nameWithType.vb: OutputTypeAttribute.New
-- uid: Sparks.Trader.Api.OutputTypeAttribute.OutputType
-  name: OutputType
-  href: doc/api/Sparks.Trader.Api.OutputTypeAttribute.html#Sparks_Trader_Api_OutputTypeAttribute_OutputType
-  commentId: P:Sparks.Trader.Api.OutputTypeAttribute.OutputType
-  fullName: Sparks.Trader.Api.OutputTypeAttribute.OutputType
-  nameWithType: OutputTypeAttribute.OutputType
-- uid: Sparks.Trader.Api.OutputTypeAttribute.OutputType*
-  name: OutputType
-  href: doc/api/Sparks.Trader.Api.OutputTypeAttribute.html#Sparks_Trader_Api_OutputTypeAttribute_OutputType_
-  commentId: Overload:Sparks.Trader.Api.OutputTypeAttribute.OutputType
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OutputTypeAttribute.OutputType
-  nameWithType: OutputTypeAttribute.OutputType
 - uid: Sparks.Trader.Api.ParameterAttribute
   name: ParameterAttribute
   href: doc/api/Sparks.Trader.Api.ParameterAttribute.html
   commentId: T:Sparks.Trader.Api.ParameterAttribute
   fullName: Sparks.Trader.Api.ParameterAttribute
   nameWithType: ParameterAttribute
+- uid: Sparks.Trader.Api.PlotTypeAttribute
+  name: PlotTypeAttribute
+  href: doc/api/Sparks.Trader.Api.PlotTypeAttribute.html
+  commentId: T:Sparks.Trader.Api.PlotTypeAttribute
+  fullName: Sparks.Trader.Api.PlotTypeAttribute
+  nameWithType: PlotTypeAttribute
+- uid: Sparks.Trader.Api.PlotTypeAttribute.#ctor(Sparks.Trader.Api.EPlotType)
+  name: PlotTypeAttribute(EPlotType)
+  href: doc/api/Sparks.Trader.Api.PlotTypeAttribute.html#Sparks_Trader_Api_PlotTypeAttribute__ctor_Sparks_Trader_Api_EPlotType_
+  commentId: M:Sparks.Trader.Api.PlotTypeAttribute.#ctor(Sparks.Trader.Api.EPlotType)
+  name.vb: New(EPlotType)
+  fullName: Sparks.Trader.Api.PlotTypeAttribute.PlotTypeAttribute(Sparks.Trader.Api.EPlotType)
+  fullName.vb: Sparks.Trader.Api.PlotTypeAttribute.New(Sparks.Trader.Api.EPlotType)
+  nameWithType: PlotTypeAttribute.PlotTypeAttribute(EPlotType)
+  nameWithType.vb: PlotTypeAttribute.New(EPlotType)
+- uid: Sparks.Trader.Api.PlotTypeAttribute.#ctor*
+  name: PlotTypeAttribute
+  href: doc/api/Sparks.Trader.Api.PlotTypeAttribute.html#Sparks_Trader_Api_PlotTypeAttribute__ctor_
+  commentId: Overload:Sparks.Trader.Api.PlotTypeAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sparks.Trader.Api.PlotTypeAttribute.PlotTypeAttribute
+  fullName.vb: Sparks.Trader.Api.PlotTypeAttribute.New
+  nameWithType: PlotTypeAttribute.PlotTypeAttribute
+  nameWithType.vb: PlotTypeAttribute.New
+- uid: Sparks.Trader.Api.PlotTypeAttribute.PlotType
+  name: PlotType
+  href: doc/api/Sparks.Trader.Api.PlotTypeAttribute.html#Sparks_Trader_Api_PlotTypeAttribute_PlotType
+  commentId: P:Sparks.Trader.Api.PlotTypeAttribute.PlotType
+  fullName: Sparks.Trader.Api.PlotTypeAttribute.PlotType
+  nameWithType: PlotTypeAttribute.PlotType
+- uid: Sparks.Trader.Api.PlotTypeAttribute.PlotType*
+  name: PlotType
+  href: doc/api/Sparks.Trader.Api.PlotTypeAttribute.html#Sparks_Trader_Api_PlotTypeAttribute_PlotType_
+  commentId: Overload:Sparks.Trader.Api.PlotTypeAttribute.PlotType
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.PlotTypeAttribute.PlotType
+  nameWithType: PlotTypeAttribute.PlotType
 - uid: Sparks.Trader.Api.PopupAlertAction
   name: PopupAlertAction
   href: doc/api/Sparks.Trader.Api.PopupAlertAction.html
@@ -18525,15 +19345,15 @@ references:
   commentId: T:Sparks.Trader.Api.SoundAlertAction
   fullName: Sparks.Trader.Api.SoundAlertAction
   nameWithType: SoundAlertAction
-- uid: Sparks.Trader.Api.SoundAlertAction.#ctor(System.Uri,Sparks.Trader.Api.EAlertSoundDuration)
-  name: SoundAlertAction(Uri, EAlertSoundDuration)
-  href: doc/api/Sparks.Trader.Api.SoundAlertAction.html#Sparks_Trader_Api_SoundAlertAction__ctor_System_Uri_Sparks_Trader_Api_EAlertSoundDuration_
-  commentId: M:Sparks.Trader.Api.SoundAlertAction.#ctor(System.Uri,Sparks.Trader.Api.EAlertSoundDuration)
-  name.vb: New(Uri, EAlertSoundDuration)
-  fullName: Sparks.Trader.Api.SoundAlertAction.SoundAlertAction(System.Uri, Sparks.Trader.Api.EAlertSoundDuration)
-  fullName.vb: Sparks.Trader.Api.SoundAlertAction.New(System.Uri, Sparks.Trader.Api.EAlertSoundDuration)
-  nameWithType: SoundAlertAction.SoundAlertAction(Uri, EAlertSoundDuration)
-  nameWithType.vb: SoundAlertAction.New(Uri, EAlertSoundDuration)
+- uid: Sparks.Trader.Api.SoundAlertAction.#ctor
+  name: SoundAlertAction()
+  href: doc/api/Sparks.Trader.Api.SoundAlertAction.html#Sparks_Trader_Api_SoundAlertAction__ctor
+  commentId: M:Sparks.Trader.Api.SoundAlertAction.#ctor
+  name.vb: New()
+  fullName: Sparks.Trader.Api.SoundAlertAction.SoundAlertAction()
+  fullName.vb: Sparks.Trader.Api.SoundAlertAction.New()
+  nameWithType: SoundAlertAction.SoundAlertAction()
+  nameWithType.vb: SoundAlertAction.New()
 - uid: Sparks.Trader.Api.SoundAlertAction.#ctor*
   name: SoundAlertAction
   href: doc/api/Sparks.Trader.Api.SoundAlertAction.html#Sparks_Trader_Api_SoundAlertAction__ctor_
@@ -18570,6 +19390,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.SoundAlertAction.File
   nameWithType: SoundAlertAction.File
+- uid: Sparks.Trader.Api.SoundAlertAction.SoundType
+  name: SoundType
+  href: doc/api/Sparks.Trader.Api.SoundAlertAction.html#Sparks_Trader_Api_SoundAlertAction_SoundType
+  commentId: P:Sparks.Trader.Api.SoundAlertAction.SoundType
+  fullName: Sparks.Trader.Api.SoundAlertAction.SoundType
+  nameWithType: SoundAlertAction.SoundType
+- uid: Sparks.Trader.Api.SoundAlertAction.SoundType*
+  name: SoundType
+  href: doc/api/Sparks.Trader.Api.SoundAlertAction.html#Sparks_Trader_Api_SoundAlertAction_SoundType_
+  commentId: Overload:Sparks.Trader.Api.SoundAlertAction.SoundType
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.SoundAlertAction.SoundType
+  nameWithType: SoundAlertAction.SoundType
 - uid: Sparks.Trader.Api.StatAttribute
   name: StatAttribute
   href: doc/api/Sparks.Trader.Api.StatAttribute.html
@@ -19067,6 +19900,15 @@ references:
   commentId: T:Sparks.Trader.Api.SymbolContract
   fullName: Sparks.Trader.Api.SymbolContract
   nameWithType: SymbolContract
+- uid: Sparks.Trader.Api.SymbolContract.#ctor
+  name: SymbolContract()
+  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract__ctor
+  commentId: M:Sparks.Trader.Api.SymbolContract.#ctor
+  name.vb: New()
+  fullName: Sparks.Trader.Api.SymbolContract.SymbolContract()
+  fullName.vb: Sparks.Trader.Api.SymbolContract.New()
+  nameWithType: SymbolContract.SymbolContract()
+  nameWithType.vb: SymbolContract.New()
 - uid: Sparks.Trader.Api.SymbolContract.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.Nullable{System.Guid},System.String)
   name: SymbolContract(ESymbolType, string, string, string, ECurrency, string, Guid?, string)
   href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract__ctor_Sparks_Trader_Api_ESymbolType_System_String_System_String_System_String_Sparks_Trader_Api_ECurrency_System_String_System_Nullable_System_Guid__System_String_

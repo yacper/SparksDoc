@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title> | SparksTrader文档 </title>
+      <title>Widnows Server 2019 安装更新问题 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content=" | SparksTrader文档 ">
+      <meta name="title" content="Widnows Server 2019 安装更新问题 ">
       
-      <link rel="icon" href="../../../MyIcon.png">
+      <link rel="icon" href="../../../sparks.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
@@ -34,9 +34,9 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../MyIcon.png" alt="">
-            
+          <a class="navbar-brand" href="https://sparkstrader.com">
+            <img id="logo" class="svg" src="../../../sparks.ico" alt="SparksTrader">
+            SparksTrader
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -76,14 +76,15 @@
         </div>
 
         <article data-uid="">
+<h2 id="widnows-server-2019-安装更新问题">Widnows Server 2019 安装更新问题</h2>
 
-<p>Widnows Server 2019 安装更新问题</p>
 <p>Windows Server 2019默认不允许SSL网页放入缓存，这将导致我们的应用程序无法正常安装和更新。通过修改IE的这项配置，就可以了。</p>
 <p>打开IE的Internet选项，高级中，将“不将加密的页存盘”取消掉。</p>
 <p><img src="WindowsServer2019.assets/image-20240401153049429.png" alt="image-20240401153049429"></p>
 <p><strong>注册表项修改</strong></p>
 <p>除了手动操作外，也可以直接通过修改注册表实现：</p>
-<pre><code class="lang-bat">Windows Registry Editor Version 5.00 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings] &quot;DisableCachingOfSSLPages&quot;=dword:00000000
+<pre><code class="lang-bat">Windows Registry Editor Version 5.00 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings] 
+&quot;DisableCachingOfSSLPages&quot;=dword:00000000
 </code></pre>
 <p>可以将上述代码保存成bat文件直接运行，需要管理员权限。</p>
 </article>
@@ -105,7 +106,7 @@
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
-          &copy; sparkstrader.com
+          &copy; SparksTrader.com Documentation
         </div>
       </div>
     </footer>

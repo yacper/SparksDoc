@@ -1,0 +1,1659 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>IIndicators 接口
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="IIndicators 接口
+ ">
+      
+      <link rel="icon" href="../../sparks.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="https://sparkstrader.com">
+            <img id="logo" class="svg" src="../../sparks.ico" alt="SparksTrader">
+            SparksTrader
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Sparks.Trader.Api.IIndicators">
+
+
+
+  <h1 id="Sparks_Trader_Api_IIndicators" data-uid="Sparks.Trader.Api.IIndicators" class="text-break">
+    IIndicators 接口
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>命名空间</dt><dd><a class="xref" href="Sparks.html">Sparks</a>.<a class="xref" href="Sparks.Trader.html">Trader</a>.<a class="xref" href="Sparks.Trader.Api.html">Api</a></dd></dl>
+  <dl><dt>程序集</dt><dd>Sparks.Trader.Api.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IIndicators</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IIndicators_ATR_" data-uid="Sparks.Trader.Api.IIndicators.ATR*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_ATR_Sparks_Trader_Api_IBars_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.ATR(Sparks.Trader.Api.IBars,System.Int32)">
+  ATR(IBars, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ATR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IATR ATR(IBars bars, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IATR.html">IATR</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_ATR_" data-uid="Sparks.Trader.Api.IIndicators.ATR*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_ATR_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.ATR(System.Int32)">
+  ATR(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ATR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IATR ATR(int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>周期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IATR.html">IATR</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_BB_" data-uid="Sparks.Trader.Api.IIndicators.BB*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_BB_Sparks_Trader_Api_IDatas_System_Int32_System_Double_" data-uid="Sparks.Trader.Api.IIndicators.BB(Sparks.Trader.Api.IDatas,System.Int32,System.Double)">
+  BB(IDatas, int, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>BB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBB BB(IDatas source, int n, double d)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>d</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IBB.html">IBB</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_BIAS_" data-uid="Sparks.Trader.Api.IIndicators.BIAS*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_BIAS_Sparks_Trader_Api_IBars_System_Int32_System_Int32_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.BIAS(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)">
+  BIAS(IBars, int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>BIAS</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBIAS BIAS(IBars bars, int periods1, int periods2, int periods3)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>periods1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>periods2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>periods3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IBIAS.html">IBIAS</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_BIAS_" data-uid="Sparks.Trader.Api.IIndicators.BIAS*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_BIAS_System_Int32_System_Int32_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.BIAS(System.Int32,System.Int32,System.Int32)">
+  BIAS(int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>BIAS</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBIAS BIAS(int periods1, int periods2, int periods3)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>periods2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>periods3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IBIAS.html">IBIAS</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_CCI_" data-uid="Sparks.Trader.Api.IIndicators.CCI*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_CCI_Sparks_Trader_Api_IBars_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.CCI(Sparks.Trader.Api.IBars,System.Int32)">
+  CCI(IBars, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>CCI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICCI CCI(IBars bars, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ICCI.html">ICCI</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_CCI_" data-uid="Sparks.Trader.Api.IIndicators.CCI*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_CCI_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.CCI(System.Int32)">
+  CCI(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>CCI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICCI CCI(int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ICCI.html">ICCI</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_CMI_" data-uid="Sparks.Trader.Api.IIndicators.CMI*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_CMI_Sparks_Trader_Api_IBars_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.CMI(Sparks.Trader.Api.IBars,System.Int32)">
+  CMI(IBars, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>CMI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICMI CMI(IBars bars, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ICMI.html">ICMI</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_CMI_" data-uid="Sparks.Trader.Api.IIndicators.CMI*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_CMI_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.CMI(System.Int32)">
+  CMI(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>CMI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICMI CMI(int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ICMI.html">ICMI</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_CreateIndicator_" data-uid="Sparks.Trader.Api.IIndicators.CreateIndicator*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_CreateIndicator__1_Sparks_Trader_Api_IBars_System_Object___" data-uid="Sparks.Trader.Api.IIndicators.CreateIndicator``1(Sparks.Trader.Api.IBars,System.Object[])">
+  CreateIndicator&lt;T&gt;(IBars, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个Indicator，该Indicator可以在Children中管理</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T CreateIndicator&lt;T&gt;(IBars bars, params object[] parameters) where T : IIndicator</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>指标参数序列，顺序排列</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>创建的指标</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>指标类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Sparks_Trader_Api_IIndicators_CreateIndicator__1_Sparks_Trader_Api_IBars_System_Object____examples">示例</h4>
+  <pre><code class="lang-csharp">//创建mva指标，指定数据源是Bars.Closes, Period是60
+CreateIndicator&lt;MVA&gt;(Bars.Closes, 60);</code></pre>
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_CreateIndicator_" data-uid="Sparks.Trader.Api.IIndicators.CreateIndicator*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_CreateIndicator__1_System_Object___" data-uid="Sparks.Trader.Api.IIndicators.CreateIndicator``1(System.Object[])">
+  CreateIndicator&lt;T&gt;(params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个Indicator，该Indicator可以在Children中管理</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T CreateIndicator&lt;T&gt;(params object[] parameters) where T : IIndicator</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>指标参数序列，顺序排列</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>创建的指标</p>
+</dd>
+  </dl>
+
+  <h4 class="section">类型参数</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>指标类型</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Sparks_Trader_Api_IIndicators_CreateIndicator__1_System_Object____examples">示例</h4>
+  <pre><code class="lang-csharp">//创建mva指标，指定数据源是Bars.Closes, Period是60
+CreateIndicator&lt;MVA&gt;(Bars.Closes, 60);</code></pre>
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_DC_" data-uid="Sparks.Trader.Api.IIndicators.DC*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_DC_Sparks_Trader_Api_IBars_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.DC(Sparks.Trader.Api.IBars,System.Int32)">
+  DC(IBars, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Donchian Channel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDC DC(IBars bars, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IDC.html">IDC</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_DC_" data-uid="Sparks.Trader.Api.IIndicators.DC*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_DC_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.DC(System.Int32)">
+  DC(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Donchian Channel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDC DC(int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IDC.html">IDC</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_DMI_" data-uid="Sparks.Trader.Api.IIndicators.DMI*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_DMI_Sparks_Trader_Api_IBar_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.DMI(Sparks.Trader.Api.IBar,System.Int32)">
+  DMI(IBar, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>DMI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDMI DMI(IBar bars, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBar.html">IBar</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IDMI.html">IDMI</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_DMI_" data-uid="Sparks.Trader.Api.IIndicators.DMI*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_DMI_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.DMI(System.Int32)">
+  DMI(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>DMI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDMI DMI(int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IDMI.html">IDMI</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_EMA_" data-uid="Sparks.Trader.Api.IIndicators.EMA*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_EMA_Sparks_Trader_Api_IDatas_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.EMA(Sparks.Trader.Api.IDatas,System.Int32)">
+  EMA(IDatas, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建EMA</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEMA EMA(IDatas source, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd><p>数据源</p>
+</dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>周期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IEMA.html">IEMA</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_KDJ_" data-uid="Sparks.Trader.Api.IIndicators.KDJ*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_KDJ_Sparks_Trader_Api_IBars_System_Int32_System_Int32_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.KDJ(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)">
+  KDJ(IBars, int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>KDJ</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IKDJ KDJ(IBars bars, int periods, int kmaPeriods, int dmaPeriods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>kmaPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>dmaPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IKDJ.html">IKDJ</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_KDJ_" data-uid="Sparks.Trader.Api.IIndicators.KDJ*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_KDJ_System_Int32_System_Int32_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.KDJ(System.Int32,System.Int32,System.Int32)">
+  KDJ(int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>KDJ</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IKDJ KDJ(int periods, int kmaPeriods, int dmaPeriods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>kmaPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>dmaPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IKDJ.html">IKDJ</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_MACD_" data-uid="Sparks.Trader.Api.IIndicators.MACD*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_MACD_Sparks_Trader_Api_IDatas_System_Int32_System_Int32_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.MACD(Sparks.Trader.Api.IDatas,System.Int32,System.Int32,System.Int32)">
+  MACD(IDatas, int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>MACD</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMACD MACD(IDatas source, int shortPeriods, int longPeriods, int signalPeriods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>shortPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>longPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>signalPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IMACD.html">IMACD</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_MAE_" data-uid="Sparks.Trader.Api.IIndicators.MAE*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_MAE_Sparks_Trader_Api_IDatas_Sparks_Trader_Api_EMaType_System_Int32_System_Double_System_Double_" data-uid="Sparks.Trader.Api.IIndicators.MAE(Sparks.Trader.Api.IDatas,Sparks.Trader.Api.EMaType,System.Int32,System.Double,System.Double)">
+  MAE(IDatas, EMaType, int, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>MAE</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMAE MAE(IDatas source, EMaType maType, int periods, double percentShift, double absShift)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>maType</code> <a class="xref" href="Sparks.Trader.Api.EMaType.html">EMaType</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>percentShift</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>absShift</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IMAE.html">IMAE</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_MovingAverage_" data-uid="Sparks.Trader.Api.IIndicators.MovingAverage*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_MovingAverage_Sparks_Trader_Api_EMaType_Sparks_Trader_Api_IDatas_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.MovingAverage(Sparks.Trader.Api.EMaType,Sparks.Trader.Api.IDatas,System.Int32)">
+  MovingAverage(EMaType, IDatas, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建预制的MA</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMovingAverage MovingAverage(EMaType maType, IDatas source, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>maType</code> <a class="xref" href="Sparks.Trader.Api.EMaType.html">EMaType</a></dt>
+    <dd><p>MA类型</p>
+</dd>
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd><p>数据源</p>
+</dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>周期</p>
+</dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IMovingAverage.html">IMovingAverage</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_OBV_" data-uid="Sparks.Trader.Api.IIndicators.OBV*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_OBV" data-uid="Sparks.Trader.Api.IIndicators.OBV">
+  OBV()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>OBV</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IOBV OBV()</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IOBV.html">IOBV</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_OBV_" data-uid="Sparks.Trader.Api.IIndicators.OBV*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_OBV_Sparks_Trader_Api_IBars_" data-uid="Sparks.Trader.Api.IIndicators.OBV(Sparks.Trader.Api.IBars)">
+  OBV(IBars)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>OBV</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IOBV OBV(IBars bars)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IOBV.html">IOBV</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_RSI_" data-uid="Sparks.Trader.Api.IIndicators.RSI*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_RSI_Sparks_Trader_Api_IDatas_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.RSI(Sparks.Trader.Api.IDatas,System.Int32)">
+  RSI(IDatas, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>RSI</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRSI RSI(IDatas source, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IRSI.html">IRSI</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_SAR_" data-uid="Sparks.Trader.Api.IIndicators.SAR*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_SAR_Sparks_Trader_Api_IBars_System_Double_System_Double_System_Double_" data-uid="Sparks.Trader.Api.IIndicators.SAR(Sparks.Trader.Api.IBars,System.Double,System.Double,System.Double)">
+  SAR(IBars, double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>SAR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISAR SAR(IBars bars, double begin, double step, double max)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>begin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>step</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>max</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ISAR.html">ISAR</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_SAR_" data-uid="Sparks.Trader.Api.IIndicators.SAR*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_SAR_System_Double_System_Double_System_Double_" data-uid="Sparks.Trader.Api.IIndicators.SAR(System.Double,System.Double,System.Double)">
+  SAR(double, double, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>SAR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ISAR SAR(double begin, double step, double max)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>begin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>step</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>max</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ISAR.html">ISAR</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_StDev_" data-uid="Sparks.Trader.Api.IIndicators.StDev*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_StDev_Sparks_Trader_Api_IDatas_Sparks_Trader_Api_EMaType_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.StDev(Sparks.Trader.Api.IDatas,Sparks.Trader.Api.EMaType,System.Int32)">
+  StDev(IDatas, EMaType, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>StDev</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IStDev StDev(IDatas source, EMaType maType, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>maType</code> <a class="xref" href="Sparks.Trader.Api.EMaType.html">EMaType</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IStDev.html">IStDev</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_TriangularMA_" data-uid="Sparks.Trader.Api.IIndicators.TriangularMA*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_TriangularMA_Sparks_Trader_Api_IDatas_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.TriangularMA(Sparks.Trader.Api.IDatas,System.Int32)">
+  TriangularMA(IDatas, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>TriangularMA</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITriangularMA TriangularMA(IDatas source, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ITriangularMA.html">ITriangularMA</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_TypicalPrice_" data-uid="Sparks.Trader.Api.IIndicators.TypicalPrice*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_TypicalPrice" data-uid="Sparks.Trader.Api.IIndicators.TypicalPrice">
+  TypicalPrice()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>TypicalPrice</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITypicalPrice TypicalPrice()</code></pre>
+  </div>
+
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ITypicalPrice.html">ITypicalPrice</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_TypicalPrice_" data-uid="Sparks.Trader.Api.IIndicators.TypicalPrice*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_TypicalPrice_Sparks_Trader_Api_IBars_" data-uid="Sparks.Trader.Api.IIndicators.TypicalPrice(Sparks.Trader.Api.IBars)">
+  TypicalPrice(IBars)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>TypicalPrice</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITypicalPrice TypicalPrice(IBars bars)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.ITypicalPrice.html">ITypicalPrice</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_VOL_" data-uid="Sparks.Trader.Api.IIndicators.VOL*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_VOL_Sparks_Trader_Api_IBars_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.VOL(Sparks.Trader.Api.IBars,System.Int32)">
+  VOL(IBars, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>VOL</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IVOL VOL(IBars bars, int maPeriods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>maPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IVOL.html">IVOL</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_VOL_" data-uid="Sparks.Trader.Api.IIndicators.VOL*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_VOL_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.VOL(System.Int32)">
+  VOL(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>VOL</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IVOL VOL(int maPeriods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>maPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IVOL.html">IVOL</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_WMA_" data-uid="Sparks.Trader.Api.IIndicators.WMA*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_WMA_Sparks_Trader_Api_IDatas_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.WMA(Sparks.Trader.Api.IDatas,System.Int32)">
+  WMA(IDatas, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>WMA</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IWMA WMA(IDatas source, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IWMA.html">IWMA</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_WR_" data-uid="Sparks.Trader.Api.IIndicators.WR*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_WR_Sparks_Trader_Api_IBars_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.WR(Sparks.Trader.Api.IBars,System.Int32)">
+  WR(IBars, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>WR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IWR WR(IBars bars, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IWR.html">IWR</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_WR_" data-uid="Sparks.Trader.Api.IIndicators.WR*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_WR_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.WR(System.Int32)">
+  WR(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>WR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IWR WR(int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IWR.html">IWR</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_WilderMA_" data-uid="Sparks.Trader.Api.IIndicators.WilderMA*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_WilderMA_Sparks_Trader_Api_IDatas_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.WilderMA(Sparks.Trader.Api.IDatas,System.Int32)">
+  WilderMA(IDatas, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>WilderMA</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IWilderMA WilderMA(IDatas source, int periods)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="Sparks.Trader.Api.IDatas.html">IDatas</a></dt>
+    <dd></dd>
+    <dt><code>periods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IWilderMA.html">IWilderMA</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_ZigZag_" data-uid="Sparks.Trader.Api.IIndicators.ZigZag*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_ZigZag_Sparks_Trader_Api_IBars_System_Int32_System_Int32_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.ZigZag(Sparks.Trader.Api.IBars,System.Int32,System.Int32,System.Int32)">
+  ZigZag(IBars, int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ZigZag</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IZigZag ZigZag(IBars bars, int depth, int deviation, int backStep)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>bars</code> <a class="xref" href="Sparks.Trader.Api.IBars.html">IBars</a></dt>
+    <dd></dd>
+    <dt><code>depth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>deviation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>backStep</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IZigZag.html">IZigZag</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IIndicators_ZigZag_" data-uid="Sparks.Trader.Api.IIndicators.ZigZag*"></a>
+
+  <h3 id="Sparks_Trader_Api_IIndicators_ZigZag_System_Int32_System_Int32_System_Int32_" data-uid="Sparks.Trader.Api.IIndicators.ZigZag(System.Int32,System.Int32,System.Int32)">
+  ZigZag(int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>ZigZag</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IZigZag ZigZag(int depth, int deviation, int backStep)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>depth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>deviation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>backStep</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.Indicators.IZigZag.html">IZigZag</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; SparksTrader.com Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>如何使用脚本 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="如何使用脚本 ">
+      
+      <link rel="icon" href="../../../sparks.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="https://sparkstrader.com">
+            <img id="logo" class="svg" src="../../../sparks.ico" alt="SparksTrader">
+            SparksTrader
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="如何使用脚本">如何使用脚本</h1>
+
+<p>脚本(Script)在Sparks中分为2类：</p>
+<ul>
+<li><p>指标(Indicator):图形辅助工具，通常用于检测某些市场走势模式和交易机会（例如支撑位和阻力位。布林带则通常用于衡量波动性并检测双底或 M 顶等经典模式。Ichimoku Kinko Hyo 指标是检测主要支撑位和阻力位的工具）.</p>
+</li>
+<li><p>策略(Strategy):自动化交易工具。将交易想法转化为策略代码后，自动化执行的工具。</p>
+</li>
+</ul>
+<p>在本文及其相应视频中，我们将向您展示如何在 Sparks 中使用脚本。</p>
+<h2 id="向图表添加脚本">向图表添加脚本</h2>
+<p>在 Sparks 中，您可以通过执行以下操作之一将指标添加到图表中。</p>
+<p>单击位于最顶部控制行的**“指标”图标**，然后从新打开的部分中选择您想要添加的指标（双击指标即可添加）。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC.assets/image-20240407161532538.png" alt="image-20240407161532538"></p>
+<p>右键单击图表上的任意位置，然后在新出现的上下文菜单中选择“<strong>指标管理</strong>”。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC.assets/image-20240407161737074.png" alt="image-20240407161737074"></p>
+<p><strong>Ctrl+i快捷键</strong></p>
+<p>图表获取焦点后，按“Ctrl+i&quot;, 即可呼出”指标管理“窗口。</p>
+<h2 id="如何管理添加的脚本">如何管理添加的脚本</h2>
+<p>添加脚本后，Sparks 将在左上角（交易图表本身或其下方部分）显示一个新工具栏。指标指示栏将显示指标的名字，指标的输入参数（在括号中），以及输出数据。</p>
+<p>如下图所示，添加了一个MVA的主图指标，指标名为“MVA”，参数为14周期，当前输出是1.08254.</p>
+<p><img src="%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC.assets/image-20240407162228166.png" alt="image-20240407162228166"></p>
+<p>将鼠标指针悬停在此工具栏上可查看指标名称后面的快捷操作图标。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC.assets/image-20240407162331919.png" alt="image-20240407162331919"></p>
+<p><strong>参数值</strong>是根据指标不同而不同的特定设置。例如，在 MACD 交叉中，您可以设置源、长周期、短周期、信号周期和偏移的值。在自定义指标中，您不仅限于预设参数。</p>
+<p><strong>指标输出</strong>显示图表所反映的指标的当前值。</p>
+<p>单击“<strong>隐藏/显示</strong>”图标可使指标在交易图表上不可见或可见。如果指标显示在单独的部分中，则单击“隐藏”图标后整个部分将变为空。</p>
+<p>单击“<strong>属性</strong>”图标可修改指标参数，将出现一个新窗口来进行此操作。您还可以使用颜色、线条类型和线条粗细来更改默认可视化效果。在同一窗口中，通过单击相应的按钮重置参数值或从工作区完全删除指标。如果指标名称右侧的“视频”图标处于活动状态，您可以打开相关教程来了解有关该指标的更多信息。自定义指标后，单击“确定”。</p>
+<p>“<strong>删除指标</strong>”图标会从交易图表中删除该指标。对于显示在单独部分的指标，单击“关闭指标”图标后，整个部分将被删除。</p>
+<h2 id="如何使用自定义脚本">如何使用自定义脚本</h2>
+<p>除了 Sparks上可用的内置指标以及可从外部源下载为“.spx”文件的指标外，您还可以创建自定义指标并将其直接添加到交易图表中。</p>
+<p>您可以查看详细指南并观看视频，了解如何创建自定义指标、保存并构建它、运行新实例以及自定义参数值。在这里，您还可以深入了解如何通过 C# 编辑自定义指标中的示例代码。</p>
+<p>创建并构建自定义指标后，您可以返回“交易”应用程序，将自定义指标添加到交易图表中。现在，从指标组列表中选择“自定义”。</p>
+<p>总之，SparksTrader 允许在交易图表区域轻松添加和管理指标。您还可以创建和部署自定义指标，以有效检测交易机会和市场走势模式。</p>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; SparksTrader.com Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

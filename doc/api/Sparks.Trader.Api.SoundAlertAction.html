@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
       <title>SoundAlertAction 类
- | SparksTrader文档 </title>
+ </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="SoundAlertAction 类
- | SparksTrader文档 ">
+ ">
       
-      <link rel="icon" href="../../MyIcon.png">
+      <link rel="icon" href="../../sparks.ico">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_SoundAlertAction.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.SoundAlertAction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
   </head>
 
   <script type="module">
@@ -36,9 +36,9 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
-            
+          <a class="navbar-brand" href="https://sparkstrader.com">
+            <img id="logo" class="svg" src="../../sparks.ico" alt="SparksTrader">
+            SparksTrader
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -83,7 +83,7 @@
 
   <h1 id="Sparks_Trader_Api_SoundAlertAction" data-uid="Sparks.Trader.Api.SoundAlertAction" class="text-break">
     SoundAlertAction 类
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlert.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  
   </h1>
 
   <div class="facts text-secondary">
@@ -119,25 +119,25 @@
       <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_ActionType">AlertAction.ActionType</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+      <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_AlertEvent">AlertAction.AlertEvent</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+      <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Invoke">AlertAction.Invoke()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+      <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Stop">AlertAction.Stop()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+      <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Popup">AlertAction.Popup()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+      <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Sound_System_String_Sparks_Trader_Api_EAlertSoundDuration_">AlertAction.Sound(string, EAlertSoundDuration)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+      <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Sound_Sparks_Trader_Api_ESoundType_Sparks_Trader_Api_EAlertSoundDuration_">AlertAction.Sound(ESoundType, EAlertSoundDuration)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="Sparks.Trader.Api.AlertAction.html#Sparks_Trader_Api_AlertAction_Email_System_String_System_Collections_Generic_List_System_String__">AlertAction.Email(string, List&lt;string&gt;)</a>
     </div>
   </dd></dl>
 
@@ -152,25 +152,18 @@
 
   <a id="Sparks_Trader_Api_SoundAlertAction__ctor_" data-uid="Sparks.Trader.Api.SoundAlertAction.#ctor*"></a>
 
-  <h3 id="Sparks_Trader_Api_SoundAlertAction__ctor_System_Uri_Sparks_Trader_Api_EAlertSoundDuration_" data-uid="Sparks.Trader.Api.SoundAlertAction.#ctor(System.Uri,Sparks.Trader.Api.EAlertSoundDuration)">
-  SoundAlertAction(Uri, EAlertSoundDuration)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlert.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Sparks_Trader_Api_SoundAlertAction__ctor" data-uid="Sparks.Trader.Api.SoundAlertAction.#ctor">
+  SoundAlertAction()
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SoundAlertAction(Uri filePath, EAlertSoundDuration duration)</code></pre>
+    <pre><code class="lang-csharp hljs">public SoundAlertAction()</code></pre>
   </div>
 
-  <h4 class="section">参数</h4>
-  <dl class="parameters">
-    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd></dd>
-    <dt><code>duration</code> <a class="xref" href="Sparks.Trader.Api.EAlertSoundDuration.html">EAlertSoundDuration</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -191,14 +184,15 @@
 
   <h3 id="Sparks_Trader_Api_SoundAlertAction_Duration" data-uid="Sparks.Trader.Api.SoundAlertAction.Duration">
   Duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlert.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EAlertSoundDuration Duration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;时长&quot;)]
+public EAlertSoundDuration Duration { get; set; }</code></pre>
   </div>
 
 
@@ -222,14 +216,15 @@
 
   <h3 id="Sparks_Trader_Api_SoundAlertAction_File" data-uid="Sparks.Trader.Api.SoundAlertAction.File">
   File
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlert.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri File { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;文件&quot;)]
+public string File { get; set; }</code></pre>
   </div>
 
 
@@ -238,7 +233,39 @@
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_SoundAlertAction_SoundType_" data-uid="Sparks.Trader.Api.SoundAlertAction.SoundType*"></a>
+
+  <h3 id="Sparks_Trader_Api_SoundAlertAction_SoundType" data-uid="Sparks.Trader.Api.SoundAlertAction.SoundType">
+  SoundType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;类型&quot;)]
+public ESoundType SoundType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ESoundType.html">ESoundType</a></dt>
     <dd></dd>
   </dl>
 
@@ -253,7 +280,6 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlert.cs/#L157" class="edit-link">Edit this page</a>
         </div>
 
         
@@ -269,7 +295,7 @@
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
-          &copy; sparkstrader.com
+          &copy; SparksTrader.com Documentation
         </div>
       </div>
     </footer>

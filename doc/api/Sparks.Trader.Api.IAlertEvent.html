@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
       <title>IAlertEvent 接口
- | SparksTrader文档 </title>
+ </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="IAlertEvent 接口
- | SparksTrader文档 ">
+ ">
       
-      <link rel="icon" href="../../MyIcon.png">
+      <link rel="icon" href="../../sparks.ico">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/yacper/Sparks/new/main/apiSpec/new?filename=Sparks_Trader_Api_IAlertEvent.md&amp;value=---%0Auid%3A%20Sparks.Trader.Api.IAlertEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
   </head>
 
   <script type="module">
@@ -36,9 +36,9 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../MyIcon.png" alt="">
-            
+          <a class="navbar-brand" href="https://sparkstrader.com">
+            <img id="logo" class="svg" src="../../sparks.ico" alt="SparksTrader">
+            SparksTrader
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -83,7 +83,7 @@
 
   <h1 id="Sparks_Trader_Api_IAlertEvent" data-uid="Sparks.Trader.Api.IAlertEvent" class="text-break">
     IAlertEvent 接口
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  
   </h1>
 
   <div class="facts text-secondary">
@@ -118,7 +118,7 @@
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_Actions" data-uid="Sparks.Trader.Api.IAlertEvent.Actions">
   Actions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"><p>行为</p>
@@ -126,8 +126,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Alert 行为&quot;)]
-IReadOnlyList&lt;AlertAction&gt; Actions { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">IReadOnlyList&lt;AlertAction&gt; Actions { get; }</code></pre>
   </div>
 
 
@@ -151,7 +150,7 @@ IReadOnlyList&lt;AlertAction&gt; Actions { get; }</code></pre>
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_Contract" data-uid="Sparks.Trader.Api.IAlertEvent.Contract">
   Contract
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"><p>对应的symbol</p>
@@ -183,7 +182,7 @@ IReadOnlyList&lt;AlertAction&gt; Actions { get; }</code></pre>
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_Level" data-uid="Sparks.Trader.Api.IAlertEvent.Level">
   Level
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"><p>alert 对应的level</p>
@@ -215,7 +214,7 @@ IReadOnlyList&lt;AlertAction&gt; Actions { get; }</code></pre>
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_Message" data-uid="Sparks.Trader.Api.IAlertEvent.Message">
   Message
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"><p>Message</p>
@@ -223,8 +222,7 @@ IReadOnlyList&lt;AlertAction&gt; Actions { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Message&quot;)]
-string Message { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">string Message { get; }</code></pre>
   </div>
 
 
@@ -248,15 +246,14 @@ string Message { get; }</code></pre>
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_SourceAlertId" data-uid="Sparks.Trader.Api.IAlertEvent.SourceAlertId">
   SourceAlertId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
-Guid? SourceAlertId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Guid? SourceAlertId { get; }</code></pre>
   </div>
 
 
@@ -280,7 +277,7 @@ Guid? SourceAlertId { get; }</code></pre>
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_SourceType" data-uid="Sparks.Trader.Api.IAlertEvent.SourceType">
   SourceType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"><p>源</p>
@@ -288,8 +285,7 @@ Guid? SourceAlertId { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Source&quot;)]
-EAlertSource SourceType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">EAlertSource SourceType { get; }</code></pre>
   </div>
 
 
@@ -313,7 +309,7 @@ EAlertSource SourceType { get; }</code></pre>
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_Time" data-uid="Sparks.Trader.Api.IAlertEvent.Time">
   Time
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"><p>时间</p>
@@ -321,8 +317,7 @@ EAlertSource SourceType { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Time&quot;)]
-DateTime Time { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">DateTime Time { get; }</code></pre>
   </div>
 
 
@@ -346,7 +341,7 @@ DateTime Time { get; }</code></pre>
 
   <h3 id="Sparks_Trader_Api_IAlertEvent_Title" data-uid="Sparks.Trader.Api.IAlertEvent.Title">
   Title
-  <a class="header-action link-secondary" title="View source" href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  
   </h3>
 
   <div class="markdown level1 summary"><p>Title</p>
@@ -354,8 +349,7 @@ DateTime Time { get; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Title&quot;)]
-string Title { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">string Title { get; }</code></pre>
   </div>
 
 
@@ -375,11 +369,68 @@ string Title { get; }</code></pre>
 
 
 
+  <h2 class="section" id="methods">方法
+</h2>
+
+
+  <a id="Sparks_Trader_Api_IAlertEvent_InvokeActions_" data-uid="Sparks.Trader.Api.IAlertEvent.InvokeActions*"></a>
+
+  <h3 id="Sparks_Trader_Api_IAlertEvent_InvokeActions" data-uid="Sparks.Trader.Api.IAlertEvent.InvokeActions">
+  InvokeActions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>触发行为</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InvokeActions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IAlertEvent_StopActions_" data-uid="Sparks.Trader.Api.IAlertEvent.StopActions*"></a>
+
+  <h3 id="Sparks_Trader_Api_IAlertEvent_StopActions" data-uid="Sparks.Trader.Api.IAlertEvent.StopActions">
+  StopActions()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止行为</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void StopActions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/yacper/Sparks/blob/main/src/Sparks.Trader.Api/Alert/IAlertEvent.cs/#L28" class="edit-link">Edit this page</a>
         </div>
 
         
@@ -395,7 +446,7 @@ string Title { get; }</code></pre>
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
-          &copy; sparkstrader.com
+          &copy; SparksTrader.com Documentation
         </div>
       </div>
     </footer>

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>如何创建一个策略 | SparksTrader文档 </title>
+      <title>如何创建一个策略 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="如何创建一个策略 | SparksTrader文档 ">
+      <meta name="title" content="如何创建一个策略 ">
       
-      <link rel="icon" href="../../../MyIcon.png">
+      <link rel="icon" href="../../../sparks.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
@@ -34,9 +34,9 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../MyIcon.png" alt="">
-            
+          <a class="navbar-brand" href="https://sparkstrader.com">
+            <img id="logo" class="svg" src="../../../sparks.ico" alt="SparksTrader">
+            SparksTrader
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -78,84 +78,260 @@
         <article data-uid="">
 <h2 id="如何创建一个策略">如何创建一个策略</h2>
 
-<p>在本文及其相应视频中，我们将描述在 Trader Automate 中创建 cBot 的快速方法。我们将创建的 cBot 将实施一个简单的交易策略，称为“三白兵三黑乌鸦”。您可以在我们的知识库中了解有关此策略的更多信息。</p>
-<p>在按照我们的说明操作之前，请确保您已从官方网站下载并安装了 Trader 桌面应用程序。启动它，然后导航至 Trader Automate 部分。您可以在左侧面板中找到它。单击“Atuaomte”选项卡，应出现 Trader Automate 部分。</p>
-<h3 id="添加新的策略">添加新的策略</h3>
-<p>要创建新的 cBot，只需单击“新建 cBot”按钮即可。如果您看到“新指标”按钮，请打开旁边的下拉菜单并选择“新 cBot”。</p>
-<p>您将看到一个新项目添加到 cBot 列表中，其名称为“New cBot”。选择此机器人，右侧的代码编辑器窗口将包含一个代码模板来帮助您入门。</p>
-<p>下一步是重命名新的 cBot。为此，请右键单击它并选择“重命名”或按 F2 。我们将使用“三白兵三黑乌鸦”作为 cBot 的新名称。完成后，按 Enter 。您的新 cBot 已成功创建，现在您可以开始编写策略了。</p>
-<p>cBot 方法定义您的 cBot 在发生特定事件时的行为方式。开发 Trader cBot 时需要处理四个主要事件；所有四个都由 Trader 提供的四种不同方法处理。这些方法是 OnStart() 、 OnTick() 、 OnBar() 和 OnStop() 。请注意，默认代码模板中缺少 OnBar() 方法。
-下表详细定义了这四种方法。</p>
-<p>Method Name 方法名称	Definition 定义
-OnStart()	This method is triggered when a cBot instance starts operating. It is used to initialise any variables you plan to use in your cBot such as indicators, counters, event handlers, or timers.
-当cBot实例开始运行时，会触发该方法。它用于初始化您计划在 cBot 中使用的任何变量，例如指示器、计数器、事件处理程序或计时器。
-OnTick()	This method is triggered on each incoming tick on the trading chart on which a cBot instance is running. Inside the OnTick() method, you can program custom entry and exit conditions as well as any other auxiliary function you need to run when a new tick arrives.
-在运行 cBot 实例的交易图表上的每个传入价格变动时都会触发此方法。在 OnTick() 方法内，您可以编写自定义进入和退出条件以及新报价到达时需要运行的任何其他辅助函数。
-OnBar()	This method is similar to OnTick(); however, it is triggered only when a new bar is drawn on the chart on which your cBot is running. Analogously to OnTick(), you can use it to program custom entry and exit conditions or any other functions that need to run on the formation of each new bar.
-该方法与 OnTick() 类似；但是，仅当在 cBot 运行的图表上绘制新柱时才会触发它。与 OnTick() 类似，您可以使用它来编程自定义进入和退出条件或需要在每个新柱形成时运行的任何其他函数。
-OnStop()	This method is triggered when a cBot instance stops. It is used to perform final operations such as closing positions.
-当cBot实例停止时会触发该方法。它用于执行最终操作，例如平仓。
-Add the Trading Logic¶
-添加交易逻辑 ¶
-We will now add the code for our trading strategy. Our cBot should open a 'Buy' position when three green bars are formed on the chart and a 'Sell' position when there are three consecutive red bars.
-我们现在将为我们的交易策略添加代码。当图表上形成三个绿色条时，我们的 cBot 应建立“买入”仓位，当出现三个连续红色条时，我们的 cBot 应建立“卖出”仓位。</p>
-<p>首先，我们需要定义 cBot 的参数。这些参数可通过 Trader UI 完全自定义。我们将在 cBot 中定义三个参数。</p>
-<p>每笔交易的数量。</p>
-<p>以点为单位的止损。</p>
-<p>以点为单位的止盈。</p>
-<p>将以下代码粘贴到代码编辑器中类声明后的大括号下方 ( public class NewcBot : Robot )</p>
-<p>[Parameter(DefaultValue = 1000)]
-public double Volume { get; set; }</p>
-<p>[Parameter(DefaultValue = 10)]
-public double TakeProfit { get; set; }</p>
-<p>[Parameter(DefaultValue = 10)]
-public double StopLoss { get; set; }
-We now need to implement the logic behind our trading strategy. Paste the following code in your OnBar() method. Remember that this method is called every time a new bar is formed.
-我们现在需要实现交易策略背后的逻辑。将以下代码粘贴到您的 OnBar() 方法中。请记住，每次形成新柱时都会调用此方法。</p>
-<p>//Three White Soldiers
-if(Bars.ClosePrices.Last(1) &gt; Bars.OpenPrices.Last(1)
-&amp;&amp; Bars.ClosePrices.Last(2) &gt; Bars.OpenPrices.Last(2)<br>
-&amp;&amp; Bars.ClosePrices.Last(3) &gt; Bars.OpenPrices.Last(3))
+<p>在本文及其相应视频中，我们将描述在 Automate 中创建 <strong>策略</strong> 的快速方法。我们将创建一个简单双均线策略作为演示，快周期的均线向上穿越慢周期均线则买入，向下穿越慢周期均线则卖出。</p>
+<p>在按照我们的说明操作之前，请确保您已从官方网站下载并安装了 Sparks桌面应用程序。启动它，然后导航至 Automate 部分。您可以在左侧面板中找到它。单击“<strong>策略</strong>”选项卡，应出现  策略 部分。</p>
+<h2 id="添加新的策略">添加新的策略</h2>
+<p>要创建新的自定义策略，我们只需单击“<strong>添加</strong>”按钮。新策略将出现在策略列表的底部，并在右侧面板中显示代码模板。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AD%96%E7%95%A5.assets/image-20240407190100671.png" alt="image-20240407190100671"></p>
+<p>下一步是重命名新的策略。为此，请右键单击它并选择“重命名”或按 F2 。我们将使用“**DoubleMaStr”**作为 策略的新名称。完成后，按 Enter 。您的新策略已成功创建，现在您可以开始编写策略了。</p>
+<h2 id="策略结构">策略结构</h2>
+<p>开发 Trader cBot 时需要处理四个主要事件；所有四个都由 Trader 提供的四种不同方法处理。这些方法是 OnStart() 、 OnData() 和 OnStop() 。请注意，默认代码模板中缺少 OnStop() 方法。
+下表详细定义了这四种方法：</p>
+<table>
+<thead>
+<tr>
+<th>方法名称</th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OnStart()</td>
+<td>当策略实例开始运行时，会触发该方法。它用于初始化您计划在策略中使用的任何变量，例如指示器、计数器、事件处理程序或计时器。</td>
+</tr>
+<tr>
+<td>OnData()</td>
+<td>在每次传入数据时都会调用此方法。在此方法中，您可以编写处理传入数据的逻辑，发送订单等。</td>
+</tr>
+<tr>
+<td>OnStop()</td>
+<td>当指标停止或者从图表中移除时，将调用此方法。在此方法中，您可以清理任何资源，例如事件订阅或缓存的数据</td>
+</tr>
+</tbody>
+</table>
+<h2 id="添加交易逻辑">添加交易逻辑</h2>
+<p>我们现在将为我们的交易策略添加代码。当快周期的均线向上穿越慢周期均线则买入，向下穿越慢周期均线则卖出。</p>
+<p>首先，我们需要定义 策略 的参数：</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QuickPeriods</td>
+<td>快速均线周期参数</td>
+</tr>
+<tr>
+<td>SlowPeriods</td>
+<td>慢速均线周期参数</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>每笔交易的数量</td>
+</tr>
+</tbody>
+</table>
+<p>以下是全部策略代码：</p>
+<pre><code class="lang-csharp">[Strategy(Group = &quot;Trends&quot;)]
+public class DoubleMaStr : Strategy
 {
-ExecuteMarketOrder(TradeType.Buy, SymbolName, Volume, &quot;&quot;, StopLoss, TakeProfit);
-}</p>
-<p>//Three Black Crows
-if(Bars.ClosePrices.Last(1) &lt; Bars.OpenPrices.Last(1)
-&amp;&amp; Bars.ClosePrices.Last(2) &lt; Bars.OpenPrices.Last(2)<br>
-&amp;&amp; Bars.ClosePrices.Last(3) &lt; Bars.OpenPrices.Last(3))
-{
-ExecuteMarketOrder(TradeType.Sell, SymbolName, Volume, &quot;&quot;, StopLoss, TakeProfit);
-}</p>
-<p>现在我们将更仔细地检查代码。 Trader 使您可以访问图表历史柱，因此我们可以分别检查最后三个柱是全绿色还是全红色。在上面的 OnBar() 方法中，我们首先检查最后三个条是否都是绿色的。然后我们评估这些条是否都是红色的。</p>
-<p>如果两个条件之一成立，我们通过 ExecuteMarketOrder() 方法下市价单。它需要多个输入（参数），其中最重要的是交易方向、交易品种、交易量、止损和止盈。</p>
-<p>在我们的例子中，订单方向（ TradeType.Buy 和 TradeType.Sell ）由交易策略条件定义。交易品种名称直接取自 cBot 运行的图表 ( SymbolName )。交易量 ( Volume )、止损 ( Stop Loss ) 和止盈 ( TakeProfit ) 均取自我们定义的 cBot 参数。</p>
-<h3 id="构建并运行-cbot">构建并运行 cBot</h3>
-<p>现在我们需要检查 cBot 是否构建成功。默认情况下，构建结果窗口位于代码编辑器的正下方。如果您没有看到它，请单击 Trader UI 最顶部栏中的“布局”按钮，然后选择“构建结果”。</p>
-<p>然后，按下 Trader UI 最顶部栏中的“构建”按钮。或者，右键单击您的 cBot，然后在新出现的菜单中单击“构建”，或者只需按 F7 。</p>
-<p>Image title</p>
-<p>如果构建成功，您将在代码编辑器底部的“构建结果”区域中看到一条绿色消息。</p>
-<p>Image title</p>
-<p>或者，如果您的代码存在问题，您将看到一条红色消息和所有构建错误的详细摘要。</p>
-<p>Image title</p>
-<p>成功构建 cBot 后，您就可以开始使用它了。您所需要做的就是在交易图表上添加一个实例。为此，只需单击 cBot 名称右侧的“加号”图标即可。您将看到可以运行 cBot 的所有符号的列表。</p>
-<p>Image title</p>
-<p>我们将选择欧元兑美元。选择符号后，将添加一个新的 cBot 实例。您将在 cBot 列表中看到一个新项目，其中包含您想要交易的交易品种名称和时间范围。</p>
-<p>您还应该看到您在交易图表正下方的“参数”选项卡中编码的参数。</p>
-<p>Image title</p>
-<p>您可以根据需要更改这些参数，也可以将它们保留为默认值。</p>
-<p>此外，您将在 EURUSD 图表顶部看到一个“玩”按钮。</p>
-<p>Image title</p>
-<p>要启动您的实例，请按此按钮。或者，此按钮的副本也位于左侧 cBot 列表中实例的右侧。这些按钮中的任何一个都将启动 cBot。</p>
-<p>单击任一按钮后，您应该看到它变成橙色，这意味着我们的 cBot 实例现已启动并运行。在“日志”选项卡中，您还应该看到一个新行，表明 cBot 现已启动。</p>
-<h3 id="回测">回测</h3>
-<p>我们的 cBot 可能需要很长时间才能在真实交易图表上建仓。我们将进行快速回测，看看它对历史数据的作用。为此，请打开“回测”选项卡。</p>
-<p>Image title</p>
-<p>使用靠近屏幕顶部的日历滑块选择您想要用于回溯测试的日期范围。启用“可视模式”标志以跟踪回溯测试的结果。</p>
-<p>我们将把滑块向后移动一个月。现在点击“播放”按钮即可根据所选历史数据启动 cBot。</p>
-<p>之后，您将能够在交易图表正下方和“参数”部分右侧的选项卡中看到正在开仓和/或平仓的新仓位。具体来说，在检测到我们编码的两种模式中的任何一种后，cBot 将下达“买入”订单或“卖出”订单。</p>
-<p>运行回测是分析 cBot 是否正常工作的有用方法。</p>
-<h3 id="概括">概括</h3>
-<p>我们希望本文有助于演示如何使用 Trader 创建自动交易机器人。要了解更多信息，请查阅我们丰富的文档或在我们的论坛上发布问题。</p>
+#region 用户Paras
+
+    // 快速均线周期参数
+    [Parameter, Range(1, 100), DefaultValue(5)]
+    public int QuickPeriods { get; set; }
+
+    // 慢速均线周期参数
+    [Parameter, Range(20, 150), DefaultValue(20)]
+    public int SlowPeriods { get; set; }
+
+    // 每笔交易的数量
+    [Parameter, DefaultValue(1)]
+    public double Quantity { get; set; }
+
+    // 快速均线输出
+    [Output, Stroke(&quot;green&quot;)]
+    public IIndicatorDatas QuickMaResult { get; set; }
+
+    // 慢速速均线输出
+    [Output, Stroke(&quot;blue&quot;)]
+    public IIndicatorDatas SlowMaResult { get; set; }
+
+#endregion
+
+    protected override void OnStart()
+    {
+        // 参数有效性检查，如果快速均线周期大于等于慢速均线周期，停止策略
+        if (QuickPeriods &gt;= SlowPeriods)
+        {
+            // 输出错误信息
+            Error($&quot;Bad Args, QuickPeriods:{QuickPeriods} &gt;= SlowPeriods:{SlowPeriods}&quot;);
+            // 停止策略
+            Stop();
+            return;
+        }
+
+        // 创建快速均线指标
+        QuickMa_ = CreateIndicator&lt;MVA&gt;(Bars.Closes, QuickPeriods);
+
+        // 创建慢速均线指标
+        SlowMa_ = CreateIndicator&lt;MVA&gt;(Bars.Closes, SlowPeriods);
+    }
+
+    protected override void OnData(ISource source, int index)
+    {
+        // 设置快速均线输出
+        QuickMaResult[index] = QuickMa_.Result[index];
+        // 设置慢速均线输出
+        SlowMaResult[index] = SlowMa_.Result[index];
+
+        // 历史数据没有结束，不执行逻辑
+        if (!IsHistoryOver)
+            return;
+
+        // 正在下单中，不执行逻辑
+        if (OrderSending)
+            return;
+
+        // long trade
+        LongTrade_ = TradingAccount.Trades.FirstOrDefault(p =&gt; p.Code == Symbol.Code &amp;&amp; p.Direction == ETradeDirection.Buy &amp;&amp; p.Comment == Label);
+        // short trade
+        ShortTrade_ = TradingAccount.Trades.FirstOrDefault(p =&gt; p.Code == Symbol.Code &amp;&amp; p.Direction == ETradeDirection.Sell &amp;&amp; p.Comment == Label);
+
+        // 快速均线上穿慢速均线
+        if (QuickMa_.Result.CrossOver(SlowMa_.Result))
+        {
+            // 如果有空单，平空单
+            if (ShortTrade_ != null)
+                CloseTrade(ShortTrade_);
+            // 如果没有多单，开多单
+            if (LongTrade_ == null)
+                ExecuteMarketOrder(Symbol.Contract, ETradeDirection.Buy, Quantity, Label);
+        }
+        // 快速均线下穿慢速均线
+        else if (QuickMa_.Result.CrossDown(SlowMa_.Result))
+        {
+            // 如果有多单，平多单
+            if (LongTrade_ != null)
+                CloseTrade(LongTrade_);
+            // 如果没有空单，开空单
+            if (ShortTrade_ == null)
+                ExecuteMarketOrder(Symbol.Contract, ETradeDirection.Sell, Quantity, Label);
+        }
+    }
+
+
+    protected void ExecuteMarketOrder(SymbolContract contract, ETradeDirection dir, double quantity, string label = null)
+    {
+        // 下市价单
+        var ret = this.TradingAccount.PlaceMarketOrder(contract, dir, quantity, label: label, callback: (e) =&gt;
+        {
+            if (e.IsSuccessful)
+            {
+                if (e.Trade != null)
+                {
+                    // 下单成功，弹窗和邮件提示
+                    MyAlert(&quot;Open&quot;, e.Trade.ToString());
+                    if (e.Trade.Direction == ETradeDirection.Buy)
+                        LongTrade_ = e.Trade;
+                    else
+                        ShortTrade_ = e.Trade;
+                }
+            }
+
+            if (dir == ETradeDirection.Buy)
+                LongSending_ = false;
+            else
+                ShortSending_ = false;
+        });
+
+        if (ret.IsExecuting)
+        {
+            if (dir == ETradeDirection.Buy)
+                LongSending_ = true;
+            else
+                ShortSending_ = true;
+        }
+    }
+
+    protected void CloseTrade(ITrade t)
+    {
+        // 关闭单子
+        var ret = t.Close(callback: (e) =&gt;
+        {
+            if (e.IsSuccessful)
+            {
+                MyAlert(&quot;close&quot;, t.ToString());
+                if (t.Direction == ETradeDirection.Buy)
+                    LongTrade_ = null;
+                else
+                    ShortTrade_ = null;
+            }
+
+            if (t.Direction == ETradeDirection.Buy)
+                LongClosing_ = false;
+            else
+                ShortClosing_ = false;
+        });
+
+        if (ret.IsExecuting)
+        {
+            if (t.Direction == ETradeDirection.Buy)
+                LongClosing_ = true;
+            else
+                ShortClosing_ = true;
+        }
+    }
+
+
+    // 提示，弹窗和邮件
+    protected void MyAlert(string title, string msg)
+    {
+        Alert(title, msg, new AlertAction[]
+        {
+            new PopupAlertAction(), new EmailAlertAction()
+        });
+    }
+
+    protected string Label =&gt; LongName + Id;
+
+    protected MVA QuickMa_;
+    protected MVA SlowMa_;
+
+    protected ITrade LongTrade_;
+    protected bool   LongSending_;
+    protected bool   LongClosing_;
+    protected ITrade ShortTrade_;
+    protected bool   ShortSending_;
+    protected bool   ShortClosing_;
+
+    protected bool OrderSending =&gt; LongSending_ | LongClosing_ | ShortClosing_ | ShortSending_;
+}
+
+</code></pre>
+<p>在上面的代码中，首先我们定义了输入参数，以及2个输出数据列：QuickMaResult，SlowMaResult。这2个输出数据列将在图标上绘制2条均线方便我们查看。</p>
+<p>其次，在OnStart方法中，我们检查了参数是否正确，如果不正确则输出错误并且提前结束策略。然后我们又创建了2个Mva均线指标，分别根据2个输入参数。</p>
+<p>最后，在OnData方法中，我们设置了输出数据列的值，这样就能在图标上绘制均线。我们还判断了当前是否还是在历史数据中，如果当前数据还是历史数据，则不执行逻辑。其后我们定义了核心逻辑：如果快速均线上穿慢速均线，则下多单平空单；如果快速均线下穿慢速均线，则下空单平多单。</p>
+<p>如此，就完成了一个最简单的双均线策略。当然，该策略还有很多不足之处，比如下单数量过于简单，直接是个绝对值。判断均线上下穿越的时候是在Bar盘中，而不是Bar结束的时候，可能会造成盘中反复穿越的问题等等。更完善的策略，需要使用者后期进一步优化。</p>
+<h2 id="构建并运行策略">构建并运行策略</h2>
+<p>现在我们需要检查 策略 是否构建成功。</p>
+<p>按下 automate UI 最顶部栏中的“<strong>编译</strong>”按钮。或者，只需按 <strong>F7</strong> 。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AD%96%E7%95%A5.assets/image-20240408152200163.png" alt="image-20240408152200163"></p>
+<p>如果构建成功，您将在代码编辑器底部的“<strong>日志</strong>”区域中看到“完成编译”的消息。</p>
+<p>或者，如果您的代码存在问题，您将看到“编译失败”消息和所有构建错误的详细摘要。</p>
+<p>成功构建 策略 后，您就可以开始使用它了。您所需要做的就是在交易图表上通过“<strong>指标管理</strong>”UI，添加一个策略的实例。</p>
+<p>在这里，因为是在Automate中，我们可以直接添加一个图表实例用于测试策略，最简单的方法是鼠标悬停指示器并选择“<strong>添加实例</strong>”选项：</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AD%96%E7%95%A5.assets/image-20240408152912705.png" alt="image-20240408152912705"></p>
+<p>选择一个图表实例后，即可点击策略的“<strong>开始</strong>“按钮运行策略：</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AD%96%E7%95%A5.assets/image-20240408153212023.png" alt="image-20240408153212023"></p>
+<h2 id="回测">回测</h2>
+<p>策略构建完毕后，通常我们都需要进行回测，以确认策略的逻辑是否正确，是否符合我们的预期。</p>
+<p>具体的回测操作，请参考<a href="%E5%A6%82%E4%BD%95%E5%9B%9E%E6%B5%8B%E7%AD%96%E7%95%A5.html">如何回测策略</a>.</p>
+<h2 id="概括">概括</h2>
+<p>我们希望本文有助于演示如何使用 Automate 创建策略。要了解更多信息，请查阅我们丰富的文档或在我们的论坛上发布问题。</p>
 <p>您还可以订阅您的 YouTube 频道，以便在我们发布新视频时收到提醒。</p>
 </article>
 
@@ -176,7 +352,7 @@ ExecuteMarketOrder(TradeType.Sell, SymbolName, Volume, &quot;&quot;, StopLoss, T
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
-          &copy; sparkstrader.com
+          &copy; SparksTrader.com Documentation
         </div>
       </div>
     </footer>

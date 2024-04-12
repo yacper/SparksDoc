@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>如何创建自定义指标 | SparksTrader文档 </title>
+      <title>如何创建自定义指标 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="如何创建自定义指标 | SparksTrader文档 ">
+      <meta name="title" content="如何创建自定义指标 ">
       
-      <link rel="icon" href="../../../MyIcon.png">
+      <link rel="icon" href="../../../sparks.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
@@ -34,9 +34,9 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../MyIcon.png" alt="">
-            
+          <a class="navbar-brand" href="https://sparkstrader.com">
+            <img id="logo" class="svg" src="../../../sparks.ico" alt="SparksTrader">
+            SparksTrader
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -78,24 +78,68 @@
         <article data-uid="">
 <h2 id="如何创建自定义指标">如何创建自定义指标</h2>
 
-<p>在本文及其相应视频中，我们将讨论如何在 Trader 中快速创建新的自定义指标。我们将创建一个简单的移动平均线指标，并向您展示如何快速自定义指标参数。</p>
-<p>在按照我们的说明操作之前，请确保您已从官方网站下载并安装了 Trader 桌面应用程序。启动它，然后导航至  Automate 部分。为此，请在左侧面板中找到“自动化”选项卡并单击它。您现在应该看到 Automate 界面。</p>
-<p>在其中，您会注意到两个选项卡分别名为“本地”和“云”。进入“本地”选项卡以访问本地计算机上安装的指示器。这些指示器位于本地 cBot 列表的正下方。请注意，Trader 预装了多个指标，您可以自由访问和修改。</p>
-<h3 id="添加新的自定义指标">添加新的自定义指标</h3>
-<p>要创建新的自定义指标，我们只需单击“新建...”按钮并选择“新指标”。新指标将出现在指标列表的底部，并在右侧面板中显示代码模板。</p>
-<p>下一步是更改指标的默认名称。为此，请右键单击它并按“重命名”，或者选择它并按 F2 。我们将输入“简单移动平均线”作为指标的新名称。完成后，按 Enter 。此时，我们已准备好开始编写自定义指标的逻辑和公式。</p>
-<h4 id="查看指标结构">查看指标结构</h4>
+<p>在本文及其相应视频中，我们将讨论如何在 Sparks 中快速创建新的自定义指标。我们将创建一个简单的移动平均线指标，并向您展示如何快速自定义指标参数。</p>
+<p>在按照我们的说明操作之前，请确保您已从官方网站下载并安装了 Sparks桌面应用程序。启动它，然后导航至  Automate 部分。为此，请在左侧面板中找到“自动化”选项卡并单击它。您现在应该看到 Automate 界面。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407163303426.png" alt="image-20240407163303426"></p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407163431877.png" alt="image-20240407163431877"></p>
+<p>在左侧，你可以看到2个选项卡，指标以及策略。添加编辑指标和策略方法类似。</p>
+<h2 id="添加新的自定义指标">添加新的自定义指标</h2>
+<p>要创建新的自定义指标，我们只需单击“<strong>添加</strong>”按钮。新指标将出现在指标列表的底部，并在右侧面板中显示代码模板。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407164638152.png" alt="image-20240407164638152"></p>
+<p>下一步是更改指标的默认名称。为此，请右键单击它并按“重命名”，或者选择它并按 F2 。我们将输入“SampleMva”作为指标的新名称。完成后，按 Enter 。此时，我们已准备好开始编写自定义指标的逻辑和公式。</p>
+<h3 id="查看指标结构">查看指标结构</h3>
 <p>在开始之前，我们将快速浏览一下代码编辑器窗口中显示的指标代码结构。该结构包括默认参数设置以及在图表上计算和显示指标的方法。</p>
-<p>首先，每个指标都有一个包含其类属性的部分。您可以在此处配置指标的访问权限、指标在图表上的显示位置、指标使用的时区、指标缩放比例以及其他一些高级设置。</p>
-<p>您还会注意到，每个新指标代码模板都定义了一个名为 NewIndicator 的类，其中包含所有指标事件和任何自定义方法。类名声明后跟 : Indicator 。这意味着 NewIndicator 类继承自 Indicator 基类，而该基类又包含我们在构建自定义指标时将访问的所有预定义对象。</p>
+<p>首先，每个指标都有一个包含其类属性的部分。您可以在此处配置指标在图表上的显示位置、指标的分组等等。</p>
+<p>您还会注意到，每个新指标代码模板都定义了一个名为 <strong>NewIndicator</strong> 的类，其中包含所有指标事件和任何自定义方法。类名声明后跟 : Indicator 。这意味着 NewIndicator 类继承自 Indicator 基类，而该基类又包含我们在构建自定义指标时将访问的所有预定义对象。</p>
 <p>我们的技术文档中提供了对面向对象编程中的指标代码结构和继承原则的更详细回顾。</p>
 <p>在下面的部分中，您将看到包含所有默认指标设置的代码块。最初，此部分仅包含以下代码。</p>
+<pre><code class="lang-csharp">[Indicator(Group = &quot;Trends&quot;)]
+public class SampleMa : Indicator
+{
+#region 用户参数
+    [Parameter, DefaultValue(&quot;Hello world!&quot;)]
+    public string Message { get; set; }
+#endregion
+
+    protected override void OnStart()
+    {
+        Info(HelloMsg);
+    }
+
+    protected override void OnData(ISource source, int index)
+    {
+    }
+}
+</code></pre>
+<p>以上是最基础的指标结构，并没有定义什么有用的东西，仅仅是在启动的时候，打印一句字符串而已。</p>
+<p>其中只需知道Message上的[Parameter] attribute，指示这是一个用户输入的字符串，可以修改。</p>
+<p>另外有两个预置的方法：</p>
+<table>
+<thead>
+<tr>
+<th>方法名称</th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OnStart()</td>
+<td>当指标附加到图表时，将调用此事件方法。它用于初始化您计划在指标中使用的任何变量。您还可以定义和引用其他指标，以使用其他指标的公式创建单个指标。</td>
+</tr>
+<tr>
+<td>OnData()</td>
+<td>在每次传入数据时都会调用此方法。在此方法中，您可以编写处理传入数据的逻辑，以计算指标应显示的下一条绘制线。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="samplema代码">SampleMa代码</h2>
+<p>为了实现一个简单的移动平均线，需要对上述代码做如下修改：</p>
 <pre><code class="lang-csharp">/// &lt;summary&gt;
 /// IsOverlay=true, 这是个主图指标，输出数据将绘制在主图上
 /// Group = &quot;Trends&quot;, 指标分组
 /// &lt;/summary&gt;
 [Indicator(IsOverlay=true, Group = &quot;Trends&quot;)]
-public class MVA : Indicator
+public class SampleMa : Indicator
 {
 #region 用户参数
     /// &lt;summary&gt;
@@ -163,30 +207,31 @@ public class MVA : Indicator
 }
 
 </code></pre>
-<p>在参数声明的正下方，您应该看到指标方法。将方法视为指标启动时以及将新价格数据输入指标时执行的某些事件。下表定义了三种关键指标方法。</p>
-<p>|方法名称|	 定义|
-|OnStart()|	当指标附加到图表时，将调用此事件方法。它用于初始化您计划在指标中使用的任何变量。您还可以定义和引用其他指标，以使用其他指标的公式创建单个指标。|
-|OnData()|	在每次传入数据时都会调用此方法。在此方法中，您可以编写处理传入数据的逻辑，以计算指标应显示的下一条绘制线。|
-|OnStop()| 当指标停止或者从图表中移除时，将调用此方法。在此方法中，您可以清理任何资源，例如事件订阅或缓存的数据|</p>
-<h3 id="构建并测试指标">构建并测试指标</h3>
-<p>一旦我们完成了指标代码的编写，我们就可以单击位于 cTrader UI 最顶部栏中的“构建”按钮。或者，右键单击您的指标并在新打开的菜单中选择“构建”，或者只需按 Ctrl + B 。</p>
-<p>如果构建成功，您将在代码编辑器底部的“构建结果”区域中看到一条绿色消息。</p>
-<p>但是，如果您的代码存在问题，您将看到一条红色消息和所有构建错误的详细摘要。</p>
-<p>成功构建指标后，我们现在可以继续创建实例。最简单的方法是右键单击指示器并选择“添加实例”选项。</p>
-<p>这将为“EURUSD”的“h1”图表创建一个新的指标实例。但是，您只需单击实例并打开相关菜单即可更改图表类型、时间范围和符号。</p>
-<p>新出现的“参数”选项卡应显示我们之前编码的三个可自定义参数。您可以将它们保留原样或直接在 cTrader UI 中更改它们的值。</p>
-<p>交易图表现在应该显示指标输出。在我们的例子中，这将是一条显示简单移动平均线的绿松石线。</p>
-<p>如果右键单击该线，您将看到一个新窗口，允许自定义指标参数。例如，我们可以将输出线的颜色从绿松石色切换为蓝色。我们还可以调整线条的粗细。要保存更改，请单击“确定”。</p>
-<p>请注意，cTrader 允许在实例输出和自定义指标的代码编辑器窗口之间快速切换。这使其成为快速测试某些指标参数或任何自定义计算逻辑的理想工具。</p>
-<h3 id="将指标添加到实时图表">将指标添加到实时图表</h3>
-<p>现在，我们将切换到 cTrader 中的“交易”选项卡，将自定义指标附加到实时图表。打开您想要分析的交易品种的图表。</p>
-<p>在顶部的菜单中，单击“指标”图标以打开一个新部分。</p>
-<p>然后，选择“自定义”，然后在新出现的菜单中选择我们创建的自定义指标（“简单移动平均线”）。</p>
-<p>您将看到一个新窗口，允许您自定义指标参数。选择您喜欢的值后，单击“确定”将指标添加到所选交易品种的图表中。</p>
-<p>要返回指标设置窗口，只需右键单击指标输出即可。在我们的例子中，我们可以右键单击绿松石线。或者，单击将鼠标悬停在图表上的指标名称上时出现的“属性”图标。</p>
-<p>将出现指标设置窗口，您将能够更改输出线条的颜色及其粗细。</p>
-<h3 id="概括">概括</h3>
-<p>我们希望本文有助于演示如何使用 cTrader 创建自定义指标。要了解更多信息，请查阅我们丰富的文档或在我们的论坛上发布问题。</p>
+<p>其中代码大部分是自说明的，并不复杂，具体细节可以参考更详细的文档。</p>
+<h2 id="构建指标">构建指标</h2>
+<p>一旦我们完成了指标代码的编写，我们就可以单击位于 Automate 最顶部栏中的“编译”按钮。或者，直接按F7进行编译。</p>
+<p>如果编译成功，在log区域中，将不会出现错误提示，否则，会有错误提示出现。</p>
+<p>成功编译指标后，我们现在可以继续创建实例。最简单的方法是鼠标悬停指示器并选择“<strong>添加实例</strong>”选项。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407173753330.png" alt="image-20240407173753330"></p>
+<p>在弹出的symbol窗口中，选择一个品种:</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407173853978.png" alt="image-20240407173853978"></p>
+<p>这将新创建一个“XAUUSD”/“D1”的指标实例。如下图，通过点击symbol和timeframe按钮，可以修改实例的品种和周期。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407174735497.png" alt="image-20240407174735497"></p>
+<p>交易图表现在应该显示指标输出。在我们的例子中，这将是一条显示简单移动平均线的紫色线。</p>
+<p>如果鼠标悬停在指标指示器上，选择设置按钮，则可以打开设置对话框，直接修改指标的参数。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407175041612.png" alt="image-20240407175041612"></p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407175102076.png" alt="image-20240407175102076"></p>
+<p>按“Esc&quot;可以快速关闭设置对话框。</p>
+<h2 id="测试指标">测试指标</h2>
+<p>指标一旦被添加到图标中，就会立即执行。</p>
+<p>如果指标不复杂，可以通过打印日志的方式解决大部分的问题。日志会显示在日志窗格中：<img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407180317210.png" alt="image-20240407180317210"></p>
+<p>如果要进行调试，则需要visual studio之类的IDE。详细请参阅相关IDE的调试文档。</p>
+<h2 id="将指标添加到实时图表">将指标添加到实时图表</h2>
+<p>在automate中调试指标结束后，随后可以在任意的图标中使用新创建的指标，直接在“指标管理器”中添加即可。</p>
+<p><img src="%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E6%A0%87.assets/image-20240407181045426.png" alt="image-20240407181045426"></p>
+<p>如果指标在automate中被重新编译构建，已经添加的指标实例也会被更新。</p>
+<h2 id="概括">概括</h2>
+<p>我们希望本文有助于演示如何使用 Sparks创建自定义指标。要了解更多信息，请查阅我们丰富的文档或在我们的论坛上发布问题。</p>
 <p>您还可以订阅您的 YouTube 频道，以便在我们发布新视频时收到提醒。</p>
 <p><a href="https://help.ctrader.com/ctrader-automate/articles/for-developers/create-a-custom-indicator/">https://help.ctrader.com/ctrader-automate/articles/for-developers/create-a-custom-indicator/</a></p>
 </article>
@@ -208,7 +253,7 @@ public class MVA : Indicator
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
-          &copy; sparkstrader.com
+          &copy; SparksTrader.com Documentation
         </div>
       </div>
     </footer>
