@@ -421,7 +421,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SymbolContract Contract { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Contract Contract { get; }</code></pre>
   </div>
 
 
@@ -430,7 +430,7 @@
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Sparks.Trader.Api.SymbolContract.html">SymbolContract</a></dt>
+    <dt><a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
     <dd></dd>
   </dl>
 
@@ -623,6 +623,38 @@
   <h4 class="section">属性值</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IOrder_HasChildOrder_" data-uid="Sparks.Trader.Api.IOrder.HasChildOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IOrder_HasChildOrder" data-uid="Sparks.Trader.Api.IOrder.HasChildOrder">
+  HasChildOrder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>是否有子单</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasChildOrder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 
@@ -998,7 +1030,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object OrderTypeEx { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">string OrderTypeEx { get; }</code></pre>
   </div>
 
 
@@ -1007,7 +1039,7 @@
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -1063,6 +1095,70 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">string ParentOrderId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IOrder_ParentTrade_" data-uid="Sparks.Trader.Api.IOrder.ParentTrade*"></a>
+
+  <h3 id="Sparks_Trader_Api_IOrder_ParentTrade" data-uid="Sparks.Trader.Api.IOrder.ParentTrade">
+  ParentTrade
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>父Trade</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITrade ParentTrade { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ITrade.html">ITrade</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IOrder_ParentTradeId_" data-uid="Sparks.Trader.Api.IOrder.ParentTradeId*"></a>
+
+  <h3 id="Sparks_Trader_Api_IOrder_ParentTradeId" data-uid="Sparks.Trader.Api.IOrder.ParentTradeId">
+  ParentTradeId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>父Trade ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string ParentTradeId { get; }</code></pre>
   </div>
 
 
@@ -1564,6 +1660,70 @@
 
 
 
+  <a id="Sparks_Trader_Api_IOrder_Trade_" data-uid="Sparks.Trader.Api.IOrder.Trade*"></a>
+
+  <h3 id="Sparks_Trader_Api_IOrder_Trade" data-uid="Sparks.Trader.Api.IOrder.Trade">
+  Trade
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>对应的Trade，如果有</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITrade Trade { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.ITrade.html">ITrade</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IOrder_TradeId_" data-uid="Sparks.Trader.Api.IOrder.TradeId*"></a>
+
+  <h3 id="Sparks_Trader_Api_IOrder_TradeId" data-uid="Sparks.Trader.Api.IOrder.TradeId">
+  TradeId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>对应的Trade id，如果有</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string TradeId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Sparks_Trader_Api_IOrder_UpdateTime_" data-uid="Sparks.Trader.Api.IOrder.UpdateTime*"></a>
 
   <h3 id="Sparks_Trader_Api_IOrder_UpdateTime" data-uid="Sparks.Trader.Api.IOrder.UpdateTime">
@@ -1588,96 +1748,6 @@
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
     <dd></dd>
   </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">方法
-</h2>
-
-
-  <a id="Sparks_Trader_Api_IOrder_Cancel_" data-uid="Sparks.Trader.Api.IOrder.Cancel*"></a>
-
-  <h3 id="Sparks_Trader_Api_IOrder_Cancel_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IOrder.Cancel(System.Action{Sparks.Trader.Api.TradeResult})">
-  Cancel(Action&lt;TradeResult&gt;)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>取消订单</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TradeOperation Cancel(Action&lt;TradeResult&gt; callback = null)</code></pre>
-  </div>
-
-  <h4 class="section">参数</h4>
-  <dl class="parameters">
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">返回</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Sparks_Trader_Api_IOrder_Modify_" data-uid="Sparks.Trader.Api.IOrder.Modify*"></a>
-
-  <h3 id="Sparks_Trader_Api_IOrder_Modify_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IOrder.Modify(System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})">
-  Modify(double?, double?, double?, ETIF?, double?, double?, Action&lt;TradeResult&gt;)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>修改订单</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TradeOperation Modify(double? price = null, double? auxPrice = null, double? lots = null, ETIF? tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
-  </div>
-
-  <h4 class="section">参数</h4>
-  <dl class="parameters">
-    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
-    <dd></dd>
-    <dt><code>auxPrice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
-    <dd></dd>
-    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
-    <dd></dd>
-    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
-    <dd></dd>
-    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
-    <dd></dd>
-    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
-    <dd></dd>
-    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">返回</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
 
 
 

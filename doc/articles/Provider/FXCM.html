@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Provider </title>
+      <title>Fxcm福汇 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Provider ">
+      <meta name="title" content="Fxcm福汇 ">
       
       <link rel="icon" href="../../../sparks.ico">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
@@ -76,15 +76,20 @@
         </div>
 
         <article data-uid="">
-<h2 id="provider">Provider</h2>
+<h2 id="fxcm福汇">Fxcm福汇</h2>
 
-<p>所谓Provider，即是一个交易平台/通道. 比如IB/FXCM/Ctp等等。</p>
-<p>不同类型的Provider支持的功能不尽相同，比如是否支持<strong>历史数据</strong>,<strong>实时数据</strong>, 有的Provider可能完全没有数据，仅仅可以下单。</p>
-<p>不同类型的Provider，下单的方式也不尽相同。 几乎所有的Provider都支持Limit Order/限价单，有的还支持Market Order/市价单，Stop Order/止损单等等。</p>
-<p>有的平台还支持括号子单，即在下单的时候指定该单的止盈和止损价格（比如IB/FXCM）。</p>
-<p>具体Provider支持什么类型的数据，支持什么类型的订单，需查看各平台的文档。</p>
-<p>目前，Sparks已经支持IB, FXCM。另外，Sparks自身提供一个美股的日线数据，以供测试。该Provider只提供历史数据，不支持实时数据。数据在每个交易日结束后更新。</p>
-<p>国内期货Ctp的支持正在进行中...</p>
+<h3 id="provider设置">Provider设置</h3>
+<p><img src="FXCM.assets/image-20240426131057420.png" alt="image-20240426131057420"></p>
+<h4 id="account-账户">Account| 账户</h4>
+<p>在福汇登记的账户。</p>
+<h4 id="password-密码">Password| 密码</h4>
+<p>密码</p>
+<h4 id="url">URL</h4>
+<p>福汇的服务器地址，通常情况下不需要更改。</p>
+<h4 id="connection">Connection</h4>
+<p>Demo: 模拟账户类型</p>
+<p>Real: 真实账户类型</p>
+<p>根据账户类型，选择对应的Connection。</p>
 </article>
 
         <div class="contribution d-print-none">

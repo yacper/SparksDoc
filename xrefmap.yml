@@ -809,6 +809,417 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ChartScrollEventArgs.TopYDelta
   nameWithType: ChartScrollEventArgs.TopYDelta
+- uid: Sparks.Trader.Api.Contract
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.Contract.html
+  commentId: T:Sparks.Trader.Api.Contract
+  fullName: Sparks.Trader.Api.Contract
+  nameWithType: Contract
+- uid: Sparks.Trader.Api.Contract.#ctor
+  name: Contract()
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract__ctor
+  commentId: M:Sparks.Trader.Api.Contract.#ctor
+  name.vb: New()
+  fullName: Sparks.Trader.Api.Contract.Contract()
+  fullName.vb: Sparks.Trader.Api.Contract.New()
+  nameWithType: Contract.Contract()
+  nameWithType.vb: Contract.New()
+- uid: Sparks.Trader.Api.Contract.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.Nullable{System.Guid},System.String)
+  name: Contract(ESymbolType, string, string, string, ECurrency, string, Guid?, string)
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract__ctor_Sparks_Trader_Api_ESymbolType_System_String_System_String_System_String_Sparks_Trader_Api_ECurrency_System_String_System_Nullable_System_Guid__System_String_
+  commentId: M:Sparks.Trader.Api.Contract.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.Nullable{System.Guid},System.String)
+  name.vb: New(ESymbolType, String, String, String, ECurrency, String, Guid?, String)
+  fullName: Sparks.Trader.Api.Contract.Contract(Sparks.Trader.Api.ESymbolType, string, string, string, Sparks.Trader.Api.ECurrency, string, System.Guid?, string)
+  fullName.vb: Sparks.Trader.Api.Contract.New(Sparks.Trader.Api.ESymbolType, String, String, String, Sparks.Trader.Api.ECurrency, String, System.Guid?, String)
+  nameWithType: Contract.Contract(ESymbolType, string, string, string, ECurrency, string, Guid?, string)
+  nameWithType.vb: Contract.New(ESymbolType, String, String, String, ECurrency, String, Guid?, String)
+- uid: Sparks.Trader.Api.Contract.#ctor*
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract__ctor_
+  commentId: Overload:Sparks.Trader.Api.Contract.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sparks.Trader.Api.Contract.Contract
+  fullName.vb: Sparks.Trader.Api.Contract.New
+  nameWithType: Contract.Contract
+  nameWithType.vb: Contract.New
+- uid: Sparks.Trader.Api.Contract.Code
+  name: Code
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Code
+  commentId: P:Sparks.Trader.Api.Contract.Code
+  fullName: Sparks.Trader.Api.Contract.Code
+  nameWithType: Contract.Code
+- uid: Sparks.Trader.Api.Contract.Code*
+  name: Code
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Code_
+  commentId: Overload:Sparks.Trader.Api.Contract.Code
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.Code
+  nameWithType: Contract.Code
+- uid: Sparks.Trader.Api.Contract.Currency
+  name: Currency
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Currency
+  commentId: P:Sparks.Trader.Api.Contract.Currency
+  fullName: Sparks.Trader.Api.Contract.Currency
+  nameWithType: Contract.Currency
+- uid: Sparks.Trader.Api.Contract.Currency*
+  name: Currency
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Currency_
+  commentId: Overload:Sparks.Trader.Api.Contract.Currency
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.Currency
+  nameWithType: Contract.Currency
+- uid: Sparks.Trader.Api.Contract.Equals(Sparks.Trader.Api.Contract,Sparks.Trader.Api.Contract)
+  name: Equals(Contract, Contract)
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Equals_Sparks_Trader_Api_Contract_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.Contract.Equals(Sparks.Trader.Api.Contract,Sparks.Trader.Api.Contract)
+  fullName: Sparks.Trader.Api.Contract.Equals(Sparks.Trader.Api.Contract, Sparks.Trader.Api.Contract)
+  nameWithType: Contract.Equals(Contract, Contract)
+- uid: Sparks.Trader.Api.Contract.Equals(Sparks.Trader.Api.Contract)
+  name: Equals(Contract)
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Equals_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.Contract.Equals(Sparks.Trader.Api.Contract)
+  fullName: Sparks.Trader.Api.Contract.Equals(Sparks.Trader.Api.Contract)
+  nameWithType: Contract.Equals(Contract)
+- uid: Sparks.Trader.Api.Contract.Equals(System.Object)
+  name: Equals(object)
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Equals_System_Object_
+  commentId: M:Sparks.Trader.Api.Contract.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Sparks.Trader.Api.Contract.Equals(object)
+  fullName.vb: Sparks.Trader.Api.Contract.Equals(Object)
+  nameWithType: Contract.Equals(object)
+  nameWithType.vb: Contract.Equals(Object)
+- uid: Sparks.Trader.Api.Contract.Equals*
+  name: Equals
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Equals_
+  commentId: Overload:Sparks.Trader.Api.Contract.Equals
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.Equals
+  nameWithType: Contract.Equals
+- uid: Sparks.Trader.Api.Contract.Exchange
+  name: Exchange
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Exchange
+  commentId: P:Sparks.Trader.Api.Contract.Exchange
+  fullName: Sparks.Trader.Api.Contract.Exchange
+  nameWithType: Contract.Exchange
+- uid: Sparks.Trader.Api.Contract.Exchange*
+  name: Exchange
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Exchange_
+  commentId: Overload:Sparks.Trader.Api.Contract.Exchange
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.Exchange
+  nameWithType: Contract.Exchange
+- uid: Sparks.Trader.Api.Contract.GetHashCode
+  name: GetHashCode()
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_GetHashCode
+  commentId: M:Sparks.Trader.Api.Contract.GetHashCode
+  fullName: Sparks.Trader.Api.Contract.GetHashCode()
+  nameWithType: Contract.GetHashCode()
+- uid: Sparks.Trader.Api.Contract.GetHashCode*
+  name: GetHashCode
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_GetHashCode_
+  commentId: Overload:Sparks.Trader.Api.Contract.GetHashCode
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.GetHashCode
+  nameWithType: Contract.GetHashCode
+- uid: Sparks.Trader.Api.Contract.IsProviderUnique
+  name: IsProviderUnique
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_IsProviderUnique
+  commentId: P:Sparks.Trader.Api.Contract.IsProviderUnique
+  fullName: Sparks.Trader.Api.Contract.IsProviderUnique
+  nameWithType: Contract.IsProviderUnique
+- uid: Sparks.Trader.Api.Contract.IsProviderUnique*
+  name: IsProviderUnique
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_IsProviderUnique_
+  commentId: Overload:Sparks.Trader.Api.Contract.IsProviderUnique
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.IsProviderUnique
+  nameWithType: Contract.IsProviderUnique
+- uid: Sparks.Trader.Api.Contract.Name
+  name: Name
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Name
+  commentId: P:Sparks.Trader.Api.Contract.Name
+  fullName: Sparks.Trader.Api.Contract.Name
+  nameWithType: Contract.Name
+- uid: Sparks.Trader.Api.Contract.Name*
+  name: Name
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_Name_
+  commentId: Overload:Sparks.Trader.Api.Contract.Name
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.Name
+  nameWithType: Contract.Name
+- uid: Sparks.Trader.Api.Contract.op_Equality(Sparks.Trader.Api.Contract,Sparks.Trader.Api.Contract)
+  name: operator ==(Contract, Contract)
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_op_Equality_Sparks_Trader_Api_Contract_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.Contract.op_Equality(Sparks.Trader.Api.Contract,Sparks.Trader.Api.Contract)
+  name.vb: =(Contract, Contract)
+  fullName: Sparks.Trader.Api.Contract.operator ==(Sparks.Trader.Api.Contract, Sparks.Trader.Api.Contract)
+  fullName.vb: Sparks.Trader.Api.Contract.=(Sparks.Trader.Api.Contract, Sparks.Trader.Api.Contract)
+  nameWithType: Contract.operator ==(Contract, Contract)
+  nameWithType.vb: Contract.=(Contract, Contract)
+- uid: Sparks.Trader.Api.Contract.op_Equality*
+  name: operator ==
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_op_Equality_
+  commentId: Overload:Sparks.Trader.Api.Contract.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Sparks.Trader.Api.Contract.operator ==
+  fullName.vb: Sparks.Trader.Api.Contract.=
+  nameWithType: Contract.operator ==
+  nameWithType.vb: Contract.=
+- uid: Sparks.Trader.Api.Contract.op_Inequality(Sparks.Trader.Api.Contract,Sparks.Trader.Api.Contract)
+  name: operator !=(Contract, Contract)
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_op_Inequality_Sparks_Trader_Api_Contract_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.Contract.op_Inequality(Sparks.Trader.Api.Contract,Sparks.Trader.Api.Contract)
+  name.vb: <>(Contract, Contract)
+  fullName: Sparks.Trader.Api.Contract.operator !=(Sparks.Trader.Api.Contract, Sparks.Trader.Api.Contract)
+  fullName.vb: Sparks.Trader.Api.Contract.<>(Sparks.Trader.Api.Contract, Sparks.Trader.Api.Contract)
+  nameWithType: Contract.operator !=(Contract, Contract)
+  nameWithType.vb: Contract.<>(Contract, Contract)
+- uid: Sparks.Trader.Api.Contract.op_Inequality*
+  name: operator !=
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_op_Inequality_
+  commentId: Overload:Sparks.Trader.Api.Contract.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Sparks.Trader.Api.Contract.operator !=
+  fullName.vb: Sparks.Trader.Api.Contract.<>
+  nameWithType: Contract.operator !=
+  nameWithType.vb: Contract.<>
+- uid: Sparks.Trader.Api.Contract.ProviderId
+  name: ProviderId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderId
+  commentId: P:Sparks.Trader.Api.Contract.ProviderId
+  fullName: Sparks.Trader.Api.Contract.ProviderId
+  nameWithType: Contract.ProviderId
+- uid: Sparks.Trader.Api.Contract.ProviderId*
+  name: ProviderId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderId_
+  commentId: Overload:Sparks.Trader.Api.Contract.ProviderId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.ProviderId
+  nameWithType: Contract.ProviderId
+- uid: Sparks.Trader.Api.Contract.ProviderName
+  name: ProviderName
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderName
+  commentId: P:Sparks.Trader.Api.Contract.ProviderName
+  fullName: Sparks.Trader.Api.Contract.ProviderName
+  nameWithType: Contract.ProviderName
+- uid: Sparks.Trader.Api.Contract.ProviderName*
+  name: ProviderName
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderName_
+  commentId: Overload:Sparks.Trader.Api.Contract.ProviderName
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.ProviderName
+  nameWithType: Contract.ProviderName
+- uid: Sparks.Trader.Api.Contract.ProviderTypeId
+  name: ProviderTypeId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderTypeId
+  commentId: P:Sparks.Trader.Api.Contract.ProviderTypeId
+  fullName: Sparks.Trader.Api.Contract.ProviderTypeId
+  nameWithType: Contract.ProviderTypeId
+- uid: Sparks.Trader.Api.Contract.ProviderTypeId*
+  name: ProviderTypeId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderTypeId_
+  commentId: Overload:Sparks.Trader.Api.Contract.ProviderTypeId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.ProviderTypeId
+  nameWithType: Contract.ProviderTypeId
+- uid: Sparks.Trader.Api.Contract.ProviderWideId
+  name: ProviderWideId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderWideId
+  commentId: P:Sparks.Trader.Api.Contract.ProviderWideId
+  fullName: Sparks.Trader.Api.Contract.ProviderWideId
+  nameWithType: Contract.ProviderWideId
+- uid: Sparks.Trader.Api.Contract.ProviderWideId*
+  name: ProviderWideId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ProviderWideId_
+  commentId: Overload:Sparks.Trader.Api.Contract.ProviderWideId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.ProviderWideId
+  nameWithType: Contract.ProviderWideId
+- uid: Sparks.Trader.Api.Contract.SymbolType
+  name: SymbolType
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_SymbolType
+  commentId: P:Sparks.Trader.Api.Contract.SymbolType
+  fullName: Sparks.Trader.Api.Contract.SymbolType
+  nameWithType: Contract.SymbolType
+- uid: Sparks.Trader.Api.Contract.SymbolType*
+  name: SymbolType
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_SymbolType_
+  commentId: Overload:Sparks.Trader.Api.Contract.SymbolType
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.SymbolType
+  nameWithType: Contract.SymbolType
+- uid: Sparks.Trader.Api.Contract.SystemWideId
+  name: SystemWideId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_SystemWideId
+  commentId: P:Sparks.Trader.Api.Contract.SystemWideId
+  fullName: Sparks.Trader.Api.Contract.SystemWideId
+  nameWithType: Contract.SystemWideId
+- uid: Sparks.Trader.Api.Contract.SystemWideId*
+  name: SystemWideId
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_SystemWideId_
+  commentId: Overload:Sparks.Trader.Api.Contract.SystemWideId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.SystemWideId
+  nameWithType: Contract.SystemWideId
+- uid: Sparks.Trader.Api.Contract.ToString
+  name: ToString()
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ToString
+  commentId: M:Sparks.Trader.Api.Contract.ToString
+  fullName: Sparks.Trader.Api.Contract.ToString()
+  nameWithType: Contract.ToString()
+- uid: Sparks.Trader.Api.Contract.ToString*
+  name: ToString
+  href: doc/api/Sparks.Trader.Api.Contract.html#Sparks_Trader_Api_Contract_ToString_
+  commentId: Overload:Sparks.Trader.Api.Contract.ToString
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.Contract.ToString
+  nameWithType: Contract.ToString
+- uid: Sparks.Trader.Api.ContractAttribute
+  name: ContractAttribute
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html
+  commentId: T:Sparks.Trader.Api.ContractAttribute
+  fullName: Sparks.Trader.Api.ContractAttribute
+  nameWithType: ContractAttribute
+- uid: Sparks.Trader.Api.ContractAttribute.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.String)
+  name: ContractAttribute(ESymbolType, string, string, ECurrency, string, string)
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute__ctor_Sparks_Trader_Api_ESymbolType_System_String_System_String_Sparks_Trader_Api_ECurrency_System_String_System_String_
+  commentId: M:Sparks.Trader.Api.ContractAttribute.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.String)
+  name.vb: New(ESymbolType, String, String, ECurrency, String, String)
+  fullName: Sparks.Trader.Api.ContractAttribute.ContractAttribute(Sparks.Trader.Api.ESymbolType, string, string, Sparks.Trader.Api.ECurrency, string, string)
+  fullName.vb: Sparks.Trader.Api.ContractAttribute.New(Sparks.Trader.Api.ESymbolType, String, String, Sparks.Trader.Api.ECurrency, String, String)
+  nameWithType: ContractAttribute.ContractAttribute(ESymbolType, string, string, ECurrency, string, string)
+  nameWithType.vb: ContractAttribute.New(ESymbolType, String, String, ECurrency, String, String)
+- uid: Sparks.Trader.Api.ContractAttribute.#ctor*
+  name: ContractAttribute
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute__ctor_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sparks.Trader.Api.ContractAttribute.ContractAttribute
+  fullName.vb: Sparks.Trader.Api.ContractAttribute.New
+  nameWithType: ContractAttribute.ContractAttribute
+  nameWithType.vb: ContractAttribute.New
+- uid: Sparks.Trader.Api.ContractAttribute.Code
+  name: Code
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Code
+  commentId: P:Sparks.Trader.Api.ContractAttribute.Code
+  fullName: Sparks.Trader.Api.ContractAttribute.Code
+  nameWithType: ContractAttribute.Code
+- uid: Sparks.Trader.Api.ContractAttribute.Code*
+  name: Code
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Code_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.Code
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.Code
+  nameWithType: ContractAttribute.Code
+- uid: Sparks.Trader.Api.ContractAttribute.Contract
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Contract
+  commentId: P:Sparks.Trader.Api.ContractAttribute.Contract
+  fullName: Sparks.Trader.Api.ContractAttribute.Contract
+  nameWithType: ContractAttribute.Contract
+- uid: Sparks.Trader.Api.ContractAttribute.Contract*
+  name: Contract
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Contract_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.Contract
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.Contract
+  nameWithType: ContractAttribute.Contract
+- uid: Sparks.Trader.Api.ContractAttribute.Currency
+  name: Currency
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Currency
+  commentId: P:Sparks.Trader.Api.ContractAttribute.Currency
+  fullName: Sparks.Trader.Api.ContractAttribute.Currency
+  nameWithType: ContractAttribute.Currency
+- uid: Sparks.Trader.Api.ContractAttribute.Currency*
+  name: Currency
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Currency_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.Currency
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.Currency
+  nameWithType: ContractAttribute.Currency
+- uid: Sparks.Trader.Api.ContractAttribute.Exchange
+  name: Exchange
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Exchange
+  commentId: P:Sparks.Trader.Api.ContractAttribute.Exchange
+  fullName: Sparks.Trader.Api.ContractAttribute.Exchange
+  nameWithType: ContractAttribute.Exchange
+- uid: Sparks.Trader.Api.ContractAttribute.Exchange*
+  name: Exchange
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Exchange_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.Exchange
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.Exchange
+  nameWithType: ContractAttribute.Exchange
+- uid: Sparks.Trader.Api.ContractAttribute.Name
+  name: Name
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Name
+  commentId: P:Sparks.Trader.Api.ContractAttribute.Name
+  fullName: Sparks.Trader.Api.ContractAttribute.Name
+  nameWithType: ContractAttribute.Name
+- uid: Sparks.Trader.Api.ContractAttribute.Name*
+  name: Name
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_Name_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.Name
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.Name
+  nameWithType: ContractAttribute.Name
+- uid: Sparks.Trader.Api.ContractAttribute.ProviderId
+  name: ProviderId
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_ProviderId
+  commentId: P:Sparks.Trader.Api.ContractAttribute.ProviderId
+  fullName: Sparks.Trader.Api.ContractAttribute.ProviderId
+  nameWithType: ContractAttribute.ProviderId
+- uid: Sparks.Trader.Api.ContractAttribute.ProviderId*
+  name: ProviderId
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_ProviderId_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.ProviderId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.ProviderId
+  nameWithType: ContractAttribute.ProviderId
+- uid: Sparks.Trader.Api.ContractAttribute.ProviderName
+  name: ProviderName
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_ProviderName
+  commentId: P:Sparks.Trader.Api.ContractAttribute.ProviderName
+  fullName: Sparks.Trader.Api.ContractAttribute.ProviderName
+  nameWithType: ContractAttribute.ProviderName
+- uid: Sparks.Trader.Api.ContractAttribute.ProviderName*
+  name: ProviderName
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_ProviderName_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.ProviderName
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.ProviderName
+  nameWithType: ContractAttribute.ProviderName
+- uid: Sparks.Trader.Api.ContractAttribute.SymbolType
+  name: SymbolType
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_SymbolType
+  commentId: P:Sparks.Trader.Api.ContractAttribute.SymbolType
+  fullName: Sparks.Trader.Api.ContractAttribute.SymbolType
+  nameWithType: ContractAttribute.SymbolType
+- uid: Sparks.Trader.Api.ContractAttribute.SymbolType*
+  name: SymbolType
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_SymbolType_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.SymbolType
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.SymbolType
+  nameWithType: ContractAttribute.SymbolType
+- uid: Sparks.Trader.Api.ContractAttribute.ToString
+  name: ToString()
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_ToString
+  commentId: M:Sparks.Trader.Api.ContractAttribute.ToString
+  fullName: Sparks.Trader.Api.ContractAttribute.ToString()
+  nameWithType: ContractAttribute.ToString()
+- uid: Sparks.Trader.Api.ContractAttribute.ToString*
+  name: ToString
+  href: doc/api/Sparks.Trader.Api.ContractAttribute.html#Sparks_Trader_Api_ContractAttribute_ToString_
+  commentId: Overload:Sparks.Trader.Api.ContractAttribute.ToString
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ContractAttribute.ToString
+  nameWithType: ContractAttribute.ToString
 - uid: Sparks.Trader.Api.DigitsAttribute
   name: DigitsAttribute
   href: doc/api/Sparks.Trader.Api.DigitsAttribute.html
@@ -4549,18 +4960,24 @@ references:
   commentId: F:Sparks.Trader.Api.ETradeErrorCode.Timeout
   fullName: Sparks.Trader.Api.ETradeErrorCode.Timeout
   nameWithType: ETradeErrorCode.Timeout
+- uid: Sparks.Trader.Api.ETradeErrorCode.TradeClosed
+  name: TradeClosed
+  href: doc/api/Sparks.Trader.Api.ETradeErrorCode.html#Sparks_Trader_Api_ETradeErrorCode_TradeClosed
+  commentId: F:Sparks.Trader.Api.ETradeErrorCode.TradeClosed
+  fullName: Sparks.Trader.Api.ETradeErrorCode.TradeClosed
+  nameWithType: ETradeErrorCode.TradeClosed
 - uid: Sparks.Trader.Api.ETradeErrorCode.Unknown
   name: Unknown
   href: doc/api/Sparks.Trader.Api.ETradeErrorCode.html#Sparks_Trader_Api_ETradeErrorCode_Unknown
   commentId: F:Sparks.Trader.Api.ETradeErrorCode.Unknown
   fullName: Sparks.Trader.Api.ETradeErrorCode.Unknown
   nameWithType: ETradeErrorCode.Unknown
-- uid: Sparks.Trader.Api.ETradeErrorCode.UnknownSymbol
-  name: UnknownSymbol
-  href: doc/api/Sparks.Trader.Api.ETradeErrorCode.html#Sparks_Trader_Api_ETradeErrorCode_UnknownSymbol
-  commentId: F:Sparks.Trader.Api.ETradeErrorCode.UnknownSymbol
-  fullName: Sparks.Trader.Api.ETradeErrorCode.UnknownSymbol
-  nameWithType: ETradeErrorCode.UnknownSymbol
+- uid: Sparks.Trader.Api.ETradeErrorCode.UnknownContract
+  name: UnknownContract
+  href: doc/api/Sparks.Trader.Api.ETradeErrorCode.html#Sparks_Trader_Api_ETradeErrorCode_UnknownContract
+  commentId: F:Sparks.Trader.Api.ETradeErrorCode.UnknownContract
+  fullName: Sparks.Trader.Api.ETradeErrorCode.UnknownContract
+  nameWithType: ETradeErrorCode.UnknownContract
 - uid: Sparks.Trader.Api.EWatchItemType
   name: EWatchItemType
   href: doc/api/Sparks.Trader.Api.EWatchItemType.html
@@ -7352,6 +7769,54 @@ references:
   commentId: E:Sparks.Trader.Api.IChartArea.DragStart
   fullName: Sparks.Trader.Api.IChartArea.DragStart
   nameWithType: IChartArea.DragStart
+- uid: Sparks.Trader.Api.IChartArea.DrawAnchoredText(System.String,Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,System.String,Sparks.Trader.Api.FontSpec,System.Nullable{Microsoft.Maui.Graphics.HorizontalAlignment},System.Nullable{Microsoft.Maui.Graphics.VerticalAlignment})
+  name: DrawAnchoredText(string, Point, Point, string, FontSpec, HorizontalAlignment?, VerticalAlignment?)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawAnchoredText_System_String_Microsoft_Maui_Graphics_Point_Microsoft_Maui_Graphics_Point_System_String_Sparks_Trader_Api_FontSpec_System_Nullable_Microsoft_Maui_Graphics_HorizontalAlignment__System_Nullable_Microsoft_Maui_Graphics_VerticalAlignment__
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawAnchoredText(System.String,Microsoft.Maui.Graphics.Point,Microsoft.Maui.Graphics.Point,System.String,Sparks.Trader.Api.FontSpec,System.Nullable{Microsoft.Maui.Graphics.HorizontalAlignment},System.Nullable{Microsoft.Maui.Graphics.VerticalAlignment})
+  name.vb: DrawAnchoredText(String, Point, Point, String, FontSpec, HorizontalAlignment?, VerticalAlignment?)
+  fullName: Sparks.Trader.Api.IChartArea.DrawAnchoredText(string, Microsoft.Maui.Graphics.Point, Microsoft.Maui.Graphics.Point, string, Sparks.Trader.Api.FontSpec, Microsoft.Maui.Graphics.HorizontalAlignment?, Microsoft.Maui.Graphics.VerticalAlignment?)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawAnchoredText(String, Microsoft.Maui.Graphics.Point, Microsoft.Maui.Graphics.Point, String, Sparks.Trader.Api.FontSpec, Microsoft.Maui.Graphics.HorizontalAlignment?, Microsoft.Maui.Graphics.VerticalAlignment?)
+  nameWithType: IChartArea.DrawAnchoredText(string, Point, Point, string, FontSpec, HorizontalAlignment?, VerticalAlignment?)
+  nameWithType.vb: IChartArea.DrawAnchoredText(String, Point, Point, String, FontSpec, HorizontalAlignment?, VerticalAlignment?)
+- uid: Sparks.Trader.Api.IChartArea.DrawAnchoredText*
+  name: DrawAnchoredText
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawAnchoredText_
+  commentId: Overload:Sparks.Trader.Api.IChartArea.DrawAnchoredText
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IChartArea.DrawAnchoredText
+  nameWithType: IChartArea.DrawAnchoredText
+- uid: Sparks.Trader.Api.IChartArea.DrawEllipse(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill,System.String)
+  name: DrawEllipse(string, ChartPoint, ChartPoint, Stroke, Fill, string)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawEllipse_System_String_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_Stroke_Sparks_Trader_Api_Fill_System_String_
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawEllipse(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill,System.String)
+  name.vb: DrawEllipse(String, ChartPoint, ChartPoint, Stroke, Fill, String)
+  fullName: Sparks.Trader.Api.IChartArea.DrawEllipse(string, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill, string)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawEllipse(String, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill, String)
+  nameWithType: IChartArea.DrawEllipse(string, ChartPoint, ChartPoint, Stroke, Fill, string)
+  nameWithType.vb: IChartArea.DrawEllipse(String, ChartPoint, ChartPoint, Stroke, Fill, String)
+- uid: Sparks.Trader.Api.IChartArea.DrawEllipse*
+  name: DrawEllipse
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawEllipse_
+  commentId: Overload:Sparks.Trader.Api.IChartArea.DrawEllipse
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IChartArea.DrawEllipse
+  nameWithType: IChartArea.DrawEllipse
+- uid: Sparks.Trader.Api.IChartArea.DrawFibonacciRetracement(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint)
+  name: DrawFibonacciRetracement(string, ChartPoint, ChartPoint)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawFibonacciRetracement_System_String_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_ChartPoint_
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawFibonacciRetracement(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint)
+  name.vb: DrawFibonacciRetracement(String, ChartPoint, ChartPoint)
+  fullName: Sparks.Trader.Api.IChartArea.DrawFibonacciRetracement(string, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawFibonacciRetracement(String, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint)
+  nameWithType: IChartArea.DrawFibonacciRetracement(string, ChartPoint, ChartPoint)
+  nameWithType.vb: IChartArea.DrawFibonacciRetracement(String, ChartPoint, ChartPoint)
+- uid: Sparks.Trader.Api.IChartArea.DrawFibonacciRetracement*
+  name: DrawFibonacciRetracement
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawFibonacciRetracement_
+  commentId: Overload:Sparks.Trader.Api.IChartArea.DrawFibonacciRetracement
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IChartArea.DrawFibonacciRetracement
+  nameWithType: IChartArea.DrawFibonacciRetracement
 - uid: Sparks.Trader.Api.IChartArea.DrawHorizontalLine(System.String,System.Double,Sparks.Trader.Api.Stroke)
   name: DrawHorizontalLine(string, double, Stroke)
   href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawHorizontalLine_System_String_System_Double_Sparks_Trader_Api_Stroke_
@@ -7368,15 +7833,63 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IChartArea.DrawHorizontalLine
   nameWithType: IChartArea.DrawHorizontalLine
-- uid: Sparks.Trader.Api.IChartArea.DrawTrendLine(System.String,System.DateTime,System.Double,System.DateTime,System.Double,Sparks.Trader.Api.Stroke)
-  name: DrawTrendLine(string, DateTime, double, DateTime, double, Stroke)
-  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawTrendLine_System_String_System_DateTime_System_Double_System_DateTime_System_Double_Sparks_Trader_Api_Stroke_
-  commentId: M:Sparks.Trader.Api.IChartArea.DrawTrendLine(System.String,System.DateTime,System.Double,System.DateTime,System.Double,Sparks.Trader.Api.Stroke)
-  name.vb: DrawTrendLine(String, Date, Double, Date, Double, Stroke)
-  fullName: Sparks.Trader.Api.IChartArea.DrawTrendLine(string, System.DateTime, double, System.DateTime, double, Sparks.Trader.Api.Stroke)
-  fullName.vb: Sparks.Trader.Api.IChartArea.DrawTrendLine(String, Date, Double, Date, Double, Sparks.Trader.Api.Stroke)
-  nameWithType: IChartArea.DrawTrendLine(string, DateTime, double, DateTime, double, Stroke)
-  nameWithType.vb: IChartArea.DrawTrendLine(String, Date, Double, Date, Double, Stroke)
+- uid: Sparks.Trader.Api.IChartArea.DrawRectangle(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill,System.String)
+  name: DrawRectangle(string, ChartPoint, ChartPoint, Stroke, Fill, string)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawRectangle_System_String_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_Stroke_Sparks_Trader_Api_Fill_System_String_
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawRectangle(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill,System.String)
+  name.vb: DrawRectangle(String, ChartPoint, ChartPoint, Stroke, Fill, String)
+  fullName: Sparks.Trader.Api.IChartArea.DrawRectangle(string, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill, string)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawRectangle(String, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill, String)
+  nameWithType: IChartArea.DrawRectangle(string, ChartPoint, ChartPoint, Stroke, Fill, string)
+  nameWithType.vb: IChartArea.DrawRectangle(String, ChartPoint, ChartPoint, Stroke, Fill, String)
+- uid: Sparks.Trader.Api.IChartArea.DrawRectangle*
+  name: DrawRectangle
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawRectangle_
+  commentId: Overload:Sparks.Trader.Api.IChartArea.DrawRectangle
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IChartArea.DrawRectangle
+  nameWithType: IChartArea.DrawRectangle
+- uid: Sparks.Trader.Api.IChartArea.DrawRuler(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,System.Nullable{Sparks.Trader.Api.ERulerType},Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill)
+  name: DrawRuler(string, ChartPoint, ChartPoint, ERulerType?, Stroke, Fill)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawRuler_System_String_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_ChartPoint_System_Nullable_Sparks_Trader_Api_ERulerType__Sparks_Trader_Api_Stroke_Sparks_Trader_Api_Fill_
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawRuler(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,System.Nullable{Sparks.Trader.Api.ERulerType},Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill)
+  name.vb: DrawRuler(String, ChartPoint, ChartPoint, ERulerType?, Stroke, Fill)
+  fullName: Sparks.Trader.Api.IChartArea.DrawRuler(string, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ERulerType?, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawRuler(String, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ERulerType?, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill)
+  nameWithType: IChartArea.DrawRuler(string, ChartPoint, ChartPoint, ERulerType?, Stroke, Fill)
+  nameWithType.vb: IChartArea.DrawRuler(String, ChartPoint, ChartPoint, ERulerType?, Stroke, Fill)
+- uid: Sparks.Trader.Api.IChartArea.DrawRuler*
+  name: DrawRuler
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawRuler_
+  commentId: Overload:Sparks.Trader.Api.IChartArea.DrawRuler
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IChartArea.DrawRuler
+  nameWithType: IChartArea.DrawRuler
+- uid: Sparks.Trader.Api.IChartArea.DrawText(System.String,Sparks.Trader.Api.ChartPoint,System.String,Sparks.Trader.Api.FontSpec)
+  name: DrawText(string, ChartPoint, string, FontSpec)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawText_System_String_Sparks_Trader_Api_ChartPoint_System_String_Sparks_Trader_Api_FontSpec_
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawText(System.String,Sparks.Trader.Api.ChartPoint,System.String,Sparks.Trader.Api.FontSpec)
+  name.vb: DrawText(String, ChartPoint, String, FontSpec)
+  fullName: Sparks.Trader.Api.IChartArea.DrawText(string, Sparks.Trader.Api.ChartPoint, string, Sparks.Trader.Api.FontSpec)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawText(String, Sparks.Trader.Api.ChartPoint, String, Sparks.Trader.Api.FontSpec)
+  nameWithType: IChartArea.DrawText(string, ChartPoint, string, FontSpec)
+  nameWithType.vb: IChartArea.DrawText(String, ChartPoint, String, FontSpec)
+- uid: Sparks.Trader.Api.IChartArea.DrawText*
+  name: DrawText
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawText_
+  commentId: Overload:Sparks.Trader.Api.IChartArea.DrawText
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IChartArea.DrawText
+  nameWithType: IChartArea.DrawText
+- uid: Sparks.Trader.Api.IChartArea.DrawTrendLine(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke)
+  name: DrawTrendLine(string, ChartPoint, ChartPoint, Stroke)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawTrendLine_System_String_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_Stroke_
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawTrendLine(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke)
+  name.vb: DrawTrendLine(String, ChartPoint, ChartPoint, Stroke)
+  fullName: Sparks.Trader.Api.IChartArea.DrawTrendLine(string, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawTrendLine(String, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke)
+  nameWithType: IChartArea.DrawTrendLine(string, ChartPoint, ChartPoint, Stroke)
+  nameWithType.vb: IChartArea.DrawTrendLine(String, ChartPoint, ChartPoint, Stroke)
 - uid: Sparks.Trader.Api.IChartArea.DrawTrendLine*
   name: DrawTrendLine
   href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawTrendLine_
@@ -7384,6 +7897,22 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IChartArea.DrawTrendLine
   nameWithType: IChartArea.DrawTrendLine
+- uid: Sparks.Trader.Api.IChartArea.DrawTriangle(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill)
+  name: DrawTriangle(string, ChartPoint, ChartPoint, ChartPoint, Stroke, Fill)
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawTriangle_System_String_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_ChartPoint_Sparks_Trader_Api_Stroke_Sparks_Trader_Api_Fill_
+  commentId: M:Sparks.Trader.Api.IChartArea.DrawTriangle(System.String,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.ChartPoint,Sparks.Trader.Api.Stroke,Sparks.Trader.Api.Fill)
+  name.vb: DrawTriangle(String, ChartPoint, ChartPoint, ChartPoint, Stroke, Fill)
+  fullName: Sparks.Trader.Api.IChartArea.DrawTriangle(string, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill)
+  fullName.vb: Sparks.Trader.Api.IChartArea.DrawTriangle(String, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.ChartPoint, Sparks.Trader.Api.Stroke, Sparks.Trader.Api.Fill)
+  nameWithType: IChartArea.DrawTriangle(string, ChartPoint, ChartPoint, ChartPoint, Stroke, Fill)
+  nameWithType.vb: IChartArea.DrawTriangle(String, ChartPoint, ChartPoint, ChartPoint, Stroke, Fill)
+- uid: Sparks.Trader.Api.IChartArea.DrawTriangle*
+  name: DrawTriangle
+  href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawTriangle_
+  commentId: Overload:Sparks.Trader.Api.IChartArea.DrawTriangle
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IChartArea.DrawTriangle
+  nameWithType: IChartArea.DrawTriangle
 - uid: Sparks.Trader.Api.IChartArea.DrawVerticalLine(System.String,System.DateTime,Sparks.Trader.Api.Stroke)
   name: DrawVerticalLine(string, DateTime, Stroke)
   href: doc/api/Sparks.Trader.Api.IChartArea.html#Sparks_Trader_Api_IChartArea_DrawVerticalLine_System_String_System_DateTime_Sparks_Trader_Api_Stroke_
@@ -9149,77 +9678,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IClosedPosition.TradeID
   nameWithType: IClosedPosition.TradeID
-- uid: Sparks.Trader.Api.IClosedTrade
-  name: IClosedTrade
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html
-  commentId: T:Sparks.Trader.Api.IClosedTrade
-  fullName: Sparks.Trader.Api.IClosedTrade
-  nameWithType: IClosedTrade
-- uid: Sparks.Trader.Api.IClosedTrade.CloseOrder
-  name: CloseOrder
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_CloseOrder
-  commentId: P:Sparks.Trader.Api.IClosedTrade.CloseOrder
-  fullName: Sparks.Trader.Api.IClosedTrade.CloseOrder
-  nameWithType: IClosedTrade.CloseOrder
-- uid: Sparks.Trader.Api.IClosedTrade.CloseOrder*
-  name: CloseOrder
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_CloseOrder_
-  commentId: Overload:Sparks.Trader.Api.IClosedTrade.CloseOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IClosedTrade.CloseOrder
-  nameWithType: IClosedTrade.CloseOrder
-- uid: Sparks.Trader.Api.IClosedTrade.CloseOrderID
-  name: CloseOrderID
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_CloseOrderID
-  commentId: P:Sparks.Trader.Api.IClosedTrade.CloseOrderID
-  fullName: Sparks.Trader.Api.IClosedTrade.CloseOrderID
-  nameWithType: IClosedTrade.CloseOrderID
-- uid: Sparks.Trader.Api.IClosedTrade.CloseOrderID*
-  name: CloseOrderID
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_CloseOrderID_
-  commentId: Overload:Sparks.Trader.Api.IClosedTrade.CloseOrderID
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IClosedTrade.CloseOrderID
-  nameWithType: IClosedTrade.CloseOrderID
-- uid: Sparks.Trader.Api.IClosedTrade.ClosePrice
-  name: ClosePrice
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_ClosePrice
-  commentId: P:Sparks.Trader.Api.IClosedTrade.ClosePrice
-  fullName: Sparks.Trader.Api.IClosedTrade.ClosePrice
-  nameWithType: IClosedTrade.ClosePrice
-- uid: Sparks.Trader.Api.IClosedTrade.ClosePrice*
-  name: ClosePrice
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_ClosePrice_
-  commentId: Overload:Sparks.Trader.Api.IClosedTrade.ClosePrice
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IClosedTrade.ClosePrice
-  nameWithType: IClosedTrade.ClosePrice
-- uid: Sparks.Trader.Api.IClosedTrade.CloseTime
-  name: CloseTime
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_CloseTime
-  commentId: P:Sparks.Trader.Api.IClosedTrade.CloseTime
-  fullName: Sparks.Trader.Api.IClosedTrade.CloseTime
-  nameWithType: IClosedTrade.CloseTime
-- uid: Sparks.Trader.Api.IClosedTrade.CloseTime*
-  name: CloseTime
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_CloseTime_
-  commentId: Overload:Sparks.Trader.Api.IClosedTrade.CloseTime
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IClosedTrade.CloseTime
-  nameWithType: IClosedTrade.CloseTime
-- uid: Sparks.Trader.Api.IClosedTrade.HoldingTime
-  name: HoldingTime
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_HoldingTime
-  commentId: P:Sparks.Trader.Api.IClosedTrade.HoldingTime
-  fullName: Sparks.Trader.Api.IClosedTrade.HoldingTime
-  nameWithType: IClosedTrade.HoldingTime
-- uid: Sparks.Trader.Api.IClosedTrade.HoldingTime*
-  name: HoldingTime
-  href: doc/api/Sparks.Trader.Api.IClosedTrade.html#Sparks_Trader_Api_IClosedTrade_HoldingTime_
-  commentId: Overload:Sparks.Trader.Api.IClosedTrade.HoldingTime
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IClosedTrade.HoldingTime
-  nameWithType: IClosedTrade.HoldingTime
 - uid: Sparks.Trader.Api.ICompositePosition
   name: ICompositePosition
   href: doc/api/Sparks.Trader.Api.ICompositePosition.html
@@ -11601,15 +12059,15 @@ references:
   commentId: T:Sparks.Trader.Api.IMarketDataManager
   fullName: Sparks.Trader.Api.IMarketDataManager
   nameWithType: IMarketDataManager
-- uid: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IBars})
-  name: GetBarsAsync(SymbolContract, ETimeFrame, int, Action<IBars>)
-  href: doc/api/Sparks.Trader.Api.IMarketDataManager.html#Sparks_Trader_Api_IMarketDataManager_GetBarsAsync_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETimeFrame_System_Int32_System_Action_Sparks_Trader_Api_IBars__
-  commentId: M:Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IBars})
-  name.vb: GetBarsAsync(SymbolContract, ETimeFrame, Integer, Action(Of IBars))
-  fullName: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETimeFrame, int, System.Action<Sparks.Trader.Api.IBars>)
-  fullName.vb: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETimeFrame, Integer, System.Action(Of Sparks.Trader.Api.IBars))
-  nameWithType: IMarketDataManager.GetBarsAsync(SymbolContract, ETimeFrame, int, Action<IBars>)
-  nameWithType.vb: IMarketDataManager.GetBarsAsync(SymbolContract, ETimeFrame, Integer, Action(Of IBars))
+- uid: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IBars})
+  name: GetBarsAsync(Contract, ETimeFrame, int, Action<IBars>)
+  href: doc/api/Sparks.Trader.Api.IMarketDataManager.html#Sparks_Trader_Api_IMarketDataManager_GetBarsAsync_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETimeFrame_System_Int32_System_Action_Sparks_Trader_Api_IBars__
+  commentId: M:Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IBars})
+  name.vb: GetBarsAsync(Contract, ETimeFrame, Integer, Action(Of IBars))
+  fullName: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETimeFrame, int, System.Action<Sparks.Trader.Api.IBars>)
+  fullName.vb: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETimeFrame, Integer, System.Action(Of Sparks.Trader.Api.IBars))
+  nameWithType: IMarketDataManager.GetBarsAsync(Contract, ETimeFrame, int, Action<IBars>)
+  nameWithType.vb: IMarketDataManager.GetBarsAsync(Contract, ETimeFrame, Integer, Action(Of IBars))
 - uid: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync*
   name: GetBarsAsync
   href: doc/api/Sparks.Trader.Api.IMarketDataManager.html#Sparks_Trader_Api_IMarketDataManager_GetBarsAsync_
@@ -11617,15 +12075,15 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IMarketDataManager.GetBarsAsync
   nameWithType: IMarketDataManager.GetBarsAsync
-- uid: Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IDayTicks})
-  name: GetTicksAsync(SymbolContract, ETimeFrame, int, Action<IDayTicks>)
-  href: doc/api/Sparks.Trader.Api.IMarketDataManager.html#Sparks_Trader_Api_IMarketDataManager_GetTicksAsync_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETimeFrame_System_Int32_System_Action_Sparks_Trader_Api_IDayTicks__
-  commentId: M:Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IDayTicks})
-  name.vb: GetTicksAsync(SymbolContract, ETimeFrame, Integer, Action(Of IDayTicks))
-  fullName: Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETimeFrame, int, System.Action<Sparks.Trader.Api.IDayTicks>)
-  fullName.vb: Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETimeFrame, Integer, System.Action(Of Sparks.Trader.Api.IDayTicks))
-  nameWithType: IMarketDataManager.GetTicksAsync(SymbolContract, ETimeFrame, int, Action<IDayTicks>)
-  nameWithType.vb: IMarketDataManager.GetTicksAsync(SymbolContract, ETimeFrame, Integer, Action(Of IDayTicks))
+- uid: Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IDayTicks})
+  name: GetTicksAsync(Contract, ETimeFrame, int, Action<IDayTicks>)
+  href: doc/api/Sparks.Trader.Api.IMarketDataManager.html#Sparks_Trader_Api_IMarketDataManager_GetTicksAsync_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETimeFrame_System_Int32_System_Action_Sparks_Trader_Api_IDayTicks__
+  commentId: M:Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETimeFrame,System.Int32,System.Action{Sparks.Trader.Api.IDayTicks})
+  name.vb: GetTicksAsync(Contract, ETimeFrame, Integer, Action(Of IDayTicks))
+  fullName: Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETimeFrame, int, System.Action<Sparks.Trader.Api.IDayTicks>)
+  fullName.vb: Sparks.Trader.Api.IMarketDataManager.GetTicksAsync(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETimeFrame, Integer, System.Action(Of Sparks.Trader.Api.IDayTicks))
+  nameWithType: IMarketDataManager.GetTicksAsync(Contract, ETimeFrame, int, Action<IDayTicks>)
+  nameWithType.vb: IMarketDataManager.GetTicksAsync(Contract, ETimeFrame, Integer, Action(Of IDayTicks))
 - uid: Sparks.Trader.Api.IMarketDataManager.GetTicksAsync*
   name: GetTicksAsync
   href: doc/api/Sparks.Trader.Api.IMarketDataManager.html#Sparks_Trader_Api_IMarketDataManager_GetTicksAsync_
@@ -12296,19 +12754,19 @@ references:
   commentId: T:Sparks.Trader.Api.Indicators.IDC
   fullName: Sparks.Trader.Api.Indicators.IDC
   nameWithType: IDC
-- uid: Sparks.Trader.Api.Indicators.IDC.FillBackground
-  name: FillBackground
-  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_FillBackground
-  commentId: P:Sparks.Trader.Api.Indicators.IDC.FillBackground
-  fullName: Sparks.Trader.Api.Indicators.IDC.FillBackground
-  nameWithType: IDC.FillBackground
-- uid: Sparks.Trader.Api.Indicators.IDC.FillBackground*
-  name: FillBackground
-  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_FillBackground_
-  commentId: Overload:Sparks.Trader.Api.Indicators.IDC.FillBackground
+- uid: Sparks.Trader.Api.Indicators.IDC.FillColor
+  name: FillColor
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_FillColor
+  commentId: P:Sparks.Trader.Api.Indicators.IDC.FillColor
+  fullName: Sparks.Trader.Api.Indicators.IDC.FillColor
+  nameWithType: IDC.FillColor
+- uid: Sparks.Trader.Api.Indicators.IDC.FillColor*
+  name: FillColor
+  href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_FillColor_
+  commentId: Overload:Sparks.Trader.Api.Indicators.IDC.FillColor
   isSpec: "True"
-  fullName: Sparks.Trader.Api.Indicators.IDC.FillBackground
-  nameWithType: IDC.FillBackground
+  fullName: Sparks.Trader.Api.Indicators.IDC.FillColor
+  nameWithType: IDC.FillColor
 - uid: Sparks.Trader.Api.Indicators.IDC.LLine
   name: LLine
   href: doc/api/Sparks.Trader.Api.Indicators.IDC.html#Sparks_Trader_Api_Indicators_IDC_LLine
@@ -13171,22 +13629,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IOrder.AvgFillPrice
   nameWithType: IOrder.AvgFillPrice
-- uid: Sparks.Trader.Api.IOrder.Cancel(System.Action{Sparks.Trader.Api.TradeResult})
-  name: Cancel(Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Cancel_System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.IOrder.Cancel(System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: Cancel(Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.IOrder.Cancel(System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.IOrder.Cancel(System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: IOrder.Cancel(Action<TradeResult>)
-  nameWithType.vb: IOrder.Cancel(Action(Of TradeResult))
-- uid: Sparks.Trader.Api.IOrder.Cancel*
-  name: Cancel
-  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Cancel_
-  commentId: Overload:Sparks.Trader.Api.IOrder.Cancel
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IOrder.Cancel
-  nameWithType: IOrder.Cancel
 - uid: Sparks.Trader.Api.IOrder.CancelTime
   name: CancelTime
   href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_CancelTime
@@ -13356,6 +13798,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IOrder.FilledQuantity
   nameWithType: IOrder.FilledQuantity
+- uid: Sparks.Trader.Api.IOrder.HasChildOrder
+  name: HasChildOrder
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_HasChildOrder
+  commentId: P:Sparks.Trader.Api.IOrder.HasChildOrder
+  fullName: Sparks.Trader.Api.IOrder.HasChildOrder
+  nameWithType: IOrder.HasChildOrder
+- uid: Sparks.Trader.Api.IOrder.HasChildOrder*
+  name: HasChildOrder
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_HasChildOrder_
+  commentId: Overload:Sparks.Trader.Api.IOrder.HasChildOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IOrder.HasChildOrder
+  nameWithType: IOrder.HasChildOrder
 - uid: Sparks.Trader.Api.IOrder.Id
   name: Id
   href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Id
@@ -13473,22 +13928,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IOrder.LocalId
   nameWithType: IOrder.LocalId
-- uid: Sparks.Trader.Api.IOrder.Modify(System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name: Modify(double?, double?, double?, ETIF?, double?, double?, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Modify_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.IOrder.Modify(System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: Modify(Double?, Double?, Double?, ETIF?, Double?, Double?, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.IOrder.Modify(double?, double?, double?, Sparks.Trader.Api.ETIF?, double?, double?, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.IOrder.Modify(Double?, Double?, Double?, Sparks.Trader.Api.ETIF?, Double?, Double?, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: IOrder.Modify(double?, double?, double?, ETIF?, double?, double?, Action<TradeResult>)
-  nameWithType.vb: IOrder.Modify(Double?, Double?, Double?, ETIF?, Double?, Double?, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.IOrder.Modify*
-  name: Modify
-  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Modify_
-  commentId: Overload:Sparks.Trader.Api.IOrder.Modify
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IOrder.Modify
-  nameWithType: IOrder.Modify
 - uid: Sparks.Trader.Api.IOrder.OpenClose
   name: OpenClose
   href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_OpenClose
@@ -13554,6 +13993,32 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IOrder.ParentOrderId
   nameWithType: IOrder.ParentOrderId
+- uid: Sparks.Trader.Api.IOrder.ParentTrade
+  name: ParentTrade
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_ParentTrade
+  commentId: P:Sparks.Trader.Api.IOrder.ParentTrade
+  fullName: Sparks.Trader.Api.IOrder.ParentTrade
+  nameWithType: IOrder.ParentTrade
+- uid: Sparks.Trader.Api.IOrder.ParentTrade*
+  name: ParentTrade
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_ParentTrade_
+  commentId: Overload:Sparks.Trader.Api.IOrder.ParentTrade
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IOrder.ParentTrade
+  nameWithType: IOrder.ParentTrade
+- uid: Sparks.Trader.Api.IOrder.ParentTradeId
+  name: ParentTradeId
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_ParentTradeId
+  commentId: P:Sparks.Trader.Api.IOrder.ParentTradeId
+  fullName: Sparks.Trader.Api.IOrder.ParentTradeId
+  nameWithType: IOrder.ParentTradeId
+- uid: Sparks.Trader.Api.IOrder.ParentTradeId*
+  name: ParentTradeId
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_ParentTradeId_
+  commentId: Overload:Sparks.Trader.Api.IOrder.ParentTradeId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IOrder.ParentTradeId
+  nameWithType: IOrder.ParentTradeId
 - uid: Sparks.Trader.Api.IOrder.Price
   name: Price
   href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Price
@@ -13749,6 +14214,32 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IOrder.TotalQuantity
   nameWithType: IOrder.TotalQuantity
+- uid: Sparks.Trader.Api.IOrder.Trade
+  name: Trade
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Trade
+  commentId: P:Sparks.Trader.Api.IOrder.Trade
+  fullName: Sparks.Trader.Api.IOrder.Trade
+  nameWithType: IOrder.Trade
+- uid: Sparks.Trader.Api.IOrder.Trade*
+  name: Trade
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_Trade_
+  commentId: Overload:Sparks.Trader.Api.IOrder.Trade
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IOrder.Trade
+  nameWithType: IOrder.Trade
+- uid: Sparks.Trader.Api.IOrder.TradeId
+  name: TradeId
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_TradeId
+  commentId: P:Sparks.Trader.Api.IOrder.TradeId
+  fullName: Sparks.Trader.Api.IOrder.TradeId
+  nameWithType: IOrder.TradeId
+- uid: Sparks.Trader.Api.IOrder.TradeId*
+  name: TradeId
+  href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_TradeId_
+  commentId: Overload:Sparks.Trader.Api.IOrder.TradeId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IOrder.TradeId
+  nameWithType: IOrder.TradeId
 - uid: Sparks.Trader.Api.IOrder.UpdateTime
   name: UpdateTime
   href: doc/api/Sparks.Trader.Api.IOrder.html#Sparks_Trader_Api_IOrder_UpdateTime
@@ -14043,22 +14534,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IPosition.AvgPrice
   nameWithType: IPosition.AvgPrice
-- uid: Sparks.Trader.Api.IPosition.Close(System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name: Close(double?, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.IPosition.html#Sparks_Trader_Api_IPosition_Close_System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.IPosition.Close(System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: Close(Double?, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.IPosition.Close(double?, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.IPosition.Close(Double?, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: IPosition.Close(double?, Action<TradeResult>)
-  nameWithType.vb: IPosition.Close(Double?, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.IPosition.Close*
-  name: Close
-  href: doc/api/Sparks.Trader.Api.IPosition.html#Sparks_Trader_Api_IPosition_Close_
-  commentId: Overload:Sparks.Trader.Api.IPosition.Close
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.IPosition.Close
-  nameWithType: IPosition.Close
 - uid: Sparks.Trader.Api.IPosition.Code
   name: Code
   href: doc/api/Sparks.Trader.Api.IPosition.html#Sparks_Trader_Api_IPosition_Code
@@ -14390,12 +14865,12 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IProvider.DisconnectReason
   nameWithType: IProvider.DisconnectReason
-- uid: Sparks.Trader.Api.IProvider.FindSymbolInfo(Sparks.Trader.Api.SymbolContract)
-  name: FindSymbolInfo(SymbolContract)
-  href: doc/api/Sparks.Trader.Api.IProvider.html#Sparks_Trader_Api_IProvider_FindSymbolInfo_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.IProvider.FindSymbolInfo(Sparks.Trader.Api.SymbolContract)
-  fullName: Sparks.Trader.Api.IProvider.FindSymbolInfo(Sparks.Trader.Api.SymbolContract)
-  nameWithType: IProvider.FindSymbolInfo(SymbolContract)
+- uid: Sparks.Trader.Api.IProvider.FindSymbolInfo(Sparks.Trader.Api.Contract)
+  name: FindSymbolInfo(Contract)
+  href: doc/api/Sparks.Trader.Api.IProvider.html#Sparks_Trader_Api_IProvider_FindSymbolInfo_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.IProvider.FindSymbolInfo(Sparks.Trader.Api.Contract)
+  fullName: Sparks.Trader.Api.IProvider.FindSymbolInfo(Sparks.Trader.Api.Contract)
+  nameWithType: IProvider.FindSymbolInfo(Contract)
 - uid: Sparks.Trader.Api.IProvider.FindSymbolInfo*
   name: FindSymbolInfo
   href: doc/api/Sparks.Trader.Api.IProvider.html#Sparks_Trader_Api_IProvider_FindSymbolInfo_
@@ -14522,12 +14997,12 @@ references:
   commentId: T:Sparks.Trader.Api.IProviders
   fullName: Sparks.Trader.Api.IProviders
   nameWithType: IProviders
-- uid: Sparks.Trader.Api.IProviders.GetSymbol(Sparks.Trader.Api.SymbolContract)
-  name: GetSymbol(SymbolContract)
-  href: doc/api/Sparks.Trader.Api.IProviders.html#Sparks_Trader_Api_IProviders_GetSymbol_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.IProviders.GetSymbol(Sparks.Trader.Api.SymbolContract)
-  fullName: Sparks.Trader.Api.IProviders.GetSymbol(Sparks.Trader.Api.SymbolContract)
-  nameWithType: IProviders.GetSymbol(SymbolContract)
+- uid: Sparks.Trader.Api.IProviders.GetSymbol(Sparks.Trader.Api.Contract)
+  name: GetSymbol(Contract)
+  href: doc/api/Sparks.Trader.Api.IProviders.html#Sparks_Trader_Api_IProviders_GetSymbol_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.IProviders.GetSymbol(Sparks.Trader.Api.Contract)
+  fullName: Sparks.Trader.Api.IProviders.GetSymbol(Sparks.Trader.Api.Contract)
+  nameWithType: IProviders.GetSymbol(Contract)
 - uid: Sparks.Trader.Api.IProviders.GetSymbol*
   name: GetSymbol
   href: doc/api/Sparks.Trader.Api.IProviders.html#Sparks_Trader_Api_IProviders_GetSymbol_
@@ -14761,33 +15236,33 @@ references:
   commentId: T:Sparks.Trader.Api.IScript
   fullName: Sparks.Trader.Api.IScript
   nameWithType: IScript
-- uid: Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.AlertAction,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})
-  name: Alert(string, string, AlertAction, EAlertLevel, SymbolContract?)
-  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_AlertAction_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__
-  commentId: M:Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.AlertAction,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})
-  name.vb: Alert(String, String, AlertAction, EAlertLevel, SymbolContract?)
-  fullName: Sparks.Trader.Api.IScript.Alert(string, string, Sparks.Trader.Api.AlertAction, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.SymbolContract?)
-  fullName.vb: Sparks.Trader.Api.IScript.Alert(String, String, Sparks.Trader.Api.AlertAction, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.SymbolContract?)
-  nameWithType: IScript.Alert(string, string, AlertAction, EAlertLevel, SymbolContract?)
-  nameWithType.vb: IScript.Alert(String, String, AlertAction, EAlertLevel, SymbolContract?)
-- uid: Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})
-  name: Alert(string, string, EAlertLevel, SymbolContract?)
-  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__
-  commentId: M:Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})
-  name.vb: Alert(String, String, EAlertLevel, SymbolContract?)
-  fullName: Sparks.Trader.Api.IScript.Alert(string, string, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.SymbolContract?)
-  fullName.vb: Sparks.Trader.Api.IScript.Alert(String, String, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.SymbolContract?)
-  nameWithType: IScript.Alert(string, string, EAlertLevel, SymbolContract?)
-  nameWithType.vb: IScript.Alert(String, String, EAlertLevel, SymbolContract?)
-- uid: Sparks.Trader.Api.IScript.Alert(System.String,System.String,System.Collections.Generic.IEnumerable{Sparks.Trader.Api.AlertAction},Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})
-  name: Alert(string, string, IEnumerable<AlertAction>, EAlertLevel, SymbolContract?)
-  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_System_Collections_Generic_IEnumerable_Sparks_Trader_Api_AlertAction__Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__
-  commentId: M:Sparks.Trader.Api.IScript.Alert(System.String,System.String,System.Collections.Generic.IEnumerable{Sparks.Trader.Api.AlertAction},Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.SymbolContract})
-  name.vb: Alert(String, String, IEnumerable(Of AlertAction), EAlertLevel, SymbolContract?)
-  fullName: Sparks.Trader.Api.IScript.Alert(string, string, System.Collections.Generic.IEnumerable<Sparks.Trader.Api.AlertAction>, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.SymbolContract?)
-  fullName.vb: Sparks.Trader.Api.IScript.Alert(String, String, System.Collections.Generic.IEnumerable(Of Sparks.Trader.Api.AlertAction), Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.SymbolContract?)
-  nameWithType: IScript.Alert(string, string, IEnumerable<AlertAction>, EAlertLevel, SymbolContract?)
-  nameWithType.vb: IScript.Alert(String, String, IEnumerable(Of AlertAction), EAlertLevel, SymbolContract?)
+- uid: Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.AlertAction,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.Contract})
+  name: Alert(string, string, AlertAction, EAlertLevel, Contract?)
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_AlertAction_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_Contract__
+  commentId: M:Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.AlertAction,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.Contract})
+  name.vb: Alert(String, String, AlertAction, EAlertLevel, Contract?)
+  fullName: Sparks.Trader.Api.IScript.Alert(string, string, Sparks.Trader.Api.AlertAction, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.Contract?)
+  fullName.vb: Sparks.Trader.Api.IScript.Alert(String, String, Sparks.Trader.Api.AlertAction, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.Contract?)
+  nameWithType: IScript.Alert(string, string, AlertAction, EAlertLevel, Contract?)
+  nameWithType.vb: IScript.Alert(String, String, AlertAction, EAlertLevel, Contract?)
+- uid: Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.Contract})
+  name: Alert(string, string, EAlertLevel, Contract?)
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_Contract__
+  commentId: M:Sparks.Trader.Api.IScript.Alert(System.String,System.String,Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.Contract})
+  name.vb: Alert(String, String, EAlertLevel, Contract?)
+  fullName: Sparks.Trader.Api.IScript.Alert(string, string, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.Contract?)
+  fullName.vb: Sparks.Trader.Api.IScript.Alert(String, String, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.Contract?)
+  nameWithType: IScript.Alert(string, string, EAlertLevel, Contract?)
+  nameWithType.vb: IScript.Alert(String, String, EAlertLevel, Contract?)
+- uid: Sparks.Trader.Api.IScript.Alert(System.String,System.String,System.Collections.Generic.IEnumerable{Sparks.Trader.Api.AlertAction},Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.Contract})
+  name: Alert(string, string, IEnumerable<AlertAction>, EAlertLevel, Contract?)
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_System_Collections_Generic_IEnumerable_Sparks_Trader_Api_AlertAction__Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_Contract__
+  commentId: M:Sparks.Trader.Api.IScript.Alert(System.String,System.String,System.Collections.Generic.IEnumerable{Sparks.Trader.Api.AlertAction},Sparks.Trader.Api.EAlertLevel,System.Nullable{Sparks.Trader.Api.Contract})
+  name.vb: Alert(String, String, IEnumerable(Of AlertAction), EAlertLevel, Contract?)
+  fullName: Sparks.Trader.Api.IScript.Alert(string, string, System.Collections.Generic.IEnumerable<Sparks.Trader.Api.AlertAction>, Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.Contract?)
+  fullName.vb: Sparks.Trader.Api.IScript.Alert(String, String, System.Collections.Generic.IEnumerable(Of Sparks.Trader.Api.AlertAction), Sparks.Trader.Api.EAlertLevel, Sparks.Trader.Api.Contract?)
+  nameWithType: IScript.Alert(string, string, IEnumerable<AlertAction>, EAlertLevel, Contract?)
+  nameWithType.vb: IScript.Alert(String, String, IEnumerable(Of AlertAction), EAlertLevel, Contract?)
 - uid: Sparks.Trader.Api.IScript.Alert*
   name: Alert
   href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_
@@ -15193,6 +15668,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.IScript.Symbol
   nameWithType: IScript.Symbol
+- uid: Sparks.Trader.Api.IScript.TradingAccount
+  name: TradingAccount
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_TradingAccount
+  commentId: P:Sparks.Trader.Api.IScript.TradingAccount
+  fullName: Sparks.Trader.Api.IScript.TradingAccount
+  nameWithType: IScript.TradingAccount
+- uid: Sparks.Trader.Api.IScript.TradingAccount*
+  name: TradingAccount
+  href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_TradingAccount_
+  commentId: Overload:Sparks.Trader.Api.IScript.TradingAccount
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IScript.TradingAccount
+  nameWithType: IScript.TradingAccount
 - uid: Sparks.Trader.Api.IScript.UserDataPath
   name: UserDataPath
   href: doc/api/Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_UserDataPath
@@ -15542,19 +16030,161 @@ references:
   commentId: T:Sparks.Trader.Api.IStrategy
   fullName: Sparks.Trader.Api.IStrategy
   nameWithType: IStrategy
-- uid: Sparks.Trader.Api.IStrategy.TradingAccount
-  name: TradingAccount
-  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_TradingAccount
-  commentId: P:Sparks.Trader.Api.IStrategy.TradingAccount
-  fullName: Sparks.Trader.Api.IStrategy.TradingAccount
-  nameWithType: IStrategy.TradingAccount
-- uid: Sparks.Trader.Api.IStrategy.TradingAccount*
-  name: TradingAccount
-  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_TradingAccount_
-  commentId: Overload:Sparks.Trader.Api.IStrategy.TradingAccount
+- uid: Sparks.Trader.Api.IStrategy.CancelOrder(Sparks.Trader.Api.IOrder,System.Action{Sparks.Trader.Api.TradeResult})
+  name: CancelOrder(IOrder, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_CancelOrder_Sparks_Trader_Api_IOrder_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.CancelOrder(Sparks.Trader.Api.IOrder,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: CancelOrder(IOrder, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.CancelOrder(Sparks.Trader.Api.IOrder, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.CancelOrder(Sparks.Trader.Api.IOrder, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.CancelOrder(IOrder, Action<TradeResult>)
+  nameWithType.vb: IStrategy.CancelOrder(IOrder, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.CancelOrder*
+  name: CancelOrder
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_CancelOrder_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.CancelOrder
   isSpec: "True"
-  fullName: Sparks.Trader.Api.IStrategy.TradingAccount
-  nameWithType: IStrategy.TradingAccount
+  fullName: Sparks.Trader.Api.IStrategy.CancelOrder
+  nameWithType: IStrategy.CancelOrder
+- uid: Sparks.Trader.Api.IStrategy.ClosePosition(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
+  name: ClosePosition(IPosition, double?, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_ClosePosition_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.ClosePosition(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: ClosePosition(IPosition, Double?, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.ClosePosition(Sparks.Trader.Api.IPosition, double?, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.ClosePosition(Sparks.Trader.Api.IPosition, Double?, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.ClosePosition(IPosition, double?, Action<TradeResult>)
+  nameWithType.vb: IStrategy.ClosePosition(IPosition, Double?, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.ClosePosition*
+  name: ClosePosition
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_ClosePosition_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.ClosePosition
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IStrategy.ClosePosition
+  nameWithType: IStrategy.ClosePosition
+- uid: Sparks.Trader.Api.IStrategy.CloseTrade(Sparks.Trader.Api.ITrade,System.Action{Sparks.Trader.Api.TradeResult})
+  name: CloseTrade(ITrade, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_CloseTrade_Sparks_Trader_Api_ITrade_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.CloseTrade(Sparks.Trader.Api.ITrade,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: CloseTrade(ITrade, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.CloseTrade(Sparks.Trader.Api.ITrade, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.CloseTrade(Sparks.Trader.Api.ITrade, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.CloseTrade(ITrade, Action<TradeResult>)
+  nameWithType.vb: IStrategy.CloseTrade(ITrade, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.CloseTrade*
+  name: CloseTrade
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_CloseTrade_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.CloseTrade
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IStrategy.CloseTrade
+  nameWithType: IStrategy.CloseTrade
+- uid: Sparks.Trader.Api.IStrategy.ModifyOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
+  name: ModifyOrder(IOrder, double?, double?, double?, ETIF?, double?, double?, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_ModifyOrder_Sparks_Trader_Api_IOrder_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.ModifyOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: ModifyOrder(IOrder, Double?, Double?, Double?, ETIF?, Double?, Double?, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.ModifyOrder(Sparks.Trader.Api.IOrder, double?, double?, double?, Sparks.Trader.Api.ETIF?, double?, double?, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.ModifyOrder(Sparks.Trader.Api.IOrder, Double?, Double?, Double?, Sparks.Trader.Api.ETIF?, Double?, Double?, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.ModifyOrder(IOrder, double?, double?, double?, ETIF?, double?, double?, Action<TradeResult>)
+  nameWithType.vb: IStrategy.ModifyOrder(IOrder, Double?, Double?, Double?, ETIF?, Double?, Double?, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.ModifyOrder*
+  name: ModifyOrder
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_ModifyOrder_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.ModifyOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IStrategy.ModifyOrder
+  nameWithType: IStrategy.ModifyOrder
+- uid: Sparks.Trader.Api.IStrategy.ModifyTrade(Sparks.Trader.Api.ITrade,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Action{Sparks.Trader.Api.TradeResult})
+  name: ModifyTrade(ITrade, double?, double?, ETIF?, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_ModifyTrade_Sparks_Trader_Api_ITrade_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.ModifyTrade(Sparks.Trader.Api.ITrade,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: ModifyTrade(ITrade, Double?, Double?, ETIF?, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.ModifyTrade(Sparks.Trader.Api.ITrade, double?, double?, Sparks.Trader.Api.ETIF?, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.ModifyTrade(Sparks.Trader.Api.ITrade, Double?, Double?, Sparks.Trader.Api.ETIF?, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.ModifyTrade(ITrade, double?, double?, ETIF?, Action<TradeResult>)
+  nameWithType.vb: IStrategy.ModifyTrade(ITrade, Double?, Double?, ETIF?, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.ModifyTrade*
+  name: ModifyTrade
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_ModifyTrade_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.ModifyTrade
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IStrategy.ModifyTrade
+  nameWithType: IStrategy.ModifyTrade
+- uid: Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name: PlaceLimitOrder(Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceLimitOrder_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: PlaceLimitOrder(Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.PlaceLimitOrder(Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  nameWithType.vb: IStrategy.PlaceLimitOrder(Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name: PlaceLimitOrder(ITradingAccount, Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceLimitOrder_Sparks_Trader_Api_ITradingAccount_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: PlaceLimitOrder(ITradingAccount, Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.ITradingAccount, Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.ITradingAccount, Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.PlaceLimitOrder(ITradingAccount, Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  nameWithType.vb: IStrategy.PlaceLimitOrder(ITradingAccount, Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.PlaceLimitOrder*
+  name: PlaceLimitOrder
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceLimitOrder_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.PlaceLimitOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IStrategy.PlaceLimitOrder
+  nameWithType: IStrategy.PlaceLimitOrder
+- uid: Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name: PlaceMarketOrder(Contract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceMarketOrder_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: PlaceMarketOrder(Contract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.PlaceMarketOrder(Contract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  nameWithType.vb: IStrategy.PlaceMarketOrder(Contract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name: PlaceMarketOrder(ITradingAccount, Contract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceMarketOrder_Sparks_Trader_Api_ITradingAccount_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: PlaceMarketOrder(ITradingAccount, Contract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.ITradingAccount, Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.ITradingAccount, Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.PlaceMarketOrder(ITradingAccount, Contract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  nameWithType.vb: IStrategy.PlaceMarketOrder(ITradingAccount, Contract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.PlaceMarketOrder*
+  name: PlaceMarketOrder
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceMarketOrder_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.PlaceMarketOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IStrategy.PlaceMarketOrder
+  nameWithType: IStrategy.PlaceMarketOrder
+- uid: Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name: PlaceStopOrder(Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceStopOrder_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: PlaceStopOrder(Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.PlaceStopOrder(Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  nameWithType.vb: IStrategy.PlaceStopOrder(Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name: PlaceStopOrder(ITradingAccount, Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceStopOrder_Sparks_Trader_Api_ITradingAccount_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
+  commentId: M:Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
+  name.vb: PlaceStopOrder(ITradingAccount, Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+  fullName: Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.ITradingAccount, Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
+  fullName.vb: Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.ITradingAccount, Sparks.Trader.Api.Contract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
+  nameWithType: IStrategy.PlaceStopOrder(ITradingAccount, Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
+  nameWithType.vb: IStrategy.PlaceStopOrder(ITradingAccount, Contract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
+- uid: Sparks.Trader.Api.IStrategy.PlaceStopOrder*
+  name: PlaceStopOrder
+  href: doc/api/Sparks.Trader.Api.IStrategy.html#Sparks_Trader_Api_IStrategy_PlaceStopOrder_
+  commentId: Overload:Sparks.Trader.Api.IStrategy.PlaceStopOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.IStrategy.PlaceStopOrder
+  nameWithType: IStrategy.PlaceStopOrder
 - uid: Sparks.Trader.Api.ISymbol
   name: ISymbol
   href: doc/api/Sparks.Trader.Api.ISymbol.html
@@ -16232,12 +16862,12 @@ references:
   commentId: T:Sparks.Trader.Api.ISymbolInfos
   fullName: Sparks.Trader.Api.ISymbolInfos
   nameWithType: ISymbolInfos
-- uid: Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos(Sparks.Trader.Api.SymbolContract)
-  name: FindSymbolInfos(SymbolContract)
-  href: doc/api/Sparks.Trader.Api.ISymbolInfos.html#Sparks_Trader_Api_ISymbolInfos_FindSymbolInfos_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos(Sparks.Trader.Api.SymbolContract)
-  fullName: Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos(Sparks.Trader.Api.SymbolContract)
-  nameWithType: ISymbolInfos.FindSymbolInfos(SymbolContract)
+- uid: Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos(Sparks.Trader.Api.Contract)
+  name: FindSymbolInfos(Contract)
+  href: doc/api/Sparks.Trader.Api.ISymbolInfos.html#Sparks_Trader_Api_ISymbolInfos_FindSymbolInfos_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos(Sparks.Trader.Api.Contract)
+  fullName: Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos(Sparks.Trader.Api.Contract)
+  nameWithType: ISymbolInfos.FindSymbolInfos(Contract)
 - uid: Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos*
   name: FindSymbolInfos
   href: doc/api/Sparks.Trader.Api.ISymbolInfos.html#Sparks_Trader_Api_ISymbolInfos_FindSymbolInfos_
@@ -16245,12 +16875,12 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ISymbolInfos.FindSymbolInfos
   nameWithType: ISymbolInfos.FindSymbolInfos
-- uid: Sparks.Trader.Api.ISymbolInfos.GetSymbolInfo(Sparks.Trader.Api.SymbolContract)
-  name: GetSymbolInfo(SymbolContract)
-  href: doc/api/Sparks.Trader.Api.ISymbolInfos.html#Sparks_Trader_Api_ISymbolInfos_GetSymbolInfo_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.ISymbolInfos.GetSymbolInfo(Sparks.Trader.Api.SymbolContract)
-  fullName: Sparks.Trader.Api.ISymbolInfos.GetSymbolInfo(Sparks.Trader.Api.SymbolContract)
-  nameWithType: ISymbolInfos.GetSymbolInfo(SymbolContract)
+- uid: Sparks.Trader.Api.ISymbolInfos.GetSymbolInfo(Sparks.Trader.Api.Contract)
+  name: GetSymbolInfo(Contract)
+  href: doc/api/Sparks.Trader.Api.ISymbolInfos.html#Sparks_Trader_Api_ISymbolInfos_GetSymbolInfo_Sparks_Trader_Api_Contract_
+  commentId: M:Sparks.Trader.Api.ISymbolInfos.GetSymbolInfo(Sparks.Trader.Api.Contract)
+  fullName: Sparks.Trader.Api.ISymbolInfos.GetSymbolInfo(Sparks.Trader.Api.Contract)
+  nameWithType: ISymbolInfos.GetSymbolInfo(Contract)
 - uid: Sparks.Trader.Api.ISymbolInfos.GetSymbolInfo*
   name: GetSymbolInfo
   href: doc/api/Sparks.Trader.Api.ISymbolInfos.html#Sparks_Trader_Api_ISymbolInfos_GetSymbolInfo_
@@ -16728,22 +17358,110 @@ references:
   commentId: T:Sparks.Trader.Api.ITrade
   fullName: Sparks.Trader.Api.ITrade
   nameWithType: ITrade
-- uid: Sparks.Trader.Api.ITrade.Close(System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name: Close(double?, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_Close_System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITrade.Close(System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: Close(Double?, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITrade.Close(double?, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITrade.Close(Double?, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITrade.Close(double?, Action<TradeResult>)
-  nameWithType.vb: ITrade.Close(Double?, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITrade.Close*
-  name: Close
-  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_Close_
-  commentId: Overload:Sparks.Trader.Api.ITrade.Close
+- uid: Sparks.Trader.Api.ITrade.CloseOrder
+  name: CloseOrder
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_CloseOrder
+  commentId: P:Sparks.Trader.Api.ITrade.CloseOrder
+  fullName: Sparks.Trader.Api.ITrade.CloseOrder
+  nameWithType: ITrade.CloseOrder
+- uid: Sparks.Trader.Api.ITrade.CloseOrder*
+  name: CloseOrder
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_CloseOrder_
+  commentId: Overload:Sparks.Trader.Api.ITrade.CloseOrder
   isSpec: "True"
-  fullName: Sparks.Trader.Api.ITrade.Close
-  nameWithType: ITrade.Close
+  fullName: Sparks.Trader.Api.ITrade.CloseOrder
+  nameWithType: ITrade.CloseOrder
+- uid: Sparks.Trader.Api.ITrade.CloseOrderID
+  name: CloseOrderID
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_CloseOrderID
+  commentId: P:Sparks.Trader.Api.ITrade.CloseOrderID
+  fullName: Sparks.Trader.Api.ITrade.CloseOrderID
+  nameWithType: ITrade.CloseOrderID
+- uid: Sparks.Trader.Api.ITrade.CloseOrderID*
+  name: CloseOrderID
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_CloseOrderID_
+  commentId: Overload:Sparks.Trader.Api.ITrade.CloseOrderID
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITrade.CloseOrderID
+  nameWithType: ITrade.CloseOrderID
+- uid: Sparks.Trader.Api.ITrade.ClosePrice
+  name: ClosePrice
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_ClosePrice
+  commentId: P:Sparks.Trader.Api.ITrade.ClosePrice
+  fullName: Sparks.Trader.Api.ITrade.ClosePrice
+  nameWithType: ITrade.ClosePrice
+- uid: Sparks.Trader.Api.ITrade.ClosePrice*
+  name: ClosePrice
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_ClosePrice_
+  commentId: Overload:Sparks.Trader.Api.ITrade.ClosePrice
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITrade.ClosePrice
+  nameWithType: ITrade.ClosePrice
+- uid: Sparks.Trader.Api.ITrade.CloseTime
+  name: CloseTime
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_CloseTime
+  commentId: P:Sparks.Trader.Api.ITrade.CloseTime
+  fullName: Sparks.Trader.Api.ITrade.CloseTime
+  nameWithType: ITrade.CloseTime
+- uid: Sparks.Trader.Api.ITrade.CloseTime*
+  name: CloseTime
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_CloseTime_
+  commentId: Overload:Sparks.Trader.Api.ITrade.CloseTime
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITrade.CloseTime
+  nameWithType: ITrade.CloseTime
+- uid: Sparks.Trader.Api.ITrade.HasChildOrder
+  name: HasChildOrder
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_HasChildOrder
+  commentId: P:Sparks.Trader.Api.ITrade.HasChildOrder
+  fullName: Sparks.Trader.Api.ITrade.HasChildOrder
+  nameWithType: ITrade.HasChildOrder
+- uid: Sparks.Trader.Api.ITrade.HasChildOrder*
+  name: HasChildOrder
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_HasChildOrder_
+  commentId: Overload:Sparks.Trader.Api.ITrade.HasChildOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITrade.HasChildOrder
+  nameWithType: ITrade.HasChildOrder
+- uid: Sparks.Trader.Api.ITrade.HoldingTime
+  name: HoldingTime
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_HoldingTime
+  commentId: P:Sparks.Trader.Api.ITrade.HoldingTime
+  fullName: Sparks.Trader.Api.ITrade.HoldingTime
+  nameWithType: ITrade.HoldingTime
+- uid: Sparks.Trader.Api.ITrade.HoldingTime*
+  name: HoldingTime
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_HoldingTime_
+  commentId: Overload:Sparks.Trader.Api.ITrade.HoldingTime
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITrade.HoldingTime
+  nameWithType: ITrade.HoldingTime
+- uid: Sparks.Trader.Api.ITrade.IsClosed
+  name: IsClosed
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_IsClosed
+  commentId: P:Sparks.Trader.Api.ITrade.IsClosed
+  fullName: Sparks.Trader.Api.ITrade.IsClosed
+  nameWithType: ITrade.IsClosed
+- uid: Sparks.Trader.Api.ITrade.IsClosed*
+  name: IsClosed
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_IsClosed_
+  commentId: Overload:Sparks.Trader.Api.ITrade.IsClosed
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITrade.IsClosed
+  nameWithType: ITrade.IsClosed
+- uid: Sparks.Trader.Api.ITrade.IsModifiable
+  name: IsModifiable
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_IsModifiable
+  commentId: P:Sparks.Trader.Api.ITrade.IsModifiable
+  fullName: Sparks.Trader.Api.ITrade.IsModifiable
+  nameWithType: ITrade.IsModifiable
+- uid: Sparks.Trader.Api.ITrade.IsModifiable*
+  name: IsModifiable
+  href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_IsModifiable_
+  commentId: Overload:Sparks.Trader.Api.ITrade.IsModifiable
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITrade.IsModifiable
+  nameWithType: ITrade.IsModifiable
 - uid: Sparks.Trader.Api.ITrade.Last
   name: Last
   href: doc/api/Sparks.Trader.Api.ITrade.html#Sparks_Trader_Api_ITrade_Last
@@ -17062,6 +17780,45 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradeCommon.Quantity
   nameWithType: ITradeCommon.Quantity
+- uid: Sparks.Trader.Api.ITradeCommon.StopLoss
+  name: StopLoss
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_StopLoss
+  commentId: P:Sparks.Trader.Api.ITradeCommon.StopLoss
+  fullName: Sparks.Trader.Api.ITradeCommon.StopLoss
+  nameWithType: ITradeCommon.StopLoss
+- uid: Sparks.Trader.Api.ITradeCommon.StopLoss*
+  name: StopLoss
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_StopLoss_
+  commentId: Overload:Sparks.Trader.Api.ITradeCommon.StopLoss
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITradeCommon.StopLoss
+  nameWithType: ITradeCommon.StopLoss
+- uid: Sparks.Trader.Api.ITradeCommon.StopLossOrder
+  name: StopLossOrder
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_StopLossOrder
+  commentId: P:Sparks.Trader.Api.ITradeCommon.StopLossOrder
+  fullName: Sparks.Trader.Api.ITradeCommon.StopLossOrder
+  nameWithType: ITradeCommon.StopLossOrder
+- uid: Sparks.Trader.Api.ITradeCommon.StopLossOrder*
+  name: StopLossOrder
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_StopLossOrder_
+  commentId: Overload:Sparks.Trader.Api.ITradeCommon.StopLossOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITradeCommon.StopLossOrder
+  nameWithType: ITradeCommon.StopLossOrder
+- uid: Sparks.Trader.Api.ITradeCommon.StopLossOrderId
+  name: StopLossOrderId
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_StopLossOrderId
+  commentId: P:Sparks.Trader.Api.ITradeCommon.StopLossOrderId
+  fullName: Sparks.Trader.Api.ITradeCommon.StopLossOrderId
+  nameWithType: ITradeCommon.StopLossOrderId
+- uid: Sparks.Trader.Api.ITradeCommon.StopLossOrderId*
+  name: StopLossOrderId
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_StopLossOrderId_
+  commentId: Overload:Sparks.Trader.Api.ITradeCommon.StopLossOrderId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITradeCommon.StopLossOrderId
+  nameWithType: ITradeCommon.StopLossOrderId
 - uid: Sparks.Trader.Api.ITradeCommon.Symbol
   name: Symbol
   href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_Symbol
@@ -17088,6 +17845,45 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradeCommon.SymbolType
   nameWithType: ITradeCommon.SymbolType
+- uid: Sparks.Trader.Api.ITradeCommon.TakeProfit
+  name: TakeProfit
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_TakeProfit
+  commentId: P:Sparks.Trader.Api.ITradeCommon.TakeProfit
+  fullName: Sparks.Trader.Api.ITradeCommon.TakeProfit
+  nameWithType: ITradeCommon.TakeProfit
+- uid: Sparks.Trader.Api.ITradeCommon.TakeProfit*
+  name: TakeProfit
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_TakeProfit_
+  commentId: Overload:Sparks.Trader.Api.ITradeCommon.TakeProfit
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITradeCommon.TakeProfit
+  nameWithType: ITradeCommon.TakeProfit
+- uid: Sparks.Trader.Api.ITradeCommon.TakeProfitOrder
+  name: TakeProfitOrder
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_TakeProfitOrder
+  commentId: P:Sparks.Trader.Api.ITradeCommon.TakeProfitOrder
+  fullName: Sparks.Trader.Api.ITradeCommon.TakeProfitOrder
+  nameWithType: ITradeCommon.TakeProfitOrder
+- uid: Sparks.Trader.Api.ITradeCommon.TakeProfitOrder*
+  name: TakeProfitOrder
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_TakeProfitOrder_
+  commentId: Overload:Sparks.Trader.Api.ITradeCommon.TakeProfitOrder
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITradeCommon.TakeProfitOrder
+  nameWithType: ITradeCommon.TakeProfitOrder
+- uid: Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId
+  name: TakeProfitOrderId
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_TakeProfitOrderId
+  commentId: P:Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId
+  fullName: Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId
+  nameWithType: ITradeCommon.TakeProfitOrderId
+- uid: Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId*
+  name: TakeProfitOrderId
+  href: doc/api/Sparks.Trader.Api.ITradeCommon.html#Sparks_Trader_Api_ITradeCommon_TakeProfitOrderId_
+  commentId: Overload:Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId
+  nameWithType: ITradeCommon.TakeProfitOrderId
 - uid: Sparks.Trader.Api.ITradeLog
   name: ITradeLog
   href: doc/api/Sparks.Trader.Api.ITradeLog.html
@@ -17273,6 +18069,19 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradingAccount.AllOrders
   nameWithType: ITradingAccount.AllOrders
+- uid: Sparks.Trader.Api.ITradingAccount.AllTrades
+  name: AllTrades
+  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_AllTrades
+  commentId: P:Sparks.Trader.Api.ITradingAccount.AllTrades
+  fullName: Sparks.Trader.Api.ITradingAccount.AllTrades
+  nameWithType: ITradingAccount.AllTrades
+- uid: Sparks.Trader.Api.ITradingAccount.AllTrades*
+  name: AllTrades
+  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_AllTrades_
+  commentId: Overload:Sparks.Trader.Api.ITradingAccount.AllTrades
+  isSpec: "True"
+  fullName: Sparks.Trader.Api.ITradingAccount.AllTrades
+  nameWithType: ITradingAccount.AllTrades
 - uid: Sparks.Trader.Api.ITradingAccount.Balance
   name: Balance
   href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Balance
@@ -17286,22 +18095,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradingAccount.Balance
   nameWithType: ITradingAccount.Balance
-- uid: Sparks.Trader.Api.ITradingAccount.CancelOrder(Sparks.Trader.Api.IOrder,System.Action{Sparks.Trader.Api.TradeResult})
-  name: CancelOrder(IOrder, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_CancelOrder_Sparks_Trader_Api_IOrder_System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.CancelOrder(Sparks.Trader.Api.IOrder,System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: CancelOrder(IOrder, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.CancelOrder(Sparks.Trader.Api.IOrder, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.CancelOrder(Sparks.Trader.Api.IOrder, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.CancelOrder(IOrder, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.CancelOrder(IOrder, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.CancelOrder*
-  name: CancelOrder
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_CancelOrder_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.CancelOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.CancelOrder
-  nameWithType: ITradingAccount.CancelOrder
 - uid: Sparks.Trader.Api.ITradingAccount.ClosedTrades
   name: ClosedTrades
   href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ClosedTrades
@@ -17315,38 +18108,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradingAccount.ClosedTrades
   nameWithType: ITradingAccount.ClosedTrades
-- uid: Sparks.Trader.Api.ITradingAccount.ClosePosition(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name: ClosePosition(IPosition, double?, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ClosePosition_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.ClosePosition(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: ClosePosition(IPosition, Double?, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.ClosePosition(Sparks.Trader.Api.IPosition, double?, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.ClosePosition(Sparks.Trader.Api.IPosition, Double?, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.ClosePosition(IPosition, double?, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.ClosePosition(IPosition, Double?, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.ClosePosition*
-  name: ClosePosition
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ClosePosition_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.ClosePosition
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.ClosePosition
-  nameWithType: ITradingAccount.ClosePosition
-- uid: Sparks.Trader.Api.ITradingAccount.CloseTrade(Sparks.Trader.Api.ITrade,System.Action{Sparks.Trader.Api.TradeResult})
-  name: CloseTrade(ITrade, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_CloseTrade_Sparks_Trader_Api_ITrade_System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.CloseTrade(Sparks.Trader.Api.ITrade,System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: CloseTrade(ITrade, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.CloseTrade(Sparks.Trader.Api.ITrade, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.CloseTrade(Sparks.Trader.Api.ITrade, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.CloseTrade(ITrade, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.CloseTrade(ITrade, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.CloseTrade*
-  name: CloseTrade
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_CloseTrade_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.CloseTrade
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.CloseTrade
-  nameWithType: ITradingAccount.CloseTrade
 - uid: Sparks.Trader.Api.ITradingAccount.Currency
   name: Currency
   href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Currency
@@ -17451,22 +18212,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradingAccount.MaintainMargin
   nameWithType: ITradingAccount.MaintainMargin
-- uid: Sparks.Trader.Api.ITradingAccount.ModifyOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name: ModifyOrder(IOrder, double?, double?, double?, ETIF?, double?, double?, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ModifyOrder_Sparks_Trader_Api_IOrder_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.ModifyOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: ModifyOrder(IOrder, Double?, Double?, Double?, ETIF?, Double?, Double?, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.ModifyOrder(Sparks.Trader.Api.IOrder, double?, double?, double?, Sparks.Trader.Api.ETIF?, double?, double?, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.ModifyOrder(Sparks.Trader.Api.IOrder, Double?, Double?, Double?, Sparks.Trader.Api.ETIF?, Double?, Double?, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.ModifyOrder(IOrder, double?, double?, double?, ETIF?, double?, double?, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.ModifyOrder(IOrder, Double?, Double?, Double?, ETIF?, Double?, Double?, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.ModifyOrder*
-  name: ModifyOrder
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_ModifyOrder_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.ModifyOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.ModifyOrder
-  nameWithType: ITradingAccount.ModifyOrder
 - uid: Sparks.Trader.Api.ITradingAccount.PendingOrders
   name: PendingOrders
   href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PendingOrders
@@ -17480,70 +18225,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.ITradingAccount.PendingOrders
   nameWithType: ITradingAccount.PendingOrders
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceLimitOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
-  name: PlaceLimitOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceLimitOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.PlaceLimitOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: PlaceLimitOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceLimitOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.PlaceLimitOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.PlaceLimitOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.PlaceLimitOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceLimitOrder*
-  name: PlaceLimitOrder
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceLimitOrder_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.PlaceLimitOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceLimitOrder
-  nameWithType: ITradingAccount.PlaceLimitOrder
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceMarketOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
-  name: PlaceMarketOrder(SymbolContract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceMarketOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.PlaceMarketOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: PlaceMarketOrder(SymbolContract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceMarketOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.PlaceMarketOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.PlaceMarketOrder(SymbolContract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.PlaceMarketOrder(SymbolContract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceMarketOrder*
-  name: PlaceMarketOrder
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceMarketOrder_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.PlaceMarketOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceMarketOrder
-  nameWithType: ITradingAccount.PlaceMarketOrder
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceOrder(Sparks.Trader.Api.OrderReq,System.Action{Sparks.Trader.Api.TradeResult})
-  name: PlaceOrder(OrderReq, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceOrder_Sparks_Trader_Api_OrderReq_System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.PlaceOrder(Sparks.Trader.Api.OrderReq,System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: PlaceOrder(OrderReq, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceOrder(Sparks.Trader.Api.OrderReq, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.PlaceOrder(Sparks.Trader.Api.OrderReq, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.PlaceOrder(OrderReq, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.PlaceOrder(OrderReq, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceOrder*
-  name: PlaceOrder
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceOrder_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.PlaceOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceOrder
-  nameWithType: ITradingAccount.PlaceOrder
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceStopOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
-  name: PlaceStopOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceStopOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__
-  commentId: M:Sparks.Trader.Api.ITradingAccount.PlaceStopOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})
-  name.vb: PlaceStopOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceStopOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string, System.Action<Sparks.Trader.Api.TradeResult>)
-  fullName.vb: Sparks.Trader.Api.ITradingAccount.PlaceStopOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String, System.Action(Of Sparks.Trader.Api.TradeResult))
-  nameWithType: ITradingAccount.PlaceStopOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action<TradeResult>)
-  nameWithType.vb: ITradingAccount.PlaceStopOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String, Action(Of TradeResult))
-- uid: Sparks.Trader.Api.ITradingAccount.PlaceStopOrder*
-  name: PlaceStopOrder
-  href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_PlaceStopOrder_
-  commentId: Overload:Sparks.Trader.Api.ITradingAccount.PlaceStopOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.ITradingAccount.PlaceStopOrder
-  nameWithType: ITradingAccount.PlaceStopOrder
 - uid: Sparks.Trader.Api.ITradingAccount.Positions
   name: Positions
   href: doc/api/Sparks.Trader.Api.ITradingAccount.html#Sparks_Trader_Api_ITradingAccount_Positions
@@ -18382,397 +19063,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.OrderBookEx.Ratio
   nameWithType: OrderBookEx.Ratio
-- uid: Sparks.Trader.Api.OrderReq
-  name: OrderReq
-  href: doc/api/Sparks.Trader.Api.OrderReq.html
-  commentId: T:Sparks.Trader.Api.OrderReq
-  fullName: Sparks.Trader.Api.OrderReq
-  nameWithType: OrderReq
-- uid: Sparks.Trader.Api.OrderReq.#ctor(Sparks.Trader.Api.EOrderType,Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF)
-  name: OrderReq(EOrderType, SymbolContract, ETradeDirection, double, EOpenClose, ETIF)
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq__ctor_Sparks_Trader_Api_EOrderType_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_
-  commentId: M:Sparks.Trader.Api.OrderReq.#ctor(Sparks.Trader.Api.EOrderType,Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF)
-  name.vb: New(EOrderType, SymbolContract, ETradeDirection, Double, EOpenClose, ETIF)
-  fullName: Sparks.Trader.Api.OrderReq.OrderReq(Sparks.Trader.Api.EOrderType, Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF)
-  fullName.vb: Sparks.Trader.Api.OrderReq.New(Sparks.Trader.Api.EOrderType, Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF)
-  nameWithType: OrderReq.OrderReq(EOrderType, SymbolContract, ETradeDirection, double, EOpenClose, ETIF)
-  nameWithType.vb: OrderReq.New(EOrderType, SymbolContract, ETradeDirection, Double, EOpenClose, ETIF)
-- uid: Sparks.Trader.Api.OrderReq.#ctor*
-  name: OrderReq
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq__ctor_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Sparks.Trader.Api.OrderReq.OrderReq
-  fullName.vb: Sparks.Trader.Api.OrderReq.New
-  nameWithType: OrderReq.OrderReq
-  nameWithType.vb: OrderReq.New
-- uid: Sparks.Trader.Api.OrderReq.AuxPrice
-  name: AuxPrice
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_AuxPrice
-  commentId: P:Sparks.Trader.Api.OrderReq.AuxPrice
-  fullName: Sparks.Trader.Api.OrderReq.AuxPrice
-  nameWithType: OrderReq.AuxPrice
-- uid: Sparks.Trader.Api.OrderReq.AuxPrice*
-  name: AuxPrice
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_AuxPrice_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.AuxPrice
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.AuxPrice
-  nameWithType: OrderReq.AuxPrice
-- uid: Sparks.Trader.Api.OrderReq.CloseTradeId
-  name: CloseTradeId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_CloseTradeId
-  commentId: P:Sparks.Trader.Api.OrderReq.CloseTradeId
-  fullName: Sparks.Trader.Api.OrderReq.CloseTradeId
-  nameWithType: OrderReq.CloseTradeId
-- uid: Sparks.Trader.Api.OrderReq.CloseTradeId*
-  name: CloseTradeId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_CloseTradeId_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.CloseTradeId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.CloseTradeId
-  nameWithType: OrderReq.CloseTradeId
-- uid: Sparks.Trader.Api.OrderReq.Comment
-  name: Comment
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Comment
-  commentId: P:Sparks.Trader.Api.OrderReq.Comment
-  fullName: Sparks.Trader.Api.OrderReq.Comment
-  nameWithType: OrderReq.Comment
-- uid: Sparks.Trader.Api.OrderReq.Comment*
-  name: Comment
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Comment_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.Comment
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.Comment
-  nameWithType: OrderReq.Comment
-- uid: Sparks.Trader.Api.OrderReq.Contract
-  name: Contract
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Contract
-  commentId: P:Sparks.Trader.Api.OrderReq.Contract
-  fullName: Sparks.Trader.Api.OrderReq.Contract
-  nameWithType: OrderReq.Contract
-- uid: Sparks.Trader.Api.OrderReq.Contract*
-  name: Contract
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Contract_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.Contract
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.Contract
-  nameWithType: OrderReq.Contract
-- uid: Sparks.Trader.Api.OrderReq.Direction
-  name: Direction
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Direction
-  commentId: P:Sparks.Trader.Api.OrderReq.Direction
-  fullName: Sparks.Trader.Api.OrderReq.Direction
-  nameWithType: OrderReq.Direction
-- uid: Sparks.Trader.Api.OrderReq.Direction*
-  name: Direction
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Direction_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.Direction
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.Direction
-  nameWithType: OrderReq.Direction
-- uid: Sparks.Trader.Api.OrderReq.HasSubOrder
-  name: HasSubOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_HasSubOrder
-  commentId: P:Sparks.Trader.Api.OrderReq.HasSubOrder
-  fullName: Sparks.Trader.Api.OrderReq.HasSubOrder
-  nameWithType: OrderReq.HasSubOrder
-- uid: Sparks.Trader.Api.OrderReq.HasSubOrder*
-  name: HasSubOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_HasSubOrder_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.HasSubOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.HasSubOrder
-  nameWithType: OrderReq.HasSubOrder
-- uid: Sparks.Trader.Api.OrderReq.IsModification
-  name: IsModification
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_IsModification
-  commentId: P:Sparks.Trader.Api.OrderReq.IsModification
-  fullName: Sparks.Trader.Api.OrderReq.IsModification
-  nameWithType: OrderReq.IsModification
-- uid: Sparks.Trader.Api.OrderReq.IsModification*
-  name: IsModification
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_IsModification_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.IsModification
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.IsModification
-  nameWithType: OrderReq.IsModification
-- uid: Sparks.Trader.Api.OrderReq.MakeLimitOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name: MakeLimitOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string)
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeLimitOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_
-  commentId: M:Sparks.Trader.Api.OrderReq.MakeLimitOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name.vb: MakeLimitOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String)
-  fullName: Sparks.Trader.Api.OrderReq.MakeLimitOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string)
-  fullName.vb: Sparks.Trader.Api.OrderReq.MakeLimitOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String)
-  nameWithType: OrderReq.MakeLimitOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string)
-  nameWithType.vb: OrderReq.MakeLimitOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String)
-- uid: Sparks.Trader.Api.OrderReq.MakeLimitOrder*
-  name: MakeLimitOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeLimitOrder_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.MakeLimitOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.MakeLimitOrder
-  nameWithType: OrderReq.MakeLimitOrder
-- uid: Sparks.Trader.Api.OrderReq.MakeMarketOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name: MakeMarketOrder(SymbolContract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string)
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeMarketOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_
-  commentId: M:Sparks.Trader.Api.OrderReq.MakeMarketOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name.vb: MakeMarketOrder(SymbolContract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String)
-  fullName: Sparks.Trader.Api.OrderReq.MakeMarketOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string)
-  fullName.vb: Sparks.Trader.Api.OrderReq.MakeMarketOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String)
-  nameWithType: OrderReq.MakeMarketOrder(SymbolContract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string)
-  nameWithType.vb: OrderReq.MakeMarketOrder(SymbolContract, ETradeDirection, Double, EOpenClose, ETIF, Double?, Double?, String)
-- uid: Sparks.Trader.Api.OrderReq.MakeMarketOrder*
-  name: MakeMarketOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeMarketOrder_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.MakeMarketOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.MakeMarketOrder
-  nameWithType: OrderReq.MakeMarketOrder
-- uid: Sparks.Trader.Api.OrderReq.MakeModificationOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double})
-  name: MakeModificationOrder(IOrder, double?, double?, double?, ETIF?, double?, double?)
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeModificationOrder_Sparks_Trader_Api_IOrder_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__
-  commentId: M:Sparks.Trader.Api.OrderReq.MakeModificationOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double})
-  name.vb: MakeModificationOrder(IOrder, Double?, Double?, Double?, ETIF?, Double?, Double?)
-  fullName: Sparks.Trader.Api.OrderReq.MakeModificationOrder(Sparks.Trader.Api.IOrder, double?, double?, double?, Sparks.Trader.Api.ETIF?, double?, double?)
-  fullName.vb: Sparks.Trader.Api.OrderReq.MakeModificationOrder(Sparks.Trader.Api.IOrder, Double?, Double?, Double?, Sparks.Trader.Api.ETIF?, Double?, Double?)
-  nameWithType: OrderReq.MakeModificationOrder(IOrder, double?, double?, double?, ETIF?, double?, double?)
-  nameWithType.vb: OrderReq.MakeModificationOrder(IOrder, Double?, Double?, Double?, ETIF?, Double?, Double?)
-- uid: Sparks.Trader.Api.OrderReq.MakeModificationOrder*
-  name: MakeModificationOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeModificationOrder_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.MakeModificationOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.MakeModificationOrder
-  nameWithType: OrderReq.MakeModificationOrder
-- uid: Sparks.Trader.Api.OrderReq.MakeStopLimitOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name: MakeStopLimitOrder(SymbolContract, ETradeDirection, double, double, double, EOpenClose, ETIF, double?, double?, string)
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeStopLimitOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_
-  commentId: M:Sparks.Trader.Api.OrderReq.MakeStopLimitOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name.vb: MakeStopLimitOrder(SymbolContract, ETradeDirection, Double, Double, Double, EOpenClose, ETIF, Double?, Double?, String)
-  fullName: Sparks.Trader.Api.OrderReq.MakeStopLimitOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string)
-  fullName.vb: Sparks.Trader.Api.OrderReq.MakeStopLimitOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String)
-  nameWithType: OrderReq.MakeStopLimitOrder(SymbolContract, ETradeDirection, double, double, double, EOpenClose, ETIF, double?, double?, string)
-  nameWithType.vb: OrderReq.MakeStopLimitOrder(SymbolContract, ETradeDirection, Double, Double, Double, EOpenClose, ETIF, Double?, Double?, String)
-- uid: Sparks.Trader.Api.OrderReq.MakeStopLimitOrder*
-  name: MakeStopLimitOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeStopLimitOrder_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.MakeStopLimitOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.MakeStopLimitOrder
-  nameWithType: OrderReq.MakeStopLimitOrder
-- uid: Sparks.Trader.Api.OrderReq.MakeStopOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name: MakeStopOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string)
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeStopOrder_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_
-  commentId: M:Sparks.Trader.Api.OrderReq.MakeStopOrder(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
-  name.vb: MakeStopOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String)
-  fullName: Sparks.Trader.Api.OrderReq.MakeStopOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, double, double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, double?, double?, string)
-  fullName.vb: Sparks.Trader.Api.OrderReq.MakeStopOrder(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.ETradeDirection, Double, Double, Sparks.Trader.Api.EOpenClose, Sparks.Trader.Api.ETIF, Double?, Double?, String)
-  nameWithType: OrderReq.MakeStopOrder(SymbolContract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string)
-  nameWithType.vb: OrderReq.MakeStopOrder(SymbolContract, ETradeDirection, Double, Double, EOpenClose, ETIF, Double?, Double?, String)
-- uid: Sparks.Trader.Api.OrderReq.MakeStopOrder*
-  name: MakeStopOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MakeStopOrder_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.MakeStopOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.MakeStopOrder
-  nameWithType: OrderReq.MakeStopOrder
-- uid: Sparks.Trader.Api.OrderReq.MarketValue
-  name: MarketValue
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MarketValue
-  commentId: P:Sparks.Trader.Api.OrderReq.MarketValue
-  fullName: Sparks.Trader.Api.OrderReq.MarketValue
-  nameWithType: OrderReq.MarketValue
-- uid: Sparks.Trader.Api.OrderReq.MarketValue*
-  name: MarketValue
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_MarketValue_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.MarketValue
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.MarketValue
-  nameWithType: OrderReq.MarketValue
-- uid: Sparks.Trader.Api.OrderReq.ModificationOrder
-  name: ModificationOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_ModificationOrder
-  commentId: P:Sparks.Trader.Api.OrderReq.ModificationOrder
-  fullName: Sparks.Trader.Api.OrderReq.ModificationOrder
-  nameWithType: OrderReq.ModificationOrder
-- uid: Sparks.Trader.Api.OrderReq.ModificationOrder*
-  name: ModificationOrder
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_ModificationOrder_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.ModificationOrder
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.ModificationOrder
-  nameWithType: OrderReq.ModificationOrder
-- uid: Sparks.Trader.Api.OrderReq.ModificationOrderId
-  name: ModificationOrderId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_ModificationOrderId
-  commentId: P:Sparks.Trader.Api.OrderReq.ModificationOrderId
-  fullName: Sparks.Trader.Api.OrderReq.ModificationOrderId
-  nameWithType: OrderReq.ModificationOrderId
-- uid: Sparks.Trader.Api.OrderReq.ModificationOrderId*
-  name: ModificationOrderId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_ModificationOrderId_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.ModificationOrderId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.ModificationOrderId
-  nameWithType: OrderReq.ModificationOrderId
-- uid: Sparks.Trader.Api.OrderReq.OpenClose
-  name: OpenClose
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_OpenClose
-  commentId: P:Sparks.Trader.Api.OrderReq.OpenClose
-  fullName: Sparks.Trader.Api.OrderReq.OpenClose
-  nameWithType: OrderReq.OpenClose
-- uid: Sparks.Trader.Api.OrderReq.OpenClose*
-  name: OpenClose
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_OpenClose_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.OpenClose
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.OpenClose
-  nameWithType: OrderReq.OpenClose
-- uid: Sparks.Trader.Api.OrderReq.OrderType
-  name: OrderType
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_OrderType
-  commentId: P:Sparks.Trader.Api.OrderReq.OrderType
-  fullName: Sparks.Trader.Api.OrderReq.OrderType
-  nameWithType: OrderReq.OrderType
-- uid: Sparks.Trader.Api.OrderReq.OrderType*
-  name: OrderType
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_OrderType_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.OrderType
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.OrderType
-  nameWithType: OrderReq.OrderType
-- uid: Sparks.Trader.Api.OrderReq.Price
-  name: Price
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Price
-  commentId: P:Sparks.Trader.Api.OrderReq.Price
-  fullName: Sparks.Trader.Api.OrderReq.Price
-  nameWithType: OrderReq.Price
-- uid: Sparks.Trader.Api.OrderReq.Price*
-  name: Price
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Price_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.Price
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.Price
-  nameWithType: OrderReq.Price
-- uid: Sparks.Trader.Api.OrderReq.Quantity
-  name: Quantity
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Quantity
-  commentId: P:Sparks.Trader.Api.OrderReq.Quantity
-  fullName: Sparks.Trader.Api.OrderReq.Quantity
-  nameWithType: OrderReq.Quantity
-- uid: Sparks.Trader.Api.OrderReq.Quantity*
-  name: Quantity
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Quantity_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.Quantity
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.Quantity
-  nameWithType: OrderReq.Quantity
-- uid: Sparks.Trader.Api.OrderReq.StopLoss
-  name: StopLoss
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_StopLoss
-  commentId: P:Sparks.Trader.Api.OrderReq.StopLoss
-  fullName: Sparks.Trader.Api.OrderReq.StopLoss
-  nameWithType: OrderReq.StopLoss
-- uid: Sparks.Trader.Api.OrderReq.StopLoss*
-  name: StopLoss
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_StopLoss_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.StopLoss
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.StopLoss
-  nameWithType: OrderReq.StopLoss
-- uid: Sparks.Trader.Api.OrderReq.StopLossOrderId
-  name: StopLossOrderId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_StopLossOrderId
-  commentId: P:Sparks.Trader.Api.OrderReq.StopLossOrderId
-  fullName: Sparks.Trader.Api.OrderReq.StopLossOrderId
-  nameWithType: OrderReq.StopLossOrderId
-- uid: Sparks.Trader.Api.OrderReq.StopLossOrderId*
-  name: StopLossOrderId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_StopLossOrderId_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.StopLossOrderId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.StopLossOrderId
-  nameWithType: OrderReq.StopLossOrderId
-- uid: Sparks.Trader.Api.OrderReq.StopLossTif
-  name: StopLossTif
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_StopLossTif
-  commentId: P:Sparks.Trader.Api.OrderReq.StopLossTif
-  fullName: Sparks.Trader.Api.OrderReq.StopLossTif
-  nameWithType: OrderReq.StopLossTif
-- uid: Sparks.Trader.Api.OrderReq.StopLossTif*
-  name: StopLossTif
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_StopLossTif_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.StopLossTif
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.StopLossTif
-  nameWithType: OrderReq.StopLossTif
-- uid: Sparks.Trader.Api.OrderReq.TakeProfit
-  name: TakeProfit
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_TakeProfit
-  commentId: P:Sparks.Trader.Api.OrderReq.TakeProfit
-  fullName: Sparks.Trader.Api.OrderReq.TakeProfit
-  nameWithType: OrderReq.TakeProfit
-- uid: Sparks.Trader.Api.OrderReq.TakeProfit*
-  name: TakeProfit
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_TakeProfit_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.TakeProfit
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.TakeProfit
-  nameWithType: OrderReq.TakeProfit
-- uid: Sparks.Trader.Api.OrderReq.TakeProfitOrderId
-  name: TakeProfitOrderId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_TakeProfitOrderId
-  commentId: P:Sparks.Trader.Api.OrderReq.TakeProfitOrderId
-  fullName: Sparks.Trader.Api.OrderReq.TakeProfitOrderId
-  nameWithType: OrderReq.TakeProfitOrderId
-- uid: Sparks.Trader.Api.OrderReq.TakeProfitOrderId*
-  name: TakeProfitOrderId
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_TakeProfitOrderId_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.TakeProfitOrderId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.TakeProfitOrderId
-  nameWithType: OrderReq.TakeProfitOrderId
-- uid: Sparks.Trader.Api.OrderReq.TakeProfitTif
-  name: TakeProfitTif
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_TakeProfitTif
-  commentId: P:Sparks.Trader.Api.OrderReq.TakeProfitTif
-  fullName: Sparks.Trader.Api.OrderReq.TakeProfitTif
-  nameWithType: OrderReq.TakeProfitTif
-- uid: Sparks.Trader.Api.OrderReq.TakeProfitTif*
-  name: TakeProfitTif
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_TakeProfitTif_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.TakeProfitTif
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.TakeProfitTif
-  nameWithType: OrderReq.TakeProfitTif
-- uid: Sparks.Trader.Api.OrderReq.Tif
-  name: Tif
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Tif
-  commentId: P:Sparks.Trader.Api.OrderReq.Tif
-  fullName: Sparks.Trader.Api.OrderReq.Tif
-  nameWithType: OrderReq.Tif
-- uid: Sparks.Trader.Api.OrderReq.Tif*
-  name: Tif
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_Tif_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.Tif
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.Tif
-  nameWithType: OrderReq.Tif
-- uid: Sparks.Trader.Api.OrderReq.ToString
-  name: ToString()
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_ToString
-  commentId: M:Sparks.Trader.Api.OrderReq.ToString
-  fullName: Sparks.Trader.Api.OrderReq.ToString()
-  nameWithType: OrderReq.ToString()
-- uid: Sparks.Trader.Api.OrderReq.ToString*
-  name: ToString
-  href: doc/api/Sparks.Trader.Api.OrderReq.html#Sparks_Trader_Api_OrderReq_ToString_
-  commentId: Overload:Sparks.Trader.Api.OrderReq.ToString
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.OrderReq.ToString
-  nameWithType: OrderReq.ToString
 - uid: Sparks.Trader.Api.OutputAttribute
   name: OutputAttribute
   href: doc/api/Sparks.Trader.Api.OutputAttribute.html
@@ -19894,417 +20184,6 @@ references:
   isSpec: "True"
   fullName: Sparks.Trader.Api.SymbolAlertCondition.State
   nameWithType: SymbolAlertCondition.State
-- uid: Sparks.Trader.Api.SymbolContract
-  name: SymbolContract
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html
-  commentId: T:Sparks.Trader.Api.SymbolContract
-  fullName: Sparks.Trader.Api.SymbolContract
-  nameWithType: SymbolContract
-- uid: Sparks.Trader.Api.SymbolContract.#ctor
-  name: SymbolContract()
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract__ctor
-  commentId: M:Sparks.Trader.Api.SymbolContract.#ctor
-  name.vb: New()
-  fullName: Sparks.Trader.Api.SymbolContract.SymbolContract()
-  fullName.vb: Sparks.Trader.Api.SymbolContract.New()
-  nameWithType: SymbolContract.SymbolContract()
-  nameWithType.vb: SymbolContract.New()
-- uid: Sparks.Trader.Api.SymbolContract.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.Nullable{System.Guid},System.String)
-  name: SymbolContract(ESymbolType, string, string, string, ECurrency, string, Guid?, string)
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract__ctor_Sparks_Trader_Api_ESymbolType_System_String_System_String_System_String_Sparks_Trader_Api_ECurrency_System_String_System_Nullable_System_Guid__System_String_
-  commentId: M:Sparks.Trader.Api.SymbolContract.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.Nullable{System.Guid},System.String)
-  name.vb: New(ESymbolType, String, String, String, ECurrency, String, Guid?, String)
-  fullName: Sparks.Trader.Api.SymbolContract.SymbolContract(Sparks.Trader.Api.ESymbolType, string, string, string, Sparks.Trader.Api.ECurrency, string, System.Guid?, string)
-  fullName.vb: Sparks.Trader.Api.SymbolContract.New(Sparks.Trader.Api.ESymbolType, String, String, String, Sparks.Trader.Api.ECurrency, String, System.Guid?, String)
-  nameWithType: SymbolContract.SymbolContract(ESymbolType, string, string, string, ECurrency, string, Guid?, string)
-  nameWithType.vb: SymbolContract.New(ESymbolType, String, String, String, ECurrency, String, Guid?, String)
-- uid: Sparks.Trader.Api.SymbolContract.#ctor*
-  name: SymbolContract
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract__ctor_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Sparks.Trader.Api.SymbolContract.SymbolContract
-  fullName.vb: Sparks.Trader.Api.SymbolContract.New
-  nameWithType: SymbolContract.SymbolContract
-  nameWithType.vb: SymbolContract.New
-- uid: Sparks.Trader.Api.SymbolContract.Code
-  name: Code
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Code
-  commentId: P:Sparks.Trader.Api.SymbolContract.Code
-  fullName: Sparks.Trader.Api.SymbolContract.Code
-  nameWithType: SymbolContract.Code
-- uid: Sparks.Trader.Api.SymbolContract.Code*
-  name: Code
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Code_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.Code
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.Code
-  nameWithType: SymbolContract.Code
-- uid: Sparks.Trader.Api.SymbolContract.Currency
-  name: Currency
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Currency
-  commentId: P:Sparks.Trader.Api.SymbolContract.Currency
-  fullName: Sparks.Trader.Api.SymbolContract.Currency
-  nameWithType: SymbolContract.Currency
-- uid: Sparks.Trader.Api.SymbolContract.Currency*
-  name: Currency
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Currency_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.Currency
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.Currency
-  nameWithType: SymbolContract.Currency
-- uid: Sparks.Trader.Api.SymbolContract.Equals(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.SymbolContract)
-  name: Equals(SymbolContract, SymbolContract)
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Equals_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.SymbolContract.Equals(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.SymbolContract)
-  fullName: Sparks.Trader.Api.SymbolContract.Equals(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.SymbolContract)
-  nameWithType: SymbolContract.Equals(SymbolContract, SymbolContract)
-- uid: Sparks.Trader.Api.SymbolContract.Equals(Sparks.Trader.Api.SymbolContract)
-  name: Equals(SymbolContract)
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Equals_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.SymbolContract.Equals(Sparks.Trader.Api.SymbolContract)
-  fullName: Sparks.Trader.Api.SymbolContract.Equals(Sparks.Trader.Api.SymbolContract)
-  nameWithType: SymbolContract.Equals(SymbolContract)
-- uid: Sparks.Trader.Api.SymbolContract.Equals(System.Object)
-  name: Equals(object)
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Equals_System_Object_
-  commentId: M:Sparks.Trader.Api.SymbolContract.Equals(System.Object)
-  name.vb: Equals(Object)
-  fullName: Sparks.Trader.Api.SymbolContract.Equals(object)
-  fullName.vb: Sparks.Trader.Api.SymbolContract.Equals(Object)
-  nameWithType: SymbolContract.Equals(object)
-  nameWithType.vb: SymbolContract.Equals(Object)
-- uid: Sparks.Trader.Api.SymbolContract.Equals*
-  name: Equals
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Equals_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.Equals
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.Equals
-  nameWithType: SymbolContract.Equals
-- uid: Sparks.Trader.Api.SymbolContract.Exchange
-  name: Exchange
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Exchange
-  commentId: P:Sparks.Trader.Api.SymbolContract.Exchange
-  fullName: Sparks.Trader.Api.SymbolContract.Exchange
-  nameWithType: SymbolContract.Exchange
-- uid: Sparks.Trader.Api.SymbolContract.Exchange*
-  name: Exchange
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Exchange_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.Exchange
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.Exchange
-  nameWithType: SymbolContract.Exchange
-- uid: Sparks.Trader.Api.SymbolContract.GetHashCode
-  name: GetHashCode()
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_GetHashCode
-  commentId: M:Sparks.Trader.Api.SymbolContract.GetHashCode
-  fullName: Sparks.Trader.Api.SymbolContract.GetHashCode()
-  nameWithType: SymbolContract.GetHashCode()
-- uid: Sparks.Trader.Api.SymbolContract.GetHashCode*
-  name: GetHashCode
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_GetHashCode_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.GetHashCode
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.GetHashCode
-  nameWithType: SymbolContract.GetHashCode
-- uid: Sparks.Trader.Api.SymbolContract.IsProviderUnique
-  name: IsProviderUnique
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_IsProviderUnique
-  commentId: P:Sparks.Trader.Api.SymbolContract.IsProviderUnique
-  fullName: Sparks.Trader.Api.SymbolContract.IsProviderUnique
-  nameWithType: SymbolContract.IsProviderUnique
-- uid: Sparks.Trader.Api.SymbolContract.IsProviderUnique*
-  name: IsProviderUnique
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_IsProviderUnique_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.IsProviderUnique
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.IsProviderUnique
-  nameWithType: SymbolContract.IsProviderUnique
-- uid: Sparks.Trader.Api.SymbolContract.Name
-  name: Name
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Name
-  commentId: P:Sparks.Trader.Api.SymbolContract.Name
-  fullName: Sparks.Trader.Api.SymbolContract.Name
-  nameWithType: SymbolContract.Name
-- uid: Sparks.Trader.Api.SymbolContract.Name*
-  name: Name
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_Name_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.Name
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.Name
-  nameWithType: SymbolContract.Name
-- uid: Sparks.Trader.Api.SymbolContract.op_Equality(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.SymbolContract)
-  name: operator ==(SymbolContract, SymbolContract)
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_op_Equality_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.SymbolContract.op_Equality(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.SymbolContract)
-  name.vb: =(SymbolContract, SymbolContract)
-  fullName: Sparks.Trader.Api.SymbolContract.operator ==(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.SymbolContract)
-  fullName.vb: Sparks.Trader.Api.SymbolContract.=(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.SymbolContract)
-  nameWithType: SymbolContract.operator ==(SymbolContract, SymbolContract)
-  nameWithType.vb: SymbolContract.=(SymbolContract, SymbolContract)
-- uid: Sparks.Trader.Api.SymbolContract.op_Equality*
-  name: operator ==
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_op_Equality_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.op_Equality
-  isSpec: "True"
-  name.vb: =
-  fullName: Sparks.Trader.Api.SymbolContract.operator ==
-  fullName.vb: Sparks.Trader.Api.SymbolContract.=
-  nameWithType: SymbolContract.operator ==
-  nameWithType.vb: SymbolContract.=
-- uid: Sparks.Trader.Api.SymbolContract.op_Inequality(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.SymbolContract)
-  name: operator !=(SymbolContract, SymbolContract)
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_op_Inequality_Sparks_Trader_Api_SymbolContract_Sparks_Trader_Api_SymbolContract_
-  commentId: M:Sparks.Trader.Api.SymbolContract.op_Inequality(Sparks.Trader.Api.SymbolContract,Sparks.Trader.Api.SymbolContract)
-  name.vb: <>(SymbolContract, SymbolContract)
-  fullName: Sparks.Trader.Api.SymbolContract.operator !=(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.SymbolContract)
-  fullName.vb: Sparks.Trader.Api.SymbolContract.<>(Sparks.Trader.Api.SymbolContract, Sparks.Trader.Api.SymbolContract)
-  nameWithType: SymbolContract.operator !=(SymbolContract, SymbolContract)
-  nameWithType.vb: SymbolContract.<>(SymbolContract, SymbolContract)
-- uid: Sparks.Trader.Api.SymbolContract.op_Inequality*
-  name: operator !=
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_op_Inequality_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.op_Inequality
-  isSpec: "True"
-  name.vb: <>
-  fullName: Sparks.Trader.Api.SymbolContract.operator !=
-  fullName.vb: Sparks.Trader.Api.SymbolContract.<>
-  nameWithType: SymbolContract.operator !=
-  nameWithType.vb: SymbolContract.<>
-- uid: Sparks.Trader.Api.SymbolContract.ProviderId
-  name: ProviderId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderId
-  commentId: P:Sparks.Trader.Api.SymbolContract.ProviderId
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderId
-  nameWithType: SymbolContract.ProviderId
-- uid: Sparks.Trader.Api.SymbolContract.ProviderId*
-  name: ProviderId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderId_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.ProviderId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderId
-  nameWithType: SymbolContract.ProviderId
-- uid: Sparks.Trader.Api.SymbolContract.ProviderName
-  name: ProviderName
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderName
-  commentId: P:Sparks.Trader.Api.SymbolContract.ProviderName
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderName
-  nameWithType: SymbolContract.ProviderName
-- uid: Sparks.Trader.Api.SymbolContract.ProviderName*
-  name: ProviderName
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderName_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.ProviderName
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderName
-  nameWithType: SymbolContract.ProviderName
-- uid: Sparks.Trader.Api.SymbolContract.ProviderTypeId
-  name: ProviderTypeId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderTypeId
-  commentId: P:Sparks.Trader.Api.SymbolContract.ProviderTypeId
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderTypeId
-  nameWithType: SymbolContract.ProviderTypeId
-- uid: Sparks.Trader.Api.SymbolContract.ProviderTypeId*
-  name: ProviderTypeId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderTypeId_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.ProviderTypeId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderTypeId
-  nameWithType: SymbolContract.ProviderTypeId
-- uid: Sparks.Trader.Api.SymbolContract.ProviderWideId
-  name: ProviderWideId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderWideId
-  commentId: P:Sparks.Trader.Api.SymbolContract.ProviderWideId
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderWideId
-  nameWithType: SymbolContract.ProviderWideId
-- uid: Sparks.Trader.Api.SymbolContract.ProviderWideId*
-  name: ProviderWideId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ProviderWideId_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.ProviderWideId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.ProviderWideId
-  nameWithType: SymbolContract.ProviderWideId
-- uid: Sparks.Trader.Api.SymbolContract.SymbolType
-  name: SymbolType
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_SymbolType
-  commentId: P:Sparks.Trader.Api.SymbolContract.SymbolType
-  fullName: Sparks.Trader.Api.SymbolContract.SymbolType
-  nameWithType: SymbolContract.SymbolType
-- uid: Sparks.Trader.Api.SymbolContract.SymbolType*
-  name: SymbolType
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_SymbolType_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.SymbolType
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.SymbolType
-  nameWithType: SymbolContract.SymbolType
-- uid: Sparks.Trader.Api.SymbolContract.SystemWideId
-  name: SystemWideId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_SystemWideId
-  commentId: P:Sparks.Trader.Api.SymbolContract.SystemWideId
-  fullName: Sparks.Trader.Api.SymbolContract.SystemWideId
-  nameWithType: SymbolContract.SystemWideId
-- uid: Sparks.Trader.Api.SymbolContract.SystemWideId*
-  name: SystemWideId
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_SystemWideId_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.SystemWideId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.SystemWideId
-  nameWithType: SymbolContract.SystemWideId
-- uid: Sparks.Trader.Api.SymbolContract.ToString
-  name: ToString()
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ToString
-  commentId: M:Sparks.Trader.Api.SymbolContract.ToString
-  fullName: Sparks.Trader.Api.SymbolContract.ToString()
-  nameWithType: SymbolContract.ToString()
-- uid: Sparks.Trader.Api.SymbolContract.ToString*
-  name: ToString
-  href: doc/api/Sparks.Trader.Api.SymbolContract.html#Sparks_Trader_Api_SymbolContract_ToString_
-  commentId: Overload:Sparks.Trader.Api.SymbolContract.ToString
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContract.ToString
-  nameWithType: SymbolContract.ToString
-- uid: Sparks.Trader.Api.SymbolContractAttribute
-  name: SymbolContractAttribute
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html
-  commentId: T:Sparks.Trader.Api.SymbolContractAttribute
-  fullName: Sparks.Trader.Api.SymbolContractAttribute
-  nameWithType: SymbolContractAttribute
-- uid: Sparks.Trader.Api.SymbolContractAttribute.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.String)
-  name: SymbolContractAttribute(ESymbolType, string, string, ECurrency, string, string)
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute__ctor_Sparks_Trader_Api_ESymbolType_System_String_System_String_Sparks_Trader_Api_ECurrency_System_String_System_String_
-  commentId: M:Sparks.Trader.Api.SymbolContractAttribute.#ctor(Sparks.Trader.Api.ESymbolType,System.String,System.String,Sparks.Trader.Api.ECurrency,System.String,System.String)
-  name.vb: New(ESymbolType, String, String, ECurrency, String, String)
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.SymbolContractAttribute(Sparks.Trader.Api.ESymbolType, string, string, Sparks.Trader.Api.ECurrency, string, string)
-  fullName.vb: Sparks.Trader.Api.SymbolContractAttribute.New(Sparks.Trader.Api.ESymbolType, String, String, Sparks.Trader.Api.ECurrency, String, String)
-  nameWithType: SymbolContractAttribute.SymbolContractAttribute(ESymbolType, string, string, ECurrency, string, string)
-  nameWithType.vb: SymbolContractAttribute.New(ESymbolType, String, String, ECurrency, String, String)
-- uid: Sparks.Trader.Api.SymbolContractAttribute.#ctor*
-  name: SymbolContractAttribute
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute__ctor_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.SymbolContractAttribute
-  fullName.vb: Sparks.Trader.Api.SymbolContractAttribute.New
-  nameWithType: SymbolContractAttribute.SymbolContractAttribute
-  nameWithType.vb: SymbolContractAttribute.New
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Code
-  name: Code
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Code
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.Code
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Code
-  nameWithType: SymbolContractAttribute.Code
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Code*
-  name: Code
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Code_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.Code
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Code
-  nameWithType: SymbolContractAttribute.Code
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Contract
-  name: Contract
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Contract
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.Contract
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Contract
-  nameWithType: SymbolContractAttribute.Contract
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Contract*
-  name: Contract
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Contract_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.Contract
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Contract
-  nameWithType: SymbolContractAttribute.Contract
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Currency
-  name: Currency
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Currency
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.Currency
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Currency
-  nameWithType: SymbolContractAttribute.Currency
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Currency*
-  name: Currency
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Currency_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.Currency
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Currency
-  nameWithType: SymbolContractAttribute.Currency
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Exchange
-  name: Exchange
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Exchange
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.Exchange
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Exchange
-  nameWithType: SymbolContractAttribute.Exchange
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Exchange*
-  name: Exchange
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Exchange_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.Exchange
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Exchange
-  nameWithType: SymbolContractAttribute.Exchange
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Name
-  name: Name
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Name
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.Name
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Name
-  nameWithType: SymbolContractAttribute.Name
-- uid: Sparks.Trader.Api.SymbolContractAttribute.Name*
-  name: Name
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_Name_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.Name
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.Name
-  nameWithType: SymbolContractAttribute.Name
-- uid: Sparks.Trader.Api.SymbolContractAttribute.ProviderId
-  name: ProviderId
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_ProviderId
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.ProviderId
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.ProviderId
-  nameWithType: SymbolContractAttribute.ProviderId
-- uid: Sparks.Trader.Api.SymbolContractAttribute.ProviderId*
-  name: ProviderId
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_ProviderId_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.ProviderId
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.ProviderId
-  nameWithType: SymbolContractAttribute.ProviderId
-- uid: Sparks.Trader.Api.SymbolContractAttribute.ProviderName
-  name: ProviderName
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_ProviderName
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.ProviderName
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.ProviderName
-  nameWithType: SymbolContractAttribute.ProviderName
-- uid: Sparks.Trader.Api.SymbolContractAttribute.ProviderName*
-  name: ProviderName
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_ProviderName_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.ProviderName
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.ProviderName
-  nameWithType: SymbolContractAttribute.ProviderName
-- uid: Sparks.Trader.Api.SymbolContractAttribute.SymbolType
-  name: SymbolType
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_SymbolType
-  commentId: P:Sparks.Trader.Api.SymbolContractAttribute.SymbolType
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.SymbolType
-  nameWithType: SymbolContractAttribute.SymbolType
-- uid: Sparks.Trader.Api.SymbolContractAttribute.SymbolType*
-  name: SymbolType
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_SymbolType_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.SymbolType
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.SymbolType
-  nameWithType: SymbolContractAttribute.SymbolType
-- uid: Sparks.Trader.Api.SymbolContractAttribute.ToString
-  name: ToString()
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_ToString
-  commentId: M:Sparks.Trader.Api.SymbolContractAttribute.ToString
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.ToString()
-  nameWithType: SymbolContractAttribute.ToString()
-- uid: Sparks.Trader.Api.SymbolContractAttribute.ToString*
-  name: ToString
-  href: doc/api/Sparks.Trader.Api.SymbolContractAttribute.html#Sparks_Trader_Api_SymbolContractAttribute_ToString_
-  commentId: Overload:Sparks.Trader.Api.SymbolContractAttribute.ToString
-  isSpec: "True"
-  fullName: Sparks.Trader.Api.SymbolContractAttribute.ToString
-  nameWithType: SymbolContractAttribute.ToString
 - uid: Sparks.Trader.Api.SymbolContractSearchAttribute
   name: SymbolContractSearchAttribute
   href: doc/api/Sparks.Trader.Api.SymbolContractSearchAttribute.html

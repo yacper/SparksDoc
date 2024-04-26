@@ -293,7 +293,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">SymbolContract Contract { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Contract Contract { get; }</code></pre>
   </div>
 
 
@@ -302,7 +302,7 @@
 
   <h4 class="section">属性值</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Sparks.Trader.Api.SymbolContract.html">SymbolContract</a></dt>
+    <dt><a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
     <dd></dd>
   </dl>
 
@@ -480,7 +480,7 @@
   
   </h3>
 
-  <div class="markdown level1 summary"><p>开仓单</p>
+  <div class="markdown level1 summary"><p>开仓单，如果有</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -761,6 +761,102 @@
 
 
 
+  <a id="Sparks_Trader_Api_ITradeCommon_StopLoss_" data-uid="Sparks.Trader.Api.ITradeCommon.StopLoss*"></a>
+
+  <h3 id="Sparks_Trader_Api_ITradeCommon_StopLoss" data-uid="Sparks.Trader.Api.ITradeCommon.StopLoss">
+  StopLoss
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>止损价</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double? StopLoss { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ITradeCommon_StopLossOrder_" data-uid="Sparks.Trader.Api.ITradeCommon.StopLossOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_ITradeCommon_StopLossOrder" data-uid="Sparks.Trader.Api.ITradeCommon.StopLossOrder">
+  StopLossOrder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>止损订单</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IOrder StopLossOrder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ITradeCommon_StopLossOrderId_" data-uid="Sparks.Trader.Api.ITradeCommon.StopLossOrderId*"></a>
+
+  <h3 id="Sparks_Trader_Api_ITradeCommon_StopLossOrderId" data-uid="Sparks.Trader.Api.ITradeCommon.StopLossOrderId">
+  StopLossOrderId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>止损订单Id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string StopLossOrderId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Sparks_Trader_Api_ITradeCommon_Symbol_" data-uid="Sparks.Trader.Api.ITradeCommon.Symbol*"></a>
 
   <h3 id="Sparks_Trader_Api_ITradeCommon_Symbol" data-uid="Sparks.Trader.Api.ITradeCommon.Symbol">
@@ -815,6 +911,102 @@
   <h4 class="section">属性值</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Sparks.Trader.Api.ESymbolType.html">ESymbolType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ITradeCommon_TakeProfit_" data-uid="Sparks.Trader.Api.ITradeCommon.TakeProfit*"></a>
+
+  <h3 id="Sparks_Trader_Api_ITradeCommon_TakeProfit" data-uid="Sparks.Trader.Api.ITradeCommon.TakeProfit">
+  TakeProfit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>止盈价</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double? TakeProfit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ITradeCommon_TakeProfitOrder_" data-uid="Sparks.Trader.Api.ITradeCommon.TakeProfitOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_ITradeCommon_TakeProfitOrder" data-uid="Sparks.Trader.Api.ITradeCommon.TakeProfitOrder">
+  TakeProfitOrder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>止盈订单</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IOrder TakeProfitOrder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_ITradeCommon_TakeProfitOrderId_" data-uid="Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId*"></a>
+
+  <h3 id="Sparks_Trader_Api_ITradeCommon_TakeProfitOrderId" data-uid="Sparks.Trader.Api.ITradeCommon.TakeProfitOrderId">
+  TakeProfitOrderId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>止盈订单Id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string TakeProfitOrderId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">属性值</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 

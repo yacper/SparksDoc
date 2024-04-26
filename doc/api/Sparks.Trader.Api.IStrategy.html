@@ -157,6 +157,9 @@
       <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_IsHistoryOver">IScript.IsHistoryOver</a>
     </div>
     <div>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_TradingAccount">IScript.TradingAccount</a>
+    </div>
+    <div>
       <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Info_System_Object_">IScript.Info(object)</a>
     </div>
     <div>
@@ -169,13 +172,13 @@
       <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Performance">IScript.Performance()</a>
     </div>
     <div>
-      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__">IScript.Alert(string, string, EAlertLevel, SymbolContract?)</a>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_Contract__">IScript.Alert(string, string, EAlertLevel, Contract?)</a>
     </div>
     <div>
-      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_AlertAction_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__">IScript.Alert(string, string, AlertAction, EAlertLevel, SymbolContract?)</a>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_Sparks_Trader_Api_AlertAction_Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_Contract__">IScript.Alert(string, string, AlertAction, EAlertLevel, Contract?)</a>
     </div>
     <div>
-      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_System_Collections_Generic_IEnumerable_Sparks_Trader_Api_AlertAction__Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_SymbolContract__">IScript.Alert(string, string, IEnumerable&lt;AlertAction&gt;, EAlertLevel, SymbolContract?)</a>
+      <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Alert_System_String_System_String_System_Collections_Generic_IEnumerable_Sparks_Trader_Api_AlertAction__Sparks_Trader_Api_EAlertLevel_System_Nullable_Sparks_Trader_Api_Contract__">IScript.Alert(string, string, IEnumerable&lt;AlertAction&gt;, EAlertLevel, Contract?)</a>
     </div>
     <div>
       <a class="xref" href="Sparks.Trader.Api.IScript.html#Sparks_Trader_Api_IScript_Indicators">IScript.Indicators</a>
@@ -244,34 +247,549 @@
 
 
 
-  <h2 class="section" id="properties">属性
+  <h2 class="section" id="methods">方法
 </h2>
 
 
-  <a id="Sparks_Trader_Api_IStrategy_TradingAccount_" data-uid="Sparks.Trader.Api.IStrategy.TradingAccount*"></a>
+  <a id="Sparks_Trader_Api_IStrategy_CancelOrder_" data-uid="Sparks.Trader.Api.IStrategy.CancelOrder*"></a>
 
-  <h3 id="Sparks_Trader_Api_IStrategy_TradingAccount" data-uid="Sparks.Trader.Api.IStrategy.TradingAccount">
-  TradingAccount
+  <h3 id="Sparks_Trader_Api_IStrategy_CancelOrder_Sparks_Trader_Api_IOrder_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.CancelOrder(Sparks.Trader.Api.IOrder,System.Action{Sparks.Trader.Api.TradeResult})">
+  CancelOrder(IOrder, Action&lt;TradeResult&gt;)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>对应的交易账户</p>
+  <div class="markdown level1 summary"><p>撤单</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ITradingAccount TradingAccount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">TradeOperation CancelOrder(IOrder order, Action&lt;TradeResult&gt; callback = null)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">属性值</h4>
+  <h4 class="section">参数</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Sparks.Trader.Api.ITradingAccount.html">ITradingAccount</a></dt>
+    <dt><code>order</code> <a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
     <dd></dd>
   </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_ClosePosition_" data-uid="Sparks.Trader.Api.IStrategy.ClosePosition*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_ClosePosition_Sparks_Trader_Api_IPosition_System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.ClosePosition(Sparks.Trader.Api.IPosition,System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})">
+  ClosePosition(IPosition, double?, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>平position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation ClosePosition(IPosition p, double? quantity = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>p</code> <a class="xref" href="Sparks.Trader.Api.IPosition.html">IPosition</a></dt>
+    <dd></dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_CloseTrade_" data-uid="Sparks.Trader.Api.IStrategy.CloseTrade*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_CloseTrade_Sparks_Trader_Api_ITrade_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.CloseTrade(Sparks.Trader.Api.ITrade,System.Action{Sparks.Trader.Api.TradeResult})">
+  CloseTrade(ITrade, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>平trade</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation CloseTrade(ITrade t, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="Sparks.Trader.Api.ITrade.html">ITrade</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_ModifyOrder_" data-uid="Sparks.Trader.Api.IStrategy.ModifyOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_ModifyOrder_Sparks_Trader_Api_IOrder_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Nullable_System_Double__System_Nullable_System_Double__System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.ModifyOrder(Sparks.Trader.Api.IOrder,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Nullable{System.Double},System.Nullable{System.Double},System.Action{Sparks.Trader.Api.TradeResult})">
+  ModifyOrder(IOrder, double?, double?, double?, ETIF?, double?, double?, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改订单</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation ModifyOrder(IOrder order, double? price = null, double? auxPrice = null, double? quantity = null, ETIF? tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>order</code> <a class="xref" href="Sparks.Trader.Api.IOrder.html">IOrder</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>auxPrice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_ModifyTrade_" data-uid="Sparks.Trader.Api.IStrategy.ModifyTrade*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_ModifyTrade_Sparks_Trader_Api_ITrade_System_Nullable_System_Double__System_Nullable_System_Double__System_Nullable_Sparks_Trader_Api_ETIF__System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.ModifyTrade(Sparks.Trader.Api.ITrade,System.Nullable{System.Double},System.Nullable{System.Double},System.Nullable{Sparks.Trader.Api.ETIF},System.Action{Sparks.Trader.Api.TradeResult})">
+  ModifyTrade(ITrade, double?, double?, ETIF?, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改trade</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation ModifyTrade(ITrade trade, double? takeProfit = null, double? stopLoss = null, ETIF? tif = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>trade</code> <a class="xref" href="Sparks.Trader.Api.ITrade.html">ITrade</a></dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a>?</dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_PlaceLimitOrder_" data-uid="Sparks.Trader.Api.IStrategy.PlaceLimitOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_PlaceLimitOrder_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})">
+  PlaceLimitOrder(Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Place Limit Order</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation PlaceLimitOrder(Contract contract, ETradeDirection direction, double price, double lots, EOpenClose openClose = EOpenClose.Open, ETIF tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, string label = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>openClose</code> <a class="xref" href="Sparks.Trader.Api.EOpenClose.html">EOpenClose</a></dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a></dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_PlaceLimitOrder_" data-uid="Sparks.Trader.Api.IStrategy.PlaceLimitOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_PlaceLimitOrder_Sparks_Trader_Api_ITradingAccount_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.PlaceLimitOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})">
+  PlaceLimitOrder(ITradingAccount, Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>place limit order on account</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation PlaceLimitOrder(ITradingAccount account, Contract contract, ETradeDirection direction, double price, double lots, EOpenClose openClose = EOpenClose.Open, ETIF tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, string label = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>account</code> <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html">ITradingAccount</a></dt>
+    <dd></dd>
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>openClose</code> <a class="xref" href="Sparks.Trader.Api.EOpenClose.html">EOpenClose</a></dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a></dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_PlaceMarketOrder_" data-uid="Sparks.Trader.Api.IStrategy.PlaceMarketOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_PlaceMarketOrder_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})">
+  PlaceMarketOrder(Contract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Place Market Order</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation PlaceMarketOrder(Contract contract, ETradeDirection direction, double lots, EOpenClose openClose = EOpenClose.Open, ETIF tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, string label = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>openClose</code> <a class="xref" href="Sparks.Trader.Api.EOpenClose.html">EOpenClose</a></dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a></dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_PlaceMarketOrder_" data-uid="Sparks.Trader.Api.IStrategy.PlaceMarketOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_PlaceMarketOrder_Sparks_Trader_Api_ITradingAccount_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.PlaceMarketOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})">
+  PlaceMarketOrder(ITradingAccount, Contract, ETradeDirection, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>place market order on account</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation PlaceMarketOrder(ITradingAccount account, Contract contract, ETradeDirection direction, double lots, EOpenClose openClose = EOpenClose.Open, ETIF tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, string label = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>account</code> <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html">ITradingAccount</a></dt>
+    <dd></dd>
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>openClose</code> <a class="xref" href="Sparks.Trader.Api.EOpenClose.html">EOpenClose</a></dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a></dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_PlaceStopOrder_" data-uid="Sparks.Trader.Api.IStrategy.PlaceStopOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_PlaceStopOrder_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})">
+  PlaceStopOrder(Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Place Stop Order</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation PlaceStopOrder(Contract contract, ETradeDirection direction, double price, double lots, EOpenClose openClose = EOpenClose.Open, ETIF tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, string label = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>openClose</code> <a class="xref" href="Sparks.Trader.Api.EOpenClose.html">EOpenClose</a></dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a></dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Sparks_Trader_Api_IStrategy_PlaceStopOrder_" data-uid="Sparks.Trader.Api.IStrategy.PlaceStopOrder*"></a>
+
+  <h3 id="Sparks_Trader_Api_IStrategy_PlaceStopOrder_Sparks_Trader_Api_ITradingAccount_Sparks_Trader_Api_Contract_Sparks_Trader_Api_ETradeDirection_System_Double_System_Double_Sparks_Trader_Api_EOpenClose_Sparks_Trader_Api_ETIF_System_Nullable_System_Double__System_Nullable_System_Double__System_String_System_Action_Sparks_Trader_Api_TradeResult__" data-uid="Sparks.Trader.Api.IStrategy.PlaceStopOrder(Sparks.Trader.Api.ITradingAccount,Sparks.Trader.Api.Contract,Sparks.Trader.Api.ETradeDirection,System.Double,System.Double,Sparks.Trader.Api.EOpenClose,Sparks.Trader.Api.ETIF,System.Nullable{System.Double},System.Nullable{System.Double},System.String,System.Action{Sparks.Trader.Api.TradeResult})">
+  PlaceStopOrder(ITradingAccount, Contract, ETradeDirection, double, double, EOpenClose, ETIF, double?, double?, string, Action&lt;TradeResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>place stop order on account</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TradeOperation PlaceStopOrder(ITradingAccount account, Contract contract, ETradeDirection direction, double price, double lots, EOpenClose openClose = EOpenClose.Open, ETIF tif = ETIF.GTC, double? takeProfit = null, double? stopLoss = null, string label = null, Action&lt;TradeResult&gt; callback = null)</code></pre>
+  </div>
+
+  <h4 class="section">参数</h4>
+  <dl class="parameters">
+    <dt><code>account</code> <a class="xref" href="Sparks.Trader.Api.ITradingAccount.html">ITradingAccount</a></dt>
+    <dd></dd>
+    <dt><code>contract</code> <a class="xref" href="Sparks.Trader.Api.Contract.html">Contract</a></dt>
+    <dd></dd>
+    <dt><code>direction</code> <a class="xref" href="Sparks.Trader.Api.ETradeDirection.html">ETradeDirection</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>lots</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>openClose</code> <a class="xref" href="Sparks.Trader.Api.EOpenClose.html">EOpenClose</a></dt>
+    <dd></dd>
+    <dt><code>tif</code> <a class="xref" href="Sparks.Trader.Api.ETIF.html">ETIF</a></dt>
+    <dd></dd>
+    <dt><code>takeProfit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>stopLoss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Sparks.Trader.Api.TradeResult.html">TradeResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">返回</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Sparks.Trader.Api.TradeOperation.html">TradeOperation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

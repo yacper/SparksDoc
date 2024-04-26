@@ -175,10 +175,10 @@ public class DoubleMaStr : Strategy
         }
 
         // 创建快速均线指标
-        QuickMa_ = CreateIndicator&lt;MVA&gt;(Bars.Closes, QuickPeriods);
+        QuickMa_ = Indicators.CreateIndicator&lt;SMA&gt;(Bars.Closes, QuickPeriods);
 
         // 创建慢速均线指标
-        SlowMa_ = CreateIndicator&lt;MVA&gt;(Bars.Closes, SlowPeriods);
+        SlowMa_ = Indicators.CreateIndicator&lt;SMA&gt;(Bars.Closes, SlowPeriods);
     }
 
     protected override void OnData(ISource source, int index)
@@ -224,10 +224,10 @@ public class DoubleMaStr : Strategy
     }
 
 
-    protected void ExecuteMarketOrder(SymbolContract contract, ETradeDirection dir, double quantity, string label = null)
+    protected void ExecuteMarketOrder(Contract contract, ETradeDirection dir, double quantity, string label = null)
     {
         // 下市价单
-        var ret = this.TradingAccount.PlaceMarketOrder(contract, dir, quantity, label: label, callback: (e) =&gt;
+        var ret = PlaceMarketOrder(contract, dir, quantity, label: label, callback: (e) =&gt;
         {
             if (e.IsSuccessful)
             {
@@ -260,7 +260,7 @@ public class DoubleMaStr : Strategy
     protected void CloseTrade(ITrade t)
     {
         // 关闭单子
-        var ret = t.Close(callback: (e) =&gt;
+        var ret = CloseTrade(t, callback: (e) =&gt;
         {
             if (e.IsSuccessful)
             {
@@ -298,8 +298,8 @@ public class DoubleMaStr : Strategy
 
     protected string Label =&gt; LongName + Id;
 
-    protected MVA QuickMa_;
-    protected MVA SlowMa_;
+    protected SMA QuickMa_;
+    protected SMA SlowMa_;
 
     protected ITrade LongTrade_;
     protected bool   LongSending_;

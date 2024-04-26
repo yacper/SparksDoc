@@ -113,6 +113,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.Contract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.Contract.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/Sparks.Trader.Api.ContractAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/Sparks.Trader.Api.ContractAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.DigitsAttribute.yml",
       "output": {
         ".html": {
@@ -1183,16 +1203,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.IClosedTrade.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.IClosedTrade.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.ICompositePosition.yml",
       "output": {
         ".html": {
@@ -2073,16 +2083,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.OrderReq.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.OrderReq.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "doc/api/Sparks.Trader.Api.OutputAttribute.yml",
       "output": {
         ".html": {
@@ -2257,26 +2257,6 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/Sparks.Trader.Api.SymbolAlertCondition.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.SymbolContract.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.SymbolContract.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "doc/api/Sparks.Trader.Api.SymbolContractAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "doc/api/Sparks.Trader.Api.SymbolContractAttribute.html"
         }
       },
       "version": ""
@@ -2967,6 +2947,26 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/IDE/VisualStudioCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "doc/articles/Provider/FXCM.assets/image-20240426131057420.png",
+      "output": {
+        "resource": {
+          "relative_path": "doc/articles/Provider/FXCM.assets/image-20240426131057420.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/Provider/FXCM.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/Provider/FXCM.html"
         }
       },
       "version": ""
